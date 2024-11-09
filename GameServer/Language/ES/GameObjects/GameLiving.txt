@@ -1,0 +1,74 @@
+﻿# GAMELIVING
+#Quests / Caledonia Egg Event
+NothingDroppedKeepTrying:                   Desafortunadamente no tuviste suerte, no se cayó nada, sigue intentándolo.
+CongratulationsYouFound:                    ¡Felicidades! Encontraste {0}/{1} de {2}
+YouFound:                                   Encontraste {0}/{1} de {2} 
+
+CongratulationsTopPrize:   Felicitaciones {0}, no encontraste un premio mayor, ¡pero aun así lo hiciste mejor que un remache!
+CongratulationsSecondBest: ¡Felicitaciones {0}, no encontraste un premio principal, pero obtuviste uno de los segundos mejores premios!
+CongratulationsMainPrizes: Enhorabuena {0}, has encontrado uno de los premios principales, ¡hoy es tu día!
+TheContentOfTheEggGoesTo:  El contenido del huevo va a {0}.
+
+GamePlayer.YouGainBP:		    	        You receive additional {0} bounty points!
+GamePlayer.CastSpell.NotAFollowSpell:       ¡No puedes preparar este hechizo como una secuela!
+GamePlayer.CastSpell.FollowSpell:           ¡Estas preparando {0} como seguimiento!
+GameLiving.AttackData.AttacksYou:		{0} te ataca y bloqueas el golpe!
+GameLiving.AttackData.Blocked:			{0} ataca a tu {1} y está bloqueado!
+GameLiving.AttackData.BlocksYou:		{0} te bloquea desde el ataque de {1}!
+GameLiving.AttackData.CriticallyHitsForDamage:	{0} golpea su {1} críticamente por un daño {2} adicional.
+GameLiving.AttackData.Evaded:			{0} ataca a tu {1} y es evadido!
+GameLiving.AttackData.Fumbled:			{0} fumbled!
+GameLiving.AttackData.GainEndurancePoints:	Obtienes {0} puntos de resistencia.
+GameLiving.AttackData.GainPowerPoints:		Obtienes {0} puntos de potencia.
+GameLiving.AttackData.HitsForDamage:		{0} golpea su {1} por {2} {3} daño.
+GameLiving.AttackData.InvisibleToYou:		¡{0} es invisible para ti!
+GameLiving.AttackData.Misses:			{0} ataca a tu {1} y falla!
+GameLiving.AttackData.Parried:			{0} ataca a tu {1} y es parado!
+GameLiving.AttackData.StepsInFront:		{0} pasos delante de ti y toma el golpe!
+GameLiving.AttackData.YouBlock:			¡Bloqueas el ataque de {0} contra {1}!
+GameLiving.AttackData.YourCriticallyHits:	Su {0} golpea críticamente {1} por un daño adicional de {2}!
+GameLiving.AttackData.YourHits:			    Su {0} {1} {2} y los golpes para {3} {4} daños!
+GameLiving.AttackData.YouStepInFront:		¡Pásate delante de {0} y toma el golpe!
+
+GameLiving.AttackData.AttacksAndIsBlocked:  {0} ataca a tu {1} y está bloqueado!
+GameLiving.AttackData.AttacksAndIsParried:  {0} ataca a tu {1} y es parado!
+GameLiving.AttackData.AttacksAndIsEvaded:    {0} ataca a tu {1} y es evadido!
+GameLiving.AttackData.AttackerFumbled:       {0} fumbled!
+GameLiving.AttackData.AttacksAndMisses:      {0} ataca a tu {1} y te pierdes!
+GameLiving.AttackData.BringFriend:           {0} ¡Grita pidiendo ayuda!
+
+
+
+
+GameLiving.CalculateEnemyAttackResult.BlowAbsorbed:		    El golpe fue absorbido por una barrera mágica!
+GameLiving.CalculateEnemyAttackResult.BlowIntercepted:		¡El golpe fue interceptado por Guardia frágil!
+GameLiving.CalculateEnemyAttackResult.BlowNotIntercepted:   El ataque no pudo ser interceptado por tu Guardia Frágil!
+GameLiving.CalculateEnemyAttackResult.BlowPenetrated:		¡El golpe penetró la barrera mágica!
+GameLiving.CalculateEnemyAttackResult.StrikeAbsorbed:		Su huelga fue absorbida por una barrera mágica!
+GameLiving.CalculateEnemyAttackResult.StrikeIntercepted:	Su huelga fue interceptada por una Guardia frágil!
+GameLiving.CalculateEnemyAttackResult.YouAttempt:		    ¡Intenta atacar {0}, {1} es vigilado por {2}!
+GameLiving.CalculateEnemyAttackResult.YouHaveProtected: 	¡Has protegido {0} del ataque de {1}!
+GameLiving.CalculateEnemyAttackResult.YourPetAttempts:		¡Tu mascota intenta atacar {0}, {1} es vigilada por {2}!
+GameLiving.CalculateEnemyAttackResult.YouWereProtected:		¡Estabas protegido por {0} del ataque de {1}!
+
+GameLiving.CheckWeaponMagicalEffect.Protected:		Su objetivo está protegido contra su veneno por un efecto mágico.
+
+GameLiving.Pronoun.Neutral.Objective:			eso
+GameLiving.Pronoun.Neutral.Possessive:			sus
+GameLiving.Pronoun.Neutral.Subjective:			eso
+GameLiving.Pronoun.Male.Objective:		    	él
+GameLiving.Pronoun.Male.Possessive:			    su
+GameLiving.Pronoun.Male.Subjective:		    	él
+GameLiving.Pronoun.Female.Objective:			su
+GameLiving.Pronoun.Female.Possessive:			su
+GameLiving.Pronoun.Female.Subjective:			ella
+
+GameLiving.ReceiveItem:					¡{0} no quiere este artículo!
+GameLiving.ReceiveMoney:				{0} no quiere tu dinero!
+
+GameLiving.StartWeaponMagicalEffect.NotPowerful:	No eres lo suficientemente poderoso como para usar el hechizo de este elemento.
+
+GameLiving.TryBlock.Blocking:				¡Te concentras en bloquear el golpe!
+GameLiving.TryBlock.Engage:				{0} ha sido atacado recientemente y no puedes participar.
+
+GameLiving.AttacksYouAndYourSpellIsInterrupted: {0} Los ataques de usted y su hechizo se interrumpe!

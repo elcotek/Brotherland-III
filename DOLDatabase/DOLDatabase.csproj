@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43BFC675-13B7-4AA8-97F6-6109948849CC}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>DOLDatabase</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DOLDatabase</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <SourceAnalysisOverrideSettingsFile>C:\Documents and Settings\RedFish\Application Data\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <NoStdLib>false</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>1570%3b1572%3b1573%3b1587%3b1591%3b1592</NoWarn>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\debug\lib\</OutputPath>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <DebugType>Full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\release\lib\</OutputPath>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <DebugType>None</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <NoWarn>1570;1572;1573;1587;1591;1592</NoWarn>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <NoWarn>1570;1572;1573;1587;1591;1592</NoWarn>
+    <DebugType>None</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\sharedModules\log4net\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\sharedModules\MySQL\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.SQLite, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.118.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.118.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\AttributesUtils.cs" />
+    <Compile Include="Attributes\ReadOnly.cs" />
+    <Compile Include="Attributes\DataElement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Attributes\DataTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Attributes\PrimaryKey.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Attributes\Relation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cache\CacheException.cs" />
+    <Compile Include="Cache\ICache.cs" />
+    <Compile Include="Cache\SimpleCache.cs" />
+    <Compile Include="Connection\DataConnection.cs" />
+    <Compile Include="CustomParam.cs" />
+    <Compile Include="LanguageDataObject.cs" />
+    <Compile Include="DatabaseParameter.cs" />
+    <Compile Include="ElementBinding.cs" />
+    <Compile Include="SQLObjectDatabase.cs" />
+    <Compile Include="Connection\ConnectionType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Connection\TableRowBindind.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Handlers\SQLiteObjectDatabase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\CharacterXDataQuest.cs" />
+    <Compile Include="Tables\StatsCounter.cs" />
+    <Compile Include="Tables\DayMonsters.cs" />
+    <Compile Include="Tables\NightMonsters.cs" />
+    <Compile Include="Tables\StarterEquipment.cs" />
+    <Compile Include="Tables\ML10.cs" />
+    <Compile Include="Tables\DBLanguageGameObject.cs" />
+    <Compile Include="Tables\DBLanguageNPC.cs" />
+    <Compile Include="Tables\LanguageSystem.cs" />
+    <Compile Include="Tables\HousingConsignmentMerchant.cs" />
+    <Compile Include="Tables\QueenSpawn.cs" />
+    <Compile Include="Tables\Regions.cs" />
+    <Compile Include="Tables\SalvageYield.cs" />
+    <Compile Include="Tables\DropTemplateXItemTemplate.cs" />
+    <Compile Include="Tables\LanguageArea.cs" />
+    <Compile Include="Tables\LanguageMasterLevelStep.cs" />
+    <Compile Include="Tables\LanguageSystemText.cs" />
+    <Compile Include="Tables\LanguageZone.cs" />
+    <Compile Include="Tables\MobDropTemplate.cs" />
+    <Compile Include="Tables\StartupLocation.cs" />
+    <Compile Include="Tables\DataQuest.cs" />
+    <Compile Include="Tables\Zones.cs" />
+    <Compile Include="Tables\DOLCharactersBackup.cs" />
+    <Compile Include="Tables\MobXAmbientBehaviour.cs" />
+    <Compile Include="Transaction\IsolationLevel.cs" />
+    <Compile Include="DatabaseException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataTableHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Handlers\MySQLObjectDatabase.cs" />
+    <Compile Include="IObjectDatabase.cs" />
+    <Compile Include="Tables\Account.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Appeal.cs" />
+    <Compile Include="Tables\Artifact.cs" />
+    <Compile Include="Tables\ArtifactBonus.cs" />
+    <Compile Include="Tables\ArtifactXItem.cs" />
+    <Compile Include="Tables\BindPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\BugReport.cs" />
+    <Compile Include="Tables\CharacterXOneTimeDrop.cs" />
+    <Compile Include="Tables\ItemUnique.cs" />
+    <Compile Include="Tables\ServerStats.cs" />
+    <Compile Include="Tables\DOLCharacters.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\ClassXRealmAbility.cs" />
+    <Compile Include="Tables\Battleground.cs" />
+    <Compile Include="Tables\AuditEntry.cs" />
+    <Compile Include="Tables\Language.cs" />
+    <Compile Include="Tables\PvPKillsLog.cs" />
+    <Compile Include="Tables\HouseHookpointOffset.cs" />
+    <Compile Include="Tables\InstanceXElement.cs" />
+    <Compile Include="Tables\MinotaurRelic.cs" />
+    <Compile Include="Tables\KeepCaptureLog.cs" />
+    <Compile Include="Tables\Race.cs" />
+    <Compile Include="Tables\ServerProperty_Category.cs" />
+    <Compile Include="Tables\PlayerBoats.cs" />
+    <Compile Include="Tables\ChampSpec.cs" />
+    <Compile Include="Tables\CharacterXMasterLevel.cs" />
+    <Compile Include="Tables\HousepointItem.cs" />
+    <Compile Include="Tables\DBHouseCharsXPerms.cs" />
+    <Compile Include="Tables\DBHousePermissions.cs">
+    </Compile>
+    <Compile Include="Tables\KeepHookPointItem.cs" />
+    <Compile Include="Tables\KeepPosition.cs" />
+    <Compile Include="Tables\News.cs" />
+    <Compile Include="Tables\Relic.cs" />
+    <Compile Include="Tables\StyleXSpell.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\PlayerXEffect.cs" />
+    <Compile Include="Tables\ServerProperty.cs" />
+    <Compile Include="Tables\Ability.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\GuildAlliance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Area.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Ban.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\CraftedItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\CraftedXItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Door.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Faction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\FactionAggroLevel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Guild.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\DBHouse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\DBHouseIndoorItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\DBHouseOutdoorItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Keep.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\KeepComponent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\KeepHookPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\LineXSpell.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\LinkedFaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\LootGenerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\LootOTD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\LootTemplate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\MobXLootTemplate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\NpcTemplate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Path.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\PathPoints.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Quest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\GuildRank.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Salvage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\SinglePermission.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Specialization.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\SpecXAbility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Spell.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\SpellLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Style.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Task.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Inventory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\ItemTemplate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\MerchantItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Mob.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\NPCEquipment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\Teleport.cs" />
+    <Compile Include="Tables\WorldObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tables\ZonePoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectDatabase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UniqueID\IDGenerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Dieses Projekt verweist auf mindestens ein NuGet-Paket, das auf diesem Computer fehlt. Verwenden Sie die Wiederherstellung von NuGet-Paketen, um die fehlenden Dateien herunterzuladen. Weitere Informationen finden Sie unter "http://go.microsoft.com/fwlink/?LinkID=322105". Die fehlende Datei ist "{0}".</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <!-- Graveen: the following is replacing the rev number in the asembly.info file by the SVN rev number of the current project. -->
+  <!-- You must work on project under SVN version control, have msbuild community tasks assemblies installed and subversion client -->
+  <!-- The path of the tools should either be corrected below, or matched. In case you lack one of theses prereqs, rev number 'll not be changed.
+  <Import Project="$(MSBuildExtensionsPath)\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets" Condition="Exists('$(MSBuildExtensionsPath)\MSBuildCommunityTasks\')" />
+  <Target Name="BeforeBuild">
+    <SvnVersion LocalPath="." Condition="Exists('$(MSBuildExtensionsPath)\MSBuildCommunityTasks\') and Exists('$(ProgramFiles)\subversion\bin\svnversion.exe')">
+      <Output TaskParameter="Revision" PropertyName="Revision" />
+    </SvnVersion>
+    <FileUpdate Files="AssemblyInfo.cs" Regex="(\d+)\.(\d+)\.(\d+)\.(\*|\d+)" ReplacementText="$1.$2.$3.$(Revision)" Condition="Exists('..\auto_version') and $(Revision)!='' and $(Revision)!=-1 and Exists('$(MSBuildExtensionsPath)\MSBuildCommunityTasks\') and Exists('$(ProgramFiles)\subversion\bin\svnversion.exe')" />
+  </Target>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net451\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net451\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net451\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net451\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+ -->
+</Project>

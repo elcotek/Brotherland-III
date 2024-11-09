@@ -1,0 +1,87 @@
+﻿#TemplateManager
+#All
+SetGuardName.Commander:		Commandant des {0}
+SetGuardName.Hastener:		Hâteur
+SetGuardName.Renegade:		{0} Renegad
+SetGuardName.TowerCaptain:	Capitaine de la Tour
+
+#Albion
+SetGuardName.Armsman:		Maître d'Armes
+SetGuardName.Armswoman:		Maître d'Armes
+SetGuardName.BowmanCommander:	Commandant des Eclaireurs
+SetGuardName.CaptainCommander:	Commandant des Capitaines
+SetGuardName.Cleric:		Clerc
+SetGuardName.Infiltrator:	Sicaire
+SetGuardName.KnightCommander:	Commandant des Chevaliers
+SetGuardName.Lady:		Dame {0}
+SetGuardName.Lord:		Seigneur {0}
+SetGuardName.MasterWizard:	Maître Thaumaturge
+SetGuardName.Scout:		Eclaireur
+SetGuardName.Wizard:		Thaumaturge
+
+#Midgard
+SetGuardName.Healer:		Guérisseur
+SetGuardName.HersirCommander:	Commandant Hersir
+SetGuardName.Hunter:		Châsseur
+SetGuardName.Huscarl:		Huscarl
+SetGuardName.Jarl:		Jarl {0}
+SetGuardName.MasterRunes:	Maître des Runes
+SetGuardName.NordicHunter:	Châsseur Nordique
+SetGuardName.NordicJarl:	Jarl Nordique
+SetGuardName.Runemaster:	Prêtre d'Odin
+SetGuardName.Shadowblade:	Assassin
+
+#Hibernia
+SetGuardName.Champion:		Commandant des Champions
+SetGuardName.Chieftain:		Chef {0}
+SetGuardName.Chieftess:		Cheftaine {0}
+SetGuardName.Druid:		Druide
+SetGuardName.Eldritch:		Eldritch
+SetGuardName.Guardian:		Gardien
+SetGuardName.MasterEldritch:	Maître Eldritch
+SetGuardName.MasterRanger:	Maître Ranger
+SetGuardName.Nightshade:	Ombre
+SetGuardName.Ranger:		Ranger
+
+
+#Ram Placement
+
+YouCantPlaceHere: "{0} Vous ne pouvez pas le {1} déposer ici, vous êtes trop près de la porte de retenue!"
+
+DontWorkINewFrontiers: {0}, Le {1} ne fonctionne pas dans New Frontiers!
+
+DontWorkWihleStealthed: {0}, Vous devez être visible pour configurer {1}!
+SiegeDontWorkInWater: Vous ne pouvez pas déployer le {0} dans Water.
+DontWorkWihleInCombat: Vous ne pouvez pas déployer le {0} pendant que vous êtes en combat.
+DontWorkInBG: No trabaje: {0}, le {1} ne fonctionne pas sur le champ de bataille!
+
+
+#Anti Raid
+
+AntiRaidMsg: Stop, il y a actuellement trop peu d'ennemis sur le serveur qui pourraient se défendre. Les attaques sur les Gardes ou la Tour ne seront pas possibles tant qu'il n'y aura pas au moins {0} joueurs dans un autre royaume qui sont au niveau 50.
+
+AntiRaidMsg2: Il doit y avoir au moins {0} joueurs dans deux royaumes et chacun doit être de niveau 50 pour prendre des tours et garder!
+
+
+#/online
+
+AntiRaidMsg3: Il doit y avoir au moins {0} joueurs dans [deux royaumes] et tout le monde doit être de niveau 50 pour capturer des Gardes et des tours, mais les champs de bataille sont exclus de cette règle!
+
+AntiRaidMsg4: ********** Les attaques sur Keeps ou tours ne sont actuellement pas possibles, le système attend plus de joueurs en ligne! Utilisé /en ligne pour l'état actuel! **********
+
+AntiRaidMsg5: ********** Vous pouvez toujours récupérer vos propres Keeps et tours, mais les périphériques Siege sont actuellement désactivés! **********
+
+AntiRaidMsg6: ********** L'attaque des Keeps et des tours étrangers est actuellement possible! **********
+
+AntiRaidMsg7: ********** Siege-Equipment est activé et prêt à l'emploi! **********
+
+AntiRaidMsg8: ********** Amusez-vous sur Brotherland! **********
+
+AntiRaidMsg9: Si vous voulez jouer à RVR, s'il vous plaît télécharger la version client en direct: 1.109 de notre forum, sinon cela entraînera des problèmes massifs.
+
+AntiRaidMsg10: S'il vous plaît utiliser Charplan 1.109 du forum pour la planification de votre personnage!
+
+AntiRaidMsg11: Le forum du serveur peut être trouvé ici: http://brotherland-2.de
+
+AntiRaidMsg12: Pour définir la langue dans votre langue, utilisez: [/lang set de, en, fr, es ou it] - [de = allemand, en = anglais, fr = français, es = espagnol ou it = italien]
+

@@ -1,0 +1,89 @@
+﻿#TemplateManager
+#All
+SetGuardName.Commander:		Comandante de {0}
+SetGuardName.Hastener:		Hastener
+SetGuardName.Renegade:		Renegado {0}
+SetGuardName.TowerCaptain:	Capitán de la torre
+
+#Albion
+SetGuardName.Armsman:		Armador
+SetGuardName.Armswoman:		Mujer armada
+SetGuardName.BowmanCommander:	Comandante de Bowman
+SetGuardName.CaptainCommander:	Capitán Comandante
+SetGuardName.Cleric:		Clérigo
+SetGuardName.Infiltrator:	Infiltrado
+SetGuardName.KnightCommander:	Caballero Comandante
+SetGuardName.Lady:		    Señora {0}
+SetGuardName.Lord:		    Señor {0}
+SetGuardName.MasterWizard:	Maestro Wizard
+SetGuardName.Scout:		    Explorar
+SetGuardName.Wizard:		Mago
+
+#Midgard
+SetGuardName.Healer:		Curador
+SetGuardName.HersirCommander:	Hersir Comandante
+SetGuardName.Hunter:		Cazador
+SetGuardName.Huscarl:		Huscarl
+SetGuardName.Jarl:		    Jarl {0}
+SetGuardName.MasterRunes:	Maestro de Runas
+SetGuardName.NordicHunter:	Cazador nórdico
+SetGuardName.NordicJarl:	Jarl nórdico
+SetGuardName.Runemaster:	Runemaster
+SetGuardName.Shadowblade:	Shadowblade
+
+#Hibernia
+SetGuardName.Champion:		Campeón
+SetGuardName.ChampionCommander:	Campeón comandante
+SetGuardName.Chieftain:		Chieftain {0}
+SetGuardName.Chieftess:		Chieftess {0}
+SetGuardName.Druid:		    Druida
+SetGuardName.Eldritch:		Eldritch
+SetGuardName.Guardian:		Guardián
+SetGuardName.MasterEldritch: Maestro Eldritch
+SetGuardName.MasterRanger:	Maestro ranger
+SetGuardName.Nightshade:	Nightshade
+SetGuardName.Ranger:		Ranger
+
+
+#Ram Placing
+
+YouCantPlaceHere: "{0} No puedes dejar caer {1} aquí, ¡estás demasiado cerca de Keep Door!"
+
+DontWorkINewFrontiers: {0}, ¡El {1} no funciona en New Frontiers!
+
+DontWorkWihleStealthed: {0}, ¡debes estar visible para configurar {1}!
+SiegeDontWorkInWater: No puedes implementar el {0} en el agua.
+DontWorkWihleInCombat: No puedes desplegar el {0} mientras estás en combate.
+DontWorkInBG: No trabaje: {0}, ¡El {1} no funciona en el campo de batalla!
+
+
+#Anti Raid
+
+AntiRaidMsg: Detente, actualmente hay muy pocos enemigos en el servidor que puedan defenderse. Los ataques en Keeps o Tower no serán posibles hasta que haya al menos {0} jugadores en otro reino que estén en el nivel 50.
+
+AntiRaidMsg2: ¡Debe haber al menos {0} jugadores en dos reinos y cada uno debe tener el nivel 50 para tomar torres y mantener!
+
+#/online
+
+AntiRaidMsg3: Debe haber al menos {0} jugadores en [dos reinos] y todos deben estar en el nivel 50 para capturar Keeps y torres, pero los campos de batalla están excluidos de esta regla.
+
+AntiRaidMsg4: ********** Los ataques en Keeps o torres actualmente no son posibles, ¡el sistema está esperando más jugadores en línea! Usado /en línea para el estado actual! **********
+
+AntiRaidMsg5: ********** ¡Siempre puedes recuperar tus propios Keeps y torres, pero los dispositivos de Siege están actualmente desactivados! **********
+
+AntiRaidMsg6: ********** ¡El ataque de Torres y Torres extranjeras es actualmente posible! **********
+
+AntiRaidMsg7: ********** Siege-Equipment está habilitado y listo para usar! **********
+
+AntiRaidMsg8: ********** Diviértete en Brotherland! **********
+
+AntiRaidMsg9: Si desea jugar RVR, descargue la versión en vivo del cliente: 1.109 de nuestro foro, de lo contrario, provocará problemas masivos.
+
+AntiRaidMsg10: ¡Usa Charplan 1.109 del foro para planificar tu personaje!
+
+AntiRaidMsg11: El foro del servidor se puede encontrar aquí: http://brotherland-2.de
+
+AntiRaidMsg12: Para configurar el idioma en su idioma, use: [/lang set de, en, fr, es o it] - [de = german, en = english, fr = french, es = spanish o it = italian]
+
+
+

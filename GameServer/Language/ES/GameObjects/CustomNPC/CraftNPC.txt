@@ -1,0 +1,9 @@
+﻿
+
+CraftNPC.CraftNpcDialogResponse.Accepted:		¡Has sido aceptado por {0}!
+CraftNPC.Interact.Examine:				        Examina {0}. Él es amigable
+CraftNPC.Interact.NotMaster:				    No soy tu maestro.
+CraftNPC.Interact.Promoted:				        Has sido promovido a {0}.
+CraftNPC.WhisperReceive.WishToJoin:			    ¿Estás seguro de que quieres unirte a la {0} orden?
+
+

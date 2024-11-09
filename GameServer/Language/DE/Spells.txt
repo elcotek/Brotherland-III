@@ -1,0 +1,380 @@
+﻿# DelveInfo
+DelveInfo.CastingTime:				    	Zauberzeit: {0}
+DelveInfo.ConcentrationCost:		 		Konzentrationsaufwand: {0} Punkte
+DelveInfo.Damage:				        	Schaden: {0}
+DelveInfo.DamageType:				    	Schadenstyp: {0}
+DelveInfo.Duration:				        	Dauer: 
+DelveInfo.Focus:				        	Dies ist ein fokusierter Zauberspruch und wird durch jede andere Aktion unterbrochen.
+DelveInfo.Frequency:				     	Frequenz: {0}
+DelveInfo.HealthReturned:			    	Trefferpunkte: {0}% des Schadens
+DelveInfo.InstrumentRequire:				Instrument benötigt: {0}
+DelveInfo.PowerCost:				    	Magiekraftkosten: {0}
+DelveInfo.HealthCost:                   	Gesundheitskosten: {0}
+DelveInfo.Radius:					        Radius: {0}
+DelveInfo.Range:					        Reichweite: {0}
+DelveInfo.RecastTime:				    	Wiederholungszeit:
+DelveInfo.Target:					        Ziel: {0}
+DelveInfo.Value:				        	Wert: {0}
+DelveInfo.ValueNegative:			    	Wert: -{0}
+
+# AblativeArmor
+AblativeArmor.Attacker:					    Ein Schutzfeld absorbiert {0} Schaden Eures Angriffs!
+AblativeArmor.DelveInfo.Function:			Wirkung: Nahkampf-Trefferpunktpuffer
+AblativeArmor.DelveInfo.Absorption1:			Absorption: {0}%
+AblativeArmor.DelveInfo.Absorption2:			Absorption: 100%
+AblativeArmor.DelveInfo.Absorption3:			Absorption: 25%
+AblativeArmor.DelveInfo.CastingTime:			Sofort
+AblativeArmor.Target:					Euer Ablativ absorbiert {0} Schaden!
+
+# Amnesia
+Amnesia.MessageToTarget:				Eure Gedanken verwirren sich und Ihr vergesst, was Ihr machen wolltet!
+
+# DamageSpeedDecrease
+DamageSpeedDecrease.DelveInfo.Decrease:			Geschwindigkeitsabzug: {0}%
+DamageSpeedDecrease.DelveInfo.Function:			Wirkung: Schaden/Verringert Geschwindigkeit
+
+# CharmSpellHandler
+CharmSpellHandler.DelveInfo.Function:			    Wirkung: {0}
+CharmSpellHandler.TargetIsNowUnderYourControl:      {0} ist nun unter eurer Kontrolle.
+CharmSpellHandler.TargetResistsTheCharm:            {0} widersetzt sich eurer Bezirzung!
+CharmSpellHandler.TargetIsToStrongToCharm:          {0} ist zu stark für euch um es bezirzen zu können!
+CharmSpellHandler.YourTargetIsNotValid:             Dieses Ziel ist ungültig.
+CharmSpellHandler.YouAlreadyHaveACharmedCreature:   Ihr habt schon eine bezirzte Creatur, lasst sie erst frei!
+CharmSpellHandler.OnlyUsableInPvEZones:             Diese Pets sind nur in PvE Zonen benutzbar.
+
+
+
+
+
+
+# DamageAddAndShield
+DamageAddAndShield.EventHandlerDA.DamageToYou:		{0} fügt Euch {1} Punkte zusätzlichen Schaden zu!
+DamageAddAndShield.EventHandlerDA.YouHitExtra:		Ihr treff und {0} erleidet {1} Punkte zusätzlichen Schaden!
+DamageAddAndShield.EventHandlerDA.YouHitFor:		Ihr trefft und {0} erleidet {1} Punkte Schaden!
+DamageAddAndShield.EventHandlerDA.YourHitFor:		{0} trifft und {1} erleidet {2} Punkte Schaden!
+DamageAddAndShield.EventHandlerDS.DamageToYou:		{0} fügt Euch {1} Punkte zusätzlichen Schaden zu!
+DamageAddAndShield.EventHandlerDS.YouHitFor:		Ihr trefft und {0} erleidet {1} Punkte Schaden!
+DamageAddAndShield.EventHandlerDS.YourHitFor:		{0} trifft und {1} erleidet {2} Punkte Schaden!
+
+# DirectDamageDebuffSpellHandler
+DirectDamageDebuffSpellHandler.DelveInfo.Decrease:	Resistenz vermindert ({0}): {1}%
+DirectDamageDebuffSpellHandler.DelveInfo.Function:	Wirkung: Schaden und Resistenz verringern
+
+# DoTSpellHandler
+DoTSpellHandler.SendDamageMessages.YouHitFor:		Ihr trefft und {0} erleidet {1} {2} Punkte Schaden!
+DoTSpellHandler.SendDamageMessages.YourCriticallyHits:	{0} trifft kritisch und {1} erleidet {2} Punkte zusätzlichen Schaden!
+DoTSpellHandler.SendDamageMessages.YourHitsFor:		{0} trifft und {1} erleidet {2} {3} Punkte zusätzlichen Schaden!
+
+# NearsightSpellHandler
+NearsightSpellHandler.DelveInfo.Function:		Wirkung: {0}
+
+#Speed Enhancement
+Spells.YouInCombatRecently: Ihr wart erst kürzlich im Kampf, der {0} hat keinen Effekt auf Euch!
+
+# PetPBAOE
+PetPBAOE.CheckBeginCast.NoPet:				Dieser Zauberspruch kann nur auf ein kontrolliertes Wesen angewendet werden!
+
+# PetSpellHandler
+PetSpellHandler.CheckBeginCast.NoControlledBrainForCast:Ihr müsst ein Wesen kontrollieren, auf das Ihr den Zauberspruch anwenden könnt!
+
+# ProcSpellHandler
+ProcSpellHandler.DelveInfo.Function:			Wirkung: {0}
+
+# ResistDebuff
+ResistDebuff.DelveInfo.Decrease:			Resistenz herabgesetzt ({0}): {1}
+ResistDebuff.DelveInfo.Function:			Wirkung: Weniger Resistenz
+
+# SavageEnduranceHeal
+SavageEnduranceHeal.CheckBeginCast.InsuffiscientHealth:	Ihr seid nicht gesund genug umd dies zu machen!
+
+
+# SummonAnimistSpellHandler
+SummonAnimistFnFSpellHandler.CantSummonTurretWithoutGroundtarget:  Ihr könnt keinen Pilz zaubern solange ihr kein Bodenziel habt!
+SummonAnimistFnFSpellHandler.CantSummonAnymoreTurretInArea:        Ihr könnt in diesem Bereich keine weiteren Pilze zaubern!
+SummonAnimistFnFSpellHandler.CanNotControlAnymoreTurrets:          Ihr könnt keine weiteren Pilze Kontrollieren!
+SummonAnimistMainPetSpellHandler.YouAlreadyHaveACharmedCreature:   Ihr könnt kein weiteres Hauptpet Kontrollieren!
+SummonAnimistMainPetSpellHandler.SelectACloserGroundTarget:        Ihr müßt ein näheres Bodenziel wählen.
+
+BloodDrinkingEffect#
+Blooddrinking.ability.IshealingYouFor:                   Die bluttrink-Fähigkeit heilt Euch um {0} Gesundheitspunkte!
+Blooddrinking.ability.YouAreAlreadyFullyHealed:          Ihr seit bereits vollständig geheilt!
+Blooddrinking.ability.Info:                              Verursacht, dass die Schattenklinge 30 Sekunden lang um 20% ihres gesamten Schadens geheilt wird.
+
+
+# SpellHandler
+SpellHandler.YouAttacking.YourConcentrationFades:        Ihr greift an. Eure Konzentration schwindet!
+SpellHandler.YouCasting.YourConcentrationFades:          Ihr zaubert. Eure Konzentration schwindet!
+SpellHandler.YouAreMoving.YourConcentrationFades:        Ihr bewegt Euch. Eure Konzentration schwindet!
+SpellHandler.ConvokerPrescienceMessage:                  Seht euch vor {0}, ihr habt eine feindliche Falle betreten und könnt entdeckt werden!
+SpellHandler.CrocodileTearRingMessage:                   Die zauberkraft eures Crocodile Tear Ring verteilt sich um euch herum!
+SpellHandler.TheTargetAlreadyHaveThatEffect:             {0} hat diesen Effekt bereits. Wartet erst bis er abgelaufen ist. Zauber fehlgeschlagen.
+SpellHandler.Youalreadyhavethateffect:                   {0} Ihr habt diesen Effekt bereits. Wartet erst bis er abgelaufen ist. Zauber fehlgeschlagen
+SpellHandler.CriticalShot.WasDoubleHit:                  {0} wurde bereits von einem Crit-Schuss getroffen. Der Schaden wurde halbiert.
+SpellHandler.AFlaskArtifactEffectToSource:               {0} hat den Tod betrogen!
+SpellHandler.AFlaskArtifactEffect:                       Ihr habt den Tod betrogen.
+SpellHandler.TargetRessistTheEffect:                     {0} widersteht dem Effect!
+SpellHandler.TargetNameRessistTheEffect:                 Euer {0} widersteht dem Effect!  
+SpellHandler.YouRessistTheEffect:                        Ihr widersteht dem Effect!
+SpellHandler.YouCantQuickcastWhileCasting:               Ihr könnt keinen Schnellauber vorbereiten wärend ihr zaubert!
+SpellHandler.YouCantQuickcastWhenDead:                   Ihr könnt nicht schnellaubern solange ihr tot seid!
+SpellHandler.YouCanNotCastWhenYourAreInMeleeCombat:      Ihr könnt nicht Zaubern solange ihr euch im Nahkampf befindet.
+SpellHandler.YourMustWaitToUsetoQickCast:                Ihr müsst noch {0} Sekunden warten um einen Schnellzauber ausführen zu können!
+SpellHandler.YourMustWaitToUseSpell:                     Ihr müsst noch {0} Sekunden warten um den Zauberspruch einsetzen zu können!
+SpellHandler.Execute.YouCantUseThatInYourState:          Ihr könnt das in eurer gegenwärtigen Verfassung nicht benutzen.
+SpellHandler.YourSpellIsReadyForUse:                     Euer {0} Zauberspruch ist bereit zum benutzen.
+SpellHandler.SelectTheFirstSpellName:                    Wählt den ersten Spruch für euren {0} Zauberspuch.
+SpellHandler.ThatTargetIsntAttackableAtThisTime:         Dieses Ziel ist momentan nicht Attackierbar!
+SpellHandler.SpellOnlyWorksOnFriendlyTargets:            Dieser Zauberspruch wirkt nur an freundliche Ziele.
+SpellHandler.YouCantCastInASiegeram:                     Ihr könnt nicht in einer Belagerungswaffe Zaubern. Steigt zuerst aus!
+SpellHandler.YouAreSilenced:                             Ihr wurdet zum Schweigen gebracht. Ihr könnt jetzt keinen Zauberspruch beginnen.
+SpellHandler.YouArePhaseshifted:                         Ihr seit Phasen verschoben, ihr könnt so nicht zaubern!
+SpellHandler.IsNotVisibleForYou:                         {0} ist nicht sichtbar für euch!
+SpellHandler.YouArePhaseshiftedCantBeAttacked:           {0} ist Phasen verschoben und kann daher nicht angegriffen werden!
+SpellHandler.YourTargetsInvunerableAtTheMomment:         Euer Ziel ist momentan unverwundbar. Ihr könnt es nicht angreifen!! 
+SpellHandler.YourInvunerableAtTheMomment:                Durch eure momentane Unverwundbarkeit seit ihr nicht in der Lage Zauberspruche zu wirken!
+SpellHandler.YouMustHaveATarget:                         Ihr müsst ein Ziel haben!
+SpellHandler.YouCantCastThisSpellWhileSitting:           Ihr könnt diesen Zauberspruch nicht beginnen zu können solange ihr sitzt!
+SpellHandler.YouMustBeStandingStillToCast:               Ihr müsst still stehen um diesen Zauberspruch beginnen zu können!
+SpellHandler.YouAlreadyHaveThisItem:                     Ihr habt diesen Gegenstand schon!
+SpellHandler.ADamageReductionAbsorbsDamage:              Eine Schadensreduzierung absorbiert {0} eures Schadens!
+SpellHandler.TheDamageReductionAbsorbsDamage:            Eure Schadensreduzierung absorbiert {0} Schaden!
+SpellHandler.YouSteelTargetforValueEnduranceFromTarget:  Ihr stehlt {0} Ausdauer von {1}!
+SpellHandler.CasterSteelEnduranceFromTarget:             {1} stiehlt euch {0} Ausdauer!
+SpellHandler.YourTargetAlreadyHasAnEffecOfThatType:      {0} hat den gleichen Effect bereits.
+SpellHandler.YouAreInCombatDandCantHiding:               Ihr wart erst vor kurzen am kämpfen. Ihr könnt euch jetzt nicht verstecken!
+SpellHandler.YouMustWaitToHide:                          Ihr müsst noch {0} Sekunden warten bevor ihr euch vertecken könnt!
+SpellHandler.YouCantHideWhenDead:                        ihr könnt euch nicht verstecken wärend ihr tot seit!
+SpellHandler.YouMustEndYourCurrentActionBeforeHiding:    Ihr müsst erst eure Momentane Aktion beenden bevor ihr euch verstecken könnt!
+SpellHandler.YouAreTooCloseToAnEnemyToHide:              Ihr seit zu nahe bei einem Gegner um euch zu verstecken.
+SpellHandler.YouCantHideWhileStunned:                    Ihr könnt euch nicht verstecken wärend ihr betäubt seit!
+SpellHandler.YouCantHideWhileMesmerized:                 Ihr könnt euch nicht verstecken wärend ihr hypnotisiert seit!
+SpellHandler.YouCurrentlyHaveActivePulsingSpell:         Ihr habt noch einen aktiven Pulsing Zauberspruch, ihr könnt euch jetzt nicht verstecken!
+SpellHandler.YouCancelYourEffect:                        Ihr brecht euren Zauberspruch ab.
+SpellHandler.CasterBeginCastingSpellName:                Ihr zaubert einen {0} Zauberspruch!
+SpellHandler.YourSpellWasCancelledWileTheTargetHit:      Euer Zauberspruch wurde abgebrochen wärend euer Ziel getrtroffen wurde.
+SpellHandler.YourTargetIsNoLongerInView:                 Euer Ziel ist nicht mehr zu sehen.
+SpellHandler.YourTargetIsNoLongerInRange:                Euer Ziel ist nicht mehr in Reichweite.
+SpellHandler.NotEnoughManaYourSpellWasCancelled:         Ihr habt zu wenig Mana. Euer Zauberspruch wurde Abgebrochen.
+SpellHandler.YourSpellWasCancelled:                      Euer Zauberspruch wurde Abgebrochen.
+SpellHandler.YourTargetNotInView:                        Euer Ziel ist nicht in sicht!
+SpellHandler.InvalidTarget:                              Ungültiges target.
+SpellHandler.YouCantAttackYourself:                      Ihr Könnt euch nicht selbst angreifen!
+SpellHandler.YourSpellHasNoEffectOn:                     Dieser Zauberspruch hat keinen Effekt an der {0}!
+SpellHandler.YouArePhaseshiftedCantBeAffected:           {0} ist Phasen verschoben und kann daher nicht vom Zauberspruch getroffen werden!
+SpellHandler.OnlyWorksOnDeadRealmMembers:                Dieser Zauberspruch wirkt nur an Spielern eures Reiches!
+SpellHandler.NotRightTypeOfInstrument:                   Ihr benutzt nicht das richtige Instrument für diesen Zauberspruch!
+SpellHandler.YouAreInterruptedAndMustWait:               Ihr wurdet unterbrochen müsst {0} Sekunden warten um einen Zauberspruch wirken zu können!
+SpellHandler.YouCantSeeYourTarget:                       Ihr könnt das Ziehl von hier nicht sehen!
+SpellHandler.YourPetNotInView:                           Euer Pet ist icht in sicht.
+SpellHandler.YourTargetIsNotVisible:                     Euer Ziel ist nicht zu sehen!
+SpellHandler.TargetNotInViewSpellFails:                  Euer Ziel ist nicht in sicht. Der Zauberspruch schlägt fehl.
+SpellHandler.WorksOnlyOnPlayers:                         Dieser Zauberspruch wirkt nur an Spielern.
+SpellHandler.ThePulsingSpell.Ends:                       {0} Zauber verliert seine wirkung und endet.
+SpellHandler.YourTargetIsToFarAway:                      Euer Ziel ist zu weit entfernt!
+SpellHandler.YouCantCastWhileSitting:                    Ihr könnt nicht Zaubern solange ihr sitzt!
+SpellHandler.YouNeedAGroundTarget:                       Ihr benötigt ein Bodenziel für diesen Zauberspruch.
+SpellHandler.SelectACloserGroundTarget:                  Euer Ziel ist ausser Reichweite.  Benutzt ein näheres Ziel.
+SpellHandler.YourGroundTargetIsNotInView:                Euer Bodenziel ist nicht zu sehen!
+SpellHandler.CancelEffect:				                 Ihr beendet Euren Effekt.
+SpellHandler.CancelPulsingSpell:			             Ihr beendet Euer Lied.
+SpellHandler.CasterMove:			     	             Ihr bewegt Euch und unterbrecht damit Euren Zauberspruch!
+SpellHandler.DelveInfo.Sec:			                     Sekunde(n)
+Caster.CheckBeginCast.OnTarget:                          Ihr Könnt mit diesen Zauberspruch nicht {0} angreifen.  
+SpellHandler.CasterBeginPlaying:                         Ihr beginnt etwas zu spielen " {0} "
+SpellHandler.CasterBeginCasting:                         Ihr beginnt etwas zu zaubern!
+SpellHandler.SendCastMessage.YouCast:                    Ihr zaubert einen {0} Zauberspruch!
+SpellHandler.SendCastMessage.OtherCast:                  {0} zaubert etwas!
+SpellHandler.SendCastMessage.FullyHealed:                Ihr seid schon geheilt!
+SpellHandler.SendCastMessage.OtherTargetFullyHealed:     {0} ist schon geheilt!
+SpellHandler.YouCanThisOnlyOnSelfControllingCreatures:   Ihr könnt diesen Zauberspruch nur an Kreaturen anwenden die ihr selbst Kontrolliert.
+SpellHandler.SelectATargetForThisSpell:                  Ihr benötigt ein Ziel für diesen {0} Zauberspruch! 
+DoesNotCharmTypeOfCreatur:                               Ihr könnt diese Art Keatur nicht mit der {0} Verzauberung bezierzen! 
+SpellHandler.YouHitTheForDamage:                         Ihr trefft {0} und richtet {1}{2} Schaden an!
+SpellHandler.YourPetHitTheForDamage:                     Euer {0} trifft {1} und richtet {2}{3} Schaden an!
+SpellHandler.YourPetHitTheForCriticalDamage:             Euer {0} trifft critisch und richtet zusätzlich {1} Schaden an!
+SpellHandler.YouCriticallyHitForAdditionalDamage:        Ihr trefft critisch und richtet zusätzlich {0} Schaden an!
+SpellHandler.YouHaveExhaustedAllMana:                    Eure Mana ist erschöpft ihr könnt keinen weiteren Zauberspruch wirken!  
+SpellHandler.YouDontHaveEnoughMana:                      Ihr habt nicht genug Mana dafür!
+SpellHandler.ThisSpellRequiresConcentrationPoints:       Dieser Zauberspruch benötight {0} Konzentrationspunte zum zaubern!
+SpellHandler.YouCanOnlyCastUpTo:                         Ihr könnt höchstens 50 Konzentrationszauber gleichzeitig aktiv haben!
+SpellHandler.YouAreDeatCantCast:                         Ihr seit tot. Ihr könnt jetzt nicht zaubern!
+SpellHandler.TargetIsNotInFront:                         Das Ziel muss sich für diesen Zauber vor euch befinden!
+SpellHandler.InAttackStateCast:                          Ihr steckt Eure Waffe ein um {0} zu zaubern.
+
+
+
+
+# AbstractServerRules
+AbstractServerRules.YouGainNoExperience:                  Ihr erhaltet keine Erfahrung für das töten dieses Gegners!
+AbstractServerRules.YouGainNoExperience2:                 Ihr erhaltet keine Erfahrung für das töten dieses Gegners!
+AbstractServerRules.YouGainNoExperience3:                 Dieses Monster wurde erst vor kurzem bezierzt und ist deshalb keine Erfahrung wert!
+AbstractServerRules.killedRecentlyGainNoExperience:       {0} wurde erst vor kurzem getötet und ist deshalb keine Reichspunkte wert!     
+AbstractServerRules.killedRecentlyGainNoRealmPoints:      {0} wurde erst vor kurzem getötet und ist deshalb keine Erfahrungspunkte wert!
+AbstractServerRules.YouGainNoExperienceWhileResurection:  {0} war grau für Euch und ist daher keine Realmpunkte wert!
+AbstractServerRules.YouGainNoExperienceWhileResurection2: {0} war grau für Euch und ist daher keine Kopfgeldpunkte wert!
+AbstractServerRules.YouGainNoExperienceWhileResurection3: {0} war grau für Euch und ist daher keine Erfahrungspunkte wert!
+AbstractServerRules.AddMoney:                             Ihr stehlt: 
+AbstractServerRules.AddMoney2:                            zusätzlich durch eure besondere Fähgikeit.
+
+
+
+# ResurectSpellHandler
+ResurectSpellHandler.YouHaveBeenResurrectedBy:               Ihr wurded von {0} wiederbelebt!
+ResurectSpellHandler.YouHaveBeenResurrectedNoRealmPoints:    Ihr belebt {0} wieder doch ihr erhaltet keine Reichspunkte da er erst vor kurzem wiederbelebt wurde.
+ResurectSpellHandler.YouHaveBeenResurrectedNoRealmPoints2:   Ihr erhaltet keine Reichspunkte für das wiederbeleben von {0}.
+ResurectSpellHandler.ResurrectedSpellHasExpired:             Euer Wiederbelebungszauber ist erloschen.
+ResurectSpellHandler.NotEnoughPower:                         Ihr habt nicht genug Mana fü den Zauberspruch!
+ResurectSpellHandler.YourTargetAlreadyWasResurect:           Euer Ziel wurde schon wiederbelebt!
+ResurectSpellHandler.YouDeclineToBeResurrected:              Ihr wollt jetzt nicht Wiederbelebt werden.
+ResurectSpellHandler.NoOneCurrentlyTrying:                   Niemand versucht euch im Moment euch wiederzubeleben.
+
+
+# HotSpellHandler
+HotSpellHandler.YouFeelCalmAndHealthy:       Ihr fühlt euch ausgeruht und gesund.
+Perfecter.YouFeelCalmAndHealthy:             Ihr fühlt euch ausgeruht und gesund.
+
+
+# Campfire
+CampfireSpellHander.CampfireStart:           Ihr wärmt euch am Lagerfeuer.
+CampfireSpellHander.YouFeelCalmAndHealthy:             Ihr fühlt euch ausgeruht und gesund.
+
+# VampiirPowerBolt
+VampiirPowerBolt.YouReceivePowerFrom:        Ihr erhaltet {0} Mana von {1}!
+VampiirPowerBolt.YouReceiveNoPowerFrom:      Ihr erhaltet gar keine Mana von {0}!
+VampiirPowerBolt.TakesPower:                 {0} stiehlt Euch {1} Mana!
+VampiirPowerBolt.NoEffectOnKeepComponents:   Euer Zauberspruch hat keinen Effekt an Zielen die zu einer Burg gehören!
+VampiirPowerBolt.CanNotCastInCombat:         Ihr könnt diesen Zauberspruch nicht im Kampf benutzen!
+
+
+# CCSpellHandler
+CCSpellHandler.TargetIsImmuneToThisEffect:              {0} ist immun gegen diesen Zauberspruch!
+CCSpellHandler.TargetIsMovingTooFast:                   {0} bewegt sich zu schnell für euren Zauberspruch und hat deshalb keinen Effekt!
+CCSpellHandler.StopPlayingSong:                         Ihr hört auf Musik zu Spielen.
+CCSpellHandler.YourTargetIsAlreadyMezzed:               Euer Ziel ist bereits hypnotisiert!
+CCSpellHandler.YourTargetCantHaveThisEffectAgainYet:    Auf {0} kann nicht schon wieder dieser Zauberspruch wirken.
+CCSpellHandler.TargetRessistEffect:                     {0} widersteht dem Zauberspruch!
+CCSpellHandler.YouAreFarAwayFromTarget:                 Ihr seit zu weit weg vom Ziel entfernt. Ihr hört auf Musik zu spielen.
+CCSpellHandler.YourItemEffectInterceptsTheMez:          Ein Effekt eines euerer Gegenstände unterbicht die hypnose, sie hört auf zu wirken!
+CCSpellHandler.EnemyItemEffectInterceptsTheMez:         Eine Zeremonienarmschiene unterbricht Eure hypnose!
+CCSpellHandler.YourItemEffectInterceptsTheStun:         Eure Zeremonienarmschiene unterbricht die betäubung und lässt sie sogleich wieder verschwinden!
+CCSpellHandler.EnemyItemEffectInterceptsTheMezReturn:   Eine Zeremonienarmschiene unterbricht Eure hypnose und wirft sie auch Euch zurück!
+CCSpellHandler.YourItemEffectInterceptsTheStunReturn:  Eine Zeremonienarmschiene unterbricht Eure betäubung und wirft sie auch Euch zurück!
+
+
+# ArrowSpellHandler
+ArrowSpellHandler.YouCantShotEnduranceIsToLow:          Ihr könnt nicht auf {0} schießen, eure ausdauer ist zu gering!
+ArrowSpellHandler.YouMiss:                              Ihr habt {0} nicht getroffen!
+ArrowSpellHandler.HasMiss:                              {0} trifft euch nicht!  
+ArrowSpellHandler.HasMissAttackRently:                  Ihr wurdet vor kurzen attackiert, es ist euch nicht unmöglich {0} weiter zu beschützen.
+ArrowSpellHandler.YouConcentrateOnBlocking:             Ihr konzentriert euch um den Angriff zu blocken!
+ArrowSpellHandler.YouBlockArrow:                        Ihr blockt {0}'s Pfeil!
+ArrowSpellHandler.BlockYourArrow:                       {0} blockt euren Pfeil!
+ArrowSpellHandler.YouPrepare:                           Ihr Bereitet einen {0} vor.
+ArrowSpellHandler.YouMustWieldingABowForThisAbility:    Ihr müsst erst einen Bogen ausrüssten für diese Fähigkeit!
+ArrowSpellHandler.YouMustBeStealthedForThisAbility:     Ihr müsst euch erst verstecken und einen Bogen ausrüssten für diese Fähigkeit!
+ArrowSpellHandler.YourTargetIsNotVisible:               Euer Ziel ist nicht sichtbar!
+ArrowSpellHandler.YourTargetIsNotInView:                Euer Ziel ist nicht in sicht!
+ArrowSpellHandler.YourTargetIsOutOfRange:               Euer Zielbereich befindet sich nicht in Reichweite.  Sucht euch einen näheren Bereich.
+ArrowSpellHandler.YourMustWaitToUseSpell:               Ihr müsst noch {0} Sekunden warten um den Zauberspruch einsetzen zu können!
+ArrowSpellHandler.YouCantCastWhileSitting:              Ihr könnt nicht Zaubern solange ihr sitzt!
+ArrowSpellHandler.IsEmuneToThisEffect:                  {0} scheint immun gegen diesen Zauberspruch zu sein! 
+ArrowSpellHandler.IsNotVisibleForYou:                   {0} ist nicht sichtbar für euch!
+ArrowSpellHandler.YouAreDisarmed:                       Ihr seit entwaffnet, ihr könnt so nicht zaubern!
+ArrowSpellHandler.YouArePhaseshifted:                   Ihr seit Phasen verschoben, ihr könnt so nicht zaubern!
+ArrowSpellHandler.CantConbatInSiegeweapon:              Ihr könnt nicht in einer Belagerungswaffe Kämpfen, steigt vorher aus!
+ArrowSpellHandler.YouAreDead:                           Ihr seit tot, ihr könnt jetzt nicht zaubern! 
+ArrowSpellHandler.AShotPenetratedYourMagicBarrier:      Ein Schuß durchdringt eure magische Barriere!
+ArrowSpellHandler.YourStrikeWasAbsorbedByMagicBarrier:  Euer Angriff wurde durch eine magische Barriere absorbiert!
+ArrowSpellHandler.TheBlowWasAbsorbedByMagicBarrier:     Dieser Treffer wurde durch eine magische Barriere absorbiert!
+ArrowSpellHandler.AttacksYouAndYourShotIsInterrupted:   {0} attackiert euch und euer Schuß wird unterbrochen!
+ArrowSpellHandler.YouHitTheForDamage:                   Ihr trefft {0} und richtet {1} Schaden an.
+ArrowSpellHandler.HitYouForDamage:                      {0} trifft euch und richtet {1} Schaden an.
+ArrowSpellHandler.YouArePhaseshiftedCantBeAffected:     {0} ist Phasen verschoben und kann daher nicht vom Zauberspruch getroffen werden!
+ArrowSpellHandler.YouCastAWrathOfChampionsSpell:        Ihr zaubert einen Wrath of Champions Zauberspruch!
+ArrowSpellHandler.CastAWrathOfChampionsSpell:           {0} Zaubert etwas!
+
+
+
+
+# HealSpellHandler
+HealSpellHandler.Execute.HealYourself:			        Ihr heilt euch selbst für {0} Trefferpunkte.
+HealSpellHandler.Execute.YouHealCriticalFor:            Ihr heilt kritisch für {0} zusätzliche Trefferpunkte!
+HealSpellHandler.Execute.YouHealTarget:                 Ihr heilt {0} für {1} Trefferpunkte!
+HealSpellHandler.Execute.YouAreHealedBy:                Ihr wurdet geheilt von {0} für {1} Trefferpunkte.
+HealSpellHandler.Execute.TargetIsFullyHealed:           {0} ist komplett geheilt.
+HealSpellHandler.Execute.HealYourself:			        Ihr heilt euch selbst für {0} Trefferpunkte.
+HealSpellHandler.Execute.YourEfficientEndurancebuff:    Euer Effizienter Ausdauerbuff gewärt euch zusätzliche {0} Ausdauer von der Heilung!
+HealSpellHandler.Execute.YourEfficientHealingbuff:      Euer Effizienter Heilungsbuff gewärt euch zusätzlich {0} Heilung von der Heilung!
+HealSpellHandler.Execute.PlayerDoesNotWantAssistance:   {0} möchte im Moment keine unterstützung.
+HealSpellHandler.Execute.TargetIsDead:                  {0} ist tot!
+HealSpellHandler.Execute.YourTargetIsDiseased:          {0} ist Verseucht!
+
+
+
+
+# EnduranceHealSpellHandler
+EnduranceHealSpellHandler.EnduranceIsFull:              Eure Ausdauer ist voll.
+EnduranceHealSpellHandler.TargetEnduranceIsFull:        {0} Ausdauer ist voll.
+EnduranceHealSpellHandler.YouRestoreEndurancePoints:    Ihr stellt {0} Punkte Ausdauer wieder her.
+EnduranceHealSpellHandler.YouRestoreForEndurancePoints: Ihr heilt {0} für {1} Punkte Ausdauer!
+EnduranceHealSpellHandler.YourEnduranceWasRestored:     Eure Ausdauer wurde von {0} für {1} Punkte wiederhergestellt.
+
+
+
+# SpellCastingAbilityHandler
+SpellCastingAbilityHandler.SendCastMessage.WaitForStart:        Shadow Strike ist bereit und beginnt in 10 Sekunden!
+SpellCastingAbilityHandler.SendCastMessage.WaitFor:             Ihr müsst noch warten um diese Fähigkeit wieder einsetzen zu können.
+SpellCastingAbilityHandler.SendCastMessage.YouMustStealthed:    Ihr müsst euch vorher verstecken um diese Fähigkeit einsetzen zu können!
+SpellCastingAbilityHandler.SendCastMessage.YouNeedATarget:      Ihr benötigt ein Ziel für diese Fähigkeit!
+SpellCastingAbilityHandler.SendCastMessage.YouNeedAGroup:       Ihr müsst euch in einer Gruppe befinden um diese Fähigkeit benutzen zu können!
+SpellCastingAbilityHandler.SendCastMessage.YouCantUseInStalth:  Ihr könnt diese fähigkeit nicht benutzen solange ihr schleicht!
+SpellCastingAbilityHandler.SendCastMessage.YouMustInCombat:     Ihr müsst euch im Kampf befinden um diese Fähikeit zu wirken. 
+SpellCastingAbilityHandler.SendCastMessage.YouAreInCombat:      Diese Fähigkeit hat keine Wirkung solange ihr noch kämpft!
+SpellCastingAbilityHandler.SendCastMessage.WileSitting:         Ihr müsst erst aufstehen um eine Fähikeit einsetzen zu können!
+SpellCastingAbilityHandler.SendCastMessage.WileStunned:         Ihr könnt diese Fähigkeit nicht benutzen solange ihr betäubt seid!
+SpellCastingAbilityHandler.SendCastMessage.WileMessmerize:      Ihr könnt diese Fähigkeit nicht benutzen solange ihr hypnotisiert seid!
+SpellCastingAbilityHandler.SendCastMessage.WileDead:            Ihr könnt keine Fähigkeit einsetzen solange ihr tot seid!
+
+# PowerHealSpellHandler
+PowerHealSpellHandler.SendCastMessage.PowerFull:                Eure Mana ist voll.
+PowerHealSpellHandler.SendCastMessage.TargetPowerFull:          {0}'s Mana ist voll.
+
+# Summon
+Summon.CheckBeginCast.AlreadyHaveaPet:			Ihr habt schon ein Wesen unter Eurer Kontrolle ... lasst es erst frei!
+
+# SummonAnimist
+SummonAnimistFnF.CheckBeginCast.NoGroundTarget:			Ihr könnt keinen Hauptpilz rufen ohne vorher ein Bodenziel gesetzt zu haben!
+SummonAnimistFnF.CheckBeginCast.TurretAreaCap:			Ihr könnt in diesem Bereich nicht noch mehr Pilze beschwören!
+SummonAnimistFnF.CheckBeginCast.TurretPlayerCap:		Ihr könnt keine weiteren Pilze kontrollieren!
+SummonAnimistPet.CheckBeginCast.AlreadyHaveaPet:		Ihr habt doch schon ein Wesen unter Eurer Kontrolle ... lasst das erst frei!
+SummonAnimistPet.CheckBeginCast.GroundTargetNull:		Ihr habt ein Bodenziel für diesen Zauberspruch gesetzt.
+SummonAnimistPet.CheckBeginCast.GroundTargetNotInView:		Ihr könnt Euer Bodenziel nicht sehen.
+SummonAnimistPet.CheckBeginCast.GroundTargetNotInSpellRange:	Ihr müsst ein näheres Bodenziel auswählen.
+
+
+# SummonCommanderPet
+SummonCommanderPet.CheckBeginCast.Text:			Ihr habt doch schon ein Wesen unter Eurer Kontrolle ... lasst das erst frei!
+SummonCommanderPet.DelveInfo.Text1:		    	Wirkung: Beschwören
+SummonCommanderPet.DelveInfo.Text2:			    Ruft ein Wesen, um dem Zauberer zu dienen.
+SummonCommanderPet.DelveInfo.Text3:			    Ziel: {0}
+SummonCommanderPet.DelveInfo.Text4:			    Magiekraftkosten: {0}%
+SummonCommanderPet.DelveInfo.Text5:			    Zauberzeit: {0}
+
+# SummonMinionHandler
+SummonMinionHandler.CheckBeginCast.Text1:		Ihr müsst eines der Anführer-Monster kontrollieren, um der Gruppe weitere Monster hinzuzufügen!
+SummonMinionHandler.CheckBeginCast.Text2:		Euer Anführer hat schon seine maximale Anzahl an Gefolgsleuten erreicht!
+SummonMinionHandler.DelveInfo.Text1:			Ziel: {0}
+SummonMinionHandler.DelveInfo.Text2:			Magiekraftkosten: {0}%
+SummonMinionHandler.DelveInfo.Text3:			Zauberzeit: {0}
+
+# SummonNecromancerPet
+SummonNecromancerPet.CheckBeginCast.ShadeEffectIsNotNull:	Ihr seid schon ein Schatten!
+SummonNecromancerPet.DelveInfo.Function:		         	Funktion: Schatten herbei rufen
+SummonNecromancerPet.DelveInfo.Description:		        	Ruft ein untotes Wesen herbei, um den Zauberer zu beschützen. Der Zauberer verwandelt sich in einen Schatten und agiert nur noch durch das Wesen.
+SummonNecromancerPet.DelveInfo.Target:			        	Ziel: {0}
+SummonNecromancerPet.DelveInfo.Power:			        	Manakosten: {0}%
+SummonNecromancerPet.DelveInfo.CastingTime:		         	Zauberzeit: {0}
+
+# TurretsRelease
+TurretsRelease.CheckBeginCast.NoSelectedTarget:	        	Ihr könnt diesen Zauberspruch nur auf ein von Euch kontrolliertes Wesen anwenden.
+TurretsRelease.CheckBeginCast.TargetTooFarAway:	        	Euer Ziel ist zu weit entfernt!

@@ -1,0 +1,12 @@
+﻿Alb.AfterTheAccident.CheckPlayerAbortQuest.Text1: Bueno, ahora salga y termine su trabajo!
+Alb.AfterTheAccident.CheckPlayerAbortQuest.Text2: Abortando Quest {0}. Puedes empezar de nuevo si quieres.
+Alb.AfterTheAccident.Conclusion.Text1: Lo has hecho bien. ¡Aquí está su recompensa, y mis gracias por servir a Camelot!
+Alb.AfterTheAccident.Init.Text1: El collar de poder del recluta
+Alb.AfterTheAccident.Init.Text2: Collar del Recluto de Insight
+Alb.AfterTheAccident.Init.Text3: El collar de fe del recluta
+Alb.AfterTheAccident.Init.Text4: Puny Cráneo Esquelético
+Alb.AfterTheAccident.Init.Text5: Puny cráneos de esqueleto
+Alb.AfterTheAccident.Notify.Text1: esqueleto insignificante
+Alb.AfterTheAccident.QuestTitle: Después del accidente
+Alb.AfterTheAccident.Story: Durante mis patrullas de Cotswold, he visto muchas cosas que gravemente me preocupan, mi amigo. Los muertos, están inquietos, y caminan sobre el suelo cuando deben descansar pacíficamente abajo. Si bien esto no es un fenómeno nuevo, hay más y más avistamientos de esqueletos, zombis y similares desde ese maldito accidente. \ NEs probable que haya oído hablar ahora de la lágrima en el tejido de la realidad que sucedió accidentalmente cuando el En la Academia se movió el portal que conduce a las Islas Cubiertas desde Avalon Marsh hasta aquí en Cotswold. Abrieron una puerta al infierno, y no creo que nadie sepa todavía lo que eso significa. Creen que lo cubrieron, pero no estoy tan seguro. \ NMientras no puedo estar seguro acerca de qué magia sucia saca estas "cosas" de sus últimos lugares de descanso, sé que estas abominaciones no pueden ser permitidas a vagar el campo. Estoy autorizado a pagar una recompensa a cualquiera que los ponga y regrese a mí con la prueba de la escritura.
+Alb.AfterTheAccident.Summary: Mata a dos esqueletos insignificantes. Regresa a Sir Prescott con dos Puny Skeleton Skulls como prueba de que has completado esta tarea.

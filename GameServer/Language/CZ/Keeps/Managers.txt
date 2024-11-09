@@ -1,0 +1,90 @@
+﻿#TemplateManager
+#All
+SetGuardName.Commander:		Commander of {0}
+SetGuardName.Hastener:		Hastener
+SetGuardName.Renegade:		Renegade {0}
+SetGuardName.TowerCaptain:	Tower Captain
+
+#Albion
+SetGuardName.Armsman:		Armsman
+SetGuardName.Armswoman:		Armswoman
+SetGuardName.BowmanCommander:	Bowman Commander
+SetGuardName.CaptainCommander:	Captain Commander
+SetGuardName.Cleric:		Cleric
+SetGuardName.Infiltrator:	Infiltrator
+SetGuardName.KnightCommander:	Knight Commander
+SetGuardName.Lady:		Lady {0}
+SetGuardName.Lord:		Lord {0}
+SetGuardName.MasterWizard:	Master Wizard
+SetGuardName.Scout:		Scout
+SetGuardName.Wizard:		Wizard
+
+#Midgard
+SetGuardName.Healer:		Healer
+SetGuardName.HersirCommander:	Hersir Commander
+SetGuardName.Hunter:		Hunter
+SetGuardName.Huscarl:		Huscarl
+SetGuardName.Jarl:		Jarl {0}
+SetGuardName.MasterRunes:	Master of Runes
+SetGuardName.NordicHunter:	Nordic Hunter
+SetGuardName.NordicJarl:	Nordic Jarl
+SetGuardName.Runemaster:	Runemaster
+SetGuardName.Shadowblade:	Shadowblade
+
+#Hibernia
+SetGuardName.Champion:		Champion
+SetGuardName.ChampionCommander:	Champion Commander
+SetGuardName.Chieftain:		Chieftain {0}
+SetGuardName.Chieftess:		Chieftess {0}
+SetGuardName.Druid:		Druid
+SetGuardName.Eldritch:		Eldritch
+SetGuardName.Guardian:		Guardian
+SetGuardName.MasterEldritch:	Master Eldritch
+SetGuardName.MasterRanger:	Master Ranger
+SetGuardName.Nightshade:	Nightshade
+SetGuardName.Ranger:		Ranger
+
+#Ram Placing
+
+YouCantPlaceHere: "{0} You can't the {1} drop here, you are too close at the Keep Door!"
+
+DontWorkINewFrontiers: {0}, The {1} don't work in New Frontiers!
+
+DontWorkWihleStealthed: {0}, you need to be visible to set up {1}!
+SiegeDontWorkInWater: You cannot deploy the {0} in Water.
+DontWorkWihleInCombat: You cannot deploy the {0} while you are in combat.
+
+DontWorkInBG: {0}, {1} does not work in Battleground!
+
+#Anti Raid
+
+AntiRaidMsg: Stop, there are currently too few enemies on the server who could defend. Attacks on Keeps or Tower will not be possible until there are at least {0} players in another realm who are at level 50.
+
+AntiRaidMsg2: There must be at least {0} players in two realms and each must be level 50 to take towers and keeps!
+
+
+#/online
+
+AntiRaidMsg3: There must be at least {0} players in [two realms] and everyone must be level 50 in order to capture Keeps and towers, but battlefields are excluded from this rule!
+
+AntiRaidMsg4: ********** Attacks on Keeps or towers is currently not possible, the system is waiting for more players online! Used /online for the current status! **********
+
+AntiRaidMsg5: ********** You can always reclaim your own Keeps and towers, but Siege devices are currently disabled! **********
+
+AntiRaidMsg6: ********** The attack of foreign Keeps and towers is currently possible! **********
+
+AntiRaidMsg7: **********Siege-Equipment is enabled and ready to use!**********
+
+AntiRaidMsg8: **********Have Fun on Brotherland!**********
+
+AntiRaidMsg9: If you want to play RVR, please download the live client version: 1.109 from our forum otherwise it will lead to massive problems.
+
+AntiRaidMsg10: Please use for spells and classes charplan 1.109 from Forum downloads.
+
+AntiRaidMsg11: The server forum can be find here: http://brotherland-2.de
+
+AntiRaidMsg12: To set the language to your language, use: [/lang set de, en, fr, es or it] - [de = german, en = english, fr = french, es = spanish or it = italian]
+
+
+
+

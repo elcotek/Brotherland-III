@@ -1,0 +1,15 @@
+﻿Enchanter.EnchanterDialogResponse.Text1:	Elemento no válido.
+Enchanter.EnchanterDialogResponse.Text2:	Necesito {0} para encantar eso.
+Enchanter.EnchanterDialogResponse.Text3:	brillante
+Enchanter.EnchanterDialogResponse.Text4:	Usted da {0} {1}.
+Enchanter.EnchanterDialogResponse.Text5:	Ahí, ahora es {0}!
+Enchanter.GetExamineMessages.Text1:		    Usted apunta a {0}.
+Enchanter.GetExamineMessages.Text2:		    Examina {0}. {1} es {2} y es un encantador.
+Enchanter.Interact.Text1:			        quartz
+Enchanter.Interact.Text2:			        steel
+Enchanter.Interact.Text3:			    Puedo encantar armas o armaduras que sean de mejor material. Sólo dame el arma que te gustaría encantado y voy a trabajar mi magia sobre ella, por una cuota.
+Enchanter.ReceiveItem.Text1:			Le costará {0} \ x000ato encantarlo. ¿Aceptas?
+Enchanter.ReceiveItem.Text2:			¡Este artículo ya está encantado!
+Enchanter.ReceiveItem.Text3:			¡Este artículo no puede ser encantado!
+Enchanter.ReceiveItem.Text4:			No puedo encantar ese material.
+

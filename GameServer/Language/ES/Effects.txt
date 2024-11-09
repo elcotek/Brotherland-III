@@ -1,0 +1,111 @@
+﻿
+Effects.DelveInfo.MinutesRemaining:				- {0}: {1} minutos restantes.
+Effects.DelveInfo.SecondsRemaining:				- {0} segundos restantes.
+Effects.DelveInfo.Seconds:			        	{0} segundos.
+Effects.CantRemoveThis:                     	¡No puedes eliminar este efecto!
+
+Effects.Necro.TauntEffect.SeemsChange:			{0} parece cambiar de actitud, pareciendo más agresivo que antes.
+Effects.Necro.TauntEffect.SeemsLessAgg:			{0} parece ser menos agresivo que antes.
+
+Effects.BerserkEffect.GoBerserkerFrenzy:		Usted entra en un frenesí berserker!
+Effects.BerserkEffect.BerserkerFrenzyEnds:		Tu frenesí berserker termina.
+Effects.BerserkEffect.Name:						Berserk
+Effects.BerserkEffect.InfoEffect:				Esta habilidad transforma al jugador en una bestia Vendo y hace que cada golpe tenga un impacto crítico, a expensas de cualquier habilidad defensiva. Se puede usar uno cada siete minutos.
+
+Effects.BodyguardEffect.NowBGXButSC:			Ahora estás guardando el cuerpo {0}, pero debes estar más cerca.
+Effects.BodyguardEffect.XNowBGYouButSC:			{0} ahora te protege el cuerpo, pero debes estar más cerca.
+Effects.BodyguardEffect.YouAreNowBGX:			Ahora estás en Guardia Civil {0}.
+Effects.BodyguardEffect.XIsBGYou:				{0} ahora te protege del cuerpo.
+Effects.BodyguardEffect.YouAreNoLongerBGX:		Ya no eres Bodyguarding {0}.
+Effects.BodyguardEffect.XIsNoLongerBGYou:		{0} ya no te protege el cuerpo.
+Effects.BodyguardEffect.XIsBodyguardingY:		{0} es Guardaespaldas {1}
+Effects.BodyguardEffect.BodyguardedByName:		{0} guardaespaldas por {1}
+Effects.BodyguardEffect.Name:					Guardaespaldas
+Effects.BodyguardEffect.InfoEffect:				Capacidad que si tiene éxito guardará un ataque significó para el objetivo de la habilidad. Bloqueará en el lugar del objetivo.
+
+Effects.CamouflageEffect.YouAreCamouflaged:		Ahora estás camuflado!
+Effects.CamouflageEffect.YourCFIsGone:			Su camuflaje se ha ido.
+Effects.CamouflageEffect.Name:					Camuflaje
+Effects.CamouflageEffect.InfoEffect:			Disponible para las clases de arquero. Esta habilidad hará que el arquero se pueda descifrar al Dominio de la Capacidad de Dominio Furtivo durante un período de tiempo. Dibujar un arma o participar en combate cancelará el efecto y hará que el jugador sea visible. Esto no modifica la habilidad de sigilo.
+Effects.EngageEffect.ConcOnBlockingX:			¡Te concentras en bloquear los golpes de {0}!
+Effects.EngageEffect.YouNoConcOnBlock:			Ya no te concentras en bloquear los golpes!
+Effects.EngageEffect.YouNoAttemptToEngageT:		Usted ya no está tratando de comprometer a un objetivo!
+Effects.EngageEffect.XEngagesY:					{0} se involucra {1}
+Effects.EngageEffect.EngageName:				Involucrar: {0}
+Effects.EngageEffect.Name:						Contratar
+Effects.EngageEffect.InfoEffect:				La resistencia se drena a cambio de un aumento significativo de la tasa de bloqueo. Engage sólo se puede utilizar en el rango, o mientras se cierra para atacar. Una vez que ataque, está deshabilitado.
+Effects.GameSpellEffect.CantRemoveEffect:		¡No puedes eliminar este efecto!
+
+Effects.GuardEffect.YouAreNowGuardingYBut:		Ahora estás guardando {0}, pero debes estar más cerca.
+Effects.GuardEffect.XIsNowGuardingYouBut:		{0} ahora te está guardando, pero debes estar más cerca.
+Effects.GuardEffect.YouAreNowGuardingY:			Ahora estás guardando {0}.
+Effects.GuardEffect.XIsNowGuardingYou:			{0} ahora te está guardando.
+Effects.GuardEffect.YourNoLongerGuardingY:		Ya no guardas {0}.
+Effects.GuardEffect.XNoLongerGuardingYoy:		{0} ya no te protege.
+Effects.GuardEffect.InfoEffect:					Capacidad que si tiene éxito guardará un ataque significó para el objetivo de la habilidad. Bloqueará en el lugar del objetivo.
+Effects.GuardEffect.GuardedByName:				{0} guardado por {1}
+Effects.GuardEffect.Name:						Guardia
+Effects.GuardEffect.XIsGuardingY:				{0} está guardando {1}
+
+Effects.BannerOfWardingEffect.Name:				Banner of Warding
+Effects.BannerOfWardingEffect.Description:		Grants a 10% bonus to all magical resists.
+
+Effects.BannerOfShieldingEffect.Name			Banner of Shielding
+Effects.BannerOfShieldingEffect.Description:	Grants a 6% bonus to all melee resists.
+
+Effects.BannerOfFreedomEffect.Name				Banner of Freedom
+Effects.BannerOfFreedomEffect.Description:		Reduces all Crowd Controls by 6%.
+
+Effects.BannerOfBesiegingEffect.Name:			Banner of Besieging
+Effects.BannerOfBesiegingEffect.Description:	Reduces the fireing speed of siegeweapons by 6%.
+
+Effects.InterceptEffect.YouAttemtInterceptYBut:	Ahora estás intentando interceptar un ataque por {0}, pero debes estar más cerca.
+Effects.InterceptEffect.XAttemtInterceptYouBut:	{0} está intentando interceptar un ataque para ti, pero debes estar más cerca.
+Effects.InterceptEffect.YouAttemtInterceptY:	Ahora intenta interceptar un ataque para {0}.
+Effects.InterceptEffect.XAttemptInterceptYou:	{0} está intentando interceptar un ataque para ti.
+Effects.InterceptEffect.YouNoAttemptInterceptY:	Ya no intentas interceptar un ataque para {0}.
+Effects.InterceptEffect.XNoAttemptInterceptYou:	{0} ya no intenta interceptar un ataque por ti.
+Effects.InterceptEffect.InterceptedByName:		{0} interceptado por {1}
+Effects.InterceptEffect.Name:					Interceptar
+Effects.InterceptEffect.InfoEffect:				Capacidad que si es exitoso interceptará un ataque para el objetivo de la habilidad. Usted recibirá daño en el lugar del objetivo.
+Effects.InterceptEffect.XInterceptingY:			{0} está interceptando para {0}
+
+Effects.ProtectEffect.YouProtectingYBut:		Ahora estás protegiendo {0}, pero debes estar más cerca.
+Effects.ProtectEffect.XProtectingYouBut:		{0} ahora te protege, pero debes estar más cerca.
+Effects.ProtectEffect.YouProtectingY:			Ahora estás protegiendo {0}.
+Effects.ProtectEffect.XProtectingYou:			{0} ahora te protege.
+Effects.ProtectEffect.YouNoProtectY:			Ya no estás protegiendo {0}.
+Effects.ProtectEffect.XNoProtectYou:			{0} ya no te protege.
+Effects.ProtectEffect.ProtectByName:			{0} protegido por {1}
+Effects.ProtectEffect.Name:						Proteger
+Effects.ProtectEffect.InfoEffect:				Capacidad que si es exitoso protegerá un ataque para el objetivo de la habilidad. Reduce el aggro que una acción hubiera causado.
+Effects.ProtectEffect.XProtectingY:				{0} está protegiendo {1}
+
+Effects.QuickCastEffect.YouActivatedQC:			Has activado el quickcast.
+Effects.QuickCastEffect.YourNextSpellNoQCed:	Su próximo hechizo no será quickcasted.
+Effects.QuickCastEffect.Name:					QuickCast
+Effects.QuickCastEffect.InfoEffect:				Esto les permite lanzar un solo hechizo con un tiempo de lanzamiento acelerado, pero cuesta el doble de potencia. No puede ser interrumpido por cuerpo a cuerpo o hechizos. La única excepción a esto es la forma Necromancer de Quickcast (Facilitar painworking). Permite que la mascota de los muertos vivientes convocada por el Nigromante tenga seis segundos de tiempo de lanzamiento ininterrumpido.
+Effects.Quickcast.DelveInfo:	                No se puede interrumpir en el siguiente hechizo.
+
+Effects.RapidFireEffect.YouSwitchRFMode:		¡Cambia al modo de disparo rápido!
+Effects.RapidFireEffect.Name:					Rapid Fire
+
+Effects.ShadeEffect.Name:						Sombra
+Effects.SprintEffect.Name:						Sprint
+
+Effects.StagEffect.HuntsSpiritChannel:			¡Canaliza el espíritu de la Caza!
+Effects.StagEffect.YourHuntsSpiritEnds:			Tu espíritu de la caza termina.
+Effects.StagEffect.Name:						Stag
+Effects.StagEffect.InfoEffect:					Héroe-sólo habilidad, que transforma a un jugador en un cazador de cabeza de ciervo. Esto dura 30 segundos, y le da al jugador una explosión en puntos de vida. Puede utilizarse una vez cada 30 minutos. Iniciado = 20% de bonificación a puntos de vida. Miembro = 30%, Líder = 40%, Maestro = 50%
+
+Effects.StaticEffect.YouCantRemoveThisEffect:	¡No puedes eliminar este efecto!
+Effects.StealthEffect.Name:						Oculto
+
+Effects.SureShotEffect.YouSwitchToSSMode:		¡Cambia al modo de disparo seguro!
+Effects.SureShotEffect.Name:					Sure Shot
+
+Effects.TripleWieldEffect.MBHitsExtraDamage:	¡Tu lámina mágica golpea {0} por {1} daño adicional!
+Effects.TripleWieldEffect.XMBExtraDamageToYou:	¡La espada mágica de {0} le da {1} daño extra!
+Effects.TripleWieldEffect.Name:					Triple Wield
+Effects.TripleWieldEffect.InfoEffect:			Hoja mágica que hace daño adicional.
+

@@ -1,0 +1,3675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ACB92917-3D42-4F40-97F9-EA904A41DE36}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>GameServer</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DOL</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <SourceAnalysisOverrideSettingsFile>C:\Users\RedFish\AppData\Roaming\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <NoStdLib>false</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>1570%3b1572%3b1573%3b1587%3b1591%3b1592</NoWarn>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\debug\lib\</OutputPath>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>CODE_ANALYSIS;DEBUG</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <DebugType>Full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <Prefer32Bit>false</Prefer32Bit>
+    <WarningLevel>3</WarningLevel>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\release\lib\</OutputPath>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <DebugType>None</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <DefineConstants>TRACE</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Itanium'">
+    <PlatformTarget>Itanium</PlatformTarget>
+    <OutputPath>bin\Itanium\Debug\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Itanium'">
+    <PlatformTarget>Itanium</PlatformTarget>
+    <OutputPath>bin\Itanium\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <NoWarn>1570;1572;1573;1587;1591;1592</NoWarn>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <NoWarn>1570;1572;1573;1587;1591;1592</NoWarn>
+    <DebugType>None</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CuttingEdge.Conditions, Version=1.2.0.11174, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <HintPath>..\packages\CuttingEdge.Conditions.1.2.0.0\lib\NET35\CuttingEdge.Conditions.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.25.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.25.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Grpc.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d754f35622e28bad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Grpc.Core.2.46.6\lib\net45\Grpc.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Grpc.Core.Api, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d754f35622e28bad, processorArchitecture=MSIL">
+      <HintPath>..\packages\Grpc.Core.Api.2.59.0\lib\net462\Grpc.Core.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\sharedModules\log4net\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.1\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.1\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.2\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\DOLBase\DOLBase.csproj">
+      <Name>DOLBase</Name>
+      <Project>{A4A0FB22-124C-45CA-A653-2887DE0CC3E0}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\DOLDatabase\DOLDatabase.csproj">
+      <Name>DOLDatabase</Name>
+      <Project>{43BFC675-13B7-4AA8-97F6-6109948849CC}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+      <Private>False</Private>
+    </ProjectReference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ai\ABrain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ai\APlayerVicinityBrain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ai\brain\Animist\BomberBrain.cs" />
+    <Compile Include="ai\brain\Animist\TurretFNFBrain.cs" />
+    <Compile Include="ai\brain\Animist\TurretMainPetCasterBrain.cs" />
+    <Compile Include="ai\brain\Animist\TurretMainPetTankBrain.cs" />
+    <Compile Include="ai\brain\BD Pets\BDArcherBrain.cs" />
+    <Compile Include="ai\brain\BD Pets\BDBufferBrain.cs" />
+    <Compile Include="ai\brain\BD Pets\BDCasterBrain.cs" />
+    <Compile Include="ai\brain\BD Pets\BDDebufferBrain.cs" />
+    <Compile Include="ai\brain\BD Pets\BDHealerBrain.cs" />
+    <Compile Include="ai\brain\BD Pets\BDMeleeBrain.cs" />
+    <Compile Include="ai\brain\BD Pets\BDPetBrain.cs" />
+    <Compile Include="ai\brain\BD Pets\CommanderBrain.cs" />
+    <Compile Include="ai\brain\BlankBrain.cs" />
+    <Compile Include="ai\brain\ArtefactMobBrain.cs" />
+    <Compile Include="ai\brain\Boss mit Pets\BossBain.cs" />
+    <Compile Include="ai\brain\Boss mit Pets\BossPetBrain.cs" />
+    <Compile Include="ai\brain\Boss mit Pets\BossArcherBrain.cs" />
+    <Compile Include="ai\brain\Boss mit Pets\BossBufferBrain.cs" />
+    <Compile Include="ai\brain\Boss mit Pets\BossCasterBrain.cs" />
+    <Compile Include="ai\brain\Boss mit Pets\BossDebufferBrain.cs" />
+    <Compile Include="ai\brain\Boss mit Pets\BossHealerBrain.cs" />
+    <Compile Include="ai\brain\Boss mit Pets\BossMeleeBrain.cs" />
+    <Compile Include="ai\brain\ControlledNpcBrain.cs" />
+    <Compile Include="ai\brain\DracoBrain.cs" />
+    <Compile Include="ai\brain\Guards\KeepGuardBrain.cs" />
+    <Compile Include="ai\brain\Hunter\HoundsPetBrain.cs" />
+    <Compile Include="ai\brain\LabbyBosse\Absorbacrom.cs" />
+    <Compile Include="ai\brain\MobPet\MobPetBrain.cs" />
+    <Compile Include="ai\brain\NoveltyPetBrain.cs" />
+    <Compile Include="ai\brain\DragonBrain.cs" />
+    <Compile Include="ai\brain\Npcs\AggressiveBrain.cs" />
+    <Compile Include="ai\brain\GuardBrain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ai\brain\Guards\Caster.cs" />
+    <Compile Include="ai\brain\Guards\Healer.cs" />
+    <Compile Include="ai\brain\Guards\Lord.cs" />
+    <Compile Include="ai\brain\IOldAggressiveBrain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ai\brain\IControlledBrain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ai\brain\Npcs\CastingBehaviour.cs" />
+    <Compile Include="ai\brain\Npcs\IAttackBehaviour.cs" />
+    <Compile Include="ai\brain\Npcs\MeleeBehaviour.cs" />
+    <Compile Include="ai\brain\Npcs\SocialBrain.cs" />
+    <Compile Include="ai\brain\Npcs\PassiveBehaviour.cs" />
+    <Compile Include="ai\brain\ProcPetBrain.cs" />
+    <Compile Include="ai\brain\RetrieverMobBrain.cs" />
+    <Compile Include="ai\brain\RoundsBrain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ai\brain\ScoutMobBrain.cs" />
+    <Compile Include="ai\brain\StandardMobBrain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ai\brain\StealthNameCache.cs" />
+    <Compile Include="ai\brain\Theurgist\TheurgistPetBrain.cs" />
+    <Compile Include="ai\brain\Animist\TurretBrain.cs" />
+    <Compile Include="ai\brain\Necromancer\NecromancerPetBrain.cs" />
+    <Compile Include="ai\brain\ToA Bosse\A Flask.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Alvarus%27s Leggings.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Arms of the Winds.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Aten%27s Shield.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Atlantis Tablet.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Band of Stars.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Battler.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Belt of Oglidarsh.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Belt of the Moon and Sun.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Bracer of Zo%27arkat.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Braggart%27s Bow.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Bruiser.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Ceremonial Bracers.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Cloudsong.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Crocodile Tear Ring.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Crocodiles Tooth Dagger.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Crown of Zahur.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Cyclops Eye Shield.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Dream Sphere.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Eerie Darkness Stone.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Egg of Youth.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Eirene%27s Chestpiece.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Enyalios Boots.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Enyalios Boots2.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Erinys Charm.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Eternal Plant.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Flamedancer%27s Boots.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Fool%27s Bow.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Foppish Sleeves.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Gem of Lost Memories.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Goddess Necklace.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Golden Scarab Vest.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Guard of Valor.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Harpy Feather Cloak.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Healers Embrace.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Jacina%27s Sash.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Kalare%27s Necklace.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Maddening Scalars.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Malice%27s Axe.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Mariasha%27s Sharkskin Gloves.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Nailah%27s Robes.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Night%27s Shroud Bracelet.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Orion%27s Belt.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Phoebus Harp Necklace.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Ring of Dances.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Ring of Fire.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Ring of Unyielding Will.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Sagittarius.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Scepter of the Meritorious.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Shades of Mist.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Shield of Khaos.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Snatcher.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Spear of Kings.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Staff of the God.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Stone of Atlantis.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Tartaros%27 Gift.cs" />
+    <Compile Include="ai\brain\ToA Bosse\The Golden Spear.cs" />
+    <Compile Include="ai\brain\ToA Bosse\The Scorpions Tail.cs" />
+    <Compile Include="ai\brain\ToA Bosse\The Snakecharmer%27s Weapon.cs" />
+    <Compile Include="ai\brain\ToA Bosse\The Winged Helm.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Traitor%27s Dagger.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Traldor%27s Oracle.cs" />
+    <Compile Include="ai\brain\ToA Bosse\Wing%27s Dive.cs" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="behaviour\AbstractTrigger.cs" />
+    <Compile Include="behaviour\AbstractRequirement.cs" />
+    <Compile Include="behaviour\Actions\AnimationAction.cs" />
+    <Compile Include="behaviour\Actions\PlaySoundAction.cs" />
+    <Compile Include="behaviour\Actions\TrainerWindowAction.cs" />
+    <Compile Include="behaviour\BaseBehaviour.cs" />
+    <Compile Include="behaviour\BehaviourBuilder.cs" />
+    <Compile Include="behaviour\BehaviourMgr.cs" />
+    <Compile Include="commands\AdminCommands\CustomPacket\CustomPacket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="commands\AdminCommands\GetZ.cs" />
+    <None Include="App.config" />
+    <Compile Include="commands\GMCommands\checklos.cs" />
+    <Compile Include="commands\GMCommands\double_ip.cs" />
+    <Compile Include="commands\GMCommands\ngg.cs" />
+    <Compile Include="commands\PlayerCommands\dailys.cs" />
+    <Compile Include="commands\PlayerCommands\range.cs" />
+    <Compile Include="commands\PlayerCommands\serverinfo.cs" />
+    <Compile Include="commands\PlayerCommands\SwitchCommandHandler.cs" />
+    <Compile Include="commands\PlayerCommands\target.cs" />
+    <Compile Include="commands\PlayerCommands\Translate.cs" />
+    <Compile Include="commands\PlayerCommands\version.cs" />
+    <Compile Include="commands\RefreshCommandAttribute.cs" />
+    <Compile Include="Core\ErrorRateLimiter.cs" />
+    <Compile Include="Core\ITicker.cs" />
+    <Compile Include="Core\Rand.cs" />
+    <Compile Include="Core\SlidingWindow.cs" />
+    <Compile Include="Core\Time.cs" />
+    <Compile Include="Core\Vector3Exts.cs" />
+    <Compile Include="effects\ArtifactDoorEffect.cs" />
+    <Compile Include="effects\GameDoorInteractEffect.cs" />
+    <Compile Include="effects\NPCInteractEffect.cs" />
+    <Compile Include="gameobjects\AEDoorOpener\AEDoorOpener.cs" />
+    <Compile Include="gameobjects\Atlantis\Artefact Master.cs" />
+    <Compile Include="gameobjects\Atlantis\Boats\ToABoatMerchant.cs" />
+    <Compile Include="gameobjects\Atlantis\Bosse\Ammut.cs" />
+    <Compile Include="gameobjects\Atlantis\Bosse\Cetus.cs" />
+    <Compile Include="gameobjects\Atlantis\Bosse\Chimera.cs" />
+    <Compile Include="gameobjects\Atlantis\Bosse\Moirai.cs" />
+    <Compile Include="gameobjects\Atlantis\Bosse\Desmona Harpys\AtlantisVisualModelNPC.cs" />
+    <Compile Include="gameobjects\Atlantis\Bosse\Desmona Harpys\DesmonaCoin.cs" />
+    <Compile Include="gameobjects\Atlantis\Bosse\Desmona Harpys\DesmonaHarpy.cs" />
+    <Compile Include="gameobjects\Atlantis\Bosse\Desmona Harpys\PortalCeremonyBaseNPC.cs" />
+    <Compile Include="gameobjects\Atlantis\Bosse\Desmona Harpys\PortalCeremonyExampleNPC.cs" />
+    <Compile Include="gameobjects\Atlantis\Bosse\Martikhoras.cs" />
+    <Compile Include="gameobjects\Atlantis\Bosse\Medusa.cs" />
+    <Compile Include="gameobjects\Atlantis\Bosse\Phoenix.cs" />
+    <Compile Include="gameobjects\Atlantis\Bosse\Runihura.cs" />
+    <Compile Include="gameobjects\Atlantis\Bosse\Talos.cs" />
+    <Compile Include="gameobjects\Atlantis\Bosse\Typhon.cs" />
+    <Compile Include="gameobjects\Atlantis\Dockmaster.cs" />
+    <Compile Include="gameobjects\Atlantis\MasterLevel\MasterLevelRemover.cs" />
+    <Compile Include="gameobjects\Atlantis\MasterLevel\MLNPC.cs" />
+    <Compile Include="gameobjects\Atlantis\MasterLevel\MLTokens.cs" />
+    <Compile Include="gameobjects\Atlantis\MasterLevel\MLTokensMerchant.cs" />
+    <Compile Include="gameobjects\Boss Pets\BossSubPets.cs" />
+    <Compile Include="gameobjects\Boss Pets\BossPet.cs" />
+    <Compile Include="gameobjects\ChampionNPCs\ChampionNPC.cs" />
+    <Compile Include="gameobjects\ChampionNPCs\ChampionWeapons.cs" />
+    <Compile Include="gameobjects\CustomNPC\AlbLaunchPvP\AEBackHomePorter.cs" />
+    <Compile Include="gameobjects\CustomNPC\AlbLaunchPvP\PvPPorter.cs" />
+    <Compile Include="gameobjects\CustomNPC\BuffBot\BuffBot.cs" />
+    <Compile Include="gameobjects\CustomNPC\BuffBot\BuffMerchant.cs" />
+    <Compile Include="gameobjects\CustomNPC\CaledoniaTeleporter\CaledoniaTeleporter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Effect NPC\DBSpawn.cs" />
+    <Compile Include="gameobjects\CustomNPC\Effect NPC\effectNPC.cs" />
+    <Compile Include="gameobjects\CustomNPC\Effect NPC\SpellEffectMob.cs" />
+    <Compile Include="gameobjects\CustomNPC\ExtensionNPC.cs" />
+    <Compile Include="gameobjects\CustomNPC\ExtensionRemoverNPC.cs" />
+    <Compile Include="gameobjects\CustomNPC\FireAeBody\FireBody.cs" />
+    <Compile Include="gameobjects\CustomNPC\GameConsignmentBanker.cs" />
+    <Compile Include="gameobjects\CustomNPC\GameVaultBanker.cs" />
+    <Compile Include="gameobjects\CustomNPC\BarrelExchanger\HealingBarrelExchanger.cs" />
+    <Compile Include="gameobjects\CustomNPC\BarrelExchanger\PowerBarrelExchanger.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Darkspire Teleporter\DarkspireAlb.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Darkspire Teleporter\DarkspireHib.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Darkspire Teleporter\DarkspireMid.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\EventTeleporters\TeleporterCamelotAlb.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\LabyPorter\AngoraAlb.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\LabyPorter\AngoraHibernia.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\LabyPorter\AngorarMid.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\NF Teleporter\NFTeleporterAlb.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\NF Teleporter\NFTeleporterMid.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\NF Teleporter\ToaPorterHibernia.cs" />
+    <Compile Include="gameobjects\CustomNPC\StarterEquipment\Level20StarterEquip.cs" />
+    <Compile Include="gameobjects\CustomNPC\StarterEquipment\Level40StarterEquipment.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\EventTeleporters\EventAlbTeleporter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\EventTeleporters\EventHibTeleporter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\EventTeleporters\EventMidTeleporter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Portal\ML10AEPorter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Portal\NFAEPorter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Portal\VeilRiftAEPorter.cs" />
+    <Compile Include="gameobjects\CustomNPC\TownCrier.cs" />
+    <Compile Include="gameobjects\CustomNPC\VaultSummon.cs" />
+    <Compile Include="gameobjects\CustomNPC\Zhulrathuul\Zhulrathuul.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\AgramonTeleporter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\AlbLaunchTeleporter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Cata Obelisk\Obelisk.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\PassageEntranceAEPorter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\EntranceAEPorter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\LabyrinthObelisk.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\NewFrontierTeleporterMidgard.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\NewFrontierTeleporterHibernia.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\NewFrontierTeleporterAlbion.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Runihura Porter\RunihuraAlb.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Runihura Porter\RunihuraHib.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Runihura Porter\RunihuraMid.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Thron Teleporter\ThronAlb.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Thron Teleporter\ThronHib.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Thron Teleporter\ThronMid.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Thron Teleporter\ToThronAlb.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Thron Teleporter\ToThronHib.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\Thron Teleporter\ToThronMid.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ToA Teleporter\AlbKythera.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ToA Teleporter\AlbML5Hin.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ToA Teleporter\DeahienTeleportAlb.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ToA Teleporter\DeahienTeleportHib.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ToA Teleporter\DeahienTeleportMid.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ToA Teleporter\HibKythera.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ToA Teleporter\HibML5back.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ToA Teleporter\HibML5Hin.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ToA Teleporter\MidKythera.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ToA Teleporter\MidML5back.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ToA Teleporter\MidML5Hin.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ToA Teleporter\ML5backAlb.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ToA Teleporter\ToaPorterAlbion.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ToA Teleporter\ToaPorterHibernia.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ToA Teleporter\ToaPorterMidgard.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\TreibtCalitePorter\TreibtCalitePorter.cs" />
+    <Compile Include="gameobjects\CustomNPC\TransformMerchant\TranformMerchant.cs" />
+    <Compile Include="gameobjects\CustomNPC\XPLootNPC\XPLootNPC.cs" />
+    <Compile Include="gameobjects\DomainSignatureAttribute.cs" />
+    <Compile Include="gameobjects\Dragons\Draco.cs" />
+    <Compile Include="gameobjects\Epic\Bosse\Abion\Ansgar.cs" />
+    <Compile Include="gameobjects\Epic\Bosse\Abion\Nohragar.cs" />
+    <Compile Include="gameobjects\Epic\Bosse\Abion\AnsgarsNecroservant.cs" />
+    <Compile Include="gameobjects\CustomNPC\Trifecta\TrifectaMerchant.cs" />
+    <Compile Include="gameutils\ClientExtensions.cs" />
+    <Compile Include="gameutils\DolServerListUpdate\ServerPHPListUpdate.cs" />
+    <Compile Include="gameutils\GameEvents\DOLTestServer.cs" />
+    <Compile Include="gameutils\GameEvents\FightingNPC.cs" />
+    <Compile Include="gameutils\GameEvents\FollowingNPC.cs" />
+    <Compile Include="gameutils\GameEvents\HorseRace.cs" />
+    <Compile Include="gameutils\GameEvents\Santa.cs" />
+    <Compile Include="gameutils\GameEvents\StartupGuilds.cs" />
+    <Compile Include="gameutils\GameEvents\StartupLocations.cs" />
+    <Compile Include="gameutils\GameEvents\TalkingNPC.cs" />
+    <Compile Include="gameutils\GameEvents\TutorialJumpPointHandler.cs" />
+    <Compile Include="gameutils\GameEvents\WebUIGenerator.cs" />
+    <Compile Include="gameutils\GameEvents\XMLWebUIGenerator.cs" />
+    <Compile Include="gameutils\GameMath.cs" />
+    <Compile Include="gameutils\GameEvents\PlayerEnterExit.cs" />
+    <Compile Include="gameutils\GuildAndAllianceUpdater\GuildAndAllianceUpdate.cs" />
+    <Compile Include="gameutils\StartupEquipment.cs" />
+    <Compile Include="gameutils\StatusServer\StatusServer.cs" />
+    <Compile Include="gameutils\UniqueLootGenerator.cs" />
+    <Compile Include="gameutils\DolServerListUpdate\ServerListUpdate.cs" />
+    <Compile Include="gameutils\LootGeneratorChest.cs" />
+    <Compile Include="gameutils\PCXFileConverter.cs" />
+    <Compile Include="gameutils\GamePlayerUtils.cs" />
+    <Compile Include="keeps\Gameobjects\Guards\Patrol.cs" />
+    <Compile Include="packets\Server\PacketLib1126.cs" />
+    <Compile Include="packets\Server\PacketLib1125.cs" />
+    <Compile Include="packets\Server\PacketLib1124.cs" />
+    <Compile Include="packets\Server\PacketLib1123.cs" />
+    <Compile Include="packets\Server\PacketLib1122.cs" />
+    <Compile Include="packets\Server\Version1119.cs" />
+    <Compile Include="packets\Server\PacketLib1121.cs" />
+    <Compile Include="packets\Server\PacketLib1119.cs" />
+    <Compile Include="propertycalc\MythicalSiegeSpeedPercentCalculator .cs" />
+    <Compile Include="quests\Dargonslayer\Albion\DragonslayerQuestArmsman.cs" />
+    <Compile Include="quests\Dargonslayer\Albion\DragonslayerQuestCabalist.cs" />
+    <Compile Include="quests\Dargonslayer\Albion\DragonslayerQuestCleric.cs" />
+    <Compile Include="quests\Dargonslayer\Albion\DragonslayerQuestFriar.cs" />
+    <Compile Include="quests\Dargonslayer\Albion\DragonslayerQuestHeretic.cs" />
+    <Compile Include="quests\Dargonslayer\Albion\DragonslayerQuestInfiltrator.cs" />
+    <Compile Include="quests\Dargonslayer\Albion\DragonslayerQuestMercenary.cs" />
+    <Compile Include="quests\Dargonslayer\Albion\DragonslayerQuestMinstrel.cs" />
+    <Compile Include="quests\Dargonslayer\Albion\DragonslayerQuestNecromancer.cs" />
+    <Compile Include="quests\Dargonslayer\Albion\DragonslayerQuestPaladin.cs" />
+    <Compile Include="quests\Dargonslayer\Albion\DragonslayerQuestReaver.cs" />
+    <Compile Include="quests\Dargonslayer\Albion\DragonslayerQuestScout.cs" />
+    <Compile Include="quests\Dargonslayer\Albion\DragonslayerQuestSorcerer.cs" />
+    <Compile Include="quests\Dargonslayer\Albion\DragonslayerQuestTheurgist.cs" />
+    <Compile Include="quests\Dargonslayer\Albion\DragonslayerQuestWizard.cs" />
+    <Compile Include="quests\Dargonslayer\Hibernia\DragonslayerQuestAnimist.cs" />
+    <Compile Include="quests\Dargonslayer\Hibernia\DragonslayerQuestBainshee.cs" />
+    <Compile Include="quests\Dargonslayer\Hibernia\DragonslayerQuestBard.cs" />
+    <Compile Include="quests\Dargonslayer\Hibernia\DragonslayerQuestBlademaster.cs" />
+    <Compile Include="quests\Dargonslayer\Hibernia\DragonslayerQuestChampion.cs" />
+    <Compile Include="quests\Dargonslayer\Hibernia\DragonslayerQuestDruid.cs" />
+    <Compile Include="quests\Dargonslayer\Hibernia\DragonslayerQuestEldritch.cs" />
+    <Compile Include="quests\Dargonslayer\Hibernia\DragonslayerQuestEnchanter.cs" />
+    <Compile Include="quests\Dargonslayer\Hibernia\DragonslayerQuestHero.cs" />
+    <Compile Include="quests\Dargonslayer\Hibernia\DragonslayerQuestMentalist.cs" />
+    <Compile Include="quests\Dargonslayer\Hibernia\DragonslayerQuestNightshade.cs" />
+    <Compile Include="quests\Dargonslayer\Hibernia\DragonslayerQuestRanger.cs" />
+    <Compile Include="quests\Dargonslayer\Hibernia\DragonslayerQuestValewalker.cs" />
+    <Compile Include="quests\Dargonslayer\Hibernia\DragonslayerQuestVampiir.cs" />
+    <Compile Include="quests\Dargonslayer\Hibernia\DragonslayerQuestWarden.cs" />
+    <Compile Include="quests\Dargonslayer\Mauler\DragonslayerQuestMaulerAlb.cs" />
+    <Compile Include="quests\Dargonslayer\Mauler\DragonslayerQuestMaulerHib.cs" />
+    <Compile Include="quests\Dargonslayer\Mauler\DragonslayerQuestMaulerMid.cs" />
+    <Compile Include="quests\Dargonslayer\Midgard\DragonslayerQuestBerserker.cs" />
+    <Compile Include="quests\Dargonslayer\Midgard\DragonslayerQuestBonedancer.cs" />
+    <Compile Include="quests\Dargonslayer\Midgard\DragonslayerQuestHealer.cs" />
+    <Compile Include="quests\Dargonslayer\Midgard\DragonslayerQuestHunter.cs" />
+    <Compile Include="quests\Dargonslayer\Midgard\DragonslayerQuestRunemaster.cs" />
+    <Compile Include="quests\Dargonslayer\Midgard\DragonslayerQuestSavage.cs" />
+    <Compile Include="quests\Dargonslayer\Midgard\DragonslayerQuestShadowblade.cs" />
+    <Compile Include="quests\Dargonslayer\Midgard\DragonslayerQuestShaman.cs" />
+    <Compile Include="quests\Dargonslayer\Midgard\DragonslayerQuestSkald.cs" />
+    <Compile Include="quests\Dargonslayer\Midgard\DragonslayerQuestSpiritmaster.cs" />
+    <Compile Include="quests\Dargonslayer\Midgard\DragonslayerQuestThane.cs" />
+    <Compile Include="quests\Dargonslayer\Midgard\DragonslayerQuestValkyrie.cs" />
+    <Compile Include="quests\Dargonslayer\Midgard\DragonslayerQuestWarlock.cs" />
+    <Compile Include="quests\Dargonslayer\Midgard\DragonslayerQuestWarrior.cs" />
+    <Compile Include="quests\Quests\Albion\AFewRepairs.cs" />
+    <Compile Include="quests\Quests\Albion\AfterTheAccident.cs" />
+    <Compile Include="quests\Quests\Albion\AgainstTheGrain.cs" />
+    <Compile Include="quests\Quests\Albion\Aiding_Guard_Alakyrr.cs" />
+    <Compile Include="quests\Quests\Albion\AMessageToTheManes.cs" />
+    <Compile Include="quests\Quests\Albion\AndrewsSkins.cs" />
+    <Compile Include="quests\Quests\Albion\ANewHeroesWelcome.cs" />
+    <Compile Include="quests\Quests\Albion\ArgussArrows.cs" />
+    <Compile Include="quests\Quests\Albion\ArleighsAssistant.cs" />
+    <Compile Include="quests\Quests\Albion\ArrowsForYettaFletcher.cs" />
+    <Compile Include="quests\Quests\Albion\BaseFrederickQuest.cs" />
+    <Compile Include="quests\Quests\Albion\BeginningOfWar.cs" />
+    <Compile Include="quests\Quests\Albion\BoarStew.cs" />
+    <Compile Include="quests\Quests\Albion\BoulderlingBalm.cs" />
+    <Compile Include="quests\Quests\Albion\BreakingTheBandits.cs" />
+    <Compile Include="quests\Quests\Albion\BrokenTabletToAAlb.cs" />
+    <Compile Include="quests\Quests\Albion\BuildingABetterBow.cs" />
+    <Compile Include="quests\Quests\Albion\Cellar_Infestation.cs" />
+    <Compile Include="quests\Quests\Albion\CemmethsOrders.cs" />
+    <Compile Include="quests\Quests\Albion\ChildsPlay.cs" />
+    <Compile Include="quests\Quests\Albion\CityOfCamelot.cs" />
+    <Compile Include="quests\Quests\Albion\ClericMulgrut.cs" />
+    <Compile Include="quests\Quests\Albion\Collection.cs" />
+    <Compile Include="quests\Quests\Albion\Culmination.cs" />
+    <Compile Include="quests\Quests\Albion\Disenchanted.cs" />
+    <Compile Include="quests\Quests\Albion\DredgeUpAPledge.cs" />
+    <Compile Include="quests\Quests\Albion\epic\Academy50.cs" />
+    <Compile Include="quests\Quests\Albion\epic\Church50.cs" />
+    <Compile Include="quests\Quests\Albion\epic\Defenders50.cs" />
+    <Compile Include="quests\Quests\Albion\epic\Shadows50.cs" />
+    <Compile Include="quests\Quests\Albion\Frontiers.cs" />
+    <Compile Include="quests\Quests\Albion\GodelevasNeed.cs" />
+    <Compile Include="quests\Quests\Albion\GreenerPastures.cs" />
+    <Compile Include="quests\Quests\Albion\GreetingsArmsman.cs" />
+    <Compile Include="quests\Quests\Albion\GreetingsPaladin.cs" />
+    <Compile Include="quests\Quests\Albion\HalfOgreAllMan.cs" />
+    <Compile Include="quests\Quests\Albion\HeartOfSephucoth.cs" />
+    <Compile Include="quests\Quests\Albion\HuntForArachneida.cs" />
+    <Compile Include="quests\Quests\Albion\HuntForSlith.cs" />
+    <Compile Include="quests\Quests\Albion\ImportantDelivery.cs" />
+    <Compile Include="quests\Quests\Albion\IreFairyIre.cs" />
+    <Compile Include="quests\Quests\Albion\LawrencesOil.cs" />
+    <Compile Include="quests\Quests\Albion\MarlinsSalesPitch.cs" />
+    <Compile Include="quests\Quests\Albion\MovementAndInteraction.cs" />
+    <Compile Include="quests\Quests\Albion\NoHopeForTheHopeful.cs" />
+    <Compile Include="quests\Quests\Albion\Nuisances.cs" />
+    <Compile Include="quests\Quests\Albion\RecruitingNothingButTrouble.cs" />
+    <Compile Include="quests\Quests\Albion\RevengeTheOtherWhiteMeat.cs" />
+    <Compile Include="quests\Quests\Albion\ShakenSquire.cs" />
+    <Compile Include="quests\Quests\Albion\TombWithAView.cs" />
+    <Compile Include="quests\Quests\Albion\ToReachTheBreach.cs" />
+    <Compile Include="quests\Quests\Albion\TraitorInCotswold.cs" />
+    <Compile Include="quests\Quests\Albion\TreviansBestFriend.cs" />
+    <Compile Include="quests\Quests\Albion\WhenBloodSpeaks.cs" />
+    <Compile Include="quests\Quests\Albion\WhenGoodBrowniesGoBad.cs" />
+    <Compile Include="quests\Quests\Albion\WicoessasPropositionToAAlb.cs" />
+    <Compile Include="quests\Quests\Albion\WolfPeltCloak.cs" />
+    <Compile Include="quests\Quests\Albion\YdeniasCrush.cs" />
+    <Compile Include="quests\Quests\behaviour\examples\TestBehaviour.cs" />
+    <Compile Include="quests\Quests\Examples and  Tutorials\Artifact encounter\BasicEncounterMob.cs" />
+    <Compile Include="quests\Quests\Examples and  Tutorials\Artifact encounter\TetheredEncounterMob.cs" />
+    <Compile Include="quests\Quests\Examples and  Tutorials\Classic quest\HelpSirQuait.cs" />
+    <Compile Include="quests\Quests\Examples and  Tutorials\MasterLevel encounter\EncounterMgr.cs" />
+    <Compile Include="quests\Quests\Examples and  Tutorials\MasterLevel encounter\ML1FireIsland.cs" />
+    <Compile Include="quests\Quests\Examples and  Tutorials\Search quest\WingsOfTheIsleHibernia.cs" />
+    <Compile Include="quests\Quests\Hibernia\BaseAddrirQuest.cs" />
+    <Compile Include="quests\Quests\Hibernia\BasicsOfCombat.cs" />
+    <Compile Include="quests\Quests\Hibernia\BonesToBlades.cs" />
+    <Compile Include="quests\Quests\Hibernia\BrokenTabletToAHib.cs" />
+    <Compile Include="quests\Quests\Hibernia\ChildsPlay.cs" />
+    <Compile Include="quests\Quests\Hibernia\CityOfTirnaNog.cs" />
+    <Compile Include="quests\Quests\Hibernia\epic\Essence50.cs" />
+    <Compile Include="quests\Quests\Hibernia\epic\Focus50.cs" />
+    <Compile Include="quests\Quests\Hibernia\epic\Harmony50.cs" />
+    <Compile Include="quests\Quests\Hibernia\ImportantDelivery.cs" />
+    <Compile Include="quests\Quests\Hibernia\MagicalBacklash.cs" />
+    <Compile Include="quests\Quests\Hibernia\MovementAndInteraction.cs" />
+    <Compile Include="quests\Quests\Hibernia\Nuisances.cs" />
+    <Compile Include="quests\Quests\Hibernia\SearchForKnowledge.cs" />
+    <Compile Include="quests\Quests\Hibernia\TheLostSeed.cs" />
+    <Compile Include="quests\Quests\Hibernia\ToReachTheBreach.cs" />
+    <Compile Include="quests\Quests\Hibernia\TraitorInMagMell.cs" />
+    <Compile Include="quests\Quests\Hibernia\WicoessasPropositionToAHIB.cs" />
+    <Compile Include="quests\Quests\Midgard\Amoras_Aid.cs" />
+    <Compile Include="quests\Quests\Midgard\A_Beary_Bad_Problem.cs" />
+    <Compile Include="quests\Quests\Midgard\Bad_Food.cs" />
+    <Compile Include="quests\Quests\Midgard\BaseDalikorQuest.cs" />
+    <Compile Include="quests\Quests\Midgard\Bear Skins.cs" />
+    <Compile Include="quests\Quests\Midgard\BeginningOfWar.cs" />
+    <Compile Include="quests\Quests\Midgard\BollisLeatherSupplies.cs" />
+    <Compile Include="quests\Quests\Midgard\BrokenTabletToAMid.cs" />
+    <Compile Include="quests\Quests\Midgard\CallingtheValeCouncil.cs" />
+    <Compile Include="quests\Quests\Midgard\Childs_Play.cs" />
+    <Compile Include="quests\Quests\Midgard\CityOfJordheim.cs" />
+    <Compile Include="quests\Quests\Midgard\Collection.cs" />
+    <Compile Include="quests\Quests\Midgard\Culmination.cs" />
+    <Compile Include="quests\Quests\Midgard\epic\MidgardRogue50.cs" />
+    <Compile Include="quests\Quests\Midgard\epic\Mystic50.cs" />
+    <Compile Include="quests\Quests\Midgard\epic\Seer50.cs" />
+    <Compile Include="quests\Quests\Midgard\epic\Viking50.cs" />
+    <Compile Include="quests\Quests\Midgard\Essence_of_Life.cs" />
+    <Compile Include="quests\Quests\Midgard\Frontiers.cs" />
+    <Compile Include="quests\Quests\Midgard\ImportantDelivery.cs" />
+    <Compile Include="quests\Quests\Midgard\Learn_The_Hunt.cs" />
+    <Compile Include="quests\Quests\Midgard\Mauler_Invasion.cs" />
+    <Compile Include="quests\Quests\Midgard\Mead_Run.cs" />
+    <Compile Include="quests\Quests\Midgard\MovementAndInteraction.cs" />
+    <Compile Include="quests\Quests\Midgard\Nuisances.cs" />
+    <Compile Include="quests\Quests\Midgard\Rindas_Lost_Key.cs" />
+    <Compile Include="quests\Quests\Midgard\StolenEggs.cs" />
+    <Compile Include="quests\Quests\Midgard\Sveabone_Hilt_Sword.cs" />
+    <Compile Include="quests\Quests\Midgard\The_Birthday_Gift.cs" />
+    <Compile Include="quests\Quests\Midgard\TraitorInMularn.cs" />
+    <Compile Include="quests\Quests\Midgard\Trial_of_Strength.cs" />
+    <Compile Include="quests\Quests\Midgard\WicoessasPropositionToAMid.cs" />
+    <Compile Include="quests\Quests\ML10Quest.cs" />
+    <Compile Include="quests\Quests\QuestSpawn\OutofNowhereSpawn.cs" />
+    <Compile Include="quests\Task\RvRTask.cs" />
+    <Compile Include="quests\Task\RvRTaskMission.cs" />
+    <Compile Include="relics\RelicPadNPC.cs" />
+    <Compile Include="Language\ITranslatableObject.cs" />
+    <Compile Include="Language\LanguageMgr.cs" />
+    <Compile Include="Managers\WorldManager\WorldManager.cs" />
+    <Compile Include="Managers\WorldManager\WeatherManager.cs" />
+    <Compile Include="Managers\WorldManager\RegionWeather.cs" />
+    <Compile Include="playertitles\titles\Oberlisks\OberliskTitle.cs" />
+    <Compile Include="propertycalc\MythicalEvadeCalculator.cs" />
+    <Compile Include="relics\AEPillarOpener.cs" />
+    <Compile Include="relics\RelicPillar.cs" />
+    <Compile Include="SimpleScheduler.cs" />
+    <Compile Include="commands\AdminCommands\Freeze.cs" />
+    <Compile Include="commands\GMCommands\PlayEffect.cs" />
+    <Compile Include="commands\GMCommands\PlaySound.cs" />
+    <Compile Include="commands\PlayerCommands\online.cs" />
+    <Compile Include="gameobjects\CustomNPC\Hastener.cs" />
+    <Compile Include="gameobjects\GameNPCHelper.cs" />
+    <Compile Include="gameobjects\GamePet\GameSpiritmasterPets.cs" />
+    <Compile Include="gameobjects\GamePet\GamePet.cs" />
+    <Compile Include="gameutils\Params\CustomParamsExtensions.cs" />
+    <Compile Include="gameutils\Params\ICustomParamsValuable.cs" />
+    <Compile Include="gameutils\ReaderWriterCollections\ReaderWriterHashSet.cs" />
+    <Compile Include="gameutils\ReaderWriterCollections\ReaderWriterList.cs" />
+    <Compile Include="gameutils\ReaderWriterCollections\ReaderWriterDictionary.cs" />
+    <Compile Include="gameutils\skills\ISpellCastingAbilityHandler.cs" />
+    <Compile Include="gameutils\Timer\RegionTimerAction.cs" />
+    <Compile Include="Managers\NpcManager\MobAmbientBehaviourManager.cs" />
+    <Compile Include="Managers\NpcManager\NpcManager.cs" />
+    <Compile Include="Managers\PlayerManager\PlayerManager.cs" />
+    <Compile Include="Managers\PlayerManager\InvalidNamesManager.cs" />
+    <Compile Include="packets\Server\PacketLib1117.cs" />
+    <Compile Include="packets\Server\PacketLib1116.cs" />
+    <Compile Include="commands\AdminCommands\Account.cs" />
+    <Compile Include="commands\AdminCommands\Shutdown.cs" />
+    <Compile Include="commands\AdminCommands\code.cs" />
+    <Compile Include="commands\AdminCommands\Reload.cs" />
+    <Compile Include="commands\AdminCommands\ServerProperties.cs" />
+    <Compile Include="commands\AdminCommands\plvl.cs" />
+    <Compile Include="commands\GMCommands\addbind.cs" />
+    <Compile Include="commands\GMCommands\AddHookPoint.cs" />
+    <Compile Include="commands\GMCommands\Announce.cs" />
+    <Compile Include="commands\GMCommands\area.cs" />
+    <Compile Include="commands\GMCommands\Ban.cs" />
+    <Compile Include="commands\GMcommands\blink.cs" />
+    <Compile Include="commands\GMCommands\cast.cs" />
+    <Compile Include="commands\GMCommands\ClientList.cs" />
+    <Compile Include="commands\GMCommands\zone.cs" />
+    <Compile Include="commands\GMCommands\crafting.cs" />
+    <Compile Include="commands\GMCommands\debug.cs" />
+    <Compile Include="commands\GMCommands\debugjump.cs" />
+    <Compile Include="commands\GMCommands\door.cs" />
+    <Compile Include="commands\GMCommands\Faction.cs" />
+    <Compile Include="commands\GMCommands\gmappeal.cs" />
+    <Compile Include="commands\GMCommands\gmrelic.cs" />
+    <Compile Include="commands\GMCommands\gmrelicpad.cs" />
+    <Compile Include="commands\GMCommands\harm.cs" />
+    <Compile Include="commands\GMCommands\heal.cs" />
+    <Compile Include="commands\GMCommands\GMinfo.cs" />
+    <Compile Include="commands\GMCommands\Instance.cs" />
+    <Compile Include="commands\gmcommands\item.cs" />
+    <Compile Include="commands\GMCommands\jump.cs" />
+    <Compile Include="commands\GMCommands\keep.cs" />
+    <Compile Include="commands\GMCommands\KeepComponent.cs" />
+    <Compile Include="commands\GMCommands\keepguard.cs" />
+    <Compile Include="commands\GMCommands\kick.cs" />
+    <Compile Include="commands\GMCommands\merchant.cs" />
+    <Compile Include="commands\GMCommands\Minorelic.cs" />
+    <Compile Include="commands\GMCommands\mob.cs" />
+    <Compile Include="commands\GMCommands\morph.cs" />
+    <Compile Include="commands\GMCommands\mountgm.cs" />
+    <Compile Include="commands\GMCommands\mute.cs" />
+    <Compile Include="commands\GMCommands\npc.cs" />
+    <Compile Include="commands\GMCommands\object.cs" />
+    <Compile Include="commands\GMCommands\path.cs" />
+    <Compile Include="commands\GMCommands\Player.cs" />
+    <Compile Include="commands\GMCommands\Removehouse.cs" />
+    <Compile Include="commands\gmcommands\resetability.cs" />
+    <Compile Include="commands\GMCommands\siegeweapon.cs" />
+    <Compile Include="commands\GMCommands\speed.cs" />
+    <Compile Include="commands\GMCommands\Team.cs" />
+    <Compile Include="commands\GMCommands\Teleport.cs" />
+    <Compile Include="commands\GMCommands\titlegm.cs" />
+    <Compile Include="commands\GMCommands\walk.cs" />
+    <Compile Include="commands\GMCommands\weather.cs" />
+    <Compile Include="commands\PlayerCommands\advice.cs" />
+    <Compile Include="commands\PlayerCommands\advisor.cs" />
+    <Compile Include="commands\PlayerCommands\afk.cs" />
+    <Compile Include="commands\PlayerCommands\anonymous.cs" />
+    <Compile Include="commands\PlayerCommands\assist.cs" />
+    <Compile Include="commands\PlayerCommands\autoloot.cs" />
+    <Compile Include="commands\PlayerCommands\autosplit.cs" />
+    <Compile Include="commands\PlayerCommands\battlegroup.cs" />
+    <Compile Include="commands\PlayerCommands\bind.cs" />
+    <Compile Include="commands\PlayerCommands\Boat.cs" />
+    <Compile Include="commands\PlayerCommands\boot.cs" />
+    <Compile Include="commands\PlayerCommands\bountyrent.cs" />
+    <Compile Include="commands\PlayerCommands\broadcast.cs" />
+    <Compile Include="commands\PlayerCommands\cancelstyle.cs" />
+    <Compile Include="commands\PlayerCommands\chatgroup.cs" />
+    <Compile Include="commands\PlayerCommands\checkappeal.cs" />
+    <Compile Include="commands\PlayerCommands\rearrange.cs" />
+    <Compile Include="commands\playercommands\webdisplay.cs" />
+    <Compile Include="commands\PlayerCommands\cloak.cs" />
+    <Compile Include="commands\PlayerCommands\cmdhelp.cs" />
+    <Compile Include="commands\PlayerCommands\appeal.cs" />
+    <Compile Include="commands\PlayerCommands\trade.cs" />
+    <Compile Include="commands\PlayerCommands\LFG.cs" />
+    <Compile Include="commands\PlayerCommands\region.cs" />
+    <Compile Include="commands\PlayerCommands\QuestCommands.cs" />
+    <Compile Include="commands\PlayerCommands\filter.cs" />
+    <Compile Include="commands\playercommands\realm.cs" />
+    <Compile Include="commands\playercommands\relic.cs" />
+    <Compile Include="commands\PlayerCommands\roleplay.cs" />
+    <Compile Include="commands\PlayerCommands\deal.cs" />
+    <Compile Include="commands\PlayerCommands\disband.cs" />
+    <Compile Include="commands\PlayerCommands\discard.cs" />
+    <Compile Include="commands\PlayerCommands\dismount.cs" />
+    <Compile Include="commands\PlayerCommands\dropmr.cs" />
+    <Compile Include="commands\PlayerCommands\duel.cs" />
+    <Compile Include="commands\PlayerCommands\email.cs" />
+    <Compile Include="commands\PlayerCommands\emote.cs" />
+    <Compile Include="commands\PlayerCommands\emotes.cs" />
+    <Compile Include="commands\PlayerCommands\facegloc.cs" />
+    <Compile Include="commands\PlayerCommands\faceloc.cs" />
+    <Compile Include="commands\PlayerCommands\Formation.cs" />
+    <Compile Include="commands\PlayerCommands\freelevel.cs" />
+    <Compile Include="commands\PlayerCommands\friend.cs" />
+    <Compile Include="commands\PlayerCommands\gloc.cs" />
+    <Compile Include="commands\PlayerCommands\GroundAssist.cs" />
+    <Compile Include="commands\PlayerCommands\group.cs" />
+    <Compile Include="commands\PlayerCommands\gtrange.cs" />
+    <Compile Include="commands\PlayerCommands\guild.cs" />
+    <Compile Include="commands\PlayerCommands\guildchat.cs" />
+    <Compile Include="commands\PlayerCommands\held.cs" />
+    <Compile Include="commands\PlayerCommands\helm.cs" />
+    <Compile Include="commands\PlayerCommands\hood.cs" />
+    <Compile Include="commands\PlayerCommands\horse.cs" />
+    <Compile Include="commands\playercommands\summon.cs" />
+    <Compile Include="commands\PlayerCommands\house.cs" />
+    <Compile Include="commands\PlayerCommands\houseface.cs" />
+    <Compile Include="commands\PlayerCommands\housefriend.cs" />
+    <Compile Include="commands\PlayerCommands\housepoints.cs" />
+    <Compile Include="commands\PlayerCommands\ignore.cs" />
+    <Compile Include="commands\PlayerCommands\invite.cs" />
+    <Compile Include="commands\PlayerCommands\knock.cs" />
+    <Compile Include="commands\PlayerCommands\language.cs" />
+    <Compile Include="commands\PlayerCommands\lastname.cs" />
+    <Compile Include="commands\PlayerCommands\level.cs" />
+    <Compile Include="commands\PlayerCommands\makeleader.cs" />
+    <Compile Include="commands\PlayerCommands\namemount.cs" />
+    <Compile Include="commands\PlayerCommands\news.cs" />
+    <Compile Include="commands\PlayerCommands\nohelp.cs" />
+    <Compile Include="commands\PlayerCommands\noqueue.cs" />
+    <Compile Include="commands\PlayerCommands\password.cs" />
+    <Compile Include="commands\PlayerCommands\played.cs" />
+    <Compile Include="commands\PlayerCommands\pray.cs" />
+    <Compile Include="commands\PlayerCommands\quest.cs" />
+    <Compile Include="commands\PlayerCommands\quit.cs" />
+    <Compile Include="commands\PlayerCommands\random.cs" />
+    <Compile Include="commands\PlayerCommands\distance.cs" />
+    <Compile Include="commands\PlayerCommands\release.cs" />
+    <Compile Include="commands\PlayerCommands\Repair.cs" />
+    <Compile Include="commands\PlayerCommands\report.cs" />
+    <Compile Include="commands\PlayerCommands\respec.cs" />
+    <Compile Include="commands\PlayerCommands\roll.cs" />
+    <Compile Include="commands\PlayerCommands\rp.cs" />
+    <Compile Include="commands\PlayerCommands\safety.cs" />
+    <Compile Include="commands\PlayerCommands\salvage.cs" />
+    <Compile Include="commands\PlayerCommands\say.cs" />
+    <Compile Include="commands\PlayerCommands\send.cs" />
+    <Compile Include="commands\PlayerCommands\settitle.cs" />
+    <Compile Include="commands\PlayerCommands\setwho.cs" />
+    <Compile Include="commands\PlayerCommands\show.cs" />
+    <Compile Include="commands\PlayerCommands\shuffle.cs" />
+    <Compile Include="commands\PlayerCommands\spacing.cs" />
+    <Compile Include="commands\PlayerCommands\sprint.cs" />
+    <Compile Include="commands\PlayerCommands\stand.cs" />
+    <Compile Include="commands\PlayerCommands\stats.cs" />
+    <Compile Include="commands\PlayerCommands\statsanon.cs" />
+    <Compile Include="commands\PlayerCommands\stuck.cs" />
+    <Compile Include="commands\PlayerCommands\Lasttarget.cs" />
+    <Compile Include="commands\PlayerCommands\task.cs" />
+    <Compile Include="commands\PlayerCommands\time.cs" />
+    <Compile Include="commands\playercommands\train.cs" />
+    <Compile Include="commands\PlayerCommands\ViewReports.cs" />
+    <Compile Include="commands\PlayerCommands\where.cs" />
+    <Compile Include="commands\PlayerCommands\whisper.cs" />
+    <Compile Include="commands\PlayerCommands\who.cs" />
+    <Compile Include="commands\PlayerCommands\xp.cs" />
+    <Compile Include="commands\PlayerCommands\yell.cs" />
+    <Compile Include="craft\AbstractCraftingSkill.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\AbstractProfession.cs" />
+    <Compile Include="craft\AdvancedCraftingSkill.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\Alchemy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\ArmorCrafting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="database\converters\DatabaseConverterAttribute.cs" />
+    <Compile Include="database\converters\IDatabaseConverter.cs" />
+    <Compile Include="database\converters\Version002.cs" />
+    <Compile Include="database\converters\Version003.cs" />
+    <Compile Include="database\converters\Version004.cs" />
+    <Compile Include="database\converters\Version005.cs" />
+    <Compile Include="database\updaters\DatabaseUpdateAttribute.cs" />
+    <Compile Include="database\updaters\IDatabaseUpdater.cs" />
+    <Compile Include="database\updaters\SalvageYieldsUpdate.cs" />
+    <Compile Include="effects\VolleyShot.cs" />
+    <Compile Include="effects\DummyEffect.cs" />
+    <Compile Include="events\IDOLEventHandler.cs" />
+    <Compile Include="events\gameobjects\ExecuteCommandEventArgs.cs" />
+    <Compile Include="events\gameobjects\InterruptedEventArgs.cs" />
+    <Compile Include="events\gameobjects\NextCraftingTierReachedEventArgs.cs" />
+    <Compile Include="events\gameobjects\SwitchedTargetEventArgs.cs" />
+    <Compile Include="gameobjects\Atlantis\ArtifactCreditMerchant.cs" />
+    <Compile Include="gameobjects\Atlantis\Teleporter\PermanentDjinn.cs" />
+    <Compile Include="gameobjects\Atlantis\Teleporter\SpawnDjinnStone.cs" />
+    <Compile Include="gameobjects\Atlantis\Teleporter\SummonDjinnStone.cs" />
+    <Compile Include="gameobjects\Atlantis\Teleporter\SummonedDjinn.cs" />
+    <Compile Include="gameobjects\CharacterClasses\Albion\CharacterClassNecromancer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\CharacterClasses\CharacterClassAttribute.cs" />
+    <Compile Include="gameobjects\CharacterClasses\Hibernia\CharacterClassAnimist.cs" />
+    <Compile Include="gameobjects\CharacterClasses\ICharacterClass.cs" />
+    <Compile Include="gameobjects\CharacterClasses\CharacterClassBase.cs" />
+    <Compile Include="gameobjects\CharacterClasses\Midgard\CharacterClassBoneDancer.cs" />
+    <Compile Include="gameobjects\GameBoatTimed.cs" />
+    <Compile Include="gameobjects\GameSiegeTimedTrebuchet.cs" />
+    <Compile Include="gameobjects\GameSiegeTimedBallista.cs" />
+    <Compile Include="gameobjects\GameSiegeTimedCatapult.cs" />
+    <Compile Include="gameobjects\GameSiegeTimedRam.cs" />
+    <Compile Include="gameobjects\GameSiegeItem.cs" />
+    <Compile Include="gameobjects\GameMythirian.cs" />
+    <Compile Include="gameobjects\GameInventoryObject.cs" />
+    <Compile Include="gameobjects\Hunter\HoundsPet.cs" />
+    <Compile Include="gameutils\NPCRegionTimer.cs" />
+    <Compile Include="gameutils\InventoryLogging.cs" />
+    <Compile Include="gameutils\MarketCache.cs" />
+    <Compile Include="gameutils\MarketSearch.cs" />
+    <Compile Include="keeps\Relics\GameInventoryRelic.cs" />
+    <Compile Include="gameobjects\CustomNPC\RoyalTreasuryClerk.cs" />
+    <Compile Include="gameobjects\GuildBannerItem.cs" />
+    <Compile Include="gameobjects\GameVault.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\SimpleTeleporter.cs" />
+    <Compile Include="gameobjects\GameTrainingDummy.cs" />
+    <Compile Include="gameobjects\craft master\BasicCraftingMaster.cs" />
+    <Compile Include="craft\ClothWorking.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\BasicCrafting.cs" />
+    <Compile Include="craft\CraftingMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\Fletching.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\GemCutting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\HerbalCrafting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\LeatherCrafting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\MetalWorking.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\Repair.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\Salvage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\SiegeCrafting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\SpellCrafting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\Tailoring.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\WeaponCrafting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="craft\WoodWorking.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\BerserkEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\BodyguardEffect.cs" />
+    <Compile Include="effects\CamouflageEffect.cs" />
+    <Compile Include="effects\EngageEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\Necromancer\FacilitatePainworkingEffect.cs" />
+    <Compile Include="effects\GameEffectList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\GameEffectPlayerList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\GameSpellAndImmunityEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\GameSpellEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\GuardEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\GuildBannerEffect.cs" />
+    <Compile Include="effects\IConcentrationEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\IGameEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\InterceptEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\Necromancer\MezzRootImmunityEffect.cs" />
+    <Compile Include="effects\Necromancer\NecromancerShadeEffect.cs" />
+    <Compile Include="effects\Necromancer\TauntEffect.cs" />
+    <Compile Include="effects\ProtectEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\PulsingSpellEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\QuickCastEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\RapidFireEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\ShadeEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\Spells\FocusShellEffect.cs" />
+    <Compile Include="effects\SprintEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\StagEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\StaticEffect.cs" />
+    <Compile Include="effects\StealthEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\SureShotEffect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="effects\TimedEffect.cs" />
+    <Compile Include="effects\TripleWieldEffect.cs" />
+    <Compile Include="effects\UniPortalEffect.cs" />
+    <Compile Include="events\database\AccountEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\database\CharacterEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\database\NewsEventArgs.cs" />
+    <Compile Include="events\database\DatabaseEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\DOLEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\DOLEventHandlerCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\GameEventMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\AttackedByEnemyEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\AttackFinishedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\CastFailedEventArgs.cs" />
+    <Compile Include="events\gameobjects\CastingEventArgs.cs" />
+    <Compile Include="events\gameobjects\DyingEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\EnemyHealedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\EnemyKilledEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\FollowLostTargetEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\GainedExperienceEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\GainedRealmPointsEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\GameLivingEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\GameNPCEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\GameObjectEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\GamePlayerEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\GameTrainerEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\GiveItemEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\GiveMoneyEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\HealthChangedEventArgs.cs" />
+    <Compile Include="events\gameobjects\InteractEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\InteractWithEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\ItemBonusChangedEventArgs.cs" />
+    <Compile Include="events\gameobjects\ItemDroppedEventArgs.cs" />
+    <Compile Include="events\gameobjects\ItemEquippedArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\ItemUnequippedArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\MoveToEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\PetSpellEventArgs.cs" />
+    <Compile Include="events\gameobjects\PlayerDisbandedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\PlayerGroupEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\PlayerInventoryEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\PlayerJoinedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\PlayerPromotedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\QuestRewardChosenEventArgs.cs" />
+    <Compile Include="events\gameobjects\RevivedEventArgs.cs" />
+    <Compile Include="events\gameobjects\QuestEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\ReceiveMoneyEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\ReceiveItemEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\RiderDismountEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\RiderMountEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\SayEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\SayReceiveEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\SourceEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\TakeDamageEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\TetherEventArgs.cs" />
+    <Compile Include="events\gameobjects\TimerEventArgs.cs" />
+    <Compile Include="events\gameobjects\TurnToEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\TurnToHeadingEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\UseSlotEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\WalkEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\WalkToEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\WhisperEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\WhisperReceiveEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\YellEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\gameobjects\YellReceiveEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\keep\KeepEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\keep\KeepEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\keep\RelicPadEvent.cs" />
+    <Compile Include="events\keep\RelicPadEventArgs.cs" />
+    <Compile Include="events\scripts\ScriptEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\scripts\ScriptLoadedEventAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\scripts\ScriptUnloadedEventAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\server\GameClientEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\server\GameServerEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\server\GameServerStartedEventAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\server\GameServerStoppedEventAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\World\AreaEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\World\AreaEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\World\RegionEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="events\World\RegionPlayerArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameClient.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\Animist\TurretPet.cs" />
+    <Compile Include="gameobjects\Atlantis\Teleporter\AncientBoundDjinn.cs" />
+    <Compile Include="gameobjects\Atlantis\Arbiter.cs" />
+    <Compile Include="gameobjects\Atlantis\ArtifactScholar.cs" />
+    <Compile Include="gameobjects\Atlantis\Teleporter\DjinnStone.cs" />
+    <Compile Include="gameobjects\Atlantis\HeadScholar.cs" />
+    <Compile Include="gameobjects\Bonedancer\BDPet.cs" />
+    <Compile Include="gameobjects\Bonedancer\BDSubPet.cs" />
+    <Compile Include="gameobjects\Bonedancer\CommanderPet.cs" />
+    <Compile Include="gameobjects\craft master\AlchemyMaster.cs" />
+    <Compile Include="gameobjects\craft master\ArmorCraftingMaster.cs" />
+    <Compile Include="gameobjects\craft master\SiegecraftingMaster.cs" />
+    <Compile Include="gameobjects\craft master\FletchingMaster.cs" />
+    <Compile Include="gameobjects\craft master\SpellCraftingMaster.cs" />
+    <Compile Include="gameobjects\craft master\TailoringMaster.cs" />
+    <Compile Include="gameobjects\craft master\WeaponCraftingMaster.cs" />
+    <Compile Include="gameobjects\CustomNPC\Blacksmith.cs" />
+    <Compile Include="gameobjects\CustomNPC\ConsignmentMerchant.cs" />
+    <Compile Include="gameobjects\CustomNPC\EmblemNPC.cs" />
+    <Compile Include="gameobjects\CustomNPC\Enchanter.cs" />
+    <Compile Include="gameobjects\CustomNPC\FaceCustomiser.cs" />
+    <Compile Include="gameobjects\CustomNPC\GuildRegistrar.cs" />
+    <Compile Include="gameobjects\CustomNPC\Healer.cs" />
+    <Compile Include="gameobjects\CustomNPC\HousingHastener.cs" />
+    <Compile Include="gameobjects\CustomNPC\MarketExplorer.cs" />
+    <Compile Include="gameobjects\CustomNPC\NameRegistrar.cs" />
+    <Compile Include="gameobjects\CustomNPC\Recharger.cs" />
+    <Compile Include="gameobjects\CustomNPC\TaskMaster.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\AlbionSITeleporter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\AlbionTeleporter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\HiberniaSITeleporter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\HiberniaTeleporter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\MidgardSITeleporter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\MidgardTeleporter.cs" />
+    <Compile Include="gameobjects\CustomNPC\Teleporters\ThroneRoomTeleporter.cs" />
+    <Compile Include="gameobjects\CustomNPC\VaultKeeper.cs" />
+    <Compile Include="gameobjects\GamePets.cs" />
+    <Compile Include="gameobjects\GameTeleporter.cs" />
+    <Compile Include="gameobjects\Theurgist\TheurgistPet.cs" />
+    <Compile Include="gameobjects\WorldInventoryItem.cs" />
+    <Compile Include="gameutils\AppealMgr.cs" />
+    <Compile Include="gameutils\Atlantis\InventoryArtifact.cs" />
+    <Compile Include="gameobjects\Atlantis\Researcher.cs" />
+    <Compile Include="gameobjects\Atlantis\Scholar.cs" />
+    <Compile Include="gameobjects\Dragons\Cuuldurach.cs" />
+    <Compile Include="gameobjects\CustomNPC\GameBoatStableMaster.cs" />
+    <Compile Include="gameobjects\Dragons\GameDragon.cs" />
+    <Compile Include="gameobjects\CustomNPC\GameKingThroneNpc.cs" />
+    <Compile Include="gameobjects\Dragons\Gjalpinulva.cs" />
+    <Compile Include="gameobjects\Dragons\Golestandt.cs" />
+    <Compile Include="gameobjects\Atlantis\Boats\GameBoat.cs" />
+    <Compile Include="gameobjects\GameTaxiBoat.cs" />
+    <Compile Include="gameobjects\CustomNPC\CraftNPC.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\CustomNPC\GameStableMaster.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\CustomNPC\GameTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\GameDoor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\GameGravestone.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\GameGuard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\GameTaxi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\GameHouseVault.cs" />
+    <Compile Include="gameobjects\GameLiving.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\GameMerchant.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\GameMoney.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\GameMovingObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\GameNPC.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\GameObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\GamePlayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\SiegeWeapon\GameSiegeWeapon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\GameStaticItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\GameStaticItemTimed.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\Necromancer\NecromancerPet.cs" />
+    <Compile Include="gameobjects\SiegeWeapon\gameSiegeBallista.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\SiegeWeapon\gameSiegeCatapult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\SiegeWeapon\gameSiegeCauldron.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\SiegeWeapon\GameSiegeRam.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameobjects\SiegeWeapon\gameSiegeTrebuchet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameServer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameServerConfiguration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\Ability.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="commands\AbstractCommandHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\Alliance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\Atlantis\ArtifactMgr.cs" />
+    <Compile Include="gameutils\AttackData.cs" />
+    <Compile Include="gameutils\AuditMgr.cs" />
+    <Compile Include="gameutils\BattleGroup.cs" />
+    <Compile Include="gameutils\BoatMgr.cs" />
+    <Compile Include="gameutils\CardMgr.cs" />
+    <Compile Include="gameutils\ChampSpec.cs" />
+    <Compile Include="gameutils\ChatGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="commands\CmdAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\ChatUtil.cs" />
+    <Compile Include="gameobjects\IGameInventoryItem.cs" />
+    <Compile Include="gameobjects\GameInventoryItem.cs" />
+    <Compile Include="gameutils\LootGeneratorMobTemplate.cs" />
+    <Compile Include="gameutils\GameNPCInventory.cs" />
+    <Compile Include="gameutils\GuildBanner.cs" />
+    <Compile Include="gameutils\GuildEvents.cs" />
+    <Compile Include="gameutils\IPlayerStatistics.cs" />
+    <Compile Include="gameutils\LootGeneratorScroll.cs" />
+    <Compile Include="gameutils\MailMgr.cs" />
+    <Compile Include="gameutils\NewsMgr.cs" />
+    <Compile Include="gameutils\PlayerStatistics.cs" />
+    <Compile Include="gameutils\RegionTimersResync.cs" />
+    <Compile Include="gameutils\StatPrint.cs" />
+    <Compile Include="gameutils\StatSave.cs" />
+    <Compile Include="gameutils\WarMapMgr.cs" />
+    <Compile Include="gameutils\XFireSupport.cs" />
+    <Compile Include="housing\HousingConstants.cs" />
+    <Compile Include="housing\IHouseHookpointItem.cs" />
+    <Compile Include="ai\brain\Npcs\IAggressiveBrain.cs" />
+    <Compile Include="keeps\Gameobjects\FrontiersPortalStone.cs" />
+    <Compile Include="keeps\Gameobjects\GameRelicDoor.cs" />
+    <Compile Include="keeps\Gameobjects\Guards\Archer.cs" />
+    <Compile Include="keeps\Gameobjects\Guards\Caster.cs" />
+    <Compile Include="keeps\Gameobjects\Guards\MissionMaster.cs" />
+    <Compile Include="keeps\Gameobjects\Guards\Fighter.cs" />
+    <Compile Include="keeps\Gameobjects\Guards\Hastener.cs" />
+    <Compile Include="keeps\Gameobjects\Guards\Healer.cs" />
+    <Compile Include="keeps\Gameobjects\Guards\Lord.cs" />
+    <Compile Include="keeps\Gameobjects\Guards\Static Archer.cs" />
+    <Compile Include="keeps\Gameobjects\Guards\Static Caster.cs" />
+    <Compile Include="keeps\Gameobjects\Guards\Stealther.cs" />
+    <Compile Include="keeps\Gameobjects\IKeepItem.cs" />
+    <Compile Include="keeps\KeepArea.cs" />
+    <Compile Include="keeps\KeepBonusManager.cs" />
+    <Compile Include="keeps\Managers\Clothing Manager.cs" />
+    <Compile Include="keeps\Managers\RelicGateMgr.cs" />
+    <Compile Include="keeps\Managers\RelicMgr.cs" />
+    <Compile Include="keeps\Managers\Template Manager.cs" />
+    <Compile Include="keeps\Managers\Guild Manager.cs" />
+    <Compile Include="keeps\Managers\Player Manager.cs" />
+    <Compile Include="keeps\Managers\Position Manager.cs" />
+    <Compile Include="keeps\Managers\Spell Manager.cs" />
+    <Compile Include="keeps\Relics\GameRelic.cs" />
+    <Compile Include="keeps\Relics\GameRelicPad.cs" />
+    <Compile Include="minotaurrelics\MinotaurRelic.cs" />
+    <Compile Include="minotaurrelics\MinotaurRelicManager.cs" />
+    <Compile Include="minotaurrelics\Protectors\ArrektosProtector.cs" />
+    <Compile Include="minotaurrelics\Protectors\BaseProtector.cs" />
+    <Compile Include="packets\Client\168\BadNameCheckRequestHandler.cs" />
+    <Compile Include="packets\Client\168\BuyHookPointHandler.cs" />
+    <Compile Include="packets\Client\168\CharacterDeleteRequestHandler.cs" />
+    <Compile Include="packets\Client\168\CharacterCreateRequestHandler.cs" />
+    <Compile Include="packets\Client\168\CharacterOverviewRequestHandler.cs" />
+    <Compile Include="packets\Client\168\CharacterSelectRequestHandler.cs" />
+    <Compile Include="packets\Client\168\checklosrequesthandler.cs" />
+    <Compile Include="packets\Client\168\ClientCrashPacketHandler.cs" />
+    <Compile Include="packets\Client\168\MinotaurRelicWindowHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerMarketSearchRequestHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerMoveItemRequestHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerSetMarketPrice.cs" />
+    <Compile Include="packets\Client\168\PlayerWithdrawMerchantMoney.cs" />
+    <Compile Include="packets\Client\168\QuestRewardChosenHandler.cs" />
+    <Compile Include="packets\Client\168\ShipHookpointInteract.cs" />
+    <Compile Include="packets\Client\168\CryptKeyRequestHandler.cs" />
+    <Compile Include="packets\Client\168\DestroyItemRequestHandler.cs" />
+    <Compile Include="packets\Client\168\DetailDisplayHandler.cs" />
+    <Compile Include="packets\Client\168\DialogResponseHandler.cs" />
+    <Compile Include="packets\Client\168\DisbandFromGroupHandler.cs" />
+    <Compile Include="packets\Client\168\DoorRequestHandler.cs" />
+    <Compile Include="packets\Client\168\DuplicateNameCheckRequestHandler.cs" />
+    <Compile Include="packets\Client\168\EmblemDialogReponseHandler.cs" />
+    <Compile Include="packets\Client\168\GameOpenRequestHandler.cs" />
+    <Compile Include="packets\Client\168\HouseEditHandler.cs" />
+    <Compile Include="packets\Client\168\HouseEnterLeaveRequestHandler.cs" />
+    <Compile Include="packets\Client\168\HousePermissionsRequestHandler.cs" />
+    <Compile Include="packets\Client\168\HousePermissionsSetHandler.cs" />
+    <Compile Include="packets\Client\168\HouseUsersPermissionsRequestHandler.cs" />
+    <Compile Include="packets\Client\168\HouseUsersPermissionsSetHandler.cs" />
+    <Compile Include="packets\Client\168\HousingDecorationRotate.cs" />
+    <Compile Include="packets\Client\168\HousingDecorationRotateRequestHandler.cs" />
+    <Compile Include="packets\Client\168\HousingMenuRequestHandler.cs" />
+    <Compile Include="packets\Client\168\HousingPickupItemHandler.cs" />
+    <Compile Include="packets\Client\168\HousingPlaceItemHandler.cs" />
+    <Compile Include="packets\Client\168\InviteToGroupHandler.cs" />
+    <Compile Include="packets\Client\168\KeepComponentInteractHandler.cs" />
+    <Compile Include="packets\Client\168\LoginRequestHandler.cs" />
+    <Compile Include="packets\Client\168\LookingForAGroupFlagHandler.cs" />
+    <Compile Include="packets\Client\168\LookingForAGroupHandler.cs" />
+    <Compile Include="packets\Client\168\MakeProductHandler.cs" />
+    <Compile Include="packets\Client\168\NPCCreationRequestHandler.cs" />
+    <Compile Include="packets\Client\168\ObjectInteractRequestHandler.cs" />
+    <Compile Include="packets\Client\168\ObjectUpdateRequestHandler.cs" />
+    <Compile Include="packets\Client\168\PetWindowHandler.cs" />
+    <Compile Include="packets\Client\168\PingRequestHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerAppraiseItemRequestHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerAttackRequestHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerBonusesListRequestHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerBuyRequestHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerCancelsEffectHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerCommandHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerCreationRequestHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerDismountRequestHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerGroundTargetHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerHeadingUpdateHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerInitRequestHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerModifyTradeHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerPickUpRequestHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerPositionUpdateHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerSellRequestHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerSitRequest.cs" />
+    <Compile Include="packets\Client\168\PlayerTargetHandler.cs" />
+    <Compile Include="packets\Client\168\PlayerTrainRequestHandler.cs" />
+    <Compile Include="packets\Client\168\RegionChangeRequestHandler.cs" />
+    <Compile Include="packets\Client\168\RegionListRequestHandler.cs" />
+    <Compile Include="packets\Client\168\RemoveConcentrationEffectHandler.cs" />
+    <Compile Include="packets\Client\168\SiegeWeaponActionHandler.cs" />
+    <Compile Include="packets\Client\168\UDPInitRequestHandler.cs" />
+    <Compile Include="packets\Client\168\UDPPingRequestHandler.cs" />
+    <Compile Include="packets\Client\168\UseSkillHandler.cs" />
+    <Compile Include="packets\Client\168\UseSlotHandler.cs" />
+    <Compile Include="packets\Client\168\UseSpellHandler.cs" />
+    <Compile Include="packets\Client\168\warmapbonusesrequesthandler.cs" />
+    <Compile Include="packets\Client\168\warmapshowrequesthandler.cs" />
+    <Compile Include="packets\Client\168\WorldInitRequestHandler.cs" />
+    <Compile Include="packets\Client\168\QuestRemoveRequestHandler.cs" />
+    <Compile Include="packets\Server\AbstractPacketLib.cs" />
+    <Compile Include="packets\Server\PacketLib1115.cs" />
+    <Compile Include="packets\Server\PacketLib1114.cs" />
+    <Compile Include="packets\Server\PacketLib1113.cs" />
+    <Compile Include="packets\Server\PacketLib1112.cs" />
+    <Compile Include="packets\Server\PacketLib1109.cs" />
+    <Compile Include="packets\Server\PacketLib1108.cs" />
+    <Compile Include="packets\Server\PacketLib1106.cs" />
+    <Compile Include="packets\Server\PacketLib1105.cs" />
+    <Compile Include="packets\Server\PacketLib1103.cs" />
+    <Compile Include="packets\Server\PacketLib1102.cs" />
+    <Compile Include="packets\Server\PacketLib1101.cs" />
+    <Compile Include="packets\Server\PacketLib1100.cs" />
+    <Compile Include="packets\Server\PacketLib1104.cs" />
+    <Compile Include="packets\Server\PacketLib1107.cs" />
+    <Compile Include="packets\Server\PacketLib1110.cs" />
+    <Compile Include="packets\Server\PacketLib1111.cs" />
+    <Compile Include="packets\Server\PacketLib1118.cs" />
+    <Compile Include="packets\Server\PacketLib197.cs" />
+    <Compile Include="packets\Server\PacketLib196.cs" />
+    <Compile Include="packets\Server\PacketLib188.cs" />
+    <Compile Include="packets\Server\CryptLib168.cs" />
+    <Compile Include="packets\Server\GSTCPPacketOut.cs" />
+    <Compile Include="packets\Server\GSUDPPacketOut.cs" />
+    <Compile Include="packets\Server\IPacketEncoding.cs" />
+    <Compile Include="packets\Server\IPacketHandler.cs" />
+    <Compile Include="packets\Server\IPacketLib.cs" />
+    <Compile Include="packets\Server\PacketEncoding168.cs" />
+    <Compile Include="packets\Server\PacketHandlerAttribute.cs" />
+    <Compile Include="packets\Server\PacketLib168.cs" />
+    <Compile Include="packets\Server\PacketLib169.cs" />
+    <Compile Include="packets\Server\PacketLib170.cs" />
+    <Compile Include="packets\Server\PacketLib171.cs" />
+    <Compile Include="packets\Server\PacketLib172.cs" />
+    <Compile Include="packets\Server\PacketLib173.cs" />
+    <Compile Include="packets\Server\PacketLib174.cs" />
+    <Compile Include="packets\Server\PacketLib175.cs" />
+    <Compile Include="packets\Server\PacketLib176.cs" />
+    <Compile Include="packets\Server\PacketLib177.cs" />
+    <Compile Include="packets\Server\PacketLib178.cs" />
+    <Compile Include="packets\Server\PacketLib179.cs" />
+    <Compile Include="packets\Server\PacketLib180.cs" />
+    <Compile Include="packets\Server\PacketLib181.cs" />
+    <Compile Include="packets\Server\PacketLib182.cs" />
+    <Compile Include="packets\Server\PacketLib183.cs" />
+    <Compile Include="packets\Server\PacketLib184.cs" />
+    <Compile Include="packets\Server\PacketLib185.cs" />
+    <Compile Include="packets\Server\PacketLib186.cs" />
+    <Compile Include="packets\Server\PacketLib187.cs" />
+    <Compile Include="packets\Server\PacketLib189.cs" />
+    <Compile Include="packets\Server\PacketLib190.cs" />
+    <Compile Include="packets\Server\PacketLib191.cs" />
+    <Compile Include="packets\Server\PacketLib192.cs" />
+    <Compile Include="packets\Server\PacketLib193.cs" />
+    <Compile Include="packets\Server\PacketLib194.cs" />
+    <Compile Include="packets\Server\PacketLib195.cs" />
+    <Compile Include="packets\Server\PacketLib198.cs" />
+    <Compile Include="packets\Server\PacketLib199.cs" />
+    <Compile Include="packets\Server\PacketLibAttribute.cs" />
+    <Compile Include="packets\Server\PacketPreprocessing.cs" />
+    <Compile Include="packets\Server\PacketProcessor.cs" />
+    <Compile Include="packets\utils\MiniDelveWriter.cs" />
+    <Compile Include="playerclasses\albion\ClassMaulerAlb.cs" />
+    <Compile Include="playerclasses\hibernia\ClassMaulerHib.cs" />
+    <Compile Include="playerclasses\midgard\ClassMaulerMid.cs" />
+    <Compile Include="playertitles\titles\claim\frontier\RelictCaptureTitle.cs" />
+    <Compile Include="playertitles\titles\claim\frontier\FrontierProtectorTitle.cs" />
+    <Compile Include="playertitles\titles\claim\frontier\FrontierChallengerTitle.cs" />
+    <Compile Include="playertitles\titles\claim\frontier\FrontierVindicatorTitle.cs" />
+    <Compile Include="playertitles\titles\claim\stronghold\StrongholdChiefTitle.cs" />
+    <Compile Include="playertitles\titles\claim\stronghold\StrongholdSoldierTitle.cs" />
+    <Compile Include="playertitles\titles\deathblows\BattleEnforcerTitle.cs" />
+    <Compile Include="playertitles\titles\deathblows\BattleMasterTitle.cs" />
+    <Compile Include="playertitles\titles\kills\albion\BaneOfAlbionTitle.cs" />
+    <Compile Include="playertitles\titles\kills\albion\SlayerOfAlbionTitle.cs" />
+    <Compile Include="playertitles\titles\kills\albion\ScourgeOfAlbionTitle.cs" />
+    <Compile Include="playertitles\titles\kills\all\MasterAssassineTitle.cs" />
+    <Compile Include="playertitles\titles\kills\all\MasterEnforcerTitle.cs" />
+    <Compile Include="playertitles\titles\kills\all\MasterSoldierTitle.cs" />
+    <Compile Include="playertitles\titles\kills\demon\DemonBaneTitle.cs" />
+    <Compile Include="playertitles\titles\kills\demon\DemonScourgeTitle.cs" />
+    <Compile Include="playertitles\titles\kills\demon\DemonSlayerTitle.cs" />
+    <Compile Include="playertitles\titles\kills\demon\DreadVanquisherTitle.cs" />
+    <Compile Include="playertitles\titles\kills\dragon\DragonBaneTitle.cs" />
+    <Compile Include="playertitles\titles\kills\dragon\DragonFoeTitle.cs" />
+    <Compile Include="playertitles\titles\kills\dragon\DragonScourgeTitle.cs" />
+    <Compile Include="playertitles\titles\kills\dragon\DragonSlayerTitle.cs" />
+    <Compile Include="playertitles\titles\kills\epicmob\EpicChallengerTitle.cs" />
+    <Compile Include="playertitles\titles\kills\epicmob\EpicVictorTitle.cs" />
+    <Compile Include="playertitles\titles\kills\hibernia\BaneOfHiberniaTitle.cs" />
+    <Compile Include="playertitles\titles\kills\hibernia\SlayerOfHiberniaTitle.cs" />
+    <Compile Include="playertitles\titles\kills\hibernia\ScourgeOfHiberniaTitle.cs" />
+    <Compile Include="playertitles\titles\kills\midgard\BaneOfMidgardTitle.cs" />
+    <Compile Include="playertitles\titles\kills\midgard\SlayerOfMidgardTitle.cs" />
+    <Compile Include="playertitles\titles\kills\midgard\ScourgeOfMidgardTitle.cs" />
+    <Compile Include="playertitles\titles\level\ChampionTitle.cs" />
+    <Compile Include="playertitles\titles\level\Level20Title.cs" />
+    <Compile Include="playertitles\titles\level\MasterlevelTitle.cs" />
+    <Compile Include="playertitles\titles\privlevel\AdministratorTitle.cs" />
+    <Compile Include="playertitles\titles\privlevel\GamemasterTitle.cs" />
+    <Compile Include="playertitles\titles\rank\CraftTitle.cs" />
+    <Compile Include="playertitles\titles\rank\RealmRanks.cs" />
+    <Compile Include="playertitles\titles\solokills\DuelMasterTitle.cs" />
+    <Compile Include="playertitles\titles\solokills\LoneEnforcerTitle.cs" />
+    <Compile Include="playertitles\titles\time\account\ElderTitle.cs" />
+    <Compile Include="playertitles\titles\time\char\VeteranTitle.cs" />
+    <Compile Include="propertycalc\ArcaneSyphonCalculator.cs" />
+    <Compile Include="propertycalc\MythicalDefenseCalculator.cs" />
+    <Compile Include="propertycalc\MythicalCoinCalculator.cs" />
+    <Compile Include="propertycalc\MythicalDiscumberingCalculator.cs" />
+    <Compile Include="propertycalc\MythicalDPSCalculator.cs" />
+    <Compile Include="propertycalc\MythicalSafeFallCalculator.cs" />
+    <Compile Include="propertycalc\ConversionPercentCalculator.cs" />
+    <Compile Include="propertycalc\BountyPointsCalculator.cs" />
+    <Compile Include="propertycalc\MythicalSiegeDamageReduction.cs" />
+    <Compile Include="propertycalc\RealmPointsCalculator.cs" />
+    <Compile Include="propertycalc\FatigueCalculator.cs" />
+    <Compile Include="propertycalc\CriticalSpellHitChanceCalculator.cs" />
+    <Compile Include="propertycalc\CriticalArcheryHitChanceCalculator.cs" />
+    <Compile Include="propertycalc\CriticalMeleeHitChanceCalculator.cs" />
+    <Compile Include="propertycalc\ExtraHPPercentCalculator.cs" />
+    <Compile Include="propertycalc\ResistPiercePropertyCalculator.cs" />
+    <Compile Include="propertycalc\SpellLevelCalculator.cs" />
+    <Compile Include="propertycalc\StyleAbsorbPercentCalculator.cs" />
+    <Compile Include="propertycalc\WaterSpeedCalculator.cs" />
+    <Compile Include="propertycalc\WeaponSkillCalculator.cs" />
+    <Compile Include="propertycalc\XPPointsCalculator.cs" />
+    <Compile Include="quests\Atlantis\ArtifactEncounter.cs" />
+    <Compile Include="quests\Atlantis\ArtifactQuest.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\AHealersEmbrace.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\AlvarusLeggings.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\ArmsOfTheWinds.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\AtensShield.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\BandOfStars.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\Battler.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\BeltofOglidarsh.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\BeltoftheMoon.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\BeltoftheSun.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\BracerofZoarkat.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\Bruiser.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\CeremonialBracers.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\Cloudsong.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\CrocodileTearRing.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\DreamSphere.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\EggofYouth.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\EirenesHauberk.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\EnyaliosBoots.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\ErinysCharm.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\EternalPlant.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\GoddessNecklace.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\GuardOfValor.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\HarpyFeatherCloak.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\JacinasSash.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\KalaresNecklace.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\MaddeningScalars.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\MalicesAxe.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\NightsShroudBracelet.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\RingofFire.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\RingofUnyieldingWill.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\ScorpionsTail.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\ShadesOfMist.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\ShieldOfKhaos.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\Snatcher.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\StaffofGod.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\StoneofAtlantis.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\TabletofAtlantis.cs" />
+    <Compile Include="quests\Atlantis\Artifacts\TartarosStaff.cs" />
+    <Compile Include="quests\Atlantis\ArtifactTurnInQuest.cs" />
+    <Compile Include="quests\Atlantis\Encounters\AFlask.cs" />
+    <Compile Include="quests\Atlantis\Encounters\AHealersEmbrace.cs" />
+    <Compile Include="quests\Atlantis\Encounters\AlvarusLeggings.cs" />
+    <Compile Include="quests\Atlantis\Encounters\ArmsOfTheWinds.cs" />
+    <Compile Include="quests\Atlantis\Encounters\AtensShield.cs" />
+    <Compile Include="quests\Atlantis\Encounters\AtlantisTablet.cs" />
+    <Compile Include="quests\Atlantis\Encounters\BandOfStars.cs" />
+    <Compile Include="quests\Atlantis\Encounters\Battler.cs" />
+    <Compile Include="quests\Atlantis\Encounters\BeltofOglidarsh.cs" />
+    <Compile Include="quests\Atlantis\Encounters\BeltoftheMoon.cs" />
+    <Compile Include="quests\Atlantis\Encounters\BeltoftheSun.cs" />
+    <Compile Include="quests\Atlantis\Encounters\BracerofZoarkat.cs" />
+    <Compile Include="quests\Atlantis\Encounters\BraggartsBow.cs" />
+    <Compile Include="quests\Atlantis\Encounters\Bruiser.cs" />
+    <Compile Include="quests\Atlantis\Encounters\CeremonialBracers.cs" />
+    <Compile Include="quests\Atlantis\Encounters\Cloudsong.cs" />
+    <Compile Include="quests\Atlantis\Encounters\CrocodilesTooth.cs" />
+    <Compile Include="quests\Atlantis\Encounters\CrocodileTearRing.cs" />
+    <Compile Include="quests\Atlantis\Encounters\CrownofZahur.cs" />
+    <Compile Include="quests\Atlantis\Encounters\CyclopsEyeShield.cs" />
+    <Compile Include="quests\Atlantis\Encounters\DreamSphere.cs" />
+    <Compile Include="quests\Atlantis\Encounters\EerieDarknessStone.cs" />
+    <Compile Include="quests\Atlantis\Encounters\EggOfYouth.cs" />
+    <Compile Include="quests\Atlantis\Encounters\EirenesHauberk.cs" />
+    <Compile Include="quests\Atlantis\Encounters\EnyaliosBoots.cs" />
+    <Compile Include="quests\Atlantis\Encounters\ErinysCharm.cs" />
+    <Compile Include="quests\Atlantis\Encounters\EternalPlant.cs" />
+    <Compile Include="quests\Atlantis\Encounters\FlamedancersBoots.cs" />
+    <Compile Include="quests\Atlantis\Encounters\FoolsBow.cs" />
+    <Compile Include="quests\Atlantis\Encounters\FoppishSleeves.cs" />
+    <Compile Include="quests\Atlantis\Encounters\GemofLostMemories.cs" />
+    <Compile Include="quests\Atlantis\Encounters\GoddessNecklace.cs" />
+    <Compile Include="quests\Atlantis\Encounters\GoldenScarabVest.cs" />
+    <Compile Include="quests\Atlantis\Encounters\GoldenSpear.cs" />
+    <Compile Include="quests\Atlantis\Encounters\GuardOfValor.cs" />
+    <Compile Include="quests\Atlantis\Encounters\HarpyFeatherCloak.cs" />
+    <Compile Include="quests\Atlantis\Encounters\JacinasSash.cs" />
+    <Compile Include="quests\Atlantis\Encounters\KalaresNecklace.cs" />
+    <Compile Include="quests\Atlantis\Encounters\MaddeningScalars.cs" />
+    <Compile Include="quests\Atlantis\Encounters\MalicesAxe.cs" />
+    <Compile Include="quests\Atlantis\Encounters\MariashasSharkskinGloves.cs" />
+    <Compile Include="quests\Atlantis\Encounters\NailahsRobes.cs" />
+    <Compile Include="quests\Atlantis\Encounters\NightsShroudBracelet.cs" />
+    <Compile Include="quests\Atlantis\Encounters\OrionsBelt.cs" />
+    <Compile Include="quests\Atlantis\Encounters\PhoebusHarp.cs" />
+    <Compile Include="quests\Atlantis\Encounters\RingofDances.cs" />
+    <Compile Include="quests\Atlantis\Encounters\RingofFire.cs" />
+    <Compile Include="quests\Atlantis\Encounters\RingofUnyieldingWill.cs" />
+    <Compile Include="quests\Atlantis\Encounters\ScepteroftheMeritorious.cs" />
+    <Compile Include="quests\Atlantis\Encounters\ScorpionsTail.cs" />
+    <Compile Include="quests\Atlantis\Encounters\ShadesOfMist.cs" />
+    <Compile Include="quests\Atlantis\Encounters\ShieldOfKhaos.cs" />
+    <Compile Include="quests\Atlantis\Encounters\SnakecharmersWeapon.cs" />
+    <Compile Include="quests\Atlantis\Encounters\Snatcher.cs" />
+    <Compile Include="quests\Atlantis\Encounters\SpearofKings.cs" />
+    <Compile Include="quests\Atlantis\Encounters\StaffofGod.cs" />
+    <Compile Include="quests\Atlantis\Encounters\StoneOfAtlantis.cs" />
+    <Compile Include="quests\Atlantis\Encounters\TartarosStaff.cs" />
+    <Compile Include="quests\Atlantis\Encounters\TraitorsDagger.cs" />
+    <Compile Include="quests\Atlantis\Encounters\TraldorsOracle.cs" />
+    <Compile Include="quests\Atlantis\Encounters\WingedHelm.cs" />
+    <Compile Include="quests\Atlantis\Encounters\WingsDive.cs" />
+    <Compile Include="quests\Catacombs\Obelisks\InconnuCrypt.cs" />
+    <Compile Include="quests\Catacombs\Obelisks\KoboldUndercity.cs" />
+    <Compile Include="quests\Catacombs\Obelisks\SharLabyrinth.cs" />
+    <Compile Include="quests\Missions\AbstractMission.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="quests\Missions\CaptureMission.cs" />
+    <Compile Include="quests\Missions\ScoutMission.cs" />
+    <Compile Include="quests\Missions\KillMission.cs" />
+    <Compile Include="quests\Missions\RaizeMission.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="quests\Missions\TaskDungeonMission.cs" />
+    <Compile Include="behaviour\Actions\AttackAction.cs" />
+    <Compile Include="behaviour\Actions\MonsterSpawnAction.cs" />
+    <Compile Include="behaviour\Actions\SetMonsterPathAction.cs" />
+    <Compile Include="behaviour\Actions\WalkToSpawnAction.cs" />
+    <Compile Include="behaviour\Actions\MonsterUnspawnAction.cs" />
+    <Compile Include="behaviour\Actions\MoveToAction.cs" />
+    <Compile Include="behaviour\Actions\SetGuildNameAction.cs" />
+    <Compile Include="behaviour\Actions\WalkToAction.cs" />
+    <Compile Include="behaviour\Actions\TimerAction.cs" />
+    <Compile Include="behaviour\Actions\CustomTimerAction.cs" />
+    <Compile Include="behaviour\Actions\TeleportAction.cs" />
+    <Compile Include="behaviour\Actions\MessageAction.cs" />
+    <Compile Include="behaviour\Actions\CustomDialogAction.cs" />
+    <Compile Include="behaviour\Actions\WhisperAction.cs" />
+    <Compile Include="behaviour\Actions\TalkAction.cs" />
+    <Compile Include="behaviour\Actions\TakeGoldAction.cs" />
+    <Compile Include="behaviour\Actions\GiveGoldAction.cs" />
+    <Compile Include="behaviour\Actions\GiveXPAction.cs" />
+    <Compile Include="behaviour\Actions\ReplaceItemAction.cs" />
+    <Compile Include="behaviour\Actions\DestroyItemAction.cs" />
+    <Compile Include="behaviour\Actions\DropItemAction.cs" />
+    <Compile Include="behaviour\Actions\TakeItemAction.cs" />
+    <Compile Include="behaviour\Actions\GiveItemAction.cs" />
+    <Compile Include="behaviour\Attributes\RequirementAttribute.cs" />
+    <Compile Include="behaviour\Attributes\TriggerAttribute.cs" />
+    <Compile Include="behaviour\Attributes\ActionAttribute.cs" />
+    <Compile Include="behaviour\AbstractAction.cs" />
+    <Compile Include="behaviour\BehaviourUtils.cs" />
+    <Compile Include="behaviour\Requirements\ClassRequirement.cs" />
+    <Compile Include="behaviour\Requirements\RandomChanceRequirement.cs" />
+    <Compile Include="behaviour\Requirements\RaceRequirement.cs" />
+    <Compile Include="behaviour\Requirements\LevelRequirement.cs" />
+    <Compile Include="behaviour\Requirements\HealthMaxRequirement.cs" />
+    <Compile Include="behaviour\Requirements\HealthRequirement.cs" />
+    <Compile Include="behaviour\Requirements\GenderRequirement.cs" />
+    <Compile Include="behaviour\Requirements\ManaMaxRequirement.cs" />
+    <Compile Include="behaviour\Requirements\ManaRequirement.cs" />
+    <Compile Include="behaviour\Requirements\EnduranceRequirement.cs" />
+    <Compile Include="behaviour\Requirements\EncumbranceMaxRequirement.cs" />
+    <Compile Include="behaviour\Requirements\EncumbranceRequirement.cs" />
+    <Compile Include="behaviour\Requirements\GoldRequirement.cs" />
+    <Compile Include="behaviour\Requirements\RegionRequirement.cs" />
+    <Compile Include="behaviour\Requirements\RealmLevelRequirement.cs" />
+    <Compile Include="behaviour\Requirements\RealmRequirement.cs" />
+    <Compile Include="behaviour\Requirements\DistanceRequirement.cs" />
+    <Compile Include="behaviour\Requirements\GroupNumberRequirement.cs" />
+    <Compile Include="behaviour\Requirements\GroupLevelRequirement.cs" />
+    <Compile Include="behaviour\Requirements\EquippedItemRequirement.cs" />
+    <Compile Include="behaviour\Requirements\GuildRequirement.cs" />
+    <Compile Include="behaviour\Requirements\RealmPointsRequirement.cs" />
+    <Compile Include="quests\Catacombs\ObeliskCredit.cs" />
+    <Compile Include="behaviour\Requirements\InventoryItemRequirement.cs" />
+    <Compile Include="behaviour\Triggers\ItemUsedTrigger.cs" />
+    <Compile Include="behaviour\Triggers\TimerTrigger.cs" />
+    <Compile Include="behaviour\Triggers\LeaveAreaTrigger.cs" />
+    <Compile Include="behaviour\Triggers\EnterAreaTrigger.cs" />
+    <Compile Include="behaviour\Triggers\PlayerKilledTrigger.cs" />
+    <Compile Include="behaviour\Triggers\EnemyDyingTrigger.cs" />
+    <Compile Include="behaviour\Triggers\EnemyKilledTrigger.cs" />
+    <Compile Include="behaviour\Triggers\GiveItemTrigger.cs" />
+    <Compile Include="behaviour\Triggers\WhisperTrigger.cs" />
+    <Compile Include="behaviour\Triggers\InteractTrigger.cs" />
+    <Compile Include="quests\QuestsMgr\AbstractQuest.cs" />
+    <Compile Include="quests\QuestsMgr\Actions\AbortQuestAction.cs" />
+    <Compile Include="quests\QuestsMgr\Actions\FinishQuestAction.cs" />
+    <Compile Include="quests\QuestsMgr\Actions\GiveQuestAction.cs" />
+    <Compile Include="quests\QuestsMgr\Actions\IncreaseQuestStepAction.cs" />
+    <Compile Include="quests\QuestsMgr\Actions\OfferQuestAbortAction.cs" />
+    <Compile Include="quests\QuestsMgr\Actions\OfferQuestAction.cs" />
+    <Compile Include="quests\QuestsMgr\Actions\SetQuestStepAction.cs" />
+    <Compile Include="quests\QuestsMgr\BaseQuest.cs" />
+    <Compile Include="quests\QuestsMgr\DataQuest.cs" />
+    <Compile Include="quests\QuestsMgr\IDataQuestStep.cs" />
+    <Compile Include="quests\QuestsMgr\QuestBehaviour.cs" />
+    <Compile Include="quests\QuestsMgr\QuestBuilder.cs" />
+    <Compile Include="quests\QuestsMgr\QuestMgr.cs" />
+    <Compile Include="quests\QuestsMgr\Requirements\QuestCompletedRequirement.cs" />
+    <Compile Include="quests\QuestsMgr\Requirements\QuestGivableRequirement.cs" />
+    <Compile Include="quests\QuestsMgr\Requirements\QuestPendingRequirement.cs" />
+    <Compile Include="quests\QuestsMgr\Requirements\QuestStepRequirement.cs" />
+    <Compile Include="quests\QuestsMgr\RewardQuest.cs" />
+    <Compile Include="quests\QuestsMgr\Triggers\AbortQuestTrigger.cs" />
+    <Compile Include="quests\QuestsMgr\Triggers\AcceptQuestTrigger.cs" />
+    <Compile Include="quests\QuestsMgr\Triggers\ContinueQuestTrigger.cs" />
+    <Compile Include="quests\QuestsMgr\Triggers\DeclineQuestTrigger.cs" />
+    <Compile Include="quests\QuestsMgr\Utility\QuestSearchArea.cs" />
+    <Compile Include="realmabilities\effects\AdrenalineRushEffect.cs" />
+    <Compile Include="realmabilities\effects\AmelioratingMelodiesEffect.cs" />
+    <Compile Include="realmabilities\effects\BarrierOfFortitudeEffect.cs" />
+    <Compile Include="realmabilities\effects\BedazzlingAuraEffect.cs" />
+    <Compile Include="realmabilities\effects\ChargeEffect.cs" />
+    <Compile Include="realmabilities\effects\DashingDefenseEffect.cs" />
+    <Compile Include="realmabilities\effects\DivineInterventionEffect.cs" />
+    <Compile Include="realmabilities\effects\JuggernautEffect.cs" />
+    <Compile Include="realmabilities\effects\MasteryOfConcentrationEffect.cs" />
+    <Compile Include="realmabilities\effects\RezDmgImmunity.cs" />
+    <Compile Include="realmabilities\effects\rr5\AllureofDeadEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\ArmsLengthEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\BadgeOfValorEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\BladeBarrierEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\BlindingDustEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\BoilingCauldronEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\CallOfDarknessEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\BloodDrinkingEffect.cs" />
+    <Compile Include="realmabilities\handlers\rr5\BloodDrinkingAbility.cs" />
+    <Compile Include="realmabilities\effects\rr5\ShadowShroudAbility.cs" />
+    <Compile Include="realmabilities\effects\rr5\OverwhelmAbility.cs" />
+    <Compile Include="realmabilities\effects\rr5\ShadowShroudEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\OverwhelmEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\CombatAwarenessEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\DesperateBowmanEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\DreamWeaverEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\EntwiningSnakesEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\FanatacismEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\FerociousWillEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\FungalUnionEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\FuryOfNatureEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\GiftOfPerizorEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\MarkofPreyEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\MinionRescueEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\NaturesWombEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\RemedyEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\RestorativeMindEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\RetributionOfTheFaithfulEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\RuneOfUtterAgilityEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\SearingPetEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\SelectiveBlindnessEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\SelflessDevotionEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\ShieldOfImmunityEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\ShieldTripEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\SoldiersCitadelEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\SonicBarrierAbility.cs" />
+    <Compile Include="realmabilities\effects\rr5\SputinsLegacyEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\TestudoEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\ValhallasBlessingEffect.cs" />
+    <Compile Include="realmabilities\effects\rr5\WhirlingStaffEffect.cs" />
+    <Compile Include="realmabilities\effects\SoldiersBarricadeEffect.cs" />
+    <Compile Include="realmabilities\effects\SpeedOfSoundEffect.cs" />
+    <Compile Include="realmabilities\effects\StrikePredictionEffect.cs" />
+    <Compile Include="realmabilities\effects\TheEmptyMindEffect.cs" />
+    <Compile Include="realmabilities\handlers\AdrenalineRushAbility.cs" />
+    <Compile Include="realmabilities\handlers\AmelioratingMelodiesAbility.cs" />
+    <Compile Include="realmabilities\handlers\AngerOfTheGodsAbility.cs" />
+    <Compile Include="realmabilities\handlers\ArrowSummoningAbility.cs" />
+    <Compile Include="realmabilities\handlers\BarrierOfFortitudeAbility.cs" />
+    <Compile Include="realmabilities\handlers\BedazzlingAuraAbility.cs" />
+    <Compile Include="realmabilities\handlers\DashingDefenseAbility.cs" />
+    <Compile Include="realmabilities\handlers\DecimationTrap.cs" />
+    <Compile Include="realmabilities\handlers\IchorOfTheDeepAbility.cs" />
+    <Compile Include="realmabilities\handlers\L3RAPropertyEnhancerAbilities.cs" />
+    <Compile Include="realmabilities\handlers\rr5\AllureofDeadAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\ArmsLengthAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\BadgeOfValorAbilityHandler.cs" />
+    <Compile Include="realmabilities\handlers\rr5\BladeBarrierAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\BlindingDustAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\BlissfulIgnoranceAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\BoilingCauldronAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\CallOfDarknessAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\CalmingNotesAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\ChainBoltSpellHandler.cs" />
+    <Compile Include="realmabilities\handlers\rr5\ChainLightningAbilityHandler.cs" />
+    <Compile Include="realmabilities\handlers\rr5\CombatAwarenessAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\DesperateBowmanAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\DreamWeaverAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\EntwiningSnakesAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\EpiphanyAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\FanatacismAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\FerociousWillAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\FungalUnionAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\FuryOfNatureAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\GiftOfPerizorAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\MarkofPreyAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\MinionRescueAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\NaturesWombAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\RemedyAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\ResoluteMinion.cs" />
+    <Compile Include="realmabilities\handlers\rr5\RestorativeMindAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\RetributionOfTheFaithfulAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\RuneOfUtterAgilityAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\SearingPetAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\SelectiveBlindnessAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\SelflessDevotionAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\ShieldOfImmunityAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\ShieldTripAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\SoldiersCitadelAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\SoulQuenchAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\SpiritMartyrAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\SputinsLegacyAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\TestudoAbilty.cs" />
+    <Compile Include="realmabilities\handlers\rr5\ValeDefenseAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\ValhallasBlessingAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\WallOfFlameAbility.cs" />
+    <Compile Include="realmabilities\handlers\rr5\WhirlingStaffAbility.cs" />
+    <Compile Include="realmabilities\handlers\WildMinionAbility.cs" />
+    <Compile Include="realmabilities\handlers\LifterAbility.cs" />
+    <Compile Include="realmabilities\handlers\VeilRecoveryAbility.cs" />
+    <Compile Include="relics\Relic.cs" />
+    <Compile Include="relics\RelicGate.cs" />
+    <Compile Include="relics\RelicMgr.cs" />
+    <Compile Include="relics\RelicPad.cs" />
+    <Compile Include="keeps\Relics\RelicPillar.cs" />
+    <Compile Include="serverrules\DemonsBreachJumpPoint.cs" />
+    <Compile Include="serverrules\InstanceDoorJumpPoint.cs" />
+    <Compile Include="serverrules\TaskDungeonJumpPoint.cs" />
+    <Compile Include="skillhandler\BodyguardAbilityHandler.cs" />
+    <Compile Include="skillhandler\BolsteringRoarAbilityHandler.cs" />
+    <Compile Include="skillhandler\CamouflageSpecHandler.cs" />
+    <Compile Include="realmabilities\handlers\ChargeAbility.cs" />
+    <Compile Include="realmabilities\handlers\ConcentrationAbility.cs" />
+    <Compile Include="realmabilities\handlers\DivineInterventionAbility.cs" />
+    <Compile Include="realmabilities\handlers\JuggernautAbility.cs" />
+    <Compile Include="realmabilities\handlers\MasteryOfConcentrationAbility.cs" />
+    <Compile Include="realmabilities\handlers\NegativeMaelstromAbility.cs" />
+    <Compile Include="realmabilities\handlers\PerfectRecoveryAbility.cs" />
+    <Compile Include="realmabilities\handlers\SoldiersBarricadeAbility.cs" />
+    <Compile Include="realmabilities\handlers\SpeedOfSoundAbility.cs" />
+    <Compile Include="realmabilities\handlers\StaticTempestAbility.cs" />
+    <Compile Include="realmabilities\handlers\StrikePredictionAbility.cs" />
+    <Compile Include="realmabilities\handlers\TheEmptyMindAbility.cs" />
+    <Compile Include="realmabilities\handlers\ThornweedFieldAbility.cs" />
+    <Compile Include="realmabilities\handlers\ToughnessAbility.cs" />
+    <Compile Include="realmabilities\handlers\LongWindAbility.cs" />
+    <Compile Include="realmabilities\handlers\EtherealBondAbility.cs" />
+    <Compile Include="realmabilities\handlers\DeterminationAbility.cs" />
+    <Compile Include="realmabilities\handlers\FalconsEyeAbility.cs" />
+    <Compile Include="realmabilities\handlers\RagingPowerAbility.cs" />
+    <Compile Include="realmabilities\handlers\VehementRenewalHandler.cs" />
+    <Compile Include="realmabilities\handlers\MysticCrystalLoreAbility.cs" />
+    <Compile Include="realmabilities\handlers\FirstAidAbility.cs" />
+    <Compile Include="realmabilities\handlers\VolcanicPillarAbility.cs" />
+    <Compile Include="realmabilities\handlers\WrathOfChampionsAbility.cs" />
+    <Compile Include="realmabilities\Statics\GenericBase.cs" />
+    <Compile Include="realmabilities\Statics\NegativeMaelstromBase.cs" />
+    <Compile Include="realmabilities\Statics\StaticTempestBase.cs" />
+    <Compile Include="realmabilities\Statics\ThornweedFieldBase.cs" />
+    <Compile Include="realmabilities\Statics\WallOfFlameBase.cs" />
+    <Compile Include="serverproperty\ServerProperties.cs" />
+    <Compile Include="gameutils\DoorMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\Faction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\FactionMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\FastMath.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\GameLivingInventory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\GameNpcInventoryTemplate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\GamePlayerInventory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\GameTimer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\Group.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\GroupMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\GSPacketIn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\Guild.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\GuildMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\Hashtable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="commands\ICommandHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\IDoor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\IGameInventory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\ILootGenerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\INpcTemplate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\ITradeWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\LootGeneratorBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\LootGeneratorMoney.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\LootGeneratorOneTimeDrop.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\LootGeneratorRandom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\LootGeneratorTemplate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\LootList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\LootMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\MerchantTradeItems.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\Message.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\Money.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\MovementMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\NPCGuildScriptAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\NpcTemplate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\NpcTemplateMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\PathPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\PlayerTradeWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\PropertyCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\RegionAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\RegionTimer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\ScriptMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\SelfCraftWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="serverproperty\ServerPropertyAttribute.cs" />
+    <Compile Include="gameutils\SinglePermission.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\SkillBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\SkillConstants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\Specialization.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gameutils\Util.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GlobalConstants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="housing\House.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="housing\HouseMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="housing\HouseTemplateMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="housing\IndoorItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="housing\LotMarker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="housing\OutdoorItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="keeps\AbstractGameKeep.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="keeps\GameKeep.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="keeps\GameKeepComponent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="keeps\Gameobjects\GameKeepBanner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="keeps\Gameobjects\GameKeepDoor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="keeps\Gameobjects\Guards\GameKeepGuard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="keeps\GameTower.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="keeps\HookPointInventory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="keeps\IKeep.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="keeps\KeepHookPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="keeps\KeepManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\albion\ClassArmsman.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\albion\ClassCabalist.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\albion\ClassCleric.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\albion\ClassFriar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\albion\ClassHeretic.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\albion\ClassInfiltrator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\albion\ClassMercenary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\albion\ClassMinstrel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\albion\ClassNecromancer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\albion\ClassPaladin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\albion\ClassReaver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\albion\ClassScout.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\albion\ClassSorcerer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\albion\ClassTheurgist.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\albion\ClassWizard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\base\ClassAcolyte.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\base\ClassAlbionRogue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\base\ClassDisciple.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\base\ClassElementalist.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\base\ClassFighter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\base\ClassForester.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\base\ClassGuardian.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\base\ClassMage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\base\ClassMagician.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\base\ClassMidgardRogue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\base\ClassMystic.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\base\ClassNaturalist.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\base\ClassSeer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\base\ClassStalker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\base\ClassViking.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\hibernia\ClassAnimist.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\hibernia\ClassBainshee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\hibernia\ClassBard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\hibernia\ClassBlademaster.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\hibernia\ClassChampion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\hibernia\ClassDruid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\hibernia\ClassEldritch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\hibernia\ClassEnchanter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\hibernia\ClassHero.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\hibernia\ClassMentalist.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\hibernia\ClassNightshade.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\hibernia\ClassRanger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\hibernia\ClassValewalker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\hibernia\ClassVampiir.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\hibernia\ClassWarden.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\midgard\ClassBerserker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\midgard\ClassBonedancer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\midgard\ClassHealer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\midgard\ClassHunter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\midgard\ClassRunemaster.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\midgard\ClassSavage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\midgard\ClassShadowblade.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\midgard\ClassShaman.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\midgard\ClassSkald.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\midgard\ClassSpiritmaster.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\midgard\ClassThane.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\midgard\ClassValkyrie.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\midgard\ClassWarlock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playerclasses\midgard\ClassWarrior.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playertitles\ClearTitle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playertitles\EventPlayerTitle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playertitles\IPlayerTitle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playertitles\PlayerTitleMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="playertitles\SimplePlayerTitle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\ArcheryRangePercentCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\ArcherySpeedPercentCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\ArmorAbsorbtionCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\ArmorFactorCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\BlockChanceCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\DPSCalculator.cs" />
+    <Compile Include="propertycalc\EnduranceRegenerationRateCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\EvadeChanceCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\FatigueConsumptionPercentCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\FocusLevelCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\FumbleChanceCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\HealthRegenerationRateCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\IMultiplicativeProperties.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\IPropertyCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\IPropertyIndexer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\LivingEffectiveLevelCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\MaxConcentrationCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\MaxHealthCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\MaxManaCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\MaxSpeedCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\MeleeDamagePercentCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\MeleeSpeedPercentCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\MesmerizeDurationPercentCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\MultiplicativePropertiesHybrid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\ParryChanceCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\PowerRegenerationRateCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\PropertyCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\PropertyCalculatorAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\PropertyIndexer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\RangedDamagePercentCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\ResistCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\SkillLevelCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\SpeedDecreaseDurationPercentCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\SpellRangePercentCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\StatCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\StunDurationPercentCalculator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="propertycalc\StyleDamagePercentCalculator.cs" />
+    <Compile Include="propertycalc\TOABonusCalculator.cs" />
+    <Compile Include="propertycalc\ToHitCalculator.cs" />
+    <Compile Include="quests\Tasks\AbstractTask.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="quests\Tasks\CraftTask.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="behaviour\IBehaviourAction.cs" />
+    <Compile Include="behaviour\IBehaviourRequirement.cs" />
+    <Compile Include="behaviour\IBehaviourTrigger.cs" />
+    <Compile Include="quests\Tasks\KillTask.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="quests\Tasks\MoneyTask.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="realmabilities\handlers\AvoidanceOfMagicAbility.cs" />
+    <Compile Include="realmabilities\effects\TrueshotEffect.cs" />
+    <Compile Include="realmabilities\effects\VanishEffect.cs" />
+    <Compile Include="realmabilities\handlers\IgnorePainAbility.cs" />
+    <Compile Include="realmabilities\handlers\MasteryOfPain.cs" />
+    <Compile Include="realmabilities\handlers\PurgeAbility.cs" />
+    <Compile Include="realmabilities\handlers\RAPropertyEnhancer.cs" />
+    <Compile Include="realmabilities\handlers\RAStatEnhancer.cs" />
+    <Compile Include="realmabilities\handlers\RealmAbility.cs" />
+    <Compile Include="realmabilities\handlers\SecondWindAbility.cs" />
+    <Compile Include="realmabilities\handlers\SerenityAbility.cs" />
+    <Compile Include="realmabilities\handlers\TrueshotAbility.cs" />
+    <Compile Include="realmabilities\handlers\WildPowerAbility.cs" />
+    <Compile Include="ResourceUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="serverrules\AbstractServerRules.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="serverrules\DFEnterJumpPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="serverrules\IJumpPointHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="serverrules\IServerRules.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="serverrules\NormalServerRules.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="serverrules\PvEServerRules.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="serverrules\PvPServerRules.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="serverrules\ServerRulesAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skillhandler\BerserkAbilityHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skillhandler\StatChangingAbility.cs" />
+    <Compile Include="skillhandler\TacticsAbilityHandler.cs" />
+    <Compile Include="skillhandler\Climbing.cs" />
+    <Compile Include="skillhandler\FuryAbilityHandler.cs" />
+    <Compile Include="skillhandler\MemoriesOfWar.cs" />
+    <Compile Include="skillhandler\MetalGuardAbilityHandler.cs" />
+    <Compile Include="skillhandler\RampageAbilityHandler.cs" />
+    <Compile Include="skillhandler\ScarsOfBattle.cs" />
+    <Compile Include="skillhandler\ShadowstrikeAbility.cs" />
+    <Compile Include="skillhandler\StealthersAbilitiesHandler.cs" />
+    <Compile Include="skillhandler\TauntingShoutAbilityHandler.cs" />
+    <Compile Include="skillhandler\VampiirBoltAbilityHandler.cs" />
+    <Compile Include="skillhandler\CriticalShotAbilityHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skillhandler\DirtyTricksAbilityHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skillhandler\EngageAbilityHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skillhandler\FlurryAbilityHandler.cs" />
+    <Compile Include="skillhandler\GuardAbilityHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skillhandler\InterceptAbilityHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="realmabilities\handlers\MasteryOfStealthAbility.cs" />
+    <Compile Include="skillhandler\PropertyChangingAbility.cs" />
+    <Compile Include="skillhandler\ProtectAbilityHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skillhandler\QuickCastAbilityHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skillhandler\RapidFireAbilityHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skillhandler\SpellCastingAbilityHandler.cs" />
+    <Compile Include="skillhandler\SprintAbilityHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skillhandler\StagAbilityHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skillhandler\StealthSpecHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skillhandler\SureShotAbilityHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="realmabilities\handlers\VanishAbility.cs" />
+    <Compile Include="skillhandler\TripleWieldAbilityHandler.cs" />
+    <Compile Include="skillhandler\VampiirAbilities.cs" />
+    <Compile Include="spells\AblativeArmorSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\AfHitsBuff.cs" />
+    <Compile Include="spells\AllStatsBuff.cs" />
+    <Compile Include="spells\AmnesiaSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\Animist\PetPBAoE.cs" />
+    <Compile Include="spells\Animist\SummonAnimistFnF.cs" />
+    <Compile Include="spells\Animist\SummonAnimistMainPet.cs" />
+    <Compile Include="spells\Animist\SummonAnimistPet.cs" />
+    <Compile Include="spells\Animist\TurretsReleaseSpellHandler.cs" />
+    <Compile Include="spells\AOEHealSpellhandler.cs" />
+    <Compile Include="spells\Archery\Archery.cs" />
+    <Compile Include="spells\Archery\ArcheryDoT.cs" />
+    <Compile Include="spells\Archery\Arrow.cs" />
+    <Compile Include="spells\Archery\ArrowDamageTypes.cs" />
+    <Compile Include="spells\Archery\SiegeShot.cs" />
+    <Compile Include="spells\Artifacts\AllStatsPercentDebuff.cs" />
+    <Compile Include="spells\Artifacts\AlvarusLeggings.cs" />
+    <Compile Include="spells\Artifacts\Arrogance.cs" />
+    <Compile Include="spells\Artifacts\AtensShield.cs" />
+    <Compile Include="spells\Artifacts\AtlantisTablet.cs" />
+    <Compile Include="spells\Artifacts\bracerofzo.cs" />
+    <Compile Include="spells\Artifacts\CeremonialBracer.cs" />
+    <Compile Include="spells\Artifacts\Belt of Moon.cs" />
+    <Compile Include="spells\Artifacts\Belt of Sun.cs" />
+    <Compile Include="spells\Artifacts\DarknessStone.cs" />
+    <Compile Include="spells\Artifacts\LightStone.cs" />
+    <Compile Include="spells\Artifacts\EfficientHealingEnduranceSpellHandler.cs" />
+    <Compile Include="spells\Artifacts\EternalPlant.cs" />
+    <Compile Include="spells\Artifacts\Cloudsong.cs">
+    </Compile>
+    <Compile Include="spells\Artifacts\CombineScrolls.cs" />
+    <Compile Include="spells\Artifacts\CommonArtifactSpells.cs" />
+    <Compile Include="spells\Artifacts\DreamSphere.cs" />
+    <Compile Include="spells\Artifacts\Ereine.cs" />
+    <Compile Include="spells\Artifacts\Flask.cs" />
+    <Compile Include="spells\Artifacts\GoldenSpearJavelin.cs" />
+    <Compile Include="spells\Artifacts\HarpyFeatherCloak.cs" />
+    <Compile Include="spells\Artifacts\HpPwrEndRegen.cs" />
+    <Compile Include="spells\Artifacts\MaddeningScalars.cs" />
+    <Compile Include="spells\Artifacts\PhoebusHarp.cs" />
+    <Compile Include="spells\Artifacts\RealmLore.cs" />
+    <Compile Include="spells\Artifacts\ScarabVest.cs" />
+    <Compile Include="spells\Artifacts\BandofStars.cs" />
+    <Compile Include="spells\Artifacts\ShadesOfMist.cs" />
+    <Compile Include="spells\Artifacts\SnakeCharmersWeapon.cs" />
+    <Compile Include="spells\Artifacts\StyleDmgAbs.cs">
+    </Compile>
+    <Compile Include="spells\Artifacts\TartarosGift.cs" />
+    <Compile Include="spells\Artifacts\TraitorsDagger.cs" />
+    <Compile Include="spells\Artifacts\Traldor.cs" />
+    <Compile Include="spells\AstralPetSummon.cs" />
+    <Compile Include="spells\Bainshee\BainsheePulseDmgSpellHandler.cs" />
+    <Compile Include="spells\Bainshee\BeFriendSpellHandler.cs" />
+    <Compile Include="spells\Bainshee\FearBrain.cs" />
+    <Compile Include="spells\Bainshee\FearSpellHandler.cs" />
+    <Compile Include="spells\Bainshee\FriendBrain.cs" />
+    <Compile Include="spells\Bainshee\RangeShield.cs" />
+    <Compile Include="spells\BladeturnSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\BolsteringRoarSpellHandler.cs" />
+    <Compile Include="spells\BoltSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\Animist\BomberSpellHandler.cs" />
+    <Compile Include="spells\Bonedancer\SummonCommanderPet.cs" />
+    <Compile Include="spells\Boss NPC\BossPetSummonMinionHandler.cs" />
+    <Compile Include="spells\BuffShear.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\buff\SingleStatAbilityBuffHandler.cs" />
+    <Compile Include="spells\Cabalist\SummonSimulacrum.cs" />
+    <Compile Include="spells\CCSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\CharmSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\BoltSpecSpellHandler.cs" />
+    <Compile Include="spells\ArcherSpeedEnhancement.cs" />
+    <Compile Include="spells\CampfireSpellHandler.cs" />
+    <Compile Include="spells\AOECCSpellHandler.cs" />
+    <Compile Include="spells\Fishing\FischingSpellHandler.cs" />
+    <Compile Include="spells\RampingDamageFocus.cs" />
+    <Compile Include="spells\Crafting\CraftingBonus.cs" />
+    <Compile Include="spells\Epic\Albion\Teleport\Epic6AlbPortalStone.cs" />
+    <Compile Include="spells\NightShade\NightshadeNukeSpellhandler.cs" />
+    <Compile Include="spells\PowerRend.cs" />
+    <Compile Include="spells\PortalSpell.cs" />
+    <Compile Include="spells\MobPet\SummonMobPet.cs" />
+    <Compile Include="spells\PetCallStone.cs" />
+    <Compile Include="spells\EggResurection.cs" />
+    <Compile Include="spells\DirectDamagePoisoneSpellHandler.cs" />
+    <Compile Include="spells\Hunter\CallTheHounds.cs" />
+    <Compile Include="spells\Savage\MultipleMeleeHitsHandler.cs" />
+    <Compile Include="spells\SpellHelpers\SpellMessagesHelper.cs" />
+    <Compile Include="spells\SpellHelpers\StatsSpellHelper.cs" />
+    <Compile Include="spells\SpellHelpers\SpellHelper.cs" />
+    <Compile Include="spells\Teleport\AmuletOfWishes.cs" />
+    <Compile Include="spells\Teleport\FoilHatTeleport.cs" />
+    <Compile Include="spells\Teleport\GatewayPersonalGuildHouse.cs" />
+    <Compile Include="spells\Teleport\GatewayPersonalHouse.cs" />
+    <Compile Include="spells\Valewalker\ValewalkerRangeShield.cs" />
+    <Compile Include="spells\WLBoltSpellHandler.cs" />
+    <Compile Include="spells\DirectDamageTuretSpellHandler.cs" />
+    <Compile Include="spells\FuryHandler.cs" />
+    <Compile Include="spells\CombatHealSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\ConcentrationList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\ConfusionSpellHandler.cs" />
+    <Compile Include="spells\Conversion.cs" />
+    <Compile Include="spells\PetConversionSpellHandler.cs" />
+    <Compile Include="spells\CostumeSpellHandler.cs" />
+    <Compile Include="spells\CureAllSpellHandler.cs" />
+    <Compile Include="spells\DamageReductionPowerReturn.cs" />
+    <Compile Include="spells\DamageToPowerSpellHandler.cs" />
+    <Compile Include="spells\DisarmSpellHandler.cs" />
+    <Compile Include="spells\DoomHammer.cs" />
+    <Compile Include="spells\Druid\SummonDruidPet.cs" />
+    <Compile Include="spells\Enchanter\SummonUnderhill.cs" />
+    <Compile Include="spells\EnduranceHealSpellHandler.cs" />
+    <Compile Include="spells\FacilisSpellHandler.cs" />
+    <Compile Include="spells\FocusShellHandler.cs" />
+    <Compile Include="spells\ClimbingHandler.cs" />
+    <Compile Include="spells\Hunter\SummonHunterPet.cs" />
+    <Compile Include="spells\Necromancer\PowerTransfer.cs" />
+    <Compile Include="spells\Necromancer\PowerDrain.cs" />
+    <Compile Include="spells\Stealthers\ShadownStrike.cs" />
+    <Compile Include="spells\StyleHandler.cs" />
+    <Compile Include="spells\SummonNoveltyPet.cs" />
+    <Compile Include="spells\PetLifedrainSpellHandler.cs" />
+    <Compile Include="spells\PowerDrain.cs" />
+    <Compile Include="spells\PowerTransfer.cs" />
+    <Compile Include="spells\Savage\SavageEnduranceHeal.cs" />
+    <Compile Include="spells\SpeedOfTheRealmHandler.cs" />
+    <Compile Include="spells\Spirit Master\SummonSpiritFighter.cs" />
+    <Compile Include="spells\Stealthers\StealthersHandlers.cs" />
+    <Compile Include="spells\StylePowerDrain.cs" />
+    <Compile Include="spells\SummonIllusionBlade.cs" />
+    <Compile Include="spells\Teleport\GatewayPersonalBind.cs" />
+    <Compile Include="spells\HealthToEndurance.cs" />
+    <Compile Include="spells\Heretic\HereticDamageLostOnPulse.cs" />
+    <Compile Include="spells\Heretic\HereticDamageSpeedDecrease.cs" />
+    <Compile Include="spells\Heretic\HereticDamageSpeedDecreaseLostOnPulse.cs" />
+    <Compile Include="spells\Heretic\HereticDoTSpellHandler.cs" />
+    <Compile Include="spells\Heretic\HereticPiercingMagic.cs" />
+    <Compile Include="spells\Heretic\HereticSpeedDecrease.cs" />
+    <Compile Include="spells\Heretic\MonsterRez.cs" />
+    <Compile Include="spells\Masterlevel\Banelord.cs" />
+    <Compile Include="spells\Masterlevel\Battlemaster.cs" />
+    <Compile Include="spells\Masterlevel\Convoker.cs" />
+    <Compile Include="spells\Masterlevel\MasterLevelBase.cs" />
+    <Compile Include="spells\Masterlevel\Perfecter.cs" />
+    <Compile Include="spells\Masterlevel\Sojourner.cs" />
+    <Compile Include="spells\Masterlevel\Spymaster.cs" />
+    <Compile Include="spells\Masterlevel\Stormlord.cs" />
+    <Compile Include="spells\Masterlevel\Warlord.cs" />
+    <Compile Include="spells\MetalGuardSpellHandler.cs" />
+    <Compile Include="spells\Necromancer\FacilitatePainworking.cs" />
+    <Compile Include="spells\Necromancer\PetSpellHandler.cs" />
+    <Compile Include="spells\Necromancer\SummonNecromancerPet.cs" />
+    <Compile Include="spells\NoVarianceSpells.cs" />
+    <Compile Include="spells\OmniLifedrainSpellHandler.cs" />
+    <Compile Include="spells\PetMesmerizeSpellHandler.cs" />
+    <Compile Include="spells\PowerHealSpellHandler.cs" />
+    <Compile Include="spells\RampageSpellHandler.cs" />
+    <Compile Include="spells\Savage\SavageBuff.cs" />
+    <Compile Include="spells\SilenceSpellHandler.cs" />
+    <Compile Include="spells\StyleTaunt.cs" />
+    <Compile Include="spells\Bonedancer\SummonMinionHandler.cs" />
+    <Compile Include="spells\Theurgist\SummonTheurgistPet.cs" />
+    <Compile Include="spells\Teleport\UniPortal.cs" />
+    <Compile Include="spells\Valkyrie\FrontalAOEConeHandler.cs" />
+    <Compile Include="spells\Valkyrie\ValkyrieProc.cs" />
+    <Compile Include="spells\Vampiir\VampArmorDebuff.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\Vampiir\VampiirEffectivenessDeBuff.cs" />
+    <Compile Include="spells\EnduranceDrainSpellHandler.cs" />
+    <Compile Include="spells\Vampiir\VampiirPowerBolt.cs" />
+    <Compile Include="spells\Vampiir\VampiirResistBuff.cs" />
+    <Compile Include="spells\Vampiir\VampiirSkillBonusDeBuff.cs" />
+    <Compile Include="spells\Vampiir\VampiirStealthDetection.cs" />
+    <Compile Include="spells\Vampiir\VampMagicalStrike.cs" />
+    <Compile Include="spells\Vampiir\VampMaintainedSpeedDecrease.cs" />
+    <Compile Include="spells\Warlock\ChamberSpellHandler.cs" />
+    <Compile Include="spells\Warlock\PowerlessSpellHandler.cs" />
+    <Compile Include="spells\Warlock\PrimerSpellHandler.cs" />
+    <Compile Include="spells\Warlock\RangeSpellHandler.cs" />
+    <Compile Include="spells\Warlock\UninterruptableSpellHandler.cs" />
+    <Compile Include="spells\Warlock\WarlockSpeedDecreaseSpellHandler.cs" />
+    <Compile Include="spells\WaterBreathingSpellHandler.cs" />
+    <Compile Include="spells\CureDiseaseSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\Curemezz.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\CureNearsight.cs" />
+    <Compile Include="spells\CurePoisonSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\DamageAddAndShield.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\DamageSpeedDecrease.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\DirectDamageDebuffSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\DirectDamageSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\DiseaseSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\DoTSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\DualStatBuff.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\DualStatDebuff.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\HealSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\HoTSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\IllnessSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\ImmunityEffectSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\ISpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\LifedrainSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\LifeTransferSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\NearsightSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\ProcSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\PropertyChangingSpell.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\HealthRegenSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\RemoveSpellEffectHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\ResistBuff.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\ResistDebuff.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\ResurrectSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\SingleStatBuff.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\SingleStatDebuff.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\SpeedDecreaseSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\SpeedEnhancementSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\Spell.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\SpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\SpellHandlerAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\SpreadhealSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\StyleBleeding.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\StyleCombatSpeedDebuff.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\StyleSpeedDecrease.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\StyleStun.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\SummonSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\TauntSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spells\UnbreakableSpeedDecreaseSpellHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="styles\Style.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="styles\StyleLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="styles\StyleProcessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\AcolyteTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\AlbionMaulerTrainer.cs" />
+    <Compile Include="trainer\albion\AlbionRogueTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\ArmsmanTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\CabalistTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\ClericTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\DiscipleTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\ElementalistTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\FighterTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\FriarTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\HereticTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\InfiltratorTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\MageTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\MercenaryTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\MinstrelTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\NecromancerTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\PaladinTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\ReaverTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\ScoutTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\SorcererTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\TheurgistTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\albion\WizardTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\AnimistTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\BainsheeTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\BardTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\BlademasterTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\ChampionTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\DruidTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\EldritchTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\EnchanterTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\ForesterTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\GuardianTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\HeroTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\HiberniaMaulerTrainer.cs" />
+    <Compile Include="trainer\hibernia\MagicianTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\MentalistTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\NaturalistTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\NightshadeTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\RangerTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\StalkerTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\ValewalkerTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\VampiirrTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\hibernia\WardenTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\BerserkerTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\BonedancerTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\HealerTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\HunterTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\MidgardMaulerTrainer.cs" />
+    <Compile Include="trainer\midgard\MidgardRogueTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\MysticTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\RunemasterTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\SavageTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\SeerTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\ShadowbladeTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\ShamanTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\SkaldTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\SpiritmasterTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\ThaneTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\ValkyrieTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\VikingTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\WarlockTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trainer\midgard\WarriorTrainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="world\AbstractArea.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="world\Area.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="world\AreaMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="world\CompilerDirectives.cs" />
+    <Compile Include="world\geometry\AABoundingBox.cs" />
+    <Compile Include="world\geometry\ICollider.cs" />
+    <Compile Include="world\geometry\LosCheckMgr.cs" />
+    <Compile Include="world\geometry\OctreeNode.cs" />
+    <Compile Include="world\geometry\OrientedBoundingBox.cs" />
+    <Compile Include="world\geometry\QuadtreeNode.cs" />
+    <Compile Include="world\geometry\Triangle.cs" />
+    <Compile Include="world\geometry\WavefrontObj.cs" />
+    <Compile Include="world\Instance\AdventureWingInstance.cs" />
+    <Compile Include="world\Instance\RegionInstance.cs" />
+    <Compile Include="world\pathing\Extensions.cs" />
+    <Compile Include="world\pathing\FailureTolerantPathingMgr.cs" />
+    <Compile Include="world\pathing\GamePath.cs" />
+    <Compile Include="world\pathing\IPathingMgr.cs" />
+    <Compile Include="world\pathing\LocalPathingMgr.cs" />
+    <Compile Include="world\pathing\NoPathToTargetException.cs" />
+    <Compile Include="world\pathing\NullPathingMgr.cs" />
+    <Compile Include="world\pathing\PathCalculator.cs" />
+    <Compile Include="world\pathing\PathingMgr.cs" />
+    <Compile Include="world\pathing\RpcPathingMgr.cs" />
+    <Compile Include="world\pathing\Service.cs" />
+    <Compile Include="world\pathing\ServiceGrpc.cs" />
+    <Compile Include="world\pathing\Structs.cs" />
+    <Compile Include="world\WorldUpdateThread.cs" />
+    <Compile Include="world\GameLocation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="world\IArea.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="world\IGameLocation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="world\Instance\BaseInstance.cs" />
+    <Compile Include="world\Instance\Instance.cs" />
+    <Compile Include="world\IPoint2D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="world\IPoint3D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="world\Point2D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="world\Point3D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="world\Region.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="world\RegionData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="world\WorldMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="world\Zone.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="world\ZoneBonus.cs" />
+    <Compile Include="world\ZoneData.cs" />
+    <Compile Include="world\ZonePointEffects.cs" />
+    <EmbeddedResource Include="config\logconfig.xml" />
+    <EmbeddedResource Include="config\regions.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="config\zones.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config\invalidnames.txt" />
+    <Content Include="dol_detour.dll" />
+    <Content Include="Language\CZ\Ability.txt" />
+    <Content Include="Language\CZ\AI.txt" />
+    <Content Include="Language\CZ\Atlantis.txt" />
+    <Content Include="Language\CZ\Behaviour.txt" />
+    <Content Include="Language\CZ\CommanderPet.txt" />
+    <Content Include="Language\CZ\Commands.txt" />
+    <Content Include="Language\CZ\Commands\AdminCommands.txt" />
+    <Content Include="Language\CZ\Commands\GMCommands.txt" />
+    <Content Include="Language\CZ\Commands\PlayerCommands.txt" />
+    <Content Include="Language\CZ\Crafting.txt" />
+    <Content Include="Language\CZ\CZ - General.txt" />
+    <Content Include="Language\CZ\Effects.txt" />
+    <Content Include="Language\CZ\GameDoor.txt" />
+    <Content Include="Language\CZ\GameGuard.txt" />
+    <Content Include="Language\CZ\GameLiving.txt" />
+    <Content Include="Language\CZ\GameMerchant.txt" />
+    <Content Include="Language\CZ\GameNPC.txt" />
+    <Content Include="Language\CZ\GameObject.txt" />
+    <Content Include="Language\CZ\GameObjects\CommanderPet.txt" />
+    <Content Include="Language\CZ\GameObjects\CustomNPC\Blacksmith.txt" />
+    <Content Include="Language\CZ\GameObjects\CustomNPC\CraftNPC.txt" />
+    <Content Include="Language\CZ\GameObjects\CustomNPC\Enchanter.txt" />
+    <Content Include="Language\CZ\GameObjects\CustomNPC\GameBoatStableMaster.txt" />
+    <Content Include="Language\CZ\GameObjects\CustomNPC\GameHastener.txt" />
+    <Content Include="Language\CZ\GameObjects\CustomNPC\GameStableMaster.txt" />
+    <Content Include="Language\CZ\GameObjects\CustomNPC\Healer.txt" />
+    <Content Include="Language\CZ\GameObjects\CustomNPC\NameRegistrar.txt" />
+    <Content Include="Language\CZ\GameObjects\CustomNPC\Other.txt" />
+    <Content Include="Language\CZ\GameObjects\CustomNPC\Recharger.txt" />
+    <Content Include="Language\CZ\GameObjects\CustomNPC\VaultKeeper.txt" />
+    <Content Include="Language\CZ\GameObjects\GameDoor.txt" />
+    <Content Include="Language\CZ\GameObjects\GameGuard.txt" />
+    <Content Include="Language\CZ\GameObjects\GameLiving.txt" />
+    <Content Include="Language\CZ\GameObjects\GameMerchant.txt" />
+    <Content Include="Language\CZ\GameObjects\GameNPC.txt" />
+    <Content Include="Language\CZ\GameObjects\GameObject.txt" />
+    <Content Include="Language\CZ\GameObjects\GamePlayer.txt" />
+    <Content Include="Language\CZ\GameObjects\GameTrainer.txt" />
+    <Content Include="Language\CZ\GameObjects\Other.txt" />
+    <Content Include="Language\CZ\GamePlayer.txt" />
+    <Content Include="Language\CZ\GameTrainer.txt" />
+    <Content Include="Language\CZ\GameUtils.txt" />
+    <Content Include="Language\CZ\GameUtils\CommanderPet.txt" />
+    <Content Include="Language\CZ\GameUtils\GameDoor.txt" />
+    <Content Include="Language\CZ\GameUtils\GameGuard.txt" />
+    <Content Include="Language\CZ\GameUtils\GameLiving.txt" />
+    <Content Include="Language\CZ\GameUtils\GameMerchant.txt" />
+    <Content Include="Language\CZ\GameUtils\GameNPC.txt" />
+    <Content Include="Language\CZ\GameUtils\GameObject.txt" />
+    <Content Include="Language\CZ\GameUtils\GamePlayer.txt" />
+    <Content Include="Language\CZ\GameUtils\GameTrainer.txt" />
+    <Content Include="Language\CZ\GameUtils\money.txt" />
+    <Content Include="Language\CZ\GameUtils\Other.txt" />
+    <Content Include="Language\CZ\Housing.txt" />
+    <Content Include="Language\CZ\Keeps.txt" />
+    <Content Include="Language\CZ\Keeps\Guards.txt" />
+    <Content Include="Language\CZ\Keeps\Managers.txt" />
+    <Content Include="Language\CZ\Language-CZ.txt" />
+    <Content Include="Language\CZ\Other.txt" />
+    <Content Include="Language\CZ\OtherSentences.txt" />
+    <Content Include="Language\CZ\Packets.txt" />
+    <Content Include="Language\CZ\PlayerClasses.txt" />
+    <Content Include="Language\CZ\PlayerRaces.txt" />
+    <Content Include="Language\CZ\PlayerRealmTitles.txt" />
+    <Content Include="Language\CZ\Quests\Albion\A Few Repairs.txt" />
+    <Content Include="Language\CZ\Quests\Albion\AfterTheAccident.txt" />
+    <Content Include="Language\CZ\Quests\Albion\ANewHeroesWelcome.txt" />
+    <Content Include="Language\CZ\Quests\Albion\CemmethsOrders.txt" />
+    <Content Include="Language\CZ\Quests\Albion\DredgeUpAPledge.txt" />
+    <Content Include="Language\CZ\Quests\Albion\NoHopeForTheHopeful.txt" />
+    <Content Include="Language\CZ\Quests\Albion\RecruitingNothingButTrouble.txt" />
+    <Content Include="Language\CZ\Quests\Albion\TombWithAView.txt" />
+    <Content Include="Language\CZ\Quests\Albion\ToReachTheBreach.txt" />
+    <Content Include="Language\CZ\Quests\Albion\WhenBloodSpeaks.txt" />
+    <Content Include="Language\CZ\Quests\Albion\WhenGoodBrowniesGoBad.txt" />
+    <Content Include="Language\CZ\Quests\AtlantisQuest.txt" />
+    <Content Include="Language\CZ\Quests\BaseQuest.txt" />
+    <Content Include="Language\CZ\Quests\ChildsPlay.txt" />
+    <Content Include="Language\CZ\Quests\Hibernia\ImportantDelivery.txt" />
+    <Content Include="Language\CZ\Quests\Hibernia\MagicalBacklash.txt" />
+    <Content Include="Language\CZ\Quests\Hibernia\SearchForKnowledge.txt" />
+    <Content Include="Language\CZ\Quests\Hibernia\ToReachTheBreach.txt" />
+    <Content Include="Language\CZ\Quests\Hibernia\WingsOfTheIsle.txt" />
+    <Content Include="Language\CZ\Quests\Midgard\ABearyBadProblem.txt" />
+    <Content Include="Language\CZ\Quests\Midgard\Frontiers.txt" />
+    <Content Include="Language\CZ\Quests\Midgard\MaulerInvasion.txt" />
+    <Content Include="Language\CZ\Quests\Midgard\StolenEggs.txt" />
+    <Content Include="Language\CZ\Quests\Midgard\TheBirthdayGift.txt" />
+    <Content Include="Language\CZ\ServerRules.txt" />
+    <Content Include="Language\CZ\SkillHandler.txt" />
+    <Content Include="Language\CZ\Spells.txt" />
+    <Content Include="Language\CZ\Trainer.txt" />
+    <Content Include="Language\CZ\World.txt" />
+    <Content Include="Language\CZ\Zones.txt" />
+    <Content Include="Language\DE\Ability.txt" />
+    <Content Include="Language\DE\AI.txt" />
+    <Content Include="Language\DE\Atlantis.txt" />
+    <Content Include="Language\DE\Behaviour.txt" />
+    <Content Include="Language\DE\GameObjects\CommanderPet.txt" />
+    <Content Include="Language\DE\GameObjects\CustomNPC\Blacksmith.txt" />
+    <Content Include="Language\DE\GameObjects\CustomNPC\CraftNPC.txt" />
+    <Content Include="Language\DE\GameObjects\CustomNPC\Enchanter.txt" />
+    <Content Include="Language\DE\GameObjects\CustomNPC\GameBoatStableMaster.txt" />
+    <Content Include="Language\DE\GameObjects\CustomNPC\GameHastener.txt" />
+    <Content Include="Language\DE\GameObjects\CustomNPC\GameStableMaster.txt" />
+    <Content Include="Language\DE\GameObjects\CustomNPC\Healer.txt" />
+    <Content Include="Language\DE\GameObjects\CustomNPC\NameRegistrar.txt" />
+    <Content Include="Language\DE\GameObjects\CustomNPC\Other.txt" />
+    <Content Include="Language\DE\GameObjects\CustomNPC\Recharger.txt" />
+    <Content Include="Language\DE\GameObjects\CustomNPC\VaultKeeper.txt" />
+    <Content Include="Language\DE\GameObjects\GameDoor.txt" />
+    <Content Include="Language\DE\GameObjects\GameGuard.txt" />
+    <Content Include="Language\DE\GameObjects\GameLiving.txt" />
+    <Content Include="Language\DE\GameObjects\GameMerchant.txt" />
+    <Content Include="Language\DE\GameObjects\GameNPC.txt" />
+    <Content Include="Language\DE\GameObjects\GameObject.txt" />
+    <Content Include="Language\DE\GameObjects\GamePlayer.txt" />
+    <Content Include="Language\DE\GameObjects\GameTrainer.txt" />
+    <Content Include="Language\DE\GameObjects\Other.txt" />
+    <Content Include="Language\DE\Crafting.txt" />
+    <Content Include="Language\DE\Effects.txt" />
+    <Content Include="Language\DE\GameUtils.txt" />
+    <Content Include="Language\DE\GameUtils\money.txt" />
+    <Content Include="Language\DE\Housing.txt" />
+    <Content Include="Language\DE\Keeps.txt" />
+    <Content Include="Language\DE\Commands\AdminCommands.txt" />
+    <Content Include="Language\DE\Commands\GMCommands.txt" />
+    <Content Include="Language\DE\Commands\PlayerCommands.txt" />
+    <Content Include="Language\DE\Keeps\Guards.txt" />
+    <Content Include="Language\DE\Keeps\Managers.txt" />
+    <Content Include="Language\DE\OtherSentences.txt" />
+    <Content Include="Language\DE\Packets.txt" />
+    <Content Include="Language\DE\PlayerClasses.txt" />
+    <Content Include="Language\DE\PlayerRaces.txt" />
+    <Content Include="Language\DE\PlayerRealmTitles.txt" />
+    <Content Include="Language\DE\PlayerTitles.txt" />
+    <Content Include="Language\DE\Quests\Albion\AfterTheAccident.txt" />
+    <Content Include="Language\DE\Quests\Albion\ANewHeroesWelcome.txt" />
+    <Content Include="Language\DE\Quests\Albion\CemmethsOrders.txt" />
+    <Content Include="Language\DE\Quests\Albion\DredgeUpAPledge.txt" />
+    <Content Include="Language\DE\Quests\Albion\NoHopeForTheHopeful.txt" />
+    <Content Include="Language\DE\Quests\Albion\RecruitingNothingButTrouble.txt" />
+    <Content Include="Language\DE\Quests\Albion\TombWithAView.txt" />
+    <Content Include="Language\DE\Quests\Albion\ToReachTheBreach.txt" />
+    <Content Include="Language\DE\Quests\Albion\WhenBloodSpeaks.txt" />
+    <Content Include="Language\DE\Quests\Albion\WhenGoodBrowniesGoBad.txt" />
+    <Content Include="Language\DE\Quests\AtlantisQuest.txt" />
+    <Content Include="Language\DE\Quests\BaseQuest.txt" />
+    <Content Include="Language\DE\Quests\ChildsPlay.txt" />
+    <Content Include="Language\DE\Quests\Hibernia\ImportantDelivery.txt" />
+    <Content Include="Language\DE\Quests\Hibernia\MagicalBacklash.txt" />
+    <Content Include="Language\DE\Quests\Hibernia\SearchForKnowledge.txt" />
+    <Content Include="Language\DE\Quests\Hibernia\ToReachTheBreach.txt" />
+    <Content Include="Language\DE\Quests\Hibernia\WingsOfTheIsle.txt" />
+    <Content Include="Language\DE\Quests\Midgard\ABearyBadProblem.txt" />
+    <Content Include="Language\DE\Quests\Midgard\Frontiers.txt" />
+    <Content Include="Language\DE\Quests\Midgard\MaulerInvasion.txt" />
+    <Content Include="Language\DE\Quests\Midgard\StolenEggs.txt" />
+    <Content Include="Language\DE\Quests\Midgard\TheBirthdayGift.txt" />
+    <Content Include="Language\DE\RealmAbilities.txt" />
+    <Content Include="Language\DE\ServerRules.txt" />
+    <Content Include="Language\DE\SkillHandler.txt" />
+    <Content Include="Language\DE\Spells.txt" />
+    <Content Include="Language\DE\Styles.txt" />
+    <Content Include="Language\DE\Trainer.txt" />
+    <Content Include="Language\DE\World.txt" />
+    <Content Include="Language\DE\Zones.txt" />
+    <Content Include="Language\EN\Ability.txt" />
+    <Content Include="Language\EN\AI.txt" />
+    <Content Include="Language\EN\Atlantis.txt" />
+    <Content Include="Language\EN\Behaviour.txt" />
+    <Content Include="Language\EN\Commands.txt" />
+    <Content Include="Language\EN\Commands\AdminCommands.txt" />
+    <Content Include="Language\EN\Commands\GMCommands.txt" />
+    <Content Include="Language\EN\Commands\PlayerCommands.txt" />
+    <Content Include="Language\EN\Crafting.txt" />
+    <Content Include="Language\EN\Effects.txt" />
+    <Content Include="Language\EN\GameObjects\CommanderPet.txt" />
+    <Content Include="Language\EN\GameObjects\CustomNPC\Blacksmith.txt" />
+    <Content Include="Language\EN\GameObjects\CustomNPC\CraftNPC.txt" />
+    <Content Include="Language\EN\GameObjects\CustomNPC\Enchanter.txt" />
+    <Content Include="Language\EN\GameObjects\CustomNPC\GameBoatStableMaster.txt" />
+    <Content Include="Language\EN\GameObjects\CustomNPC\GameHastener.txt" />
+    <Content Include="Language\EN\GameObjects\CustomNPC\GameStableMaster.txt" />
+    <Content Include="Language\EN\GameObjects\CustomNPC\Healer.txt" />
+    <Content Include="Language\EN\GameObjects\CustomNPC\NameRegistrar.txt" />
+    <Content Include="Language\EN\GameObjects\CustomNPC\Other.txt" />
+    <Content Include="Language\EN\GameObjects\CustomNPC\Recharger.txt" />
+    <Content Include="Language\EN\GameObjects\CustomNPC\VaultKeeper.txt" />
+    <Content Include="Language\EN\GameObjects\GameDoor.txt" />
+    <Content Include="Language\EN\GameObjects\GameGuard.txt" />
+    <Content Include="Language\EN\GameObjects\GameLiving.txt" />
+    <Content Include="Language\EN\GameObjects\GameMerchant.txt" />
+    <Content Include="Language\EN\GameObjects\GameNPC.txt" />
+    <Content Include="Language\EN\GameObjects\GameObject.txt" />
+    <Content Include="Language\EN\GameObjects\GamePlayer.txt" />
+    <Content Include="Language\EN\GameObjects\GameTrainer.txt" />
+    <Content Include="Language\EN\GameObjects\Other.txt" />
+    <Content Include="Language\EN\GameUtils.txt" />
+    <Content Include="Language\EN\GameUtils\CommanderPet.txt" />
+    <Content Include="Language\EN\GameUtils\GameDoor.txt" />
+    <Content Include="Language\EN\GameUtils\GameGuard.txt" />
+    <Content Include="Language\EN\GameUtils\GameLiving.txt" />
+    <Content Include="Language\EN\GameUtils\GameMerchant.txt" />
+    <Content Include="Language\EN\GameUtils\GameNPC.txt" />
+    <Content Include="Language\EN\GameUtils\GameObject.txt" />
+    <Content Include="Language\EN\GameUtils\GamePlayer.txt" />
+    <Content Include="Language\EN\GameUtils\GameTrainer.txt" />
+    <Content Include="Language\EN\GameUtils\money.txt" />
+    <Content Include="Language\EN\GameUtils\Other.txt" />
+    <Content Include="Language\EN\Housing.txt" />
+    <Content Include="Language\EN\Keeps.txt" />
+    <Content Include="Language\EN\Keeps\Guards.txt" />
+    <Content Include="Language\EN\Keeps\Managers.txt" />
+    <Content Include="Language\EN\Language-EN.txt" />
+    <Content Include="Language\EN\OtherSentences.txt" />
+    <Content Include="Language\EN\Packets.txt" />
+    <Content Include="Language\EN\PlayerClasses.txt" />
+    <Content Include="Language\EN\PlayerRaces.txt" />
+    <Content Include="Language\EN\PlayerRealmTitles.txt" />
+    <Content Include="Language\EN\PlayerTitles.txt" />
+    <Content Include="Language\EN\Quests\Albion\A Few Repairs.txt" />
+    <Content Include="Language\EN\Quests\Albion\AfterTheAccident.txt" />
+    <Content Include="Language\EN\Quests\Albion\ANewHeroesWelcome.txt" />
+    <Content Include="Language\EN\Quests\Albion\CemmethsOrders.txt" />
+    <Content Include="Language\EN\Quests\Albion\DredgeUpAPledge.txt" />
+    <Content Include="Language\EN\Quests\Albion\NoHopeForTheHopeful.txt" />
+    <Content Include="Language\EN\Quests\Albion\RecruitingNothingButTrouble.txt" />
+    <Content Include="Language\EN\Quests\Albion\TombWithAView.txt" />
+    <Content Include="Language\EN\Quests\Albion\ToReachTheBreach.txt" />
+    <Content Include="Language\EN\Quests\Albion\WhenBloodSpeaks.txt" />
+    <Content Include="Language\EN\Quests\Albion\WhenGoodBrowniesGoBad.txt" />
+    <Content Include="Language\EN\Quests\AtlantisQuest.txt" />
+    <Content Include="Language\EN\Quests\BaseQuest.txt" />
+    <Content Include="Language\EN\Quests\ChildsPlay.txt" />
+    <Content Include="Language\EN\Quests\Hibernia\ImportantDelivery.txt" />
+    <Content Include="Language\EN\Quests\Hibernia\MagicalBacklash.txt" />
+    <Content Include="Language\EN\Quests\Hibernia\SearchForKnowledge.txt" />
+    <Content Include="Language\EN\Quests\Hibernia\ToReachTheBreach.txt" />
+    <Content Include="Language\EN\Quests\Hibernia\WingsOfTheIsle.txt" />
+    <Content Include="Language\EN\Quests\Midgard\ABearyBadProblem.txt" />
+    <Content Include="Language\EN\Quests\Midgard\Frontiers.txt" />
+    <Content Include="Language\EN\Quests\Midgard\MaulerInvasion.txt" />
+    <Content Include="Language\EN\Quests\Midgard\StolenEggs.txt" />
+    <Content Include="Language\EN\Quests\Midgard\TheBirthdayGift.txt" />
+    <Content Include="Language\EN\RealmAbilities.txt" />
+    <Content Include="Language\EN\ServerRules.txt" />
+    <Content Include="Language\EN\SkillHandler.txt" />
+    <Content Include="Language\EN\Spells.txt" />
+    <Content Include="Language\EN\Trainer.txt" />
+    <Content Include="Language\EN\World.txt" />
+    <Content Include="Language\EN\Zones.txt" />
+    <Content Include="Language\ES\Commands\PlayerCommands.txt" />
+    <Content Include="Language\ES\Effects.txt" />
+    <Content Include="Language\ES\ES - General.txt" />
+    <Content Include="Language\ES\GameObjects\CustomNPC\Blacksmith.txt" />
+    <Content Include="Language\ES\GameObjects\CustomNPC\CraftNPC.txt" />
+    <Content Include="Language\ES\GameObjects\CustomNPC\Enchanter.txt" />
+    <Content Include="Language\ES\GameObjects\CustomNPC\GameBoatStableMaster.txt" />
+    <Content Include="Language\ES\GameObjects\CustomNPC\GameHastener.txt" />
+    <Content Include="Language\ES\GameObjects\CustomNPC\GameStableMaster.txt" />
+    <Content Include="Language\ES\GameObjects\CustomNPC\Healer.txt" />
+    <Content Include="Language\ES\GameObjects\CustomNPC\NameRegistrar.txt" />
+    <Content Include="Language\ES\GameObjects\CustomNPC\Other.txt" />
+    <Content Include="Language\ES\GameObjects\CustomNPC\Recharger.txt" />
+    <Content Include="Language\ES\GameObjects\CustomNPC\VaultKeeper.txt" />
+    <Content Include="Language\ES\GameObjects\GameDoor.txt" />
+    <Content Include="Language\ES\GameObjects\GameNPC.txt" />
+    <Content Include="Language\ES\GameObjects\GameMerchant.txt" />
+    <Content Include="Language\ES\GameObjects\GameLiving.txt" />
+    <Content Include="Language\ES\GameObjects\GameObject.txt" />
+    <Content Include="Language\ES\GameUtils\CommanderPet.txt" />
+    <Content Include="Language\ES\GameUtils\GameDoor.txt" />
+    <Content Include="Language\ES\GameUtils\GameGuard.txt" />
+    <Content Include="Language\ES\GameUtils\GameTrainer.txt" />
+    <Content Include="Language\ES\GameUtils\money.txt" />
+    <Content Include="Language\ES\GameUtils\Other.txt" />
+    <Content Include="Language\ES\Keeps\Guards.txt" />
+    <Content Include="Language\ES\Keeps\Managers.txt" />
+    <Content Include="Language\ES\Language-ES.txt" />
+    <Content Include="Language\ES\Quests\Albion\A Few Repairs.txt" />
+    <Content Include="Language\ES\Quests\Albion\AfterTheAccident.txt" />
+    <Content Include="Language\ES\Quests\Albion\ANewHeroesWelcome.txt" />
+    <Content Include="Language\ES\Quests\Albion\CemmethsOrders.txt" />
+    <Content Include="Language\ES\Quests\Albion\DredgeUpAPledge.txt" />
+    <Content Include="Language\ES\Quests\Albion\NoHopeForTheHopeful.txt" />
+    <Content Include="Language\ES\Quests\Albion\RecruitingNothingButTrouble.txt" />
+    <Content Include="Language\ES\Quests\Albion\TombWithAView.txt" />
+    <Content Include="Language\ES\Quests\Albion\ToReachTheBreach.txt" />
+    <Content Include="Language\ES\Quests\Albion\WhenBloodSpeaks.txt" />
+    <Content Include="Language\ES\Quests\Albion\WhenGoodBrowniesGoBad.txt" />
+    <Content Include="Language\ES\Quests\AtlantisQuest.txt" />
+    <Content Include="Language\ES\Quests\BaseQuest.txt" />
+    <Content Include="Language\ES\Quests\ChildsPlay.txt" />
+    <Content Include="Language\ES\Quests\Hibernia\ImportantDelivery.txt" />
+    <Content Include="Language\ES\Quests\Hibernia\MagicalBacklash.txt" />
+    <Content Include="Language\ES\Quests\Hibernia\SearchForKnowledge.txt" />
+    <Content Include="Language\ES\Quests\Hibernia\ToReachTheBreach.txt" />
+    <Content Include="Language\ES\Quests\Hibernia\WingsOfTheIsle.txt" />
+    <Content Include="Language\ES\Quests\Midgard\ABearyBadProblem.txt" />
+    <Content Include="Language\ES\Quests\Midgard\Frontiers.txt" />
+    <Content Include="Language\ES\Quests\Midgard\MaulerInvasion.txt" />
+    <Content Include="Language\ES\Quests\Midgard\StolenEggs.txt" />
+    <Content Include="Language\ES\Quests\Midgard\TheBirthdayGift.txt" />
+    <Content Include="Language\ES\RealmAbilities.txt" />
+    <Content Include="Language\ES\SkillHandler.txt" />
+    <Content Include="Language\ES\Spells.txt" />
+    <Content Include="Language\ES\Trainer.txt" />
+    <Content Include="Language\ES\World.txt" />
+    <Content Include="Language\ES\Zones.txt" />
+    <Content Include="Language\FR\Ability.txt" />
+    <Content Include="Language\FR\AI.txt" />
+    <Content Include="Language\FR\Atlantis.txt" />
+    <Content Include="Language\FR\Commands\AdminCommands.txt" />
+    <Content Include="Language\FR\Commands\GMcommand.txt" />
+    <Content Include="Language\FR\Commands\Player\Battlegroup.txt" />
+    <Content Include="Language\FR\Commands\Player\Chatgroup.txt" />
+    <Content Include="Language\FR\Commands\Player\Guild.txt" />
+    <Content Include="Language\FR\Commands\Player\horseemote.txt" />
+    <Content Include="Language\FR\Commands\Player\other.txt" />
+    <Content Include="Language\FR\Commands\Player\PlayerCommands.txt" />
+    <Content Include="Language\FR\Crafting.txt" />
+    <Content Include="Language\FR\Effects.txt" />
+    <Content Include="Language\FR\GameObjects\CustomNPC\Blacksmith.txt" />
+    <Content Include="Language\FR\GameObjects\CustomNPC\CraftNPC.txt" />
+    <Content Include="Language\FR\GameObjects\CustomNPC\Enchanter.txt" />
+    <Content Include="Language\FR\GameObjects\CustomNPC\GameBoatStableMaster.txt" />
+    <Content Include="Language\FR\GameObjects\CustomNPC\GameStableMaster.txt" />
+    <Content Include="Language\FR\GameObjects\CustomNPC\Healer.txt" />
+    <Content Include="Language\FR\GameObjects\CustomNPC\KING.txt" />
+    <Content Include="Language\FR\GameObjects\CustomNPC\NameRegistrar.txt" />
+    <Content Include="Language\FR\GameObjects\CustomNPC\Other.txt" />
+    <Content Include="Language\FR\GameObjects\CustomNPC\Recharger.txt" />
+    <Content Include="Language\FR\GameObjects\CustomNPC\VaultKeeper.txt" />
+    <Content Include="Language\FR\GameObjects\GameDoor.txt" />
+    <Content Include="Language\FR\GameObjects\GameGuard.txt" />
+    <Content Include="Language\FR\GameObjects\GameLiving.txt" />
+    <Content Include="Language\FR\GameObjects\GameMerchant.txt" />
+    <Content Include="Language\FR\GameObjects\GameNPC.txt" />
+    <Content Include="Language\FR\GameObjects\GameObject.txt" />
+    <Content Include="Language\FR\GameObjects\GamePlayer.txt" />
+    <Content Include="Language\FR\GameObjects\GameTrainer.txt" />
+    <Content Include="Language\FR\GameObjects\Pet.txt" />
+    <Content Include="Language\FR\GameUtils.txt" />
+    <Content Include="Language\FR\GameUtils\money.txt" />
+    <Content Include="Language\FR\Housing.txt" />
+    <Content Include="Language\FR\Keeps.txt" />
+    <Content Include="Language\FR\Keeps\Guards.txt" />
+    <Content Include="Language\FR\Keeps\Managers.txt" />
+    <Content Include="Language\FR\Language-FR.txt" />
+    <Content Include="Language\FR\OtherSentences.txt" />
+    <Content Include="Language\FR\Packets.txt" />
+    <Content Include="Language\FR\PlayerClasses.txt" />
+    <Content Include="Language\FR\PlayerRaces.txt" />
+    <Content Include="Language\FR\PlayerRealmTitles.txt" />
+    <Content Include="Language\FR\PlayerStats.txt" />
+    <Content Include="Language\FR\PlayerTitles.txt" />
+    <Content Include="Language\FR\Quests\Albion\A Few Repairs.txt" />
+    <Content Include="Language\FR\Quests\Albion\AfterTheAccident.txt" />
+    <Content Include="Language\FR\Quests\Albion\ANewHeroesWelcome.txt" />
+    <Content Include="Language\FR\Quests\Albion\DredgeUpAPledge.txt" />
+    <Content Include="Language\FR\Quests\Albion\NoHopeForTheHopeful.txt" />
+    <Content Include="Language\FR\Quests\Albion\TombWithAView.txt" />
+    <Content Include="Language\FR\Quests\Albion\ToReachTheBreach.txt" />
+    <Content Include="Language\FR\Quests\Albion\WhenBloodSpeaks.txt" />
+    <Content Include="Language\FR\Quests\Artifact.txt" />
+    <Content Include="Language\FR\Quests\Atlantis.txt" />
+    <Content Include="Language\FR\Quests\BaseQuest.txt" />
+    <Content Include="Language\FR\Quests\Behaviour.txt" />
+    <Content Include="Language\FR\Quests\Hibernia\ImportantDelivery.txt" />
+    <Content Include="Language\FR\Quests\Hibernia\WingsOfTheIsle.txt" />
+    <Content Include="Language\FR\Quests\ML.txt" />
+    <Content Include="Language\FR\Quests\Quest.txt" />
+    <Content Include="Language\FR\RealmAbilities.txt" />
+    <Content Include="Language\FR\Relic.txt" />
+    <Content Include="Language\FR\SkillHandler.txt" />
+    <Content Include="Language\FR\Spells.txt" />
+    <Content Include="Language\FR\StyleProcessor.txt" />
+    <Content Include="Language\FR\Trainer.txt" />
+    <Content Include="Language\FR\world\AbstractArea.txt" />
+    <Content Include="Language\FR\world\Events.txt" />
+    <Content Include="Language\FR\Zones.txt" />
+    <Content Include="Language\IT\AI.txt" />
+    <Content Include="Language\IT\Behaviour.txt" />
+    <Content Include="Language\IT\Commands\AdminCommands.txt" />
+    <Content Include="Language\IT\Commands\GMCommands.txt" />
+    <Content Include="Language\IT\Effects.txt" />
+    <Content Include="Language\IT\GameObject\GameDoor.txt" />
+    <Content Include="Language\IT\GameObject\GameGuard.txt" />
+    <Content Include="Language\IT\GameObject\GameNPC.txt" />
+    <Content Include="Language\IT\GameObject\GameMerchant.txt" />
+    <Content Include="Language\IT\GameObject\GameLiving.txt" />
+    <Content Include="Language\IT\Language-IT.txt" />
+    <Content Include="Language\IT\NameRegistrar.txt" />
+    <Content Include="Language\IT\RealmAbilities.txt" />
+    <Content Include="Language\IT\SkillHandler.txt" />
+    <Content Include="Language\IT\Spells.txt" />
+    <Content Include="Language\IT\Trainer.txt" />
+    <Content Include="Language\IT\VaultKeeper.txt" />
+    <Content Include="Language\NL\GameObjects\GameNPC.txt" />
+    <Content Include="Language\NL\GameObjects\GameMerchant.txt" />
+    <Content Include="Language\NL\NL - AdminCommands.txt" />
+    <Content Include="Language\NL\SkillHandler.txt" />
+    <Content Include="Language\NL\Spells.txt" />
+    <None Include="packages.config" />
+    <None Include="Resources\DOLServer.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Language\FR\Quests\Midgard\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>mkdir "$(ProjectDir)..\$(ConfigurationName)\config\"
+copy "$(ProjectDir)..\config\*.*" "$(ProjectDir)..\$(ConfigurationName)\config\"
+xcopy "$(ProjectDir)\language\*.txt" "$(ProjectDir)..\$(ConfigurationName)\languages" /y /s /q /i</PostBuildEvent>
+  </PropertyGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Dieses Projekt verweist auf mindestens ein NuGet-Paket, das auf diesem Computer fehlt. Verwenden Sie die Wiederherstellung von NuGet-Paketen, um die fehlenden Dateien herunterzuladen. Weitere Informationen finden Sie unter "http://go.microsoft.com/fwlink/?LinkID=322105". Die fehlende Datei ist "{0}".</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets'))" />
+    <Error Condition="!Exists('..\packages\Grpc.Core.2.46.6\build\net45\Grpc.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Grpc.Core.2.46.6\build\net45\Grpc.Core.targets'))" />
+  </Target>
+  <Import Project="..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
+  <Import Project="..\packages\Grpc.Core.2.46.6\build\net45\Grpc.Core.targets" Condition="Exists('..\packages\Grpc.Core.2.46.6\build\net45\Grpc.Core.targets')" />
+  <!-- Graveen: the following is replacing the rev number in the asembly.info file by the SVN rev number of the current project. -->
+  <!-- You must work on project under SVN version control, have msbuild community tasks assemblies installed and subversion client -->
+  <!-- The path of the tools should either be corrected below, or matched. In case you lack one of theses prereqs, rev number 'll not be changed.   
+  
+  <Import Project="$(MSBuildExtensionsPath)\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets" Condition="Exists('$(MSBuildExtensionsPath)\MSBuildCommunityTasks\')" />
+  <Target Name="BeforeBuild">
+    <SvnVersion LocalPath="." Condition="Exists('$(MSBuildExtensionsPath)\MSBuildCommunityTasks\') and Exists('$(ProgramFiles)\subversion\bin\svnversion.exe')">
+      <Output TaskParameter="Revision" PropertyName="Revision" />
+    </SvnVersion>
+    <FileUpdate Files="AssemblyInfo.cs" Regex="(\d+)\.(\d+)\.(\d+)\.(\*|\d+)" ReplacementText="$1.$2.$3.$(Revision)" Condition="Exists('..\auto_version') and $(Revision)!='' and $(Revision)!=-1 and Exists('$(MSBuildExtensionsPath)\MSBuildCommunityTasks\') and Exists('$(ProgramFiles)\subversion\bin\svnversion.exe')" />
+  </Target>
+  -->
+</Project>

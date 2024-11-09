@@ -1,0 +1,8 @@
+﻿# GameHastener
+
+GameHastener.BorderKeepPortOffer:		Si tienes que no alcanzar tu décima temporada, puedo transportarte al [borderkeep] para que puedas ayudar en el combate en el campo de batalla. 
+GameHastener.Greeting:					Saludos,
+GameHastener.CityMovementOffer:			Estoy aquí para ayudar con los viajes. ¿Le gustaría aumentar su tasa de [movimiento] para viajar dentro de nuestra ciudad?
+GameHastener.DefaultMovementOffer:		Estoy aquí para ayudar con el viaje a través de nuestras tierras justas. Simplemente diga la palabra y con gusto aumentaré su índice de movimiento para ayudar a sus aventuras.
+GameHastener.StrengthOffer:				I can also grant you extra [strength] to help you carry your wares throughout the city.
+Fronier.Hastener.Message:               The Hastener says, "Greetings {0}. Here is a little something to aid you on your long travel across the Fronteir."

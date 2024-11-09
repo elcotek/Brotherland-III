@@ -1,0 +1,16 @@
+﻿#GameKeepGuard
+GameKeepGuard.GetExamineMessages.Balancing:	{0} tiene mantener el nivel de equilibrio ({1})
+GameKeepGuard.GetExamineMessages.Upgraded:	{0} ha actualizado el equipo ({1}).
+GameKeepGuard.GetExamineMessages.YouExamine:	Examina {0}. {1} es {2} y es un protector de reino.
+GameKeepGuard.GetExamineMessages.YouTarget:	Se dirige a [{0}]
+GameKeepGuard.GetPronoun.He:			Él
+GameKeepGuard.GetPronoun.Her:			Su
+GameKeepGuard.GetPronoun.Hers:			Suyo
+GameKeepGuard.GetPronoun.Him:			Él
+GameKeepGuard.GetPronoun.His:			Su
+GameKeepGuard.GetPronoun.She:			Ella
+GameKeepGuard.GuardSpam.Killed:			{0} ha muerto en {1} con {2} enemigo (s) en la zona!
+
+#GuardCaster
+GuardCaster.SkinsHardens:			Las pieles de {0} se endurecen sustancialmente.
+

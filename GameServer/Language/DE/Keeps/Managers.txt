@@ -1,0 +1,85 @@
+﻿#TemplateManager
+#All
+SetGuardName.Commander:		Kommandant von {0}
+SetGuardName.Hastener:		Antreiber
+#SetGuardName.Renegade:		Renegade {0}
+SetGuardName.TowerCaptain:	Turmhauptmann
+
+#Albion
+SetGuardName.Armsman:		Waffenmeister
+SetGuardName.Armswoman:		Waffenmeisterin
+SetGuardName.BowmanCommander:	Bogner-Kommandant
+SetGuardName.CaptainCommander:	Hauptmann-Kommandant
+SetGuardName.Cleric:		Kleriker
+SetGuardName.Infiltrator:	Infiltrator
+SetGuardName.KnightCommander:	Ritter-Kommandant
+SetGuardName.Lady:		Lady {0}
+SetGuardName.Lord:		Lord {0}
+SetGuardName.MasterWizard:	Meisterzauberer
+SetGuardName.Scout:		Kundschafter
+SetGuardName.Wizard:		Zauberer
+
+#Midgard
+SetGuardName.Healer:		Heiler
+SetGuardName.HersirCommander:	Hersir-Kommandant
+SetGuardName.Hunter:		Jäger
+SetGuardName.Huscarl:		Huscarl
+SetGuardName.Jarl:		Jarl {0}
+SetGuardName.MasterRunes:	Meister der Runen
+SetGuardName.NordicHunter:	Nordmann-Jäger
+SetGuardName.NordicJarl:	Wikinger-Jarl
+SetGuardName.Runemaster:	Runenmeister
+SetGuardName.Shadowblade:	Schattenklinge
+
+#Hibernia
+SetGuardName.Champion:		Champion
+SetGuardName.ChampionCommander:	Champion-Kommandant
+SetGuardName.Chieftain:		Klanfürst {0}
+SetGuardName.Chieftess:		Klanfürstin {0}
+SetGuardName.Druid:		Druide
+SetGuardName.Eldritch:		Eldritch
+SetGuardName.Guardian:		Wächter
+SetGuardName.MasterEldritch:	Meistereldritch
+SetGuardName.MasterRanger:	Meisterwaldläufer
+SetGuardName.Nightshade:	Nachtschatten
+SetGuardName.Ranger:		Waldläufer
+
+#Ram Placing
+
+YouCantPlaceHere: "{0} Ihr könnt die {1} hier nicht plazieren, Ihr seit zu nahe am Tor!"
+
+DontWorkINewFrontiers: {0}, Die {1} funktioniert nicht in New Frontiers!
+
+DontWorkWihleStealthed: {0}, Ihr müsst sichtbar sein um {1} aufstellen zu können!
+SiegeDontWorkInWater: Ihr könnte keine {0} im Wasser aufstellen!
+DontWorkWihleInCombat: ihr könnt keine {0} aufstellen, solange Ihr euch in Kampf befindet.
+DontWorkInBG: {0}, Die {1} funktioniert nicht im Battelground!"
+
+
+#Anti Raid
+
+AntiRaidMsg: Halt, es befinden sich zur Zeit wenig Gegner auf dem Server die verteidigen könnten. Angriffe auf Festungen oder Türme werden erst wieder möglich sein, sobald sich mindesten {0} Spieler in einem anderen Reich befinden die Level 50 sind.
+
+AntiRaidMsg2: Es müssen sich mindestens jeweils {0} Spieler die Level 50 sind in zwei Reichen befinden um Festungen und Türme erobern zu können!
+
+#/online
+
+AntiRaidMsg3: Es müssen mindestens {0} Spieler in [zwei Realms] sein und jeder muss Level 50 sein, um Festungen und Türme einnehmen zu können, Schlachtfelder sind von dieser Regel aber ausgeneommen!
+
+AntiRaidMsg4: **********Angriffe auf Festungen oder Türme ist derzeit nicht möglich, das System wartet auf mehr Spieler online! Benutzt /online für den aktuellen Status! **********
+
+AntiRaidMsg5: **********Ihr könnt jederzeit eigene Festungen und Türme zurückerobern, aber Belagerungsgeräte sind derzeit deaktiviert!**********
+
+AntiRaidMsg6: **********Der Angriff von fremden Festungen und Türmen ist derzeit möglich!**********
+
+AntiRaidMsg7: **********Belagerungsausrüstung ist aktiviert und einsatzbereit!**********
+
+AntiRaidMsg8: **********Viel Spaß mit Brotherland!**********
+
+AntiRaidMsg9: Wenn Ihr RVR spielen wollt, ladent Euch bitte den Live-Client Version 1.109 aus unserem Forum herunter, da es sonst zu massiven Problemen auf dem Server führen kann.
+
+AntiRaidMsg10: Bitte verwendet den Charplaner 1.109 aus unseren Forum für eure Charakter-Planung!
+
+AntiRaidMsg11: Das Serverforum findet Ihr hier: http://brotherland-2.de
+
+AntiRaidMsg12: Um die ingame-Sprache einzustellen, verwendet folgenden Befehl: [/lang set de, en, fr, es oder it] Legende: [de = deutsch, en = englisch, fr = Französisch, es = Spanisch oder it = Italienisch] 

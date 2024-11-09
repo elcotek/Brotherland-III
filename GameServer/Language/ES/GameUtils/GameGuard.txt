@@ -1,0 +1,4 @@
+# GAMEGUARD
+GameGuard.Albion.StartAttackSay:					¡Tenga en ti, demonio!
+GameGuard.Midgard.StartAttackSay:					Muerte a los intrusos!
+GameGuard.Hibernia.StartAttackSay:					Los malvados serán despreciados!

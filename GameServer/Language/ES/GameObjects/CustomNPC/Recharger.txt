@@ -1,0 +1,15 @@
+﻿
+
+Scripts.Recharger.GetExamineMessages:			        Examina {0}. {1} es {2} y puede recargar su equipo.
+Scripts.Recharger.Interact:				                Puedo recargar las armas o la armadura para usted, apenas me da el artículo que usted quiere recargado y veré lo que puedo hacer, para una tarifa pequeña.
+Scripts.Recharger.ReceiveItem.CantThat:			        No puedo recargar eso.
+Scripts.Recharger.ReceiveItem.Cost:			            Le costará {0} recargar eso. ¿Aceptas?
+Scripts.Recharger.ReceiveItem.FullyCharged:		        ¡El artículo está cargado completamente!
+Scripts.Recharger.ReceiveItem.StackedObjects:		    {0} no puede recargar objetos apilados.
+Scripts.Recharger.RechargerDialogResponse.Decline:	    Te niegas tener tu {0} recarga.
+Scripts.Recharger.RechargerDialogResponse.FullyCharged:	Allí, ahora está completamente cargada!
+Scripts.Recharger.RechargerDialogResponse.GiveMoney:	Usted da a {0} {1}.
+Scripts.Recharger.RechargerDialogResponse.InvalidItem:	Elemento no válido.
+Scripts.Recharger.RechargerDialogResponse.NotMoney:  	No tienes suficiente dinero.
+
+

@@ -1,0 +1,760 @@
+﻿# Language file for DOL
+# Language used : SPANISH / Español
+#
+# #-Beginning and Empty lines are ignored
+# TABS are ignored at the left of ':' too.
+# {0} etc. are for args, don't remove them !
+#
+# Please try to keep ID's alphabetical order
+
+# LANGUAGEMGR
+System.LanguagesName.EN:				Inglés
+System.LanguagesName.FR:				Francés
+System.LanguagesName.DE:				Alemán
+System.LanguagesName.ES:				Español
+System.LanguagesName.CZ:					Czech
+
+# SYSTEM
+System.NoSense:								Eso no tiene sentido!
+
+# GAMEPLAYER
+GamePlayer.WarlordSiege:                    ¡Gracias a tu capacidad de armas de asedio, tu {0} carga mucho más rápido!
+GamePlayer.SendReceive.Sends:				{0} envía, {1}
+GamePlayer.Quit.CantQuitDead:				No puedes salir ahora debido a que estás muerto. Escribe '/release' para revivir tu cuerpo.
+GamePlayer.Quit.CantQuitMount:				Has de desmontar antes de poder salir.
+GamePlayer.Quit.CantQuitStanding:			Has de estar parado para salir.
+GamePlayer.Quit.CantQuitCrafting:			No puedes salir mientras estás crafteando.
+GamePlayer.Quit.RecentlyInCombat:			Has estado en combate recientemente, debes esperar para poder salir.
+GamePlayer.Quit.YouWillQuit2:				Saldrás una vez sentado en {0} segundos. Escribe '/stand' o muévete si no quieres salir.
+GamePlayer.Release.NotDead:					No estás muerto!
+GamePlayer.Release.CantReleaseDuel:			Tu cuerpo se recuperará automáticamente en una muerte de duelo.
+GamePlayer.Release.NoLongerReleaseAuto:		Te recuperarás automáticamente en ({0} segundos más).
+GamePlayer.Release.WillReleaseAuto:			Te recuperarás automáticamente en {0} segundos más!
+GamePlayer.Release.WillReleaseAutoCity:		Revivirás automaticamente en un tu ciudad en {o} segundos más!
+GamePlayer.Release.YouRelease:				Recuperas tu cuerpo desde la muerte.
+GamePlayer.Release.GraveErected:			Una tumba fue levantada donde has sido abatido.
+GamePlayer.Release.ReturnToPray:			Vuelve para rezar usando el comando /pray y recuperar la experiencia perdida.
+GamePlayer.Release.LostConstitution:		Has perdido puntos de constitución, ve al curandero para recuperarlos!
+GamePlayer.Release.SurroundingChange:		Tu entorno de repente se cambia!
+GamePlayer.Release.NoValidBindpoint:		No tienes un lugar de recuperacion válido!
+GamePlayer.Release.WillReleaseIn:			Te auto-recuperarás en {0} segundos más.
+GamePlayer.Pray.CantPrayNow:				No puedes rezar ahora!
+GamePlayer.Pray.NeedTarget:					Necesitas seleccionar una tumba a la que rezar!
+GamePlayer.Pray.SelectGrave:				 Selecciona tu tumba para rezar!
+GamePlayer.Pray.MustGetCloser:				Necesitas estar cerca de tu tumba para poder rezar!
+GamePlayer.Pray.MustStandingStill:			Has de estar parado para poder rezar.
+GamePlayer.Pray.AlreadyPraying:				Ya estás rezando!
+GamePlayer.Pray.Begin:						Comienzas tus oraciones!
+GamePlayer.Pray.GainBack:					Rezas en tu tumba y recuperas la experiencia perdida!
+GamePlayer.AddSpecialisation.YouLearn:		Aprendes la habilidad {0}
+GamePlayer.RemoveSpecialization.YouLose:	Pierdes la habilidad {0}!
+GamePlayer.AddSpellLine.YouLearn:			Entrenas la lista de conjuros {0}!
+GamePlayer.ApplyPoison.CantApplyRecentCombat:	Usted ha estado en combate recientemente y no puede aplicar un veneno todavía!
+GamePlayer.ApplyPoison.CantPoisonWeapon:		¡No puedes envenenar esta arma!
+GamePlayer.ApplyPoison.CantUsePoison:			No puedes usar este veneno.	
+GamePlayer.ApplyPoison.CantUsePoisons:			No puedes usar venenos.
+GamePlayer.ApplyPoison.PoisonsAppliedWeapons:	Los venenos se pueden aplicar sólo a las armas.
+GamePlayer.Attack.AlreadyDead:				{0} ya está muerto!
+GamePlayer.Attack.Blocked:					{0} bloquea tu ataque!	
+GamePlayer.Attack.CantBeAttacked:			¡Esto no puede ser atacado!
+GamePlayer.Attack.CantCritical:				No puede obtener un disparo crítico en su objetivo, cambia a un disparo estándar.
+GamePlayer.Attack.CantSeeTarget:			¡No puedes ver tu objetivo!	
+GamePlayer.Attack.CantUseQuiver:			¡No puedes usar la munición de aljaba seleccionada con tu arma!
+GamePlayer.Attack.CouldRepair:				Su {0} podría usar reparaciones.
+GamePlayer.Attack.Critical:					Tienes un golpe crítico {0} por un daño adicional de {1}!
+GamePlayer.Attack.Evade:					{0} los ataques de usted y evadir el golpe!
+GamePlayer.Attack.Evaded:					{0} evade su ataque!
+GamePlayer.Attack.Fumble:					Usted fumble el ataque y tomar tiempo para recuperarse!
+GamePlayer.Attack.Fumbled:					{0} fumbled!	
+GamePlayer.Attack.HitsYou:					{0} te golpea por {1} {2} daño!
+GamePlayer.Attack.HitsYouw:					¡{0} golpea tu {1} daño! Con él es {2} {3}!	
+GamePlayer.Attack.HitsYouCritical:			{0} crítica te golpea por un {1} daño adicional!
+GamePlayer.Attack.HitsYour:					{0} golpea su {1} por {2} {3} daño!
+GamePlayer.Attack.Intercepted:				{0} pasos delante de {1} y toma el golpe!
+GamePlayer.Attack.Interrupted:				{0} te está atacando y tu {1} está interrumpido!
+GamePlayer.Attack.Location.Arm:				brazo
+GamePlayer.Attack.Location.Foot:			pie
+GamePlayer.Attack.Location.Hand:			mano	
+GamePlayer.Attack.Location.Head:			cabeza	
+GamePlayer.Attack.Location.Leg:				pierna
+GamePlayer.Attack.Location.Torso:			torso	
+GamePlayer.Attack.Miss:						Te perdiste
+GamePlayer.Attack.Missed:					{0} te ataca y te echas de menos!
+
+GamePlayer.Attack.MustSelectQuiver:			¡Debe seleccionar una ranura estremecedora para dibujar!
+GamePlayer.Attack.NeedRepair:				Tu {0} necesita reparaciones.
+GamePlayer.Attack.NeedRepairDire:			Tu {0} está en extrema necesidad de reparaciones.	
+GamePlayer.Attack.NeedTarget:				¡Tienes que seleccionar un objetivo para atacar!
+GamePlayer.Attack.NotInView:				{0} no está a la vista!
+GamePlayer.Attack.Parried:					{0} desbloquea tu ataque!
+GamePlayer.Attack.Parry:					{0} los ataques de usted y usted paran el golpe!
+GamePlayer.Attack.ReadyToFire:				¡Estás listo para disparar!
+GamePlayer.Attack.StrafMiss:				Estabas haciendo estragos en combate y echamos de menos!	
+GamePlayer.Attack.TooFarAway:				{0} está demasiado lejos para atacar!	
+GamePlayer.Attack.TooTired:					Usted está demasiado cansado para mantener su tiro por más tiempo!
+GamePlayer.Attack.Type.Shot:				Disparo
+GamePlayer.Attack.Type.Throw:				lanzar	
+GamePlayer.Attack.WithYour:					con tu	
+GamePlayer.Attack.YouAttack:				Tu atacas
+GamePlayer.Attack.YouShot:					Disparaste	
+
+
+
+
+
+GamePlayer.RealmTimerStatusOFF:             El temporizador de tu reino RvR acaba de expirar, ahora puedes cambiar de reino nuevamente.
+GamePlayer.RealmTimerStatus:                Estás en un área RvR, por lo que el cronómetro del reino se activó hasta las {0} hora local de la UE.
+GamePlayer.RemoveSpellLine.YouLose:			Pierdes la lista de conjuros {0}!
+GamePlayer.AddAbility.YouLearn:				Aprendes la habilidad {0}!
+GamePlayer.RemoveAbility.YouLose:			Pierdes la habilidad {0}!
+GamePlayer.RefreshSpec.YouLearn:			Aprendes el estilo de combate {0}!
+GamePlayer.RefreshSpec.AfterStyle:			Este estilo de combate solo puede ser utilizado despues de ejecutar el estilo {0}.
+GamePlayer.RefreshSpec.AfterMissed:			Este estilo de combate es mejor si has fallado tu último ataque. 
+GamePlayer.RefreshSpec.AfterParried:		Este estilo de combate es mejor si has parado tu último ataque.
+GamePlayer.RefreshSpec.AfterBlocked:		Este estilo de combate es mejor si has bloqueado tu último ataque.
+GamePlayer.RefreshSpec.AfterEvaded:			Este estilo de combate es mejor si has esquivado tu último ataque.
+GamePlayer.RefreshSpec.AfterFumbles:		Este estilo está mejor usado cuand tropiezas.
+GamePlayer.RefreshSpec.TargetMisses:		Este estilo de combate esta mejor usado cuando tu objetivo falla.
+GamePlayer.RefreshSpec.TargetHits:			Este estilo de combate esta mejor usado cuando tu objetivo te golpea.
+GamePlayer.RefreshSpec.TargetParried:		Este estilo de combate esta mejor usado cuando tu objetivo para tu ataque.
+GamePlayer.RefreshSpec.TargetBlocked:		Este estilo de combate esta mejor usado cuando tu objetivo bloquea tu ataque.
+GamePlayer.RefreshSpec.TargetEvaded:		Este estilo de combate esta mejor usado cuando tu objetivo esquiva tu ataque.
+GamePlayer.RefreshSpec.TargetFumbles:		Este estilo de combate esta mejor usado cuando tu objetivo tropieza.
+GamePlayer.RefreshSpec.TargetStyle:			Este estilo de combate esta mejor usado cuando tu objetivo realiza un estilo de combate.
+GamePlayer.UpdateSpellLine.GainPower:		Ganas poder en la lista de conjuros {0}!
+GamePlayer.OnSkillTrained.YouSpend:			 Gastas {0} puntos y te especializas en {1} 
+GamePlayer.OnSkillTrained.YouHave:			Te quedan {0} puntos de especialización en este nivel.
+GamePlayer.OnSkillTrained.TrainsInVarious:	{0} Entrenas en diferentes especializaciones.
+GamePlayer.GainRealmPoints.NoRP.CapturedKeeps:	    No obtienes ningún punto de reino por la fortaleza, porque alcanzaste el límite de {0} para las fortalezas capturadas!
+GamePlayer.GainRealmPoints.NoRP.CapturedTowers:	    No obtienes ningún punto de reino por la Torre, porque llegas al límite de {0} por Torres capturadas!
+GamePlayer.GainRealmPoints.YouGet:			Consiges {0} puntos de reino!
+GamePlayer.GainRealmPoints.GainedLevel:		 Has avanzado un nivel de reino!
+GamePlayer.GainRealmPoints.GainedRank:		Has alcanzado un nuevo rango de reino y un nuevo título!
+GamePlayer.GainRealmPoints.NewRealmTitle:	Tu nuevo título de reino es {0}!
+GamePlayer.GainRealmPoints.GainBonus:		Consigues un +{0} bonificaciones a todas las especializaciones!
+GamePlayer.GainRealmPoints.ReachedRank:		You reached realm rank {0}L0!
+GamePlayer.GainRealmPoints.ReachedRankNews:		{0} Ha alcanzado el nivel de reino {1} en {2}!
+GamePlayer.GainRealmPoints.Earned:			{0} Ha conseguido 1,000,000 puntos de reino en {1}
+GamePlayer.GainBountyPoints.YouGet:			Consigues {0} puntos de recompensa!
+GamePlayer.Participating.Rps:               Por participar en peleas RvR obtienes puntos de reino.
+GamePlayer.Participating.Bps:               Por participar en peleas de RvR obtienes puntos de recompensa.
+GamePlayer.GainExperience.YouGet:			Consigues {0} puntos de experiencia.
+GamePlayer.GainExperience.ItemBonus:        You get {0} from item Bonus experience points.
+GamePlayer.GainExperience.CannotRaise:		No puedes alcanzar nivel 6 hasta que te unas a una facción avanzada!
+GamePlayer.GainExperience.TalkToTrainer:	Habla con tu entrenador para más información.
+GamePlayer.OnLevelUp.YouRaise:				 Subes a nivel {0}
+GamePlayer.OnLevelUp.YouAchieved:			Has alcanzado nivel {0}
+GamePlayer.OnLevelUp.FreeLevelEligible:		Puedes conseguir un nivel gratuito!Ve a tu entrenador para recibirlo(o escribe /freelevel decline para rechazarlo).
+GamePlayer.OnLevelUp.Reached:				{0} alcanzó nivel {1} en {2}!
+GamePlayer.OnLevelUp.StatRaise:				 Tus características de personaje aumentan!
+GamePlayer.OnLevelUp.AttainedRank:			Has logrado alcanzar el rango de {0}!
+GamePlayer.OnLevelUp.YouGetSpec:			Consigues {0} puntos mas para gastar en este nivel!
+GamePlayer.OnLevelUp.HitsRaise:				Tus puntos de vida aumentan en {0} puntos.
+GamePlayer.OnLevelUp.PowerRaise:			Tu poder aumenta en {0} puntos.
+GamePlayer.OnLevelUp.SecondStage:			Alcanzas la segunda parte del nivel {0}!
+GamePlayer.IsCloakHoodUp.NowWear:                     Te enfundas en tu capa.
+GamePlayer.IsCloakHoodUp.NoLongerWear:    Te levantas la capucha.
+GamePlayer.SwitchWeapon.SpellCancelled:  Tu hechizo es cancelado!
+GamePlayer.StartAttack.YouMustWait:               Has de esperar {0} segundos mas para intentar atacar!
+GamePlayer.StartAttack.YouCantCombat:      No puedes entrar en combate mientras estás muerto!
+GamePlayer.StartAttack.CantAttackStunned:       No puedes entrar en combate mientras estás atontado.  
+GamePlayer.StartAttack.CantAttackmesmerized: No puedes atacar mientras estás dormido!
+GamePlayer.StartAttack.YouMustWaitAgain:        Has de esperar {0} segundos más para atacar de nuevo.
+GamePlayer.StartAttack.CannotWithoutWeapon:     No puedes entrar en combate sin arma!
+GamePlayer.StartAttack.CannotMelee:               No puedes entrar en combate con un instrumento!
+GamePlayer.StartAttack.SelectQuiver:        Has de seleccionar un carcaj!
+GamePlayer.StartAttack.CantUseQuiver:      No puedes usar ese carcaj con el arma que tienes equipada!
+GamePlayer.StartAttack.TiredShot:                     Estás demasiado cansado para hacer un disparo crítico!
+GamePlayer.StartAttack.TiredUse:                        Estás demasiado cansado para usar tu {0}!
+GamePlayer.StartAttack.CombatNoTarget:    Entras en combate, pero no tienes objetivo!
+GamePlayer.StartAttack.CombatTarget:         Entras en combate y seleccionas [{0}]
+GamePlayer.StartAttack.SpellCancelled:    Tu hechizo es cancelado! 
+GamePlayer.StartAttack.TargetInRange:      El objetivo esta en tu rango de ataque 
+GamePlayer.StartAttack.TargetOutOfRange:      Objetivo fuera de rango de ataque
+GamePlayer.StartAttack.YouPrepare:                  Preparas tu {0} ({1}.{2}s para disparar {3}) 
+GamePlayer.PickupObject.YouPickUp:				    Usted recoge {0}.
+GamePlayer.PickupObject.RelicStrenghtBonus:		Tener una reliquia enemiga te da un {0}% de oro adicional.
+GamePlayer.Attack.InterceptHit:			        	{0} {1} {2} y golpea por {3} {4} daño!
+GamePlayer.Attack.InterceptedHit:			{0} {1} {2} pero golpeó {3} por {4} {5} daño!
+
+
+
+
+
+GamePlayer.Bind.Bound:						Ahora estás enlazado a esta ubicación.
+GamePlayer.Bind.CantBindDead:				¡No puedes atar mientras estás muerto!	
+GamePlayer.Bind.CantHere:					¡No puedes atar aquí!	
+GamePlayer.Bind.LastBindPoint:				Último punto de vinculación: {0}.	
+GamePlayer.Bind.MustWait:					¡Debes esperar {0} segundos para vincular de nuevo!	
+GamePlayer.CastSpell.AlreadyCastFollow:			¡Ya estás lanzando un hechizo! Usted prepara este hechizo como un seguimiento!	
+GamePlayer.CastSpell.AlreadyCastNoQueue:		Ya está lanzando un hechizo, para habilitar el uso de colas de hechizos '/ noqueue'!		
+GamePlayer.CastSpell.AlreadyPlaySong:			¡Ya estás tocando una canción!	
+GamePlayer.CastSpell.CantCastMezzed:			Usted no puede lanzar mientras hipnotizado!		
+GamePlayer.CastSpell.CantCastStunned:			¡No puedes lanzar mientras estás aturdido!		
+GamePlayer.CommandNpcAttack.TooFarAwayForPet:		 Su objetivo es demasiado lejos para atacar por su mascota!			
+GamePlayer.CommandNpcGoTarget.MustSelectDestination: Debe seleccionar un destino para su criatura controlada.
+GamePlayer.CommandNpcAttack.KillTarget:			Ordena {0} para matar a su objetivo!
+GamePlayer.CommandNpcAttack.IsConfused:			Su {0} está confundido!
+GamePlayer.CommandNpcAttack.FollowYou:			Usted manda {0} para seguirle!
+GamePlayer.CommandNpcAttack.Stay:				YOu command {0} para permanecer en esta posición!
+GamePlayer.CommandNpcAttack.ComeHere:			Usted manda {0} venir a usted.
+GamePlayer.CommandNpcAttack.GoToTarget:			Comanda {0} para ir a su destino.
+GamePlayer.CommandNpcAttack.Passive:			¡Ordena {0} que se desenganche del combate!
+GamePlayer.CommandNpcAttack.Aggressive:			¡Ordena {0} que ataque a todos los enemigos!
+GamePlayer.CommandNpcAttack.Denfensive:			Usted manda {0} para defenderlo!
+GamePlayer.CraftItem.DontHaveAbilityMake:		Usted no tiene la capacidad de hacer este artículo.		
+GamePlayer.CurrentTitle.TitleCleared:			Su título ha sido borrado.		
+GamePlayer.Die.CorpseLies:						{0} acaba de morir. {1} cadáver se encuentra en el suelo.	
+GamePlayer.Die.DeadRVR:							¡Usted murió luchando por su reino y no perdió experiencia!
+GamePlayer.Die.DeathN1:							Esta es tu primera muerte para este nivel. Sus pérdidas de experiencia y constitución se han reducido considerablemente.
+GamePlayer.Die.DeathN2:							Esta es tu segunda muerte para este nivel. Su experiencia y pérdida de la constitución se reducen.
+GamePlayer.Die.DuelDefeated:					{0} fue derrotado en un duelo por {1}!
+GamePlayer.Die.DuelWinner:				        {0} gana el duelo!
+GamePlayer.Die.Killed:							{0} fue asesinado!
+GamePlayer.Die.KilledBy:						{0} fue asesinado por {1}.	
+GamePlayer.Die.KilledByLocation:				{0} fue asesinado por {1} en {2}.		
+GamePlayer.Die.KilledLocation:					{0} fue asesinado en {1}!	
+GamePlayer.Die.LoseExperience:					¡Pierdes algo de experiencia!
+GamePlayer.Die.ReleaseToReturn:					Te has muerto. Escriba / suelte para regresar a su último punto de enlace.
+GamePlayer.Die.YouKilled:						Acabas de matar {0} !.	
+GamePlayer.DrowningTimerCallback.CannotBreath:	¡No puedes respirar bajo el agua y sufrir daños!		
+GamePlayer.DrowningTimerCallback.Take5%Damage:	Tomas el 5% de tus golpes máximos en daño.			
+GamePlayer.DuelStop.DuelEnds:					Su duelo termina!
+GamePlayer.GainBountyPoints.YouGet:				Obtienes {0} puntos de recompensa!	
+GamePlayer.GainCraftingSkill.GainSkill:			Usted gana habilidad en {0}! ({1})
+GamePlayer.GainCraftingSkill.ReachedSkill:		{0} alcanzó la habilidad 1000 en {1}
+GamePlayer.GainExperience.CampBonus:			({0} bono de campamento)
+GamePlayer.GainExperience.CannotRaise:			¡No puedes subir al sexto nivel hasta que te unes a un gremio avanzado!		
+GamePlayer.GainExperience.GroupBonus:			({0} bono de grupo)
+GamePlayer.GainExperience.OutpostBonus:			({0} bono de avanzada)
+GamePlayer.GainRealmPoints.YouGet:				    Obtienes {0} puntos de dominio!		
+GamePlayer.GetExamineMessages.EnemyRealmMember:		Examina {0}. {1} es un miembro de un reino enemigo!
+GamePlayer.GetExamineMessages.NeutralMember:		Examina {0}. {1} es un miembro neutral sin lealtad de gremio.
+GamePlayer.GetExamineMessages.OtherGuildMember:		Examina {0}. {1} es miembro del clan {2}.
+GamePlayer.GetExamineMessages.RealmMember:			Examina {0}. {1} es un miembro de la clase {2} de tu reino.
+GamePlayer.GetExamineMessages.YouExamine:			Usted examina {0}.
+GamePlayer.GetExamineMessages.YourGuildMember:		Examina {0}. {1} es un miembro de la clase {2} de tu gremio.
+GamePlayer.IsCloakHoodUp.NoLongerWear:				Ya no llevará su capucha.		
+GamePlayer.IsCloakHoodUp.NowWear:					Usted ahora llevará su capucha para arriba.		
+GamePlayer.IsCloakInvisible.Invisible:				Ahora no verá su capa.		
+GamePlayer.IsCloakInvisible.Visible:				Ahora verá su capa.		
+GamePlayer.IsHelmInvisible.Invisible:				Ahora no verá su timón.	
+GamePlayer.IsHelmInvisible.Visible:					Ahora verá su timón.		
+GamePlayer.IsOnHorse.DismountSteed:			Desmontas tu corcel.
+GamePlayer.IsOnHorse.MountSteed:			Montas tu corcel.
+GamePlayer.ItemBonusName.Bonus1:			Fuerza
+GamePlayer.ItemBonusName.Bonus2:			Destreza
+GamePlayer.ItemBonusName.Bonus3:			Constitución
+GamePlayer.ItemBonusName.Bonus4:			Rapidez
+GamePlayer.ItemBonusName.Bonus5:			Inteligencia
+GamePlayer.ItemBonusName.Bonus6:			Piedad
+GamePlayer.ItemBonusName.Bonus7:			Empatía
+GamePlayer.ItemBonusName.Bonus8:			Carisma
+GamePlayer.ItemBonusName.Bonus9:			Poder
+GamePlayer.ItemBonusName.Bonus10:			Golpes
+GamePlayer.ItemBonusName.Bonus11:			Resistencia al cuerpo
+GamePlayer.ItemBonusName.Bonus12:			Resistencia al Frío
+GamePlayer.ItemBonusName.Bonus13:			Resistencia al Aplastar
+GamePlayer.ItemBonusName.Bonus14:			Resistencia al Energía
+GamePlayer.ItemBonusName.Bonus15:			Resistencia al Calor
+GamePlayer.ItemBonusName.Bonus16:			Resistencia al Importar
+GamePlayer.ItemBonusName.Bonus17:			Resistencia al Barra oblicua
+GamePlayer.ItemBonusName.Bonus18:			Resistencia al Espíritu
+GamePlayer.ItemBonusName.Bonus19:			Resistencia al Empuje
+GamePlayer.LavaBurnTimerCallback.YourInLava:	Usted está en Lava y recibe daños!			
+GamePlayer.LavaBurnTimerCallback.Take34%Damage:	Usted toma el 34% de sus golpes máximos en daño.
+GamePlayer.OnItemEquipped.Increased:		Su {0} ha aumentado.
+GamePlayer.OnItemEquipped.LevelRequired:    Este artículo requiere el nivel {0} para equiparlo!
+GamePlayer.OnItemEquipped.Magic:			La magia de {0} fluye a través de ti.
+GamePlayer.OnItemEquipped.WieldBothHands:	Usted maneja {0} en ambas manos.
+GamePlayer.OnItemEquipped.WieldLeftHand:	Usted maneja {0} en su mano izquierda.
+GamePlayer.OnItemEquipped.WieldRightHand:	Usted maneja {0} en su mano derecha.
+GamePlayer.OnItemUnequipped.BothHandsFree:	Pones {0} lejos de ti, ahora tienes ambas manos libres.
+GamePlayer.OnItemUnequipped.Decreased:		Su {0} ha disminuido.
+GamePlayer.OnItemUnequipped.LeftHandFree:	Te acostas {0} de tu mano izquierda.
+GamePlayer.OnItemUnequipped.RightHandFree:	Tienes que cubrir {0} de tu mano derecha.
+GamePlayer.OnLevelUp.AttainedRank:			¡Has alcanzado el rango de {0}!	
+GamePlayer.OnLevelUp.FreeLevelEligible:		Usted es elegible para un nivel libre! Haga clic en su entrenador para recibirlo (o escriba / freelevel declinar para descartar su nivel libre).	
+GamePlayer.OnLevelUp.HitsRaise:				Tus aciertos aumentan en {0} puntos.
+GamePlayer.OnLevelUp.PowerRaise:			Su potencia aumenta en {0} puntos.		
+GamePlayer.OnLevelUp.Reached:				{0} alcanzó el nivel {1} en {2}!
+GamePlayer.OnLevelUp.SecondStage:			Sube al nivel {0} Fase 2!	
+GamePlayer.OnLevelUp.StatRaise:				¡Sus estadísticas aumentan!	
+GamePlayer.OnLevelUp.YouAchieved:			Has alcanzado el nivel {0}!		
+GamePlayer.OnLevelUp.YouGetSpec:			Usted obtiene {0} más Puntos de Especialización para gastar en este nivel!		
+GamePlayer.OnLevelUp.YouRaise:				Sube al nivel {0}!	
+GamePlayer.OnLinkdeath.Linkdead:			{0} fue linkdead!		
+GamePlayer.OnPlayerMove.CannotCallMount:		Te estás moviendo y no puedes llamar a tu montura.			
+GamePlayer.OnPlayerMove.InterruptCrafting:		Te mueves e interrumpes tu elaboración.		
+GamePlayer.OnSkillTrained.TrainsInVarious:		{0} trenes en diversas especialidades.	
+GamePlayer.OnSkillTrained.YouHave:				Usted tiene {0} puntos de especialización abandonados este nivel.	
+GamePlayer.OnSkillTrained.YouSpend:				Usted gasta {0} puntos y se especializa más en {1}	
+GamePlayer.OpenSelfCraft.AlreadySelfCrafting:	Usted ya está autocrafting.		
+GamePlayer.OpenSelfCraft.CanOnlyCraftBackpack:	Sólo puedes auto-craft artículos en tu mochila!		
+GamePlayer.PickupObject.Autosplit:				(Autosplit) {0} va a {1}.
+GamePlayer.PickupObject.BackpackFull:			Tu mochila está llena. Debe dejar caer algo primero.
+GamePlayer.PickupObject.CantGetThat:			¡No puedes conseguir eso!
+GamePlayer.PickupObject.GroupMemberPicksUp:		{0} recoge {1}.
+GamePlayer.PickupObject.ItemBelowBGThreshold:	Ese ítem está debajo de tu grupo de batalla.
+GamePlayer.PickupObject.LootDoesntBelongYou:	Ese botín no le pertenece a usted - no puede recogerlo.
+GamePlayer.PickupObject.MustHaveTarget:			¡Debes tener un objetivo para conseguir algo!
+GamePlayer.PickupObject.NoOneGroupWantsMoney:	Nadie en grupo quiere el dinero.
+GamePlayer.PickupObject.NoOneWantsThis:			Nadie en el grupo quiere el {0}.
+GamePlayer.PickupObject.ObjectTooFarAway:		¡El {0} está demasiado lejos para recogerlo!
+GamePlayer.PickupObject.TooFarFromBoat:			Estás demasiado lejos del barco a bordo!
+GamePlayer.PickupObject.YouGet:					Obtienes {1} piezas {0} y lo pones en tu mochila.
+GamePlayer.PickupObject.YouPickUp:				Usted recoge {0}.
+GamePlayer.PickupObject.YourLootShare:			Tu parte del botín es {0}.
+GamePlayer.Pray.AlreadyPraying:					Ya estás orando!
+GamePlayer.Pray.Begin:							Usted comienza sus oraciones!
+GamePlayer.Pray.CantPrayNow:					¡No puedes orar ahora!
+GamePlayer.Pray.GainBack:						¡Usted ora en su tumba y gana experiencia!	
+GamePlayer.Pray.MustGetCloser:				¡Debes acercarte a tu tumba y sentarte a orar!	
+GamePlayer.Pray.MustStandingStill:			Debes estar parado para orar.		
+GamePlayer.Pray.NeedTarget:					¡Tienes que apuntar una tumba en la que orar!	
+GamePlayer.Pray.SelectGrave:				¡Selecciona tu lápida para orar!	
+GamePlayer.Pronoun.Female.Objective:		su	
+GamePlayer.Pronoun.Female.Possessive:		su		
+GamePlayer.Pronoun.Female.Subjective:		ella	
+GamePlayer.Pronoun.Male.Objective:			él	
+GamePlayer.Pronoun.Male.Possessive:			su	
+GamePlayer.Pronoun.Male.Subjective:			él	
+	
+
+
+		
+	
+GamePlayer.Quit.YouWillQuit1:				Usted saldrá después de estar sentado durante {0} segundos ...
+	
+GamePlayer.RealmTitle.UnknownRealm:			Reino desconocido
+GamePlayer.ReceiveItem.Receive:				¡Recibes {0}!
+GamePlayer.ReceiveItem.ReceiveFrom:			¡Recibes {0} de {1}!
+GamePlayer.ReceiveTradeItemWhileCrafting.CantTrade: ¡No puedes comerciar a menos que rompas tu acción actual!
+GamePlayer.ReceiveTradeItem.CantTrade:			¡Usted no puede negociar este artículo!		
+GamePlayer.ReceiveTradeItem.StillSelfcrafting:	Todavía estás autocratizado.		
+
+GamePlayer.Release.ReleaseToPortalKeep: 		Ahora liberará al borde o al portal más cercano en {0} segundos más!
+GamePlayer.Release.ReleaseToHouse:				Ahora liberará a su casa en {0} segundos más!
+	
+	
+GamePlayer.SaveIntoDatabase.CharacterSaved:		Su personaje ha sido guardado.
+GamePlayer.Say.YouSay:							Usted dice: "{0}"
+GamePlayer.SayReceive.Says:						{0} dice, "{1}"
+GamePlayer.SayReceive.FalseLanguage:			{0} dice algo en un idioma que no entiendes.
+
+GamePlayer.SendReceive.FalseLanguage:			{0} envía algo en un idioma que no entiende.
+GamePlayer.SendReceive.Afk:						{0} es actualmente AFK.
+GamePlayer.SendReceive.AfkMessage:				<AFK> {0} envía, "{1}"
+GamePlayer.Send.DontUnderstandYou:				¡No parece que te entienda!
+GamePlayer.Send.YouSendTo:						Envía "{0}" a {1}.
+GamePlayer.SetControlledNpc.ReleaseTarget:		Libera el control de tu objetivo controlado.
+GamePlayer.SetControlledNpc.ReleaseTarget2:		Usted pierde el control del {0}.
+GamePlayer.Shade.AlreadyShade:				Usted ya es una sombra!	
+GamePlayer.Shade.NoLongerShade:				Ya no eres una sombra!
+GamePlayer.Sit.AlreadySitting:				Ya estás sentado!	
+GamePlayer.Sit.CantSitDead:					¡No puedes sentarte ahora, estás muerto!	
+GamePlayer.Sit.CantSitMezzed:				¡No puedes descansar cuando estás hipnotizado!
+GamePlayer.Sit.CantSitStunned:				¡No puedes descansar cuando estás aturdido!	
+GamePlayer.Sit.InterruptCallMount:			Intenta sentarte e interrumpir tu llamada para tu montura!	
+GamePlayer.Sit.MustDismount:				Debes desmontar primero.	
+GamePlayer.Sit.MustStandingStill:			Debes estar quieto para sentarte.		
+GamePlayer.Sit.NoLongerWaitingQuit:			Usted ya no está esperando para dejar de fumar.		
+GamePlayer.Sit.NotSitting:					¡No estás sentado!
+GamePlayer.Sit.YouSitDown:					Tú, siéntate. Escriba '/ stand' o mueva para ponerse de pie.	
+GamePlayer.Sit.YouStandUp:					Levantate.	
+GamePlayer.Spell.NotEnoughPowerful:			No eres lo suficientemente poderoso como para usar el hechizo de este elemento.		
+GamePlayer.Spell.NotImplemented:			{0} ({1}) no implementado aún en este servidor.		
+GamePlayer.Spell.Proc.NotImplemented:		El ID de efecto reactivo {0} no está implementado todavía en este servidor.	
+GamePlayer.Spell.ResurrectionIllness:		Enfermedad de la Resurrección.
+GamePlayer.Sprint.CantSprintDead:			¡No puedes correr cuando mueras!	
+GamePlayer.Sprint.CantSprintHidden:			¡No puedes correr mientras estás oculto!		
+GamePlayer.Sprint.NoLongerReady:			Ya no estás preparado para correr.		
+GamePlayer.Sprint.PrepareSprint:			¡Te preparas para correr!	
+GamePlayer.Sprint.TooFatigued:				¡Estás demasiado fatigado para correr!
+
+			
+		
+		
+	
+	
+	
+		
+
+			
+	
+		
+		
+
+		
+	
+GamePlayer.Stealth.NoLongerHidden:				¡Ya no estás oculto!		
+GamePlayer.Stealth.NowHidden:					¡Ahora estás oculto!
+GamePlayer.SwitchQuiver.NoMoreAmmo:				¡No tienes más munición en tu aljaba!		
+GamePlayer.SwitchQuiver.NotUseQuiver:			No usarás tu quiver.		
+GamePlayer.SwitchQuiver.ShootWith:				Tira con: {0}.		
+GamePlayer.SwitchWeapon.SpellCancelled:			Su hechizo es cancelado!		
+GamePlayer.UpdateEncumberance.Encumbered:		Usted está sobrecargado!		
+GamePlayer.UpdateEncumberance.EncumberedMoveSlowly:	Usted está sobrecargado y se mueve más lentamente.				
+GamePlayer.UpdateSpellLine.GainPower:			¡Usted gana poder en la lista de hechizos {0}!	
+GamePlayer.UseSlot.AttemptToUse:				Intenta utilizar {0}.
+GamePlayer.UseSlot.AutoReleaseShot:				Ahora liberará automáticamente su disparo.		
+GamePlayer.UseSlot.AutoReleaseShotReload:		Ahora liberará automáticamente su disparo y volver a cargarlo.			
+GamePlayer.UseSlot.CantCallMountSeated:			No puedes llamar a tu montura mientras estás sentado.		
+GamePlayer.UseSlot.CantFire:					¡Usted no puede despedir o utilizar este artículo!	
+GamePlayer.UseSlot.CantMountCombat:				Estás en combate y no puedes llamar a tu montura.
+GamePlayer.UseSlot.CantMountHere:			    ¡No puedes convocar un monte aquí!	
+GamePlayer.UseSlot.CantMountMoving:			 	No se puede montar mientras se está moviendo.	
+GamePlayer.UseSlot.CantMountStealthed			No puedes montar mientras estás en sigilo.		
+GamePlayer.UseSlot.CantMountWhileDead:			YNo puedes montar mientras estás muerto.
+GamePlayer.UseSlot.CantMountRelicCarrier:		¡No puedes montar mientras llevas una reliquia!
+GamePlayer.UseSlot.CantSeeTarget:				¡No puedes ver tu objetivo!
+GamePlayer.UseSlot.CantSummonRvR:				No se puede convocar a ese montaje en zonas RvR.	
+GamePlayer.UseSlot.CantUseFromBackpack:		    No puedes usar este artículo de tu mochila. ¡Equiparlo antes!			
+GamePlayer.UseSlot.CantUseInCombat:				¡No puedes usar este elemento en combate!		
+GamePlayer.UseSlot.IllegalSourceObject:			Objeto fuente no válido. Readied {0}.
+GamePlayer.UseSlot.MustDismountBefore:			Debes desmontar antes.		
+GamePlayer.UseSlot.NoAutoReleaseShotReload:		Ya no podrá liberar automáticamente su disparo ni volver a cargarlo.		
+GamePlayer.UseSlot.NotEnouthPower:				No eres lo suficientemente poderoso como para usar el hechizo de este elemento.		
+GamePlayer.UseSlot.OutOfCharges:				El {0} está fuera de cargos.
+GamePlayer.UseSlot.StopCallingMount:			Dejas de llamar a tu montura.
+GamePlayer.UseSlot.SummonHorseLevel:			Debes tener {0} nivel para convocar a este caballo.
+GamePlayer.UseSlot.WhistleMount:				Usted silba para su montaje.
+GamePlayer.UseSlot.MustWaitBeforeUse:			¡Debe esperar {0} más segundos antes de usar la poción!
+GamePlayer.UseSlot.CantUseState:			    No puedes usar {0} en tu estado.
+GamePlayer.UseSlot.Used:			            Se ha utilizado {0}.
+GamePlayer.UseSlot.CantUseCast:				    Debe terminar su acción actual para utilizar su {0}!
+GamePlayer.Whisper.SelectTarget:				Seleccione un objetivo para susurrar a!
+
+GamePlayer.SendCastMessage.WhileInZephyr:          En su estado no puede descargar ningún objeto.
+GamePlayer.SendCastMessage.YouMustWait:            ¡Debes esperar {0} más segundos antes de descargar {1}!
+GamePlayer.SendCastMessage.YouMustWaitAgain:       ¡Debe esperar {0} más segundos antes de descargar otro objeto!
+GamePlayer.SendCastMessage.YouMustWaitNow:         ¡Debe esperar {0} más segundos antes de descargar otro objeto!
+GamePlayer.SendCastMessage.YourStateWhileInZephyr: No puedes usar nada en tu estado.
+GamePlayer.SendCastMessage.YouAlreadyCasting:      Ya estás lanzando un hechizo.
+GamePlayer.SendCastMessage.YouNotPowerfulEnough:   No eres lo suficientemente poderoso como para usar el hechizo de este elemento.
+GamePlayer.SendCastMessage.YouUseItem:             Utilizas {0}
+GamePlayer.SendCastMessage.ThatTargetIsToFahr:     Ese objetivo está demasiado lejos!
+GamePlayer.SendCastMessage.ThatTargetIsNotValid:   ¡Ese objetivo no es válido para esta habilidad!
+YouCantUseThatHere:                                no puedes usar eso en esta zona.
+
+
+ # STYLES
+# /StyleProcessor
+StyleProcessor.ExecuteStyle.BackStrike:			    Usted inflige una huelga crítica en la parte posterior de su objetivo
+StyleProcessor.ExecuteStyle.ExecuteFail:	    	Usted no puede ejecutar su {0} perfectamente!
+StyleProcessor.ExecuteStyle.PerformPerfectly:		Usted realiza su {0} perfectamente! {1}
+StyleProcessor.ExecuteStyle.PerformsPerfectly:		Su {0} realiza su {1} perfectamente. {2}
+StyleProcessor.ExecuteStyle.StyleNameBackstab:		Puñalada
+StyleProcessor.ExecuteStyle.StyleNameBackstabII:	Backstab II
+StyleProcessor.ExecuteStyle.StyleNamePerforateArtery:	Perforate Artery
+StyleProcessor.ExecuteStyle.ThroatStrike:		    Usted inflige una huelga crítica en la garganta de su objetivo
+StyleProcessor.TryToUseStyle.AlreadyPreparing:		¡Usted ya se está preparando para usar este estilo! Escriba / cancelstyle para habilitar la cancelación de estilo.
+StyleProcessor.TryToUseStyle.AlreadySelectedStyles: ¡Ya has seleccionado tus estilos para esta ronda!
+StyleProcessor.TryToUseStyle.BackupStyle:		    ¡Ahora se está preparando para realizar un estilo {0} como respaldo para {1}!
+StyleProcessor.TryToUseStyle.CantCombatMode:		¡No puedes entrar en el modo de combate mientras estás acostado!
+StyleProcessor.TryToUseStyle.CantMeleeCombat:		¡No puedes entrar en el modo de combate cuerpo a cuerpo con un arma disparada!
+StyleProcessor.TryToUseStyle.DualWielding:		    ¡Usted debe ser dual wielding para utilizar este estilo!
+StyleProcessor.TryToUseStyle.Fatigued:			    ¡Usted está demasiado fatigado para usar este estilo!
+StyleProcessor.TryToUseStyle.MustHaveTarget:		¡Debes tener un objetivo para tu siguiente estilo de ataque!
+StyleProcessor.TryToUseStyle.NoLongerPreparing:		¡Ya no estás preparando el uso de tu estilo {0}!
+StyleProcessor.TryToUseStyle.PerformStyleBefore:	¡Debes realizar el estilo {0} antes de éste!
+StyleProcessor.TryToUseStyle.PreparePerform:		¡Se prepara para realizar un {0}!
+StyleProcessor.TryToUseStyle.StyleRequires:		    ¡Este estilo requiere un arma {0}!
+
+
+# HOUSING
+HouseEnterLeave.TooFarAway:					Estás demasiado lejos para entrar a esa casa {0}
+HouseEnterLeave.CantEnter:					No puedes entrar a esta casa {0}
+HousingDecorationRotate.Rotated:			Interior decoration rotated from {0} degrees to {1} degrees.Decoracion interior cambiada desde {0} grados a {1} grado.
+HousingPickupItemHandler.GardenRemoved:		Objeto del jardín eliminado.
+HousingPickupItemHandler.PickUp:			Has conseguido {0} y lo has colocado en tu inventario. 
+HousingPlaceItemHandler.30objects:			Ya has puesto 30 objetos. No puedes poner más.
+HousingPlaceItemHandler.40objects:			Ya has puesto 40 objetos. No puedes poner más.
+HousingPlaceItemHandler.CantFloor:			No puedes soltarlo en el suelo!
+HousingPlaceItemHandler.CantWall:			No puedes colocarlo en una pared!
+HousingPlaceItemHandler.DropOnFloor:		Has colocado el {0} en el suelo de tu casa!
+HousingPlaceItemHandler.DropOnGarden:		Has colocado el {0} en tu jardín.
+HousingPlaceItemHandler.DropOnWall:			Has puesto el {0} en la pared de tu casa!
+HousingPlaceItemHandler.GardenObjectPlaced:	Objeto de jardín colocado. Quedan {0} espacios.
+HousingPlaceItemHandler.HasPorch:			Esta casa ya tiene un portico!
+HousingPlaceItemHandler.HasNoPorch:			Esta casa no tiene portico!
+HousingPlaceItemHandler.IndoorObjectPlaced:	Objeto de interior colocado. Quedan {0} espacios.  
+HousingPlaceItemHandler.NoHookpoint:		No hay ningun anclaje colocado!
+HousingPlaceItemHandler.PutMoney:			Dejas el dinero en tu casa.
+
+# SCRIPTS
+# /Language
+Scripts.Players.Language.Set:				Cambias el idioma de las notificaciones a {0}.
+Scripts.Players.Language.Current:			Tu idioma es actualmente: {0}.
+
+# /Realm
+Scripts.Players.Realm.AlbKeeps:            Puestos avanzados de Albión
+Scripts.Players.Realm.DarknessFalls:      Abismos de la Oscuridad
+Scripts.Players.Realm.DarknessFallsOpen:  ¡Darkness Falls está actualmente abierto para todos los Reinos!
+Scripts.Players.Realm.HibKeeps:            Puestos avanzados de Hibernia
+Scripts.Players.Realm.MidKeeps:            Puestos avanzados de Midgard
+Scripts.Players.Realm.None:                No Owner
+Scripts.Players.Realm.Title:            Estatuto del reino
+Scripts.Players.Realm.UseRelicCommand:      Teclea '/relic': informaciones de Reliquias
+
+# /Relic
+Scripts.Players.Relic.AlbRelics:         Albión Reliquias
+Scripts.Players.Relic.HibRelics:         Hibernia Reliquias
+Scripts.Players.Relic.MidRelics:         Midgard Reliquias
+Scripts.Players.Relic.Power:             {0} en: {1}
+Scripts.Players.Relic.Strength:          {0} en: {1}
+Scripts.Players.Relic.Title:            Estatuto del Reliquias
+Scripts.Players.Relic.UseRealmCommand:      Teclea '/realm': informaciones de Reino
+
+# ZONE BONUSES
+ZoneBonus.AdditionalXP:    ¡Usted gana una experiencia adicional de {0} para aventurarse en esta zona!
+ZoneBonus.AdditionalRP:    ¡Obtienes {0} puntos reales adicionales para aventurarse en esta zona!
+ZoneBonus.AdditionalBP:    ¡Usted gana un adicional de {0} puntos de recompensa para aventurarse en esta zona!
+ZoneBonus.AdditionalCoin:  Usted gana monedas adicionales para aventurarse en esta zona!
+
+
+# SummonAnimistFnFSpellHandler
+SummonAnimistFnFSpellHandler.CantSummonTurretWithoutGroundtarget:  ¡No puedes convocar Torreta sin tierra-objetivo!
+SummonAnimistFnFSpellHandler.CantSummonAnymoreTurretInArea:        ¡No puedes convocar torres en esta zona!
+SummonAnimistFnFSpellHandler.CanNotControlAnymoreTurrets:          Usted no puede controlar las torretas!
+SummonAnimistMainPetSpellHandler.YouAlreadyHaveACharmedCreature:   ¡Ya tienes una criatura encantada, suelta primero!
+SummonAnimistMainPetSpellHandler.SelectACloserGroundTarget:        Tienes que seleccionar un objetivo de tierra más cercano.
+
+
+
+
+# SpellHandler
+SpellHandler.YouCantQuickcastWhileCasting:                ¡No puedes preparar un quickcast mientras lanzas un hechizo!
+SpellHandler.YouCantQuickcastWhenDead:                    ¡No puedes lanzar rápido cuando estás muerto!
+SpellHandler.YouCanNotCastWhenYourAreInMeleeCombat:       No puedes lanzar cuando estás en combate cuerpo a cuerpo.
+SpellHandler.YourMustWaitToUsetoQickCast:                 ¡Debes esperar {0} más segundos para intentar un lanzamiento rápido!
+SpellHandler.YourMustWaitToUseSpell:                      ¡Debes esperar {0} segundos para usar este hechizo!
+SpellHandler.Execute.YouCantUseThatInYourState:           No puedes usar eso en tu estado.
+SpellHandler.YourSpellIsReadyForUse:                      Su {0} está listo para su uso.
+SpellHandler.SelectTheFirstSpellName:                     Seleccione el primer hechizo para su {0}
+SpellHandler.ThatTargetIsntAttackableAtThisTime:         Ese objetivo no es atacable en este momento!
+SpellHandler.SpellOnlyWorksOnFriendlyTargets:            ¡Este hechizo sólo funciona con objetivos amistosos!
+SpellHandler.YouCantCastInASiegeram:                     ¡No puedes lanzar una arma de asedio!
+SpellHandler.YouAreSilenced:                             Usted está silenciado y no puede lanzar un hechizo en este momento.
+SpellHandler.YouArePhaseshifted:                         ¡Estás desfasado y no puedes conjurar un hechizo!
+SpellHandler.IsNotVisibleForYou:                         ¡{0} es invisible para ti!
+SpellHandler.YouArePhaseshiftedCantBeAttacked:           {0} es Phaseshifted y no puede ser atacado!
+SpellHandler.YourTargetsInvunerableAtTheMomment:         Su objetivo es invulnerable en este momento y no puede ser atacado!
+SpellHandler.YourInvunerableAtTheMomment:                Su invulnerable en este momento y no puede usar ese hechizo!
+SpellHandler.YouMustHaveATarget:                         Usted debe tener un objetivo!
+SpellHandler.YouCantCastThisSpellWhileSitting:           ¡No puedes lanzar este hechizo mientras estás sentado!
+SpellHandler.YouMustBeStandingStillToCast:               Usted debe estar parado todavía para lanzar este hechizo!
+SpellHandler.YouAlreadyHaveThisItem:                     ¡Usted ya tiene este objeto!
+SpellHandler.ADamageReductionAbsorbsDamage:              Una reducción de daño absorbe {0} el daño de su ataque!
+SpellHandler.TheDamageReductionAbsorbsDamage:            La reducción de daños absorbe {0} daños!
+SpellHandler.YouSteelTargetforValueEnduranceFromTarget:  ¡Robas {1} por {0} resistencia!
+SpellHandler.CasterSteelEnduranceFromTarget:             {1} te roban por {0} resistencia!
+SpellHandler.YourTargetAlreadyHasAnEffecOfThatType:      {0} ya tiene un efecto de ese tipo de efecto.
+SpellHandler.YouAreInCombatDandCantHiding:               ¡Has estado en combate recientemente y no puedes esconder todavía!
+SpellHandler.YouMustWaitToHide:                          ¡Debe esperar {0} más segundos para intentar ocultarse!
+SpellHandler.YouCantHideWhenDead:                        ¡No puedes esconderte cuando mueras!
+SpellHandler.YouMustEndYourCurrentActionBeforeHiding:    ¡Debe terminar su acción actual antes de ocultarse!
+SpellHandler.YouAreTooCloseToAnEnemyToHide:              ¡Estás demasiado cerca de un enemigo para esconderte!
+SpellHandler.YouCantHideWhileStunned:                    ¡No puedes esconderte mientras estás aturdido!
+SpellHandler.YouCantHideWhileMesmerized:                 No se puede ocultar mientras hipnotizado!
+SpellHandler.YouCurrentlyHaveActivePulsingSpell:         ¡Actualmente tienes un efecto de hechizo activo y pulsante y no puedes esconderte!
+SpellHandler.YouCancelYourEffect:                        Usted cancela su efecto.
+SpellHandler.CasterBeginCastingSpellName:                ¡Comienza a lanzar un hechizo {0}!
+SpellHandler.YourSpellWasCancelledWileTheTargetHit:      Tu hechizo fue cancelado mientras el objetivo es golpeado por daño.
+SpellHandler.YourTargetIsNoLongerInView:                 Su objetivo ya no está a la vista.
+SpellHandler.YourTargetIsNoLongerInRange:                Su objetivo ya no está en el rango.
+SpellHandler.NotEnoughManaYourSpellWasCancelled:         No tienes suficiente maná y tu hechizo ha sido cancelado.
+SpellHandler.YourSpellWasCancelled:                      Su hechizo fue cancelado.
+SpellHandler.YourTargetNotInView:                        Tu objetivo no está a la vista
+SpellHandler.InvalidTarget:                              Blanco invalido.
+SpellHandler.YouCantAttackYourself:                      ¡No puedes atacarte a ti mismo!
+SpellHandler.YourSpellHasNoEffectOn:                     Tu hechizo no tiene ningún efecto en el {0}!
+SpellHandler.OnlyWorksOnDeadRealmMembers:                ¡Este hechizo sólo funciona en los miembros muertos de tu reino!
+SpellHandler.NotRightTypeOfInstrument:                   Usted no está cediendo el tipo correcto de instrumento!
+SpellHandler.YouAreInterruptedAndMustWait:               ¡Se te interrumpe y debes esperar {0} segundos para lanzar un hechizo!
+SpellHandler.YouCantSeeYourTarget:                       ¡No puedes ver tu objetivo desde aquí!
+SpellHandler.YourPetNotInView:                           Tu mascota no está a la vista.
+SpellHandler.YourTargetIsNotVisible:                     ¡Tu objetivo no está visible!
+SpellHandler.TargetIsNotInFront:                         ¡Tu objetivo debe estar frente a ti para este hechizo!
+SpellHandler.InAttackStateCast:                          ¡Guardaste tu arma para lanzar {0}.
+
+SpellHandler.TargetNotInViewSpellFails:                 Su objetivo no está a la vista. El hechizo falla.
+SpellHandler.WorksOnlyOnPlayers:                        Este hechizo sólo funciona en los jugadores.
+SpellHandler.YourTargetIsToFarAway:                     ¡Su objetivo está demasiado lejos!
+SpellHandler.ThePulsingSpell.Ends:                      El hechizo {0} pierde su efecto y termina.
+SpellHandler.YouCantCastWhileSitting:                   ¡No puedes lanzar mientras estás sentado!
+SpellHandler.YouNeedAGroundTarget:                      Tienes que establecer un objetivo de tierra para este hechizo.
+SpellHandler.SelectACloserGroundTarget:                 Su área objetivo está fuera de rango. Seleccione un objetivo más cercano.
+SpellHandler.YourGroundTargetIsNotInView:               ¡Su objetivo terrestre no está a la vista!
+SpellHandler.CasterBeginPlaying:                        Comienza a jugar "{0}"! "
+SpellHandler.CasterBeginCasting:                        ¡Empiezas a lanzar un hechizo!
+SpellHandler.SendCastMessage.YouCast:                   ¡Haces un {0} hechizo!
+SpellHandler.SendCastMessage.OtherCast:                 {0} lanza un hechizo!
+SpellHandler.SendCastMessage.FullyHealed:               Estás completamente curado.
+SpellHandler.SendCastMessage.OtherTargetFullyHealed:    {0} está completamente curado!
+SpellHandler.SelectATargetForThisSpell:                 Debes seleccionar un objetivo para este hechizo "{0}"!
+DoesNotCharmTypeOfCreatur:                              Este hechizo "{0}" no encanta este tipo de criatura!
+SpellHandler.YouCanThisOnlyOnSelfControllingCreatures:  Debes lanzar este hechizo sobre una criatura que estás controlando.
+SpellHandler.YouHitTheForDamage:                        ¡Golpeaste {0} por {1}{2} daño!
+SpellHandler.YourPetHitTheForDamage:                    ¡Tus {0} golpes {1} por {2}{3} daño!
+SpellHandler.YourPetHitTheForCriticalDamage:            ¡Tu {0} golpea críticamente por un {1} daño adicional!
+SpellHandler.YouCriticallyHitForAdditionalDamage:       ¡Golpes críticos por un daño adicional de {0}!
+SpellHandler.YouHaveExhaustedAllMana:                   ¡Has agotado todo tu poder y no puedes lanzar hechizos!
+SpellHandler.YouDontHaveEnoughMana:                     ¡No tienes suficiente poder para lanzar eso!
+SpellHandler.ThisSpellRequiresConcentrationPoints:      ¡Este conjuro requiere {0} puntos de concentración para lanzar!
+SpellHandler.YouCanOnlyCastUpTo:                        ¡Sólo puedes lanzar hasta 50 hechizos de concentración simultánea!
+SpellHandler.YouAreDeatCantCast:                        Usted está muerto y no puede echar!
+
+
+
+
+# AbstractServerRules
+AbstractServerRules.YouGainNoExperience:                  ¡No obtienes experiencia de esta muerte!
+AbstractServerRules.YouGainNoExperience2:                  No obtienes experiencia de esta matanza!
+AbstractServerRules.YouGainNoExperience3:                  Este monstruo ha sido encantado recientemente.
+AbstractServerRules.killedRecentlyGainNoExperience:       {0} ha sido asesinado recientemente y no vale puntos!   
+AbstractServerRules.killedRecentlyGainNoRealmPoints:      {0} ha muerto recientemente y no vale la pena experimentar!
+AbstractServerRules.YouGainNoExperienceWhileResurection:  {0} era gris para ti y, por lo tanto, no merece puntos reales!
+AbstractServerRules.YouGainNoExperienceWhileResurection2: {0} era gris para ti y, por lo tanto, ¡no vale la pena!
+AbstractServerRules.YouGainNoExperienceWhileResurection3: {0} era gris para ti y, por lo tanto, ¡no vale la pena tener puntos de experiencia!
+AbstractServerRules.AddMoney:                             Tu robas:
+AbstractServerRules.AddMoney2:                            Dinero adicional con su capacidad.
+
+
+
+# ResurectSpellHandler
+ResurectSpellHandler.YouHaveBeenResurrectedBy:               ¡Has sido resucitado por {0}!
+ResurectSpellHandler.YouHaveBeenResurrectedNoRealmPoints:    Usted resucitó {0} pero no valía puntos del reino en la muerte.
+ResurectSpellHandler.YouHaveBeenResurrectedNoRealmPoints2:   No obtienes puntos de dominio para la resurrección de {0}.
+ResurectSpellHandler.ResurrectedSpellHasExpired:             Su hechizo de resurrección ha expirado.
+ResurectSpellHandler.NotEnoughPower:                         ¡No tienes suficiente poder para lanzar eso!
+ResurectSpellHandler.YourTargetAlreadyWasResurect:           Su objetivo ya está considerando una resurrección!
+ResurectSpellHandler.YouDeclineToBeResurrected:              Usted se niega a ser resucitado.
+ResurectSpellHandler.NoOneCurrentlyTrying:                   Nadie está tratando de resucitar.
+
+
+# HotSpellHandler
+HotSpellHandler.YouFeelCalmAndHealthy:        Te sientes tranquilo y saludable.
+Perfecter.YouFeelCalmAndHealthy:              Te sientes tranquilo y saludable.
+
+
+# CCSpellHandler
+CCSpellHandler.TargetIsImmuneToThisEffect:              {0} es inmune a este efecto!
+CCSpellHandler.TargetIsMovingTooFast:                   ¡{0} se está moviendo demasiado rápido para que este hechizo tenga algún efecto!
+CCSpellHandler.StopPlayingSong:                         Dejas de tocar tu canción.
+CCSpellHandler.YourTargetIsAlreadyMezzed:               Su objetivo ya está mezzed!
+CCSpellHandler.YourTargetCantHaveThisEffectAgainYet:    {0} no puede tener ese efecto otra vez!
+CCSpellHandler.TargetRessistEffect:                     {0} resiste el efecto!
+CCSpellHandler.YouAreFarAwayFromTarget:                 Estás muy lejos del objetivo. Dejas de tocar tu canción.
+CCSpellHandler.YourItemEffectInterceptsTheMez:          ¡El efecto de su elemento intercepta el hechizo de fascinación y se desvanece!
+CCSpellHandler.EnemyItemEffectInterceptsTheMez:         Un Bracer Ceremonial intercepta tu mez!
+CCSpellHandler.YourItemEffectInterceptsTheStun:         Su efecto Ceremonial Bracer intercepta el hechizo de aturdimiento y se desvanece!
+CCSpellHandler.EnemyItemEffectInterceptsTheMezReturn:   ¡Un brazalete ceremonial interrumpe tu hipnosis y te devuelve!
+CCSpellHandler.YourItemEffectInterceptsTheStunReturn:        ¡Un Ceremonial interrumpe tu aturdimiento y te lo devuelve!
+
+# ArrowSpellHandler
+ArrowSpellHandler.YouCantShotEnduranceIsToLow:          No se puede disparar, su resistencia es demasiado baja para disparar a {0}
+ArrowSpellHandler.YouMiss:                              Te pierdes {0}!
+ArrowSpellHandler.HasMiss:                              {0} se perdió!
+ArrowSpellHandler.HasMissAttackRently:                  {0} ha sido atacado recientemente y no puedes participar.
+ArrowSpellHandler.YouConcentrateOnBlocking:             ¡Te concentras en bloquear el golpe!
+ArrowSpellHandler.YouBlockArrow:                        ¡Bloquea la flecha de {0}!
+ArrowSpellHandler.BlockYourArrow:                       {0} bloquea tu flecha!
+ArrowSpellHandler.YouPrepare:                           Usted prepara un {0}
+ArrowSpellHandler.YouwieldingABowForThisAbility:        ¡Debes estar usando un arco para usar esta habilidad!
+ArrowSpellHandler.YouMustBeStealthedForThisAbility:     Usted debe ser stealthed y blandiendo un arco para usar esta habilidad!
+ArrowSpellHandler.YourTargetIsNotVisible:               ¡Su objetivo no es visible!
+ArrowSpellHandler.YourTargetIsNotInView:                Su objetivo no está en la vista!
+ArrowSpellHandler.YourTargetIsOutOfRange:               Su área objetivo está fuera de rango. Seleccione un objetivo más cercano.
+ArrowSpellHandler.YourMustWaitToUseSpell:               ¡Debes esperar {0} segundos para usar este hechizo!
+ArrowSpellHandler.YouCantCastWhileSitting:          ¡No puedes lanzar mientras estás sentado!
+ArrowSpellHandler.IsEmuneToThisEffect:                  {0} es inmune a este efecto!
+ArrowSpellHandler.IsNotVisibleForYou:                   ¡{0} es invisible para ti!
+ArrowSpellHandler.YouAreDisarmed:                       ¡Estás desarmado y no puedes conjurar un hechizo!
+ArrowSpellHandler.YouArePhaseshifted:                   ¡Estás desfasado y no puedes conjurar un hechizo!
+ArrowSpellHandler.CantConbatInSiegeweapon:              ¡No puedes combatir en un arma de asedio, suelta primero entonces!
+ArrowSpellHandler.YouAreDead:                           Usted está muerto y no puede echar!
+ArrowSpellHandler.AShotPenetratedYourMagicBarrier:      ¡Un disparo penetró tu barrera mágica!
+ArrowSpellHandler.YourStrikeWasAbsorbedByMagicBarrier:  Su huelga fue absorbida por una barrera mágica!
+ArrowSpellHandler.TheBlowWasAbsorbedByMagicBarrier:     El golpe fue absorbido por una barrera mágica!
+ArrowSpellHandler.AttacksYouAndYourShotIsInterrupted:   {0} ¡los ataques de usted y su disparo se interrumpe!
+ArrowSpellHandler.YouHitTheForDamage:                   Golpeaste {0} por {1} daño.
+ArrowSpellHandler.HitYouForDamage:                      {0} te golpea por {1} daño.
+ArrowSpellHandler.YouArePhaseshiftedCantBeAffected:     {0} es Phaseshifted y no puede ser afectado por este hechizo!
+ArrowSpellHandler.YouCastAWrathOfChampionsSpell:        You cast a Wrath of Champions Spell!
+ArrowSpellHandler.CastAWrathOfChampionsSpell:           {0} lanza un hechizo!
+
+
+
+# VampiirPowerBolt
+VampiirPowerBolt.YouReceivePowerFrom:        Recibes {0} energía de {1}!
+VampiirPowerBolt.YouReceiveNoPowerFrom:      ¡No recibiste ningún poder de {0}!
+VampiirPowerBolt.TakesPower:                 {0} toma {1} "poder!
+VampiirPowerBolt.NoEffectOnKeepComponents:   Su hechizo no tiene ningún efecto en el componente keep!
+VampiirPowerBolt.CanNotCastInCombat:         ¡No puedes lanzar este hechizo en combate!
+
+
+# HealSpellHandler
+HealSpellHandler.Execute.HealYourself:			        Te curas por {0} puntos de vida.
+HealSpellHandler.Execute.YouHealCriticalFor:            Tus críticas por una cantidad extra {0} puntos de golpe!
+HealSpellHandler.Execute.YouHealTarget:                 Usted cura {0} por {1} puntos de golpe!
+HealSpellHandler.Execute.YouAreHealedBy:                Usted es curado por {0} por {1} puntos de golpe.
+HealSpellHandler.Execute.TargetIsFullyHealed:           {0} está completamente curado.
+HealSpellHandler.Execute.HealYourself:		         	Te curas por {0} puntos de vida.
+HealSpellHandler.Execute.YourEfficientEndurancebuff:    Su aficionado a la Resistencia Eficiente le otorga {0} Resistencia de la Curación!
+HealSpellHandler.Execute.YourEfficientHealingbuff:      Su buff Efficient Healing le concede un {0} adicional en el Heal!
+HealSpellHandler.Execute.PlayerDoesNotWantAssistance:   {0} no quiere ayuda.
+HealSpellHandler.Execute.TargetIsDead:                  {0} está muerto!
+HealSpellHandler.Execute.YourTargetIsDiseased:          {0} está enfermo!
+
+# EnduranceHealSpellHandler
+EnduranceHealSpellHandler.EnduranceIsFull:              Su resistencia está llena.
+EnduranceHealSpellHandler.TargetEnduranceIsFull:        {0} la resistencia está llena.
+EnduranceHealSpellHandler.YouRestoreEndurancePoints:    Restaura {0} puntos de resistencia.
+EnduranceHealSpellHandler.YouRestoreForEndurancePoints: ¡Restaura {0} por {1} puntos de seguridad!
+EnduranceHealSpellHandler.YourEnduranceWasRestored:     Su resistencia fue restaurada por {0} por {1} puntos.
+
+
+# SpellCastingAbilityHandler
+SpellCastingAbilityHandler.SendCastMessage.WaitForStart:        Shadow Strike ahora está listo y comienza en 10 segundos!
+SpellCastingAbilityHandler.SendCastMessage.WaitFor:             Debe esperar antes de poder utilizar esta capacidad de nuevo.
+SpellCastingAbilityHandler.SendCastMessage.YouMustStealthed:    Usted debe ser stealthed para usar esta habilidad!
+SpellCastingAbilityHandler.SendCastMessage.YouNeedATarget:      ¡Necesitas un objetivo para esta habilidad!
+SpellCastingAbilityHandler.SendCastMessage.YouNeedAGroup:       Usted debe estar en un grupo de utilizar esta capacidad!
+SpellCastingAbilityHandler.SendCastMessage.YouCantUseInStalth:  ¡No puedes usar esta habilidad mientras estabas!
+SpellCastingAbilityHandler.SendCastMessage.YouMustInCombat:     ¡Debes estar en combate recientemente para usar esta habilidad!
+SpellCastingAbilityHandler.SendCastMessage.YouAreInCombat:      ¡Has estado en combate recientemente y no puedes usar esta habilidad!
+SpellCastingAbilityHandler.SendCastMessage.WileSitting:         ¡No puedes usar esta habilidad mientras estás sentado!
+SpellCastingAbilityHandler.SendCastMessage.WileStunned:         ¡No puedes usar esta habilidad mientras estés aturdido!
+SpellCastingAbilityHandler.SendCastMessage.WileMessmerize:      ¡No puedes usar esta habilidad mientras estás hipnotizado!
+SpellCastingAbilityHandler.SendCastMessage.WileDead:            ¡No puedes usar esta habilidad mientras esta muerto!
+
+
+
+#CharmSpellHandler
+CharmSpellHandler.DelveInfo.Function:			    Función: {0}
+CharmSpellHandler.TargetIsNowUnderYourControl:      {0} está bajo tu control.
+CharmSpellHandler.TargetResistsTheCharm:            {0} resiste el encanto!
+CharmSpellHandler.TargetIsToStrongToCharm:          {0} es demasiado fuerte para encantarte!
+CharmSpellHandler.YourTargetIsNotValid:             Su objetivo no es válido.
+CharmSpellHandler.YouAlreadyHaveACharmedCreature:   ¡Ya tienes una criatura encantada, suelta primero!
+
+
+#Melee Damage
+
+GamePlayer.Attack.YourWeaonIsTooStrong:             Su {0} es demasiado fuerte para usted, no puede golpear con el daño completo. 
+
+#Call of the Hounds
+
+StartsEnemySearch: ¡Tu Sabueso ha tomado el olor de los enemigos y ahora está siguiendo su rastro!
+EnemyFound: ¡Tu Sabueso ha descubierto un enemigo!
+
+
+#Keeps
+
+Keeps.FrontierTeleortertStone: No puede teletransportarse nuevamente, intente de nuevo en {0} segundos.
+
+
+#CL
+
+GamePlayer.Champion.YouGainedOneChampionLevel: ¡Alcanzarás otro nivel de campeón!

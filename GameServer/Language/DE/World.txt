@@ -1,0 +1,13 @@
+﻿# /AbstractArea
+AbstractArea.Entered:		(Region) Ihr seid nun {0}!
+AbstractArea.Left:		(Region) Ihr seid nun nicht mehr {0}!
+
+# ZONE BONUSES
+ZoneBonus.AdditionalXP:		Ihr bekommt {0} zusätzliche Erfahrungspunkte für Eurer Abenteuer in dieser Zone!
+ZoneBonus.AdditionalRP:		Ihr bekommt {0} zusätzliche Reichspunkte für Eurer Abenteuer in dieser Zone!
+ZoneBonus.AdditionalBP:		Ihr bekommt {0} zusätzliche Kopfgeldpunkte für Eurer Abenteuer in dieser Zone!
+ZoneBonus.AdditionalCoin:	Ihr bekommt zusätzliche Geldstücke für Eurer Abenteuer in dieser Zone!
+
+# tägliche Belonung
+
+YouReciveForDay:		 Ihr habt euch eure tägliche Belonung verdient. Viel spass {0}! {1} - Wenn ihr keine täglichen Belunungen erhalten wollt, benutzt: /dailys on|off

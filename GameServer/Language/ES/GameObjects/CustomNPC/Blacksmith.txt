@@ -1,0 +1,19 @@
+﻿
+
+Scripts.Blacksmith.AbortRepair:				Se niega a reparar el {0}.
+Scripts.Blacksmith.CantRepairThat:			No puedo arreglar eso.
+Scripts.Blacksmith.GiveObject:				[Dar {0} un objeto a reparar]
+Scripts.Blacksmith.InvalidItem:				Elemento no válido.
+Scripts.Blacksmith.ItsDone:				    Está hecho. Su {0} está listo para el combate!
+Scripts.Blacksmith.NoNeedRepair:			Este objeto no necesita ser reparado.
+Scripts.Blacksmith.NotEnoughMoney:			No tienes suficiente dinero.
+Scripts.Blacksmith.ObjectCantRepaired:		Este objeto no puede ser reparado.
+Scripts.Blacksmith.ObjectRatherOld:			Uhh, que {0} ya era bastante viejo, no podré repararlo una vez más, así que ten cuidado!
+Scripts.Blacksmith.RepairCostAccept:		Le costará {0} reparar el {1}. ¿Aceptas esto?
+Scripts.Blacksmith.Say:					    Puedo reparar armas o armaduras para ti, solo dame el artículo que quieres reparar y veré lo que puedo hacer, por una pequeña cuota por supuesto.
+Scripts.Blacksmith.StackedObjets:			{0} no puede reparar objetos apilados.
+Scripts.Blacksmith.YouExamine:				Examina {0}. {1} es {2} y es un herrero.
+Scripts.Blacksmith.YouPay:				    Usted paga {0} {1}.
+Scripts.Blacksmith.YouTarget:				Se orienta a [{0}].
+
+

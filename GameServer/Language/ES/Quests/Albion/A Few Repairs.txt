@@ -1,0 +1,45 @@
+﻿
+
+Quests.Albion.AFewRepairs.Title: Unas pocas reparaciones
+Quests.Albion.AFewRepairs.Description.Step1: Sigue hablando con Brice Yarley.
+Quests.Albion.AFewRepairs.Description.Step2: Hay algunas hayas ancianos al norte justo dentro de la línea de árboles más allá de la torre caída. Mata a algunos de ellos para recoger la madera que necesitas.
+Quests.Albion.AFewRepairs.Description.Step3: Mata a otra helecho mayor. Se puede encontrar en los bosques al norte de la granja de Yarley.
+Quests.Albion.AFewRepairs.Description.Step4: Lleve la madera mayor a Patrick Yarley. Usted puede encontrarlo a lo largo de la valla en el oeste de Cornwall.
+Quests.Albion.AFewRepairs.Description.Step5: Dar el resto de la Madera Mayor a Patrick Yarley.
+Quests.Albion.AFewRepairs.Description.Step6: Pregunte a Patrick Yarley sobre un {0}.
+Quests.Albion.AFewRepairs.Description.Step7: Encontrar un boogey moor en la colina al este de la granja Yarley y recoger sus dientes.
+Quests.Albion.AFewRepairs.Description.Step8: Vuelve a Patrick Yarley con los dientes Boogey.
+Quests.Albion.AFewRepairs.Notify.ReceiveElderWood: ¡Recibes la Madera Mayor de la haya mayor! \ NTu diario ha sido actualizado.
+Quests.Albion.AFewRepairs.Notify.ReceiveBoogeyTeeth: ¡Recibes los dientes Boogey desde el boogey moor! \ NTu diario ha sido actualizado.
+Quests.Albion.AFewRepairs.Notify.Step4: Esto debería hacer el truco. ¿Conseguiste más madera?
+Quests.Albion.AFewRepairs.Notify.Step5: Eso es más que suficiente madera. Hay otra cosa que necesitaré para completar este proyecto. ¿Podrías ayudar con este {0}?
+Quests.Albion.AFewRepairs.Notify.Step8: Empezaré con las reparaciones inmediatamente. Aquí está su recompensa por un trabajo bien hecho.
+Quests.Albion.AFewRepairs.FinishQuest.AwardedMoney: Se le otorga 81 de plata y algo de cobre!
+Quests.Albion.AFewRepairs.AbortQuest.Ok: Bueno, ahora salga y termine su trabajo!
+Quests.Albion.AFewRepairs.AbortQuest.No: Abortando Quest {0}. Puedes empezar de nuevo si quieres.
+Quests.Albion.AFewRepairs.AcceptQuest.Ok: Excelente, hay algunas criaturas {0} al norte justo dentro de la línea de árboles más allá de la torre caída. Si se corta algunos de ellos que deben producir suficiente madera para el proyecto.
+Quests.Albion.AFewRepairs.AcceptQuest.No: Oh bien, si cambias de opinión, por favor, vuelve!
+Quests.Albion.AFewRepairs.BriceYarley.Const0: helecho mayor
+Quests.Albion.AFewRepairs.BriceYarley.Const1: problema
+Quests.Albion.AFewRepairs.BriceYarley.Const2: dominar las artes
+Quests.Albion.AFewRepairs.BriceYarley.Const3: moor boogeys
+Quests.Albion.AFewRepairs.BriceYarley.Const4: mantener esta valla
+Quests.Albion.AFewRepairs.BriceYarley.Const5: recopilación
+Quests.Albion.AFewRepairs.BriceYarley.Const6: abortar
+Quests.Albion.AFewRepairs.BriceYarley.Step1: Hay algunas criaturas {0} al norte justo dentro de la línea del árbol más allá de la torre caída. Si se corta algunos de ellos que deben producir suficiente madera para el proyecto.
+Quests.Albion.AFewRepairs.BriceYarley.Start: Bienvenido a Cornwall, {0}. Mi familia tiene un poco de {0} y estaríamos agradecidos si pudieras echar una mano.
+Quests.Albion.AFewRepairs.BriceYarley.Problem: Nosotros Yarleys levantar estos rooters gigantes que traemos a los mercados a través de Albion. Tal vez usted ha probado algunas de nuestras salchichas en Ye Mug en Camelot? Bueno, de todos modos hacemos un buen negocio aquí y las horas no son demasiado malas. Es una vida satisfactoria, pero que no deja mucho tiempo para la magia o la espada.
+Quests.Albion.AFewRepairs.BriceYarley.MasteringTheArts: Elevar su ganado a tiro de piedra de un calabozo de muertos vivientes y otras criaturas desagradables tiene sus inconvenientes como usted puede imaginar. Estamos constantemente en la búsqueda de {0} que parecen tener una aversión genuina para nuestros rooters. Ahora nuestros animales pueden mantener su propia lucha, pero tenemos suficiente para hacer por aquí sin tener que curar los cerdos cada dos días.
+Quests.Albion.AFewRepairs.BriceYarley.MoorBoogeys: Hemos tratado de matar a estas plagas, pero siempre parece ser más de ellos. Tenemos que mantener los rooters y los boogeys afuera.
+Quests.Albion.AFewRepairs.BriceYarley.MaintainThisFence: Esta barrera de edad tiene necesidad de alguna reparación, pero estamos un poco bajos en la madera de construcción en este momento. ¿Estaría interesado en algunos suministros para nuestra valla?
+Quests.Albion.AFewRepairs.BriceYarley.Gathering: ¿Ayudarás a los Yarley con algunas reparaciones? [Niveles 35-37]
+Quests.Albion.AFewRepairs.BriceYarley.Abort: ¿De verdad quieres abortar esta búsqueda, todos los objetos ganados durante la misión se perderán?
+Quests.Albion.AFewRepairs.BriceYarley.ElderBeech: Lleva la madera a mi hermano, Patrick. Lo encontrarás a lo largo de la valla al este. Me aseguraré de que sepa esperar su regreso.
+Quests.Albion.AFewRepairs.PatrickYarley.Const1: último recado
+Quests.Albion.AFewRepairs.PatrickYarley.Const2: completo
+Quests.Albion.AFewRepairs.PatrickYarley.Step4: Eso fue rápido. ¿Tienes la madera que mi hermano pidió? Por favor, dámela ahora.
+Quests.Albion.AFewRepairs.PatrickYarley.Step5: ¿Conseguiste más madera?
+Quests.Albion.AFewRepairs.PatrickYarley.Step6: Eso es más que suficiente madera. Hay otra cosa que necesitaré para completar este proyecto. ¿Podrías ayudar con este {0}?
+Quests.Albion.AFewRepairs.PatrickYarley.Step7: ¿Tienes los dientes boogey?
+Quests.Albion.AFewRepairs.PatrickYarley.LastErrand: Lo último que necesito es algo para mantener las tablas en su lugar. Usted puede encontrar este irónico, pero el mejor lugar para encontrar estos picos es de las mismas criaturas que estamos tratando de mantener fuera con esta valla. Resulta que sus dientes largos hacen clavos excelentes para sostener la madera mayor en su lugar. Si puedes matar uno de estos boogeys moor entonces debería proporcionar suficiente para el trabajo a mano. Regresa a mí con estos dientes y tu tarea será {0}.
+Quests.Albion.AFewRepairs.PatrickYarley.Complete: Usted puede encontrar los boogeys moor vagando por la colina al este.

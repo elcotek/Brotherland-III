@@ -1,0 +1,13 @@
+﻿Alb.ANewHeroesWelcome.CheckPlayerAbortQuest.Text1: Bueno, ahora salga y termine su trabajo!
+Alb.ANewHeroesWelcome.CheckPlayerAbortQuest.Text2: Abortando Quest {0}. Puedes empezar de nuevo si quieres.
+Alb.ANewHeroesWelcome.Conclusion.Text1: Gracias, {0}.
+Alb.ANewHeroesWelcome.Conclusion.Text2: Enviaré un heraldo a los sanadores en las Montañas Negras del Sur. Esta guerra está agotando nuestros recursos y tenemos mucho que hacer en todos los frentes. Ciertamente tengo más que mi parte del trabajo. Déjeme saber si usted quisiera ayudar hacia fuera.
+Alb.ANewHeroesWelcome.Init.Text1: Capa del recluta
+Alb.ANewHeroesWelcome.Init.Text2: Letter To Pompin
+Alb.ANewHeroesWelcome.Init.Text3: Lleve el mensaje a Pompin el Crier
+Alb.ANewHeroesWelcome.QuestTitle: Un Nuevo Héroes Bienvenidos
+Alb.ANewHeroesWelcome.ScriptLoaded.Text1: Maestra Claistan
+Alb.ANewHeroesWelcome.ScriptLoaded.Text2: Pompin el Crier
+Alb.ANewHeroesWelcome.Story: ¡Bienvenido a Cotswold! Veo que eres una de las últimas llegadas a las afueras de Camelot. Si estás aquí para ayudar con la defensa del reino, eres bienvenido. Estoy contento de hacer mi parte preparándote para esa experiencia. \ N \ nKing Constantine tiene las manos llenas tratando con los problemas que plagan a Albion. Estos son tiempos oscuros, pero somos una gente sólida y tenemos la suerte de tener un rey que tome en serio el bienestar de su gente. Sin embargo, estamos acosados ​​por muchos peligros. Hay la amenaza de invasión de Midgard y Hibernia, preciosas reliquias de guardia, tierras a proteger y fuerzas de maldad que habitan abajo, esperando la oportunidad de huelga. \ N \ nEl reino de la guerra está cobrando un duro golpe en nuestras mujeres y hombres que luchan en Las líneas de frente. Los dirigentes del gremio nos informaron que están reclutando a los sanadores como sea posible para las fronteras. Necesito que entregues a Pompino el Criador un mensaje con respecto a esta noticia. Él se encargará de que este mensaje lo haga en las manos correctas. También puede tener una tarea para usted.
+Alb.ANewHeroesWelcome.Summary: Entregue el mensaje de Maestro Claistan a Pompin el Crier. Él es más conocedor de los acontecimientos actuales. Él puede rellenar en las últimas noticias locales y tal vez le dará una tarea.
+Alb.ANewHeroesWelcome.TalkToPompinTheCrier: Hola, bienvenido a Cotswold.

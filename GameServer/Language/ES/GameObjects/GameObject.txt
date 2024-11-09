@@ -1,0 +1,19 @@
+﻿
+GameObject.Casting.CastsAPet:               El {0} ahora está bajo tu control.
+GameObject.Casting.CastsASpell:				{0} lanza un hechizo!
+GameObject.GetExamineMessages.YouTarget:	Se orienta a [{0}].
+GameObject.GetName.Article1:				El {0}
+GameObject.GetName.Article2:				El {0}
+GameObject.GetName.Article3:				Un {0}
+GameObject.GetName.Article4:				un {0}
+GameObject.GetName.Article5:				Un {0}
+GameObject.GetName.Article6:				un {0}
+GameObject.GetPronoun.Pronoun1:				Eso
+GameObject.GetPronoun.Pronoun2:				eso
+GameObject.GetPronoun.Pronoun3:				Sus
+GameObject.GetPronoun.Pronoun4:				sus
+GameObject.GetPronoun.Pronoun5:				Eso
+GameObject.GetPronoun.Pronoun6:				eso
+GameObject.Interact.TooFarAway:				{0} está demasiado lejos!
+
+

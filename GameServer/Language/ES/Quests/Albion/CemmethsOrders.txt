@@ -1,0 +1,16 @@
+﻿Alb.CemmethsOrders.CheckPlayerAbortQuest.Text1: Bueno, ahora salga y termine su trabajo!
+Alb.CemmethsOrders.CheckPlayerAbortQuest.Text2: Abortando Quest {0}. Puedes empezar de nuevo si quieres.
+Alb.CemmethsOrders.Conclusion.Text1: ¡Bien hecho, {0}, bien hecho! Ciertamente hemos conseguido nuestro trabajo para nosotros, lo que con todos los insectos desbordantes pisoteando. Has puesto un buen ejemplo para los otros aspirantes a héroes y aventureros, amigo mío. Acepte este pequeño símbolo de agradecimiento.
+Alb.CemmethsOrders.Init.Text1: Chaleco acolchado del recluta
+Alb.CemmethsOrders.Init.Text2: Jerarquía de cuero del recluta
+Alb.CemmethsOrders.Init.Text3: El Chaleco Emplumado del Reclutador
+Alb.CemmethsOrders.Init.Text4: Cráneo esquelético
+Alb.CemmethsOrders.Init.Text5: Decayed Zombie Skin
+Alb.CemmethsOrders.Init.Text6: Matar 1 Esqueleto
+Alb.CemmethsOrders.Init.Text7: Mata a 1 Decayed Zombie
+Alb.CemmethsOrders.Notify.Text1: esqueleto
+Alb.CemmethsOrders.Notify.Text2: zombie decaído
+Alb.CemmethsOrders.QuestTitle: Las órdenes de Cemmeth
+Alb.CemmethsOrders.Story: El hermano Lawrence convocó recientemente una reunión con los líderes de la milicia local para discutir sus preocupaciones sobre el aumento del número de muertos vivientes en nuestra región y cómo puede relacionarse con el reciente incidente que condujo a la formación de las entradas a la Brecha de los Demonios. Debo decir que sus inquietudes me preocupan. No pretendo saber mucho sobre cómo o por qué, pero sí sé que si estas criaturas representan una amenaza para nuestros ciudadanos, deben ser derribadas. \ N \ nSegún nuestros informes, los esqueletos y los zombis decadentes son Aparentemente dos de las cosas más peligrosas que preocuparse cerca de Prydwen Ossuary. Su número y postura agresiva parecen estar aumentando. Me temo que si no pasan por alto, podemos encontrarnos en un apuro. ¡No debemos tener las legiones de no-muertos galopando sobre Camelot Hills, después de todo! \ N \ n¿Qué dice usted? ¿Ayudarás a hacer que nuestro campo sea más seguro enviando a esos bichos a sus lugares de descanso? Tráeme prueba de su hecho si se embarca en esta tarea. \n\n
+Alb.CemmethsOrders.Summary:			Viaje a Prydwen Ossuary. Hay una variedad de no-muertos en la zona circundante. Mata a un esqueleto de un cráneo y un zombi podrido por alguna carne. Regrese a Cemmeth Budgwold cuando haya terminado.
+

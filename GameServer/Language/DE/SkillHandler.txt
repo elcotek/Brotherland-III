@@ -1,0 +1,258 @@
+﻿# /SkillBase
+SkillBase.RegisterPropertyNames.Acuity:			          Sinnesschärfe
+SkillBase.RegisterPropertyNames.AcuityBonusCap:		      Sinnesschärfebonuslimit
+SkillBase.RegisterPropertyNames.AllArcherySkills:	      ALLE Bogenfähigkeiten
+SkillBase.RegisterPropertyNames.AllDualWieldingSkills:	  ALLE Doppelwaffentalente
+SkillBase.RegisterPropertyNames.AllMagicSkills:		      ALLE Magietalente
+SkillBase.RegisterPropertyNames.AllMeleeWeaponSkills:	  ALLE Nahkampftalente
+SkillBase.RegisterPropertyNames.AllSkills:		          ALLE Fähigkeiten
+SkillBase.RegisterPropertyNames.ALLSpellLines:		      ALLE Zauberlinien
+SkillBase.RegisterPropertyNames.Arboreal:		          Pfad des Haines
+SkillBase.RegisterPropertyNames.ArborealFocus:		      Pfad des Haines Fokus
+SkillBase.RegisterPropertyNames.Archery:		          Bogenschießen
+SkillBase.RegisterPropertyNames.ArcheryRange:		      Bogenschussreichweite
+SkillBase.RegisterPropertyNames.ArcherySpeed:		      Bogengeschwindigkeits Bonus
+SkillBase.RegisterPropertyNames.ArrowRecovery:		      Pfeilwiederherstellung
+SkillBase.RegisterPropertyNames.Augmentation:		      Verbesserung
+SkillBase.RegisterPropertyNames.AuraManipulation:	      Auramanipulation
+SkillBase.RegisterPropertyNames.Axe:			          Axt
+SkillBase.RegisterPropertyNames.Battlesongs:		      Schlachtgesang
+SkillBase.RegisterPropertyNames.BeastCraft:		          Tierherrschaft
+SkillBase.RegisterPropertyNames.Blades:			          Klingen
+SkillBase.RegisterPropertyNames.BladeturnReinforcement:   - Klingenwendungsverstärkung: {0} % (PvM Only)
+SkillBase.RegisterPropertyNames.BlockChance:		      Block Bonus: (Nur PvM)
+SkillBase.RegisterPropertyNames.Blunt:			          Stumpfe Waffen
+SkillBase.RegisterPropertyNames.Body:			          Körper
+SkillBase.RegisterPropertyNames.BodyMagic:		          Körpermagie
+SkillBase.RegisterPropertyNames.BodyMagicFocus:		      Körpermagie Fokus
+SkillBase.RegisterPropertyNames.BoneArmy:		          Knochenarmee
+SkillBase.RegisterPropertyNames.BoneArmyFocus:		      Knochenarmee Fokus
+SkillBase.RegisterPropertyNames.BonusToArmorAbsorption:	  Absorptionsbonus
+SkillBase.RegisterPropertyNames.BonusToArmorFactor:	      Rüstungsfaktor-Bonus
+SkillBase.RegisterPropertyNames.CastingSpeed:		      Zauber Geschwindigkeitsbonus
+SkillBase.RegisterPropertyNames.CaveMagic:		          Höhlenmagie
+SkillBase.RegisterPropertyNames.CelticDual:		          Keltendoppel
+SkillBase.RegisterPropertyNames.CelticSpear:		      Keltenspeer
+SkillBase.RegisterPropertyNames.Chants:			          Gesänge
+SkillBase.RegisterPropertyNames.Charisma:		          Charisma
+SkillBase.RegisterPropertyNames.CharismaBonusCap:	      Charismabonuslimit
+SkillBase.RegisterPropertyNames.Cold:			          Kälte
+SkillBase.RegisterPropertyNames.ColdMagic:		          Kältemagie
+SkillBase.RegisterPropertyNames.ColdMagicFocus:		      Kältemagie Fokus
+SkillBase.RegisterPropertyNames.Composite:		          Komposite
+SkillBase.RegisterPropertyNames.Concentration:		      Konzentration
+SkillBase.RegisterPropertyNames.Constitution:		      Konstitution
+SkillBase.RegisterPropertyNames.ConstitutionBonusCap:	  Konstitutionsbonuslimit
+SkillBase.RegisterPropertyNames.Creeping:		          Pfad des Gestrüps
+SkillBase.RegisterPropertyNames.CreepingPathFocus:	      Pfad des Gestrüps Fokus
+SkillBase.RegisterPropertyNames.CriticalArcheryHit:   	  Warscheinlichkeitsbonus auf kritischen Ferntreffer
+SkillBase.RegisterPropertyNames.CriticalMeleeHit:	      Warscheinlichkeitsbonus auf kritischen Nahkampftreffer
+SkillBase.RegisterPropertyNames.CriticalSpellHit:		  kritische Zaubertreffer Warscheinlichkeit
+SkillBase.RegisterPropertyNames.CriticalHealHit:		  kritische Heilung Treffer Warscheinlichkeit
+SkillBase.RegisterPropertyNames.CriticalStrike:		      Kritischer Treffer
+SkillBase.RegisterPropertyNames.Crossbows:		          Armbrust
+SkillBase.RegisterPropertyNames.Crush:			          Schlag
+SkillBase.RegisterPropertyNames.Crushing:		          Schlagen
+SkillBase.RegisterPropertyNames.Cursing:		          Verfluchen
+SkillBase.RegisterPropertyNames.CursingFocus:		      Verfluchen Fokus
+SkillBase.RegisterPropertyNames.Darkness:		          Dunkelheit
+SkillBase.RegisterPropertyNames.DarknessFocus:		      Dunkelheit Fokus
+SkillBase.RegisterPropertyNames.DeathServant:		      Todesdiener
+SkillBase.RegisterPropertyNames.DeathservantFocus:	      Todesdiener Fokus
+SkillBase.RegisterPropertyNames.Deathsight:		          Pfad des todes
+SkillBase.RegisterPropertyNames.DeathsightFocus:	      Pfad des todes Fokus
+SkillBase.RegisterPropertyNames.DebuffEffectivness:	      Debuff Effektivität
+SkillBase.RegisterPropertyNames.DefensiveBonus:		      - Verteidungsbonus: {0} % (Nur PvM)
+SkillBase.RegisterPropertyNames.Dementia:		          Demenz
+SkillBase.RegisterPropertyNames.Dexterity:		          Geschick
+SkillBase.RegisterPropertyNames.DexterityBonusCap:	      Geschickbonuslimit
+SkillBase.RegisterPropertyNames.DualWield:		          Doppelwaffen
+SkillBase.RegisterPropertyNames.EarthMagic:		          Erdmagie
+SkillBase.RegisterPropertyNames.EarthMagicFocus:	      Erdmagie Fokus
+SkillBase.RegisterPropertyNames.EffectiveLevel:		      Effektivitätslevel
+SkillBase.RegisterPropertyNames.Empathy:		          Empathie
+SkillBase.RegisterPropertyNames.EmpathyBonusCap:	      Empathiebonuslimit
+SkillBase.RegisterPropertyNames.Enchantment:		      Verzauberung
+SkillBase.RegisterPropertyNames.EnchantmentFocus:	      Verzauberung Fokus
+SkillBase.RegisterPropertyNames.EnduranceRegeneration:	  Ausdauer Regeneration
+SkillBase.RegisterPropertyNames.Energy:			          Energie
+SkillBase.RegisterPropertyNames.Enhancement:		      Verbesserungen
+SkillBase.RegisterPropertyNames.Envenom:		          Vergiften
+SkillBase.RegisterPropertyNames.Conversion:               Umwandlung: {0}% aller eintreffenden Schäden wird in Mana und Ausdauer umgewandelt.
+SkillBase.RegisterPropertyNames.EtherealShriek:		      Ätherisches Kreischen
+SkillBase.RegisterPropertyNames.EtherealShriekFocus:	  Ätherisches Kreischen Fokus
+SkillBase.RegisterPropertyNames.EvadeChance:		      Ausweichchance: (Nur PvM)
+SkillBase.RegisterPropertyNames.ExperienceLoss:		      Erfahrungsverlustreduzierung
+SkillBase.RegisterPropertyNames.Fatigue:		          Ausdauer
+SkillBase.RegisterPropertyNames.FireMagic:		          Feuermagie
+SkillBase.RegisterPropertyNames.FireMagicFocus:		      Feuermagie Fokus
+SkillBase.RegisterPropertyNames.FistWraps:		          Faustbandagen
+SkillBase.RegisterPropertyNames.FlexibleWeapon:		      Flexible Waffen
+SkillBase.RegisterPropertyNames.FumbleChance:		      Verstolperungs-Chance
+SkillBase.RegisterPropertyNames.Hammer:			          Hammer
+SkillBase.RegisterPropertyNames.HandToHand:		          Faustkampfwaffen
+SkillBase.RegisterPropertyNames.HealingEffectiveness:	  Heilungseffektivitäts Bonus
+SkillBase.RegisterPropertyNames.HealthRegeneration:  	  Trefferpunkte Regeneration
+SkillBase.RegisterPropertyNames.Heat:			          Hitze
+SkillBase.RegisterPropertyNames.Hexing:			          Hexenkunst
+SkillBase.RegisterPropertyNames.HexingFocus:		      Hexenkunst Fokus
+SkillBase.RegisterPropertyNames.HitPointsBonusCap:	      Trefferpunktbonuslimit
+SkillBase.RegisterPropertyNames.Hits:			          Trefferpunkte
+SkillBase.RegisterPropertyNames.Instruments:		      Instrumente
+SkillBase.RegisterPropertyNames.Intelligence:		      Intelligenz
+SkillBase.RegisterPropertyNames.IntelligenceBonusCap:	  Intelligenzbonuslimit
+SkillBase.RegisterPropertyNames.LargeWeapon:		      Große Waffen
+SkillBase.RegisterPropertyNames.LeftAxe:		          Linke Axt
+SkillBase.RegisterPropertyNames.LightMagic:		          Lichtmagie
+SkillBase.RegisterPropertyNames.LightMagicFocus:	      Lichtmagie Fokus
+SkillBase.RegisterPropertyNames.Longbows:		          Bogen
+SkillBase.RegisterPropertyNames.MagicDamageBonus:	      Magieschadensbonus
+SkillBase.RegisterPropertyNames.Magnetism:		          Megnetismus
+SkillBase.RegisterPropertyNames.ManaMagic:		          Manamagie
+SkillBase.RegisterPropertyNames.ManaMagicFocus:		      Manamagie Fokus
+SkillBase.RegisterPropertyNames.Matter:			          Materie
+SkillBase.RegisterPropertyNames.MatterMagic:		      Materie-Magie
+SkillBase.RegisterPropertyNames.MatterMagicFocus:    	  Materie-Magie Fokus
+SkillBase.RegisterPropertyNames.MaulerStaff:		      Malmerstäbe
+SkillBase.RegisterPropertyNames.MaximumSpeed:		      Maximallaufgeschwindigkeit
+SkillBase.RegisterPropertyNames.MeleeDamage:		      Nahkampfschadenbonus
+SkillBase.RegisterPropertyNames.MeleeSpeed:		          Nahkampfgeschwindigkeitsbonus
+SkillBase.RegisterPropertyNames.Mending:		          Verbessern
+SkillBase.RegisterPropertyNames.Mentalism:		          Mentalismus
+SkillBase.RegisterPropertyNames.MentalismFocus:		      Mentalismus Fokus
+SkillBase.RegisterPropertyNames.MesmerizeDuration:	      Hypnotisieren Dauer
+SkillBase.RegisterPropertyNames.MindMagic:		          Geistesmagie
+SkillBase.RegisterPropertyNames.MindMagicFocus:	  	      Geistesmagie Fokus
+SkillBase.RegisterPropertyNames.Music:			          Musik
+SkillBase.RegisterPropertyNames.Nature:			          Naturnähe
+SkillBase.RegisterPropertyNames.NegativeReduction:	       - Verkürzung von negativen Effekten: {0} % (Nur PvM)
+SkillBase.RegisterPropertyNames.NightshadeMagic:	      Nachtschattenmagie
+SkillBase.RegisterPropertyNames.Nurture:		          Nähren
+SkillBase.RegisterPropertyNames.OdinsWill:		          Odins Wille
+SkillBase.RegisterPropertyNames.Pacification:		      Befriedung
+SkillBase.RegisterPropertyNames.Painworking:		      Pfad des schmerzes
+SkillBase.RegisterPropertyNames.PainworkingFocus:	      Pfad des schmerzes Fokus
+SkillBase.RegisterPropertyNames.Parry:			          Parieren
+SkillBase.RegisterPropertyNames.ParryChance:		      Parieren Warscheinlichkeit: (Nur PvM)
+SkillBase.RegisterPropertyNames.Pathfinding:		      Pathfinding
+SkillBase.RegisterPropertyNames.PhantasmalWail:		      Geisterhaftes Heulen
+SkillBase.RegisterPropertyNames.PhantasmalWailFocus:	  Geisterhaftes Heulen Fokus
+SkillBase.RegisterPropertyNames.PieceAblative:		      - Piece Ablative: {0} % (Nur PvM)
+SkillBase.RegisterPropertyNames.Piercing:		          Stichwaffen
+SkillBase.RegisterPropertyNames.Piety:			          Frömmigkeit
+SkillBase.RegisterPropertyNames.PietyBonusCap:	      	  Frömmigkeitsbonuslimit
+SkillBase.RegisterPropertyNames.Polearms:		          Stangenwaffen
+SkillBase.RegisterPropertyNames.Power:			          Magiekraft
+SkillBase.RegisterPropertyNames.PowerBonusCap:		      Magiekraftbonuslimit
+SkillBase.RegisterPropertyNames.PowerPool:		          Magiekraftvorrat
+SkillBase.RegisterPropertyNames.PowerRegeneration:	      Manaregeneration
+SkillBase.RegisterPropertyNames.PowerStrikes:		      Kraft der Ahnen
+SkillBase.RegisterPropertyNames.Quickness:		          Schnelligkeit
+SkillBase.RegisterPropertyNames.QuicknessBonusCap:	      Schnelligkeitsbonuslimit
+SkillBase.RegisterPropertyNames.RangedDamage:		      Schaden auf entfernung
+SkillBase.RegisterPropertyNames.ReactionaryStyleDamage:	- Reaktionskampfstil-Schadensbonus: {0} % (PvE Only)
+SkillBase.RegisterPropertyNames.RecurvedBow:		Reflexbogen
+SkillBase.RegisterPropertyNames.Regrowth:		    Nachwachsen
+SkillBase.RegisterPropertyNames.Rejuvenation:		Verjüngung
+SkillBase.RegisterPropertyNames.ArcaneSyphon:		Arkane Siphon: {0}% Chance, einen Zauber zu wirken oder einen Bogen abzuschiessen, ohne Energie zu verbrauchen.
+SkillBase.RegisterPropertyNames.ResistPierce:		Verringert feindliche Zielresistenzen gegenüber allen magischen Schäden um {0}%. Nur Resistenzen, die aus Genstände gewonnen wurden, werden reduziert.
+SkillBase.RegisterPropertyNames.Runecarving:		Runenschnitzen
+SkillBase.RegisterPropertyNames.RunecarvingFocus:	Runenschnitzen Fokus
+SkillBase.RegisterPropertyNames.Savagery:		    Wildheit
+SkillBase.RegisterPropertyNames.Scythe:			    Sensen
+SkillBase.RegisterPropertyNames.ShadowMastery:		Schattenmeister
+SkillBase.RegisterPropertyNames.Shields:		    Schild
+SkillBase.RegisterPropertyNames.ShortBow:		    Kurzbogen
+SkillBase.RegisterPropertyNames.Slash:		    	Schnitt
+SkillBase.RegisterPropertyNames.Slashing:		    Slashing
+SkillBase.RegisterPropertyNames.Smiting:		    Schmettern
+SkillBase.RegisterPropertyNames.Soulrending:		Seelenzerfetzen
+SkillBase.RegisterPropertyNames.Spear:			    Speer
+SkillBase.RegisterPropertyNames.SpectralForce:		Schemenhafte Stärke
+SkillBase.RegisterPropertyNames.SpectralForceFocus:	Schemenhafte Stärke Fokus
+SkillBase.RegisterPropertyNames.SpectralGuard:		Schemenhafte Wache
+SkillBase.RegisterPropertyNames.SpeedDecreaseDuration:	Geschwindigkeitsabnahme Dauer
+SkillBase.RegisterPropertyNames.SpellDuration:		Spell Duration
+SkillBase.RegisterPropertyNames.SpellPowerCost:		- Zauberkosten Reduktion: {0} % (Nur im PvE)
+SkillBase.RegisterPropertyNames.SpellRange:		    Zauberreichweite
+SkillBase.RegisterPropertyNames.Spirit:			    Geist
+SkillBase.RegisterPropertyNames.SpiritMagic:		Beschwörung
+SkillBase.RegisterPropertyNames.SpiritMagicFocus:	Beschwörung Fokus
+SkillBase.RegisterPropertyNames.Staff:			    Stab
+SkillBase.RegisterPropertyNames.StatBuffSpells:		Bonus auf alle Attribute-Buffzauber
+SkillBase.RegisterPropertyNames.Stealth:		    Schleichen
+SkillBase.RegisterPropertyNames.Stormcalling:		Sturmanrufung
+SkillBase.RegisterPropertyNames.Strength:		    Stärke
+SkillBase.RegisterPropertyNames.StrengthBonusCap:	Stärkebonuslimit
+SkillBase.RegisterPropertyNames.StunDuration:		Betäuben Dauer
+SkillBase.RegisterPropertyNames.StyleCostReduction:	- Style Cost Reduction: {0} % (PvE Only)
+SkillBase.RegisterPropertyNames.StyleDamage:		Bonus zu Styleschaden
+SkillBase.RegisterPropertyNames.Summoning:		    Beschörung
+SkillBase.RegisterPropertyNames.SummoningFocus:		Beschörung Fokus
+SkillBase.RegisterPropertyNames.Suppression:		Unterdrückung 
+SkillBase.RegisterPropertyNames.SuppressionFocus:	Unterdrückung Fokus
+SkillBase.RegisterPropertyNames.Sword:			    Schwert
+SkillBase.RegisterPropertyNames.ThrownWeapons:		Wurfwaffen
+SkillBase.RegisterPropertyNames.Thrust:			    Stoß
+SkillBase.RegisterPropertyNames.Thrusting:		    Thrusting
+SkillBase.RegisterPropertyNames.ToHitBonus:		    - Trefferbonus: {0} % (Nur PvM)
+SkillBase.RegisterPropertyNames.TwoHanded:		    Zweihänder
+SkillBase.RegisterPropertyNames.Valor:			    Tapferkeit
+SkillBase.RegisterPropertyNames.VampiiricEmbrace:	Vampyrumarmung
+SkillBase.RegisterPropertyNames.Verdant:		    Verdant
+SkillBase.RegisterPropertyNames.VerdantFocus:		Verdant Fokus
+SkillBase.RegisterPropertyNames.VoidMagic:		    Leerenmagie
+SkillBase.RegisterPropertyNames.VoidMagicFocus:		Leerenmagie Fokus
+SkillBase.RegisterPropertyNames.WeaponSkill:		Waffenskillbonus
+SkillBase.RegisterPropertyNames.WindMagic:		    Windmagie
+SkillBase.RegisterPropertyNames.WindMagicFocus:		Windmagie Fokus
+SkillBase.RegisterPropertyNames.Witchcraft:		    Hexerei
+SkillBase.RegisterPropertyNames.WitchcraftFocus:	Hexerei Fokus
+
+# /Handlers
+# /DashingDefenseAbility
+DashingDefenseAbility.AddEffectsInfo.Info1:		Nur ein Spieler pro Gruppe kann für die ganze Gruppe parieren und abblocken.
+DashingDefenseAbility.AddEffectsInfo.Info2:		Ziel: Selbst
+DashingDefenseAbility.AddEffectsInfo.Info3:		Zauberzeit: Sofort
+DashingDefenseAbility.Execute.AlreadyEffect:	Ihr habt diesen Effekt bereits!
+DashingDefenseAbility.Execute.MustInGroup:		Ihr müsst in einer Gruppe sein, um diese Fähigkeit nutzen zu können!
+
+# /FirstAidAbility
+FirstAidAbility.AddEffectsInfo.Info1:			Stufe 1: Wert: 25%
+FirstAidAbility.AddEffectsInfo.Info2:			Stufe 2: Wert: 60%
+FirstAidAbility.AddEffectsInfo.Info3:			Stufe 3: Wert: 100%
+FirstAidAbility.AddEffectsInfo.Info4:			Ziel: Selbst
+FirstAidAbility.AddEffectsInfo.Info5:			Zauberzeit: Sofort
+FirstAidAbility.AddEffectsInfo.Info6:			Dieser Zauberspruch kann nicht während eines Kampfes ausgesprochen werden.
+FirstAidAbility.Execute.FullyHealed:			Ihr seit vollständig geheilt.
+FirstAidAbility.Execute.HealYourself:			Ihr habt Euch selbst um {0} Trefferpunkte geheilt.
+
+# /PurgeAbility
+PurgeAbility.AddEffectsInfo.Info1:			        Bei der Aktivierung der Stufe 1 dieser Fähigkeit gibt es eine fünf Sekunden lange Verzögerung. Bei höheren Stufen der Reinigung gibt es diese Verzögerung nicht.
+PurgeAbility.AddEffectsInfo.Info2:		        	Ziel: Selbst
+PurgeAbility.AddEffectsInfo.Info3:		        	Zauberzeit: Sofort
+PurgeAbility.OnTick.PurgeActivate:		        	Die Reinigung wird in {0} Sekunden wirksam!
+PurgeAbility.RemoveNegativeEffects.FallFromYou:		Alle negativen Auswirkungen fallen von Euch ab.
+
+# /RealmAbility
+RealmAbility.AddReUseDelayInfo.Every:			          Stufe {0}: Nutzbar alle: {1}
+RealmAbility..CheckPreconditions.BeInCombat:		      Dieser Zauberspruch kann nur während eines Kampfes ausgesprochen werden!
+RealmAbility..CheckPreconditions.BeInGroup:	     	      Dieser Zauberspruch kann nur als Mitglied einer Gruppe ausgesprochen werden!
+RealmAbility..CheckPreconditions.Combat:	    	      Dieser Zauberspruch kann nicht während eines Kampfes ausgesprochen werden!
+RealmAbility..CheckPreconditions.Dead:		    	      Ihr könnt diese Fähigkeit nicht einsetzen, da Ihr tot seit!
+RealmAbility..CheckPreconditions.Mesmerized:    	      Ihr könnt diese Fähigkeit nicht einsetzen, wärend ihr hypnotisiert seit!
+RealmAbility..CheckPreconditions.Sitting:		          Ihr könnt diese Fähigkeit nicht einsetzen, wärend ihr sitzt!
+RealmAbility..CheckPreconditions.Stealthed:		          Ihr könnt diese Fähigkeit nicht einsetzen, wärend ihr schleicht!
+RealmAbility..CheckPreconditions.Stunned:		          Ihr könnt diese Fähigkeit nicht einsetzen, wärend ihr betäubt seit!
+RealmAbility.SendCasterSpellEffectAndCastMessage.Caster:  {0} zaubert!
+RealmAbility.SendCasterSpellEffectAndCastMessage.You:	  Ihr bereitet den Zauber "{0}" vor...
+RealmAbility.SendCastMessage.PlayerCasts:		          {0} zaubert!
+RealmAbility.SendCastMessage.YouCast:			          Ihr bereitet den Zauber "{0}" vor...
+
+Amor.Ability.Cloth: Stoff
+Amor.Ability.Chain: Kette
+Amor.Ability.Leather: Leder
+Amor.Ability.Plate: Platte
+Amor.Ability.Studded: Besetzt
+Amor.Ability.Scale: Schuppe
+Amor.Ability.Reinforced: Verstärkt

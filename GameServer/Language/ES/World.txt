@@ -1,0 +1,19 @@
+﻿# ZONE BONUSES
+
+ZoneBonus.AdditionalXP:  ¡Usted gana una experiencia adicional de {0} para aventurarse en esta zona!
+ZoneBonus.AdditionalRP:  ¡Obtienes {0} puntos reales adicionales para aventurarse en esta zona!
+ZoneBonus.AdditionalBP:  ¡Usted gana un adicional de {0} puntos de recompensa para aventurarse en esta zona!
+ZoneBonus.AdditionalCoin: Usted gana monedas adicionales para aventurarse en esta zona!
+
+# daily reward
+
+YouReciveForDay:		 Te has ganado tu recompensa diaria. ¡Diviértete {0}! {1} - Si no desea recibir un tono diario, use: /daily on|off
+
+RVRTaskInfo: encuentra el {1} en el lado {0} de New Frontiers y captúralos. Guárdelo hasta que la tarea haya terminado.
+AlreadyCampOwner: ¡Tu reino ya posee esta mina!
+CampCaptured: ¡{0} de {1} acaba de capturar a {2}!
+YouHasCaputured: ¡Has conquistado el {0}!
+RoundOver: La ronda de tareas actual de RvR ha terminado, ¡pero pronto comenzará una nueva!
+RoundStarts: ha comenzado una nueva ronda de RvR-Task, eche un vistazo a su lista de tareas
+YouEnterCamp: Entras al Área de Campamento. ¡Quédate cerca del Campamento (radio 2000) o perderás!
+YouLeaveCamp: te alejas demasiado del área de campamento y pierdes. 

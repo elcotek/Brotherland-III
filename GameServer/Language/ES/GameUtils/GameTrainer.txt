@@ -1,0 +1,18 @@
+﻿# /GameTrainer
+GameTrainer.AddGift.NotEnoughSpace:		No espacio espacio de inventario para recibir su regalo. Por favor, haga espacio.
+GameTrainer.CheckAbilityToUseItem.Text1:	Ya no tienes las habilidades para usar {0}.
+GameTrainer.GetExamineMessages.RightClick:	[Haga clic con el botón derecho para mostrar una ventana del tren]
+GameTrainer.GetExamineMessages.YouExamine:	Examina {0}. {1} es {2} y entrena a los miembros de la clase {3}.
+GameTrainer.GetExamineMessages.YouTarget:	Se orienta a [{0}].
+GameTrainer.Interact.CaseRespecialize:		Volver a especializar
+GameTrainer.Interact.RegainPoints:		¡Recupera {0} puntos de especialización!
+GameTrainer.Interact.Respecialize:		{0} dice, "{1}, si lo deseas, puedo deshacer el entrenamiento que has hecho hasta ahora y darte la habilidad de entrenar de nuevo Esto te permitiría [volver a especializar] tus habilidades Si estás interesado, Usted debe simplemente dejarme saber. "
+GameTrainer.PromotePlayer.Accepted:		Has sido aceptado por {0}!
+GameTrainer.PromotePlayer.Says:			{0} dice, "{1}"
+GameTrainer.PromotePlayer.Upgraded:		¡Has sido actualizado a la clase {0}!
+GameTrainer.ReceiveItem.RespecFull:		Un buen {0}! He añadido un total para usar / respec todos.
+GameTrainer.ReceiveItem.RespecRealm:		Gracias, agregué un reino para usar / respec.
+GameTrainer.ReceiveItem.RespecSingle:		Gracias, he añadido una especificación respectiva para usar / respec <linename>
+GameTrainer.Train.WouldYouLikeTo:		¿Te gustaría hacer algún entrenamiento?
+GameTrainer.Train.SeekElsewhere:		Usted debe buscar otro lugar para su entrenamiento.
+GameTrainer.CheckXPoFF.Text:            Su XP está apagado, debe activarlo para ganar XP o niveles gratuitos!

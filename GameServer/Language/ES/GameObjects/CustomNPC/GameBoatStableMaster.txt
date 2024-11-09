@@ -1,0 +1,6 @@
+﻿GameBoatStableMaster.ReceiveItem.Departed:		         Por favor, espere hasta que el barco haya salido antes de pedir un nuevo
+GameBoatStableMaster.ReceiveItem.SummonedBoat:		     {0} dice: "He convocado un barco para viajar a {1}, tienes 30 segundos para abordar antes de que salga".
+#----> Attention! this must ends with blank character:	 "ticket to "
+GameBoatStableMaster.ReceiveItem.TicketTo:		         ticket to 
+GameBoatStableMaster.ReceiveItem.UnknownWay:		     Todavía no sé el camino a {1}.
+

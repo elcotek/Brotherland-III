@@ -1,0 +1,2 @@
+VaultKeeper.YouExamine:		Examina {0}. {1} es {2} y vaultkeeper.
+VaultKeeper.RightClick:		[Haga clic derecho para mostrar una ventana bóveda]

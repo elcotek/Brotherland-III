@@ -1,0 +1,2 @@
+# GAMEDOOR
+GameDoor.NowOpen:					¡El {0} está abierto!

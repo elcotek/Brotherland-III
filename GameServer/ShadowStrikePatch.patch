@@ -1,0 +1,204 @@
+Index: GameServer.csproj
+===================================================================
+--- GameServer.csproj	(revision 2921)
++++ GameServer.csproj	(working copy)
+@@ -1986,6 +1986,7 @@
+     <Compile Include="skillhandler\MetalGuardAbilityHandler.cs" />
+     <Compile Include="skillhandler\RampageAbilityHandler.cs" />
+     <Compile Include="skillhandler\ScarsOfBattle.cs" />
++    <Compile Include="skillhandler\ShadowstrikeAbility.cs" />
+     <Compile Include="skillhandler\StealthersAbilitiesHandler.cs" />
+     <Compile Include="skillhandler\TauntingShoutAbilityHandler.cs" />
+     <Compile Include="skillhandler\VampiirBoltAbilityHandler.cs" />
+@@ -2127,6 +2128,7 @@
+     <Compile Include="spells\Necromancer\PowerTransfer.cs" />
+     <Compile Include="spells\Necromancer\PowerDrain.cs" />
+     <Compile Include="spells\NightShade\NightshadeNukeSpellhandler.cs" />
++    <Compile Include="spells\Stealthers\ShadownStrike.cs" />
+     <Compile Include="spells\StyleHandler.cs" />
+     <Compile Include="spells\SummonNoveltyPet.cs" />
+     <Compile Include="spells\PetLifedrainSpellHandler.cs" />
+Index: gameutils/SkillConstants.cs
+===================================================================
+--- gameutils/SkillConstants.cs	(revision 2921)
++++ gameutils/SkillConstants.cs	(working copy)
+@@ -318,6 +318,10 @@
+ 		/// Heightened Awareness
+ 		/// </summary>
+ 		public const string HeightenedAwareness = "Heightened Awareness";
++        /// <summary>
++        /// Shadow Strike
++        /// </summary>
++        public const string ShadowStrike = "Shadow Strike";
+ 
+ 		//new maintank skills with 1.81
+ 		/// <summary>
+Index: skillhandler/ShadowstrikeAbility.cs
+===================================================================
+--- skillhandler/ShadowstrikeAbility.cs	(revision 0)
++++ skillhandler/ShadowstrikeAbility.cs	(revision 0)
+@@ -0,0 +1,52 @@
++﻿/*
++ * DAWN OF LIGHT - The first free open source DAoC server emulator
++ * 
++ * This program is free software; you can redistribute it and/or
++ * modify it under the terms of the GNU General Public License
++ * as published by the Free Software Foundation; either version 2
++ * of the License, or (at your option) any later version.
++ * 
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ * 
++ * You should have received a copy of the GNU General Public License
++ * along with this program; if not, write to the Free Software
++ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++ *
++ * Author Xenturio
++ */
++using System;
++using System.Collections;
++using System.Reflection;
++using DOL.GS.PacketHandler;
++using DOL.GS.Effects;
++using DOL.Events;
++using log4net;
++
++namespace DOL.GS.SkillHandler
++{
++    [SkillHandlerAttribute(Abilities.ShadowStrike)]
++    public class ShadowStrikeAbilityHandler : SpellCastingAbilityHandler
++    {
++        public override long Preconditions
++        {
++           
++            get
++            {
++               
++                return DEAD | SITTING | MEZZED | STUNNED | TARGET ;
++            }
++        }
++       
++        public override int SpellID
++        {
++            get
++            {
++                return 90100;
++            }
++        }
++    }
++
++}
+\ No newline at end of file
+Index: skillhandler/SpellCastingAbilityHandler.cs
+===================================================================
+--- skillhandler/SpellCastingAbilityHandler.cs	(revision 2921)
++++ skillhandler/SpellCastingAbilityHandler.cs	(working copy)
+@@ -48,7 +48,11 @@
+ 				return;
+ 
+ 			m_ability = ab;
+-
++            if ((ab.KeyName == "Shadow Strike" || ab.KeyName == "Assassinate") && !player.IsStealthed)
++            {
++                player.Out.SendMessage("You must be stealthed to  use this ability !", eChatType.CT_System, eChatLoc.CL_SystemWindow);
++                return;
++            }
+ 			if (CheckPreconditions(player, Preconditions)) return;
+  
+ 			if (SpellLine != null && Spell != null)
+@@ -122,7 +126,7 @@
+ 					player.Out.SendMessage("You cannot use this ability while stealthed!", eChatType.CT_System, eChatLoc.CL_SystemWindow);
+ 				}
+ 				return true;
+-			}
++			}           
+ 			if (player != null && (bitmask & NOTINGROUP) != 0 && player.Group == null)
+ 			{
+ 				player.Out.SendMessage("You must be in a group use this ability!", eChatType.CT_System, eChatLoc.CL_SystemWindow);
+@@ -160,6 +164,6 @@
+ 		public const long NOTINCOMBAT = 0x00000020;
+ 		public const long NOTINGROUP = 0x00000040;
+ 		public const long STEALTHED = 0x000000080;
+-		public const long TARGET = 0x000000100;
++		public const long TARGET = 0x000000100;        
+ 	}
+ }
+Index: spells/Stealthers/ShadownStrike.cs
+===================================================================
+--- spells/Stealthers/ShadownStrike.cs	(revision 0)
++++ spells/Stealthers/ShadownStrike.cs	(revision 0)
+@@ -0,0 +1,71 @@
++﻿/*
++ * DAWN OF LIGHT - The first free open source DAoC server emulator
++ * 
++ * This program is free software; you can redistribute it and/or
++ * modify it under the terms of the GNU General Public License
++ * as published by the Free Software Foundation; either version 2
++ * of the License, or (at your option) any later version.
++ * 
++ * This program is distributed in the hope that it will be useful,
++ * but WITHOUT ANY WARRANTY; without even the implied warranty of
++ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++ * GNU General Public License for more details.
++ * 
++ * You should have received a copy of the GNU General Public License
++ * along with this program; if not, write to the Free Software
++ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
++ *
++ * Author : Xenturio
++ */
++using System;
++using System.Collections.Generic;
++using DOL.GS.Styles;
++using DOL.GS.Spells;
++using DOL.GS.PlayerClass;
++using DOL.GS.Effects;
++using DOL.GS.SkillHandler;
++using System.Text;
++using System.Collections;
++using System.Reflection;
++using DOL.GS.PacketHandler;
++using log4net;
++
++namespace DOL.GS.Spells
++{
++    [SpellHandler("ShadowStrike")]
++    public class ShadowStrikeSpellHandler : SpellHandler
++    {
++       
++        public override void FinishSpellCast(GameLiving player)        {
++
++            GamePlayer pl = (GamePlayer)m_caster;
++            int xrange = 0;
++            int yrange = 0;
++            double angle = 0.00153248422;
++            Style style = null;
++            if (m_caster.GetModifiedSpecLevel(Specs.Critical_Strike) >= 21)
++            {
++                style = SkillBase.GetStyleByID(343, pl.CharacterClass.ID);
++                m_caster.MoveTo(pl.CurrentRegionID, (int)(m_spellTarget.X - ((xrange + 10) * Math.Sin(angle * m_spellTarget.Heading))), (int)(m_spellTarget.Y + ((yrange + 10) * Math.Cos(angle * m_spellTarget.Heading))), m_spellTarget.Z, m_caster.Heading);
++
++            }
++            else if (m_caster.GetModifiedSpecLevel(Specs.Critical_Strike) >= 10)
++            {
++                style = SkillBase.GetStyleByID(339, pl.CharacterClass.ID);
++                m_caster.MoveTo(pl.CurrentRegionID, (int)(m_spellTarget.X - ((xrange - 10) * Math.Sin(angle * m_spellTarget.Heading))), (int)(m_spellTarget.Y + ((yrange - 10) * Math.Cos(angle * m_spellTarget.Heading))), m_spellTarget.Z, m_caster.Heading);
++
++            }
++            else if (m_caster.GetModifiedSpecLevel(Specs.Critical_Strike) >= 2)
++            {
++                style = SkillBase.GetStyleByID(335, pl.CharacterClass.ID);
++                m_caster.MoveTo(pl.CurrentRegionID, (int)(m_spellTarget.X - ((xrange - 10) * Math.Sin(angle * m_spellTarget.Heading))), (int)(m_spellTarget.Y + ((yrange - 10) * Math.Cos(angle * m_spellTarget.Heading))), m_spellTarget.Z, m_caster.Heading);
++
++            }
++            StyleProcessor.TryToUseStyle(pl, style);
++            base.FinishSpellCast(player);
++           
++        }
++        public ShadowStrikeSpellHandler(GameLiving caster, Spell spell, SpellLine line) : base(caster, spell, line) { }
++    }
++ 
++}
+\ No newline at end of file

@@ -1,0 +1,19 @@
+﻿
+# KEEPS
+# Managers/Player Manager
+PlayerManager.BroadcastCapture.Captured:		Les Forces de {0} ont capturé {1}!
+PlayerManager.BroadcastClaim.Claimed:			{0} a pris le contrôle de {1}!
+PlayerManager.BroadcastRaize.Razed:			{0} a été détruite par les forces de {1}!
+PlayerManager.BroadcastRelease.LostControl:		{0} ont perdu le controle de {1}!
+PlayerManager.BroadcastGateOpen.Captured:		The {0} relict Gate has been opened!
+
+Keeps.FrontierTeleortertStone: Vous ne pouvez plus vous téléporter, réessayez dans {0} secondes.
+
+RVRTaskInfo: Recherchez les {1} du côté {0} de New Frontiers et capturez-les. Gardez-le jusqu'à ce que la tâche soit terminée. 
+AlreadyCampOwner: Votre royaume possède déjà la mine!
+CampCaptured: {0} from {1} vient de capturer {2}!
+YouHasCaputured: Vous avez conquis le {0}!
+RoundOver: La série de tâches RvR en cours est terminée, mais une nouvelle va bientôt commencer!
+RoundStarts: Un nouveau round RvR-Task a commencé, jetez un œil à votre liste de tâches 
+YouEnterCamp: Vous entrez dans la Zone du Camp. Restez près du camp (rayon 2000) ou vous perdrez!
+YouLeaveCamp: Vous vous éloignez trop de la zone du camp et perdez.

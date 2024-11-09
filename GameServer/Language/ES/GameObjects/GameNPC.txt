@@ -1,0 +1,20 @@
+﻿GameNPC.EpicEncounterTag:					Epic Encounter
+GameNPC.DropLoot.AdditionalMoney:			Usted encuentra un {0} adicional gracias a su reino que posee puestos avanzados!
+GameNPC.DropLoot.ItemAdditionalMoney:       Obtendrá un {0} adicional gracias a su equipo!
+GameNPC.DropLoot.Drops:						{0} drops {1}.
+GameNPC.GetAggroLevelString.Aggressive1:	agresivo
+GameNPC.GetAggroLevelString.Aggressive2:	Agresivo
+GameNPC.GetAggroLevelString.Friendly1:		amistoso
+GameNPC.GetAggroLevelString.Friendly2:		Amistoso
+GameNPC.GetAggroLevelString.Hostile1:		hostil
+GameNPC.GetAggroLevelString.Hostile2:		Hostil
+GameNPC.GetAggroLevelString.Neutral1:		neutral
+GameNPC.GetAggroLevelString.Neutral2:		Neutral
+GameNPC.GetAggroLevelString.TowardsYou:		{0} hacia ti
+GameNPC.GetExamineMessages.YouExamine:		Examina {0}. {1} es {2}.
+GameNPC.Interact.AlreadyRiding:				Ya estás montando este {0}.
+GameNPC.Interact.DirtyLook:					{0} te da un aspecto sucio.
+GameNPC.Interact.IsFull:					Este {0} está lleno.
+GameNPC.SayTo.Says:							{0} dice, "{1}"
+GameNPC.SayTo.SpeaksTo:						{0} habla a {1}
+GameNPC.IsLowOnHealth:                      {0} es baja en salud!

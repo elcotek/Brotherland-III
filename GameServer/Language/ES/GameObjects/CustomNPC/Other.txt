@@ -1,0 +1,6 @@
+﻿
+
+# /GameHousingHastener
+GameHousingHastener.GetExamineMessages.Examine:		Examina {0}. {1} es {2} y es un hastener.
+
+

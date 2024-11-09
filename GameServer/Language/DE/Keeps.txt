@@ -1,0 +1,23 @@
+﻿# Managers/Player Manager
+PlayerManager.BroadcastCapture.Captured:		Die Streitmacht von {0} kontrolliert nun {1}!
+PlayerManager.BroadcastClaim.Claimed:			Die Gilde "{0}" hat {1} in Besitz genommen!
+PlayerManager.BroadcastRaize.Razed:			{0} wurde zerstört. Die Streitmacht kam aus {1}!
+PlayerManager.BroadcastRelease.LostControl:		Die Gilde "{0}" hat {1} aufgegeben!
+PlayerManager.BroadcastGateOpen.Captured:		The {0} relict Gate has been opened!
+
+# Relics/GameRelicPad
+GameRelicPad.MountRelic.Captured:			{0} kontrolliert nun {1}.
+GameRelicPad.MountRelic.Stored:				{0} aus {1} hat {2} nach {3} gebracht.
+GameRelicPad.OnPlayerEnter.EmptyRelicPad:		Ihr müsst eine leere {0}-Reliktplatte finden, für die Aufbewahrung dieses Relikts.
+GameRelicPad.RemoveRelic.Removed:			{0} aus {1} hat {2} aus {3} entfernt.
+
+Keeps.FrontierTeleortertStone: Ihr könnt nicht schon wieder teleportieren, versuchen Sie es erneut in {0} Sekunden.
+
+RVRTaskInfo: Findet die {1} auf der {0} seite von New Frontiers und erobert sie. Bewacht sie solange, bis Eure Task beendet ist.
+AlreadyCampOwner: Euer Realm ist bereits besitzer dieser Mine!
+CampCaptured: {0} aus {1} hat die {2} gerade eingenommen!
+YouHasCaputured: Ihr habe gerade die {0} erorbert!
+RoundOver: Die laufende RvR Task Runde geht zuende, aber bald beginnt wieder eine neue!
+RoundStarts: Eine neue RvR-Task Runde hat begonnen. Schaut in Eure Aufgabenliste. 
+YouEnterCamp: Ihr betretet die Camp Area. Bleibt nahe (Radius 2000) bei der Mine, oder ihr werdet scheitern!
+YouLeaveCamp: Ihr entfernt euch zu weit von der Camp Area und scheitert.

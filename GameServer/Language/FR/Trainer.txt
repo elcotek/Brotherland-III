@@ -1,0 +1,100 @@
+﻿
+
+## Albion
+# /FriarTrainer
+FriarTrainer.Interact.Text1:				{0} dit: "Bienvenue, {1} Voulez-vous [join the Defenders of Albion] Et devenir un frère religieux, mais vous ne devriez pas prendre une décision illégale, permettez-moi de vous parler un peu de la vie d'un frère religieux. Membre des défenseurs d'Albion et des frères et sœurs de l'église, ont des frères et des frères Les sœurs ont accès aux améliorations et aux charmes de guérison utilisés par les clercs, qui sont connus comme des clercs de combat et dont les pouvoirs de guérison les rendent utiles pour les groupes à la fois dans la chasse aux monstres et dans la guerre des empires. Parce que les frères d'ordre sont offensants à bien des égards , Ils ne portent que des armures légères en cuir, mais ils peuvent apprendre à éviter les coups de l'ennemi et ont découvert des sorts d'amélioration avancés pour eux-mêmes qui augmentent leurs chances de survie dans des situations difficiles.
+FriarTrainer.Interact.Text2:				{0} dit: "Vous apprendre rapidement, {1}, mais vous ne devriez pas l'obtenir.
+FriarTrainer.Interact.Text3:				{0} dit: "Remettez-moi votre robe du novice, et nous vous enverrons un autre qui est plus approprié à votre position.
+FriarTrainer.Interact.Text4:				{0} dit: "Ah, bienvenue! J'ai quelque chose qui pourrait vous aider. Veuillez accepter ce signe de dignité pour votre service régulier aux défenseurs d'Albion. Maintenant, allez, que l'honneur et la gloire vous trouvent".
+FriarTrainer.ReceiveItem.Text1:				{0} dit: "Prenez ici cette Robe, {1}. Toujours les porter. Ils devraient vous rappeler votre foi. Dès que vous portez le titre fanatique, retournez-moi."
+FriarTrainer.ReceiveItem.Text2:				{0} dit: "Prenez ici ce personnel, {1}. Toujours les porter. Ils devraient vous rappeler votre foi".
+FriarTrainer.WhisperReceive.Text1:			Nous vous accueillons dans notre société en tant qu'équivalent! Nous sommes à votre disposition. Nous allons maintenant émettre vos robes du novice. Portez-les toujours et laissez-le servir à vous rappeler votre foi. Lorsque vous avez atteint le titre d'aumônier mineur, renvoyez-les. Nous devrons alors voir si vous en avez besoin.
+FriarTrainer.WhisperReceiveCase.Text1:			join the defenders of albion
+
+
+
+## Hibernia
+# /EnchanterTrainer
+EnchanterTrainer.Interact.Text1:			{0} dit, "Voulez-vous vous devenir un Enchanteur et suivre la voix des magiciens?  La vie d'un [Enchanteur] en vaut la peine mais elle est dangereuse, mais cela est votre demande."
+EnchanterTrainer.Interact.Text2:			{0} dit, "Vous êtes un bon élève, {1}. Mais ne soyez pas trop rapide dans votre approche du combat. Il y a toujours plus à apprendre."
+EnchanterTrainer.Interact.Text3:
+EnchanterTrainer.Interact.Text4:
+EnchanterTrainer.WhisperReceiveCase.Text1:		Enchanteur
+EnchanterTrainer.WhisperReceive.Text1:			Bienvenue, {0}. À partir de ce jour, vous serez connu(e) comme un Enchanteur. Ici {0}. Prenez ce cadeau pour vous aider dans votre aventure.
+
+
+# /HeroTrainer
+HeroTrainer.Interact.Text1:				{0} dit, "You wish for the life of a [hero]? You wish to walk the Path of Focus?"
+HeroTrainer.Interact.Text2:				{0} dit, "Training makes for a strong, healthy Hero! Keep up the good work, {1}!"
+HeroTrainer.WhisperReceiveCase.Text1:			hero
+HeroTrainer.WhisperReceive.Text1:			Let me welcome you then, {0}. Go, honor us with your deeds. Here is a gift for you. Try not to drop it, eh Hero.
+
+# /AnimistTrainer                          
+AnimistTrainer.Interact.Text1:				{0} dit, "c'est [Path of Affinity] la voix que vous souhaitez suivre?"
+AnimistTrainer.Interact.Text2:              {0} dit, "Vous êtes un bon élève, {1}. Mais ne soyez pas trop rapide dans votre approche du combat. Il y a toujours plus à apprendre."
+AnimistTrainer.Interact.Text3:
+AnimistTrainer.Interact.Text4:			
+AnimistTrainer.WhisperReceiveCase.Text1:		Path of Affinity
+AnimistTrainer.WhisperReceive.Text1:			Vous êtes maintenant un Animiste, {0}. bienvenue dans la voix de Affinity.
+
+# /BainsheeTrainer
+BainsheeTrainer.Interact.Text1:				{0} says, "Do you wish to train as a [Bainshee] and walk the Path of Affinity?"
+BainsheeTrainer.Interact.Text2:				{0} says, "Our way is a hard one, {1}. I can only train you in skills. You must gain knowledge and wisdom on your own.
+BainsheeTrainer.Interact.Text3:
+BainsheeTrainer.Interact.Text4:
+BainsheeTrainer.WhisperReceive.Text1:			Well met then, {0}. It is a hard road, but I see hardness is no stranger to you. Welcome, Bainshee, welcome. Here, take this. It will aid you in your first encounters as a Bainshee.
+BainsheeTrainer.WhisperReceiveCase.Text1:		bainshee
+
+# /MaulerHibTrainer
+MaulerHibTrainer.Interact.Text1:			{0} says, "Do you desire to [join the Temple of the Iron Fist] and fight for the glorious realm of Hibernia?"
+MaulerHibTrainer.Interact.Text2:			{0} says, "Our way is a hard one, {1}. I can only train you in skills. You must gain knowledge and wisdom on your own.
+MaulerHibTrainer.Interact.Text3:			
+MaulerHibTrainer.Interact.Text4:			
+MaulerHibTrainer.ReceiveItem.Text1:			
+MaulerHibTrainer.WhisperReceive.Text1:			Welcome young Mauler. May your time in Hibernia be rewarding. Would you prefer to fight with a [staff] or with [fist]?
+MaulerHibTrainer.WhisperReceive.Text2:			You get a gift by Laresh.
+MaulerHibTrainer.WhisperReceiveCase.Text1:		join the temple of the iron fist
+MaulerHibTrainer.WhisperReceiveCase.Text2:		staff
+MaulerHibTrainer.WhisperReceiveCase.Text3:		fist
+
+# /MentalistTrainer
+MentalistTrainer.Interact.Text1:			{0} says, "Do you wish to train as a [Mentalist] and walk the Path of Harmony?
+MentalistTrainer.Interact.Text2:			{0} says, "Our way is a hard one, {1}. I can only train you in skills. You must gain knowledge and wisdom on your own.
+MentalistTrainer.Interact.Text3:
+MentalistTrainer.Interact.Text4:
+MentalistTrainer.WhisperReceive.Text1:			Well met then, {0}. It is a hard road, but I see hardness is no stranger to you. Welcome, Mentalist, welcome. Here, take this. It will aid you in your first encounters as a Mentalist.
+MentalistTrainer.WhisperReceiveCase.Text1:		mentalist
+
+
+
+## Midgard
+# /BonedancerTrainer
+BonedancerTrainer.Interact.Text1:			{0} says, "Do you desire to [join the House of Bodgar] and defend our realm as a Bonedancer?
+BonedancerTrainer.Interact.Text2:			{0} says, "Our way is a hard one, {1}. I can only train you in skills. You must gain knowledge and wisdom on your own.
+BonedancerTrainer.Interact.Text3:		
+BonedancerTrainer.Interact.Text4:		
+BonedancerTrainer.ReceiveItem.Text1:		
+BonedancerTrainer.WhisperReceive.Text1:			Welcome young warrior! May your time in Midgard army be rewarding!
+BonedancerTrainer.WhisperReceiveCase.Text1:		join the house of bodgar
+
+# /Spiritmaster
+SpiritmasterTrainer.Interact.Text1:			{0} says, "Do you desire to [join the House of Hel] and defend our realm as a Spiritmaster?	
+SpiritmasterTrainer.Interact.Text2:			{0} says, "Our way is a hard one, {1}. I can only train you in skills. You must gain knowledge and wisdom on your own.
+SpiritmasterTrainer.Interact.Text3:				
+SpiritmasterTrainer.Interact.Text4:				
+SpiritmasterTrainer.ReceiveItem.Text1:			
+SpiritmasterTrainer.WhisperReceive.Text1:		Welcome young Spiritmaster! May your time in Midgard army be rewarding!	
+SpiritmasterTrainer.WhisperReceiveCase.Text1:		join the house of hel
+
+# /Valkyrie
+ValkyrieTrainer.Interact.Text1:				{0} says, "Do you desire to [join the House of Odin] and defend our realm as a Valkyrie?
+ValkyrieTrainer.Interact.Text2:				{0} says, "Training makes for a strong, healthy Hero! Keep up the good work, {1}!"
+ValkyrieTrainer.Interact.Text3:				
+ValkyrieTrainer.Interact.Text4:				
+ValkyrieTrainer.ReceiveItem.Text1:			
+ValkyrieTrainer.WhisperReceive.Text1:			Welcome young Valkyrie! May your time in Midgard army be rewarding! Would you prefer to fight with a [onhanded sword] or [twohanded sword] or with a [spear]?
+ValkyrieTrainer.WhisperReceive.Text2:			You get a gift by Odin.
+ValkyrieTrainer.WhisperReceiveCase.Text1:		join the house of odin
+ValkyrieTrainer.WhisperReceiveCase.Text2:		twohanded sword
+ValkyrieTrainer.WhisperReceiveCase.Text3:		spear
+ValkyrieTrainer.WhisperReceiveCase.Text4:		onhanded sword

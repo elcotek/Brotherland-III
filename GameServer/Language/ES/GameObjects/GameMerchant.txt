@@ -1,0 +1,23 @@
+﻿
+GameMerchant.GetExamineMessages.BuyItemsFor:		{0} dice: "Puedes comprar artículos aquí para {1}".
+GameMerchant.GetExamineMessages.Nothing:		nada
+GameMerchant.GetExamineMessages.RightClick:		[Haga clic con el botón derecho para mostrar una ventana de tienda]
+GameMerchant.GetExamineMessages.YouExamine:		Examina {0}. {1} es {2} y es un comerciante.
+GameMerchant.OnPlayerAppraise.Offers:			{0} te ofrece {1} para {2}.
+GameMerchant.OnPlayerBuy.Bought:			Acaba de comprar {0} para {1}.
+GameMerchant.OnPlayerBuy.Bought2:			Acabaste de comprar {0} para {1} {2}.
+GameMerchant.OnPlayerBuy.BoughtBP:			Acaba de comprar {0} para {1} BP.
+GameMerchant.OnPlayerBuy.BoughtPieces:			Acabas de comprar {0} piezas de {1} para {2}.
+GameMerchant.OnPlayerBuy.BoughtPieces2:			Acaba de comprar {0} piezas de {1} para {2} {3}.
+GameMerchant.OnPlayerBuy.BoughtPiecesBP:		Acaba de comprar {0} piezas de {1} para {0} BP.
+GameMerchant.OnPlayerBuy.NotInventorySpace:		No hay suficiente espacio de inventario para comprar eso.
+GameMerchant.OnPlayerBuy.YouNeed:			    Necesitas {0} para comprar esto.
+GameMerchant.OnPlayerBuy.YouNeed2:			    Necesitas {0} {1} para comprar esto.
+GameMerchant.OnPlayerBuy.YouNeedBP:			    Necesitas {0} BP para comprar esto.
+GameMerchant.OnPlayerSell.CantBeSold:			Este artículo no puede ser vendido.
+GameMerchant.OnPlayerSell.GivesYou:			    {0} te da {1} para {2}.
+GameMerchant.OnPlayerSell.IsntInterested:		{0} no está interesado en {1}.
+GameMerchant.OnPlayerSell.TooFarAway:			{0} está demasiado lejos!
+GameMerchant.OnPlayerWithdraw:		            Usted retira {0} de su comerciante.
+GameMerchant.BountyPointsRefunded:              {0} Puntos de recompensa reembolsados
+GameMerchant.YouAlreadyHaveThisCredit:          "Ya tienes este crédito o tu clase no es elegible para recibir este artefacto. {0} ¡Puntos de recompensa devueltos!"

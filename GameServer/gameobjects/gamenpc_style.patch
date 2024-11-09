@@ -1,0 +1,37 @@
+Index: GameServer/gameobjects/GameNPC.cs
+===================================================================
+--- GameServer/gameobjects/GameNPC.cs	(revision 2876)
++++ GameServer/gameobjects/GameNPC.cs	(working copy)
+@@ -31,8 +31,10 @@
+ using DOL.GS.PacketHandler;
+ using DOL.GS.Quests;
+ using DOL.GS.Spells;
++using DOL.GS.Styles;
+ using DOL.GS.Utils;
+ using DOL.Language;
++using DOL.GS.ServerProperties;
+ 
+ namespace DOL.GS
+ {
+@@ -3179,7 +3181,21 @@
+ 					}
+ 			}
+ 		}
++        /// <summary>
++        /// Pick a random style for now.
++        /// </summary>
++        /// <returns></returns>
++        protected override Style GetStyleToUse()
++        {
++            if (Styles != null && Styles.Count > 0 && Util.Chance(Properties.GAMENPC_CHANCES_TO_STYLE + Styles.Count))
++            {
++                Style style = (Style)Styles[Util.Random(Styles.Count - 1)];
++                if (StyleProcessor.CanUseStyle(this, style, AttackWeapon))
++                    return style;
++            }
+ 
++            return base.GetStyleToUse();
++        }
+ 		/// <summary>
+ 		/// Adds messages to ArrayList which are sent when object is targeted
+ 		/// </summary>

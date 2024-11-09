@@ -1,0 +1,46 @@
+﻿House.DBHousePermissions.AccessLevel:			Zugangsstufe: {0}		
+House.Edit.NotEnoughMoney:				Ihr habt nicht genug Geld, um dies machen zu können!	
+House.Edit.PayForChanges:				Ihr zahlt {0} für diese Änderungen.	
+House.Enter.EnteredHouse:				Ihr habt das Haus Nummer {0} betreten.	
+House.Exit.LeftHouse:					Ihr habt das Haus Nummer {0} verlassen.
+House.SendHouseInfo.DoorMaterial:			- Tür: {0}		
+House.SendHouseInfo.ExteriorMaterials:			Material im Außenbereich:		
+House.SendHouseInfo.ExteriorUpgrades:			Erweiterungen im Außenbereich:		
+House.SendHouseInfo.HouseOwner:				Haus von {0}	
+House.SendHouseInfo.IndoorGuildBanner:			- Banner: {0}		
+House.SendHouseInfo.IndoorGuildShield:			- Schild: {0}		
+House.SendHouseInfo.InteriorCarpets:			Teppichboden:		
+House.SendHouseInfo.InteriorUpgrades:			Erweiterungen im Innenbereich:		
+House.SendHouseInfo.Level:				Ausbaustufe: {0}	
+House.SendHouseInfo.Lockbox:				Schließfach: {0}	
+House.SendHouseInfo.Lotnum:				Grundstücksnummer: {0}	
+House.SendHouseInfo.MaxLockbox:				Schließfach(max): {0}	
+House.SendHouseInfo.OutdoorGuildBanner:			- Banner: {0}		
+House.SendHouseInfo.OutdoorGuildShield:			- Schild: {0}		
+House.SendHouseInfo.Owner:				Eigentümer: {0}	
+House.SendHouseInfo.Owners:				Bewohner:	
+House.SendHouseInfo.Porch:				Veranda: 	
+House.SendHouseInfo.PorchEnabled:			- vorhanden: {0}
+House.SendHouseInfo.PorchMaterial:			- Veranda: {0}
+House.SendHouseInfo.PorchRoofColor:			- Farbe: {0}
+House.SendHouseInfo.RentalPrice:			Mietpreis: {0}
+House.SendHouseInfo.RentDueIn:				Miete fällig in: {0} Tag(en), {1} Stunde(n)
+House.SendHouseInfo.RoofMaterial:			- Dach: {0}
+House.SendHouseInfo.Rug1Color:				- Erste Farbe: {0}
+House.SendHouseInfo.Rug2Color:				- Zweite Farbe: {0}
+House.SendHouseInfo.Rug3Color:				- Dritte Farbe: {0}
+House.SendHouseInfo.Rug4Color:				- Vierte Farbe: {0}
+House.SendHouseInfo.TrussMaterial:			- Support/Truss: {0}
+House.SendHouseInfo.WallMaterial:			- Mauer: {0}
+House.SendHouseInfo.WindowMaterial:			- Fensterladen: {0}
+HouseEnterLeave.TooFarAway:				Ihr seid zu weit weg vom Haus {0} um es zu betreten.
+HouseEnterLeave.CantEnter:				Ihr könnt das Haus {0} nicht betreten.
+HousingDecorationRotate.Rotated:			Ein internes Objekt wurde von {0} Grad nach {1} Grad gedreht.
+
+#GameVaultBanker
+House.GameVaultBanker.Description: {0} sagt, mein Service steht euch jeder Zeit zur Verfügung, solltet ihr euer Haus einmal verloren haben. Alle Items aus Euren Kisten werden hier gelistet, die in Eurem Haus vorhanden waren. Ihr könnt sie aber nur entnehmen.
+House.GameVaultBanker.HaveHouse: Hallo {0}, Ihr besitzt zur Zeit ein Haus, sollte es verloren gegangen sein kommt wieder zu mir zurück.
+
+#GameConsignmentBanker
+House.GameConsignmentBanker.Description: {0} sagt, mein Service steht euch jeder Zeit zur Verfügung, solltet ihr euer Aussenhändler einmal verloren haben. Alle Items werden hier gelistet die dort vorhanden waren. Ihr könnt sie aber nur entnehmen.
+House.GameConsignmentBanker.HaveHouse: Hallo {0}, Ihr besitzt zur Zeit einen Aussenhändler, sollte er verloren gegangen sein kommt wieder zu mir zurück.

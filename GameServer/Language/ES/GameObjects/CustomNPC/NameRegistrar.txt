@@ -1,0 +1,3 @@
+NameRegistrar.YouExamine:	Examina {0}. {1} es {2}.
+NameRegistrar.ReturnToMe:	Regresa a mí cuando tengas el nivel {0} para elegir un apellido.
+NameRegistrar.LastName:		Puedo hacerle saber por un apellido de su elección. Utilice el comando / lastname <nombre>.

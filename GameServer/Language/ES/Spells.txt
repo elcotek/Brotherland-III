@@ -1,0 +1,384 @@
+﻿
+
+# SummonAnimistFnFSpellHandler
+SummonAnimistFnFSpellHandler.CantSummonTurretWithoutGroundtarget:  ¡No puedes convocar Torreta sin tierra-objetivo!
+SummonAnimistFnFSpellHandler.CantSummonAnymoreTurretInArea:        ¡No puedes convocar torres en esta zona!
+SummonAnimistFnFSpellHandler.CanNotControlAnymoreTurrets:          Usted no puede controlar las torretas!
+SummonAnimistMainPetSpellHandler.YouAlreadyHaveACharmedCreature:   ¡Ya tienes una criatura encantada, suelta primero!
+SummonAnimistMainPetSpellHandler.SelectACloserGroundTarget:        Tienes que seleccionar un objetivo de tierra más cercano.
+
+
+
+#Speed Enhancement
+Spells.YouInCombatRecently: ¡Has estado en combate recientemente, el {0} no tiene efecto en ti!
+
+BloodDrinkingEffect#
+Blooddrinking.ability.IshealingYouFor:                  ¡La habilidad de Beber sangre te está curando por {0} puntos de salud!
+Blooddrinking.ability.YouAreAlreadyFullyHealed:         ¡Ya estás completamente curado!
+Blooddrinking.ability.Info:                             Causa que la Hoja de las Sombras se cure un 20% de todo el daño que hace durante 30 segundos.
+
+
+
+# SpellHandler
+SpellHandler.YouAttacking.YourConcentrationFades:       Estás atacando. ¡Tu concentración se desvanece!
+SpellHandler.YouCasting.YourConcentrationFades:         Estás lanzando un hechizo. ¡Tu concentración se desvanece!
+SpellHandler.YouAreMoving.YourConcentrationFades:       Te mueves Su concentración disminuye.
+SpellHandler.ConvokerPrescienceMessage:                 ¡Imagina {0}, has entrado en una trampa enemiga y puedes ser descubierto!
+SpellHandler.CrocodileTearRingMessage:                  ¡El poder mágico de tu anillo de lágrima de cocodrilo estará a tu alrededor!
+SpellHandler.TheTargetAlreadyHaveThatEffect:            {0} ya tiene ese efecto. Espera hasta que caduque. Hechizo fallado.
+SpellHandler.Youalreadyhavethateffect:                  {0} Ya tienes ese efecto. Espera hasta que caduque. El hechizo falló.
+SpellHandler.CriticalShot.WasDoubleHit:                 {0} Ya fue golpeado por otro disparo de Crit. El daño se redujo a la mitad.
+SpellHandler.AFlaskArtifactEffect:                      You have cheated death.
+SpellHandler.TargetRessistTheEffect:                    {0} resiste el efecto!
+SpellHandler.TargetNameRessistTheEffect:                Su {0} resiste el efecto!  
+SpellHandler.YouRessistTheEffect:                       ¡Resiste el efecto!
+SpellHandler.YouCantQuickcastWhileCasting:              ¡No puedes preparar un quickcast mientras lanzas un hechizo!
+SpellHandler.YouCantQuickcastWhenDead:                  ¡No puedes lanzar rápido cuando estás muerto!
+SpellHandler.YouCanNotCastWhenYourAreInMeleeCombat:     No puedes lanzar cuando estás en combate cuerpo a cuerpo.
+SpellHandler.YourMustWaitToUsetoQickCast:               ¡Debes esperar {0} más segundos para intentar un lanzamiento rápido!
+SpellHandler.YourMustWaitToUseSpell:                    ¡Debes esperar {0} segundos para usar este hechizo!
+SpellHandler.Execute.YouCantUseThatInYourState:         No puedes usar eso en tu estado.
+SpellHandler.YourSpellIsReadyForUse:                    Su {0} está listo para su uso.
+SpellHandler.SelectTheFirstSpellName:                   Seleccione el primer hechizo para su {0}
+SpellHandler.ThatTargetIsntAttackableAtThisTime:        Ese objetivo no es atacable en este momento!
+SpellHandler.SpellOnlyWorksOnFriendlyTargets:           ¡Este hechizo sólo funciona con objetivos amistosos!
+SpellHandler.YouCantCastInASiegeram:                    ¡No puedes lanzar una arma de asedio!
+SpellHandler.YouAreSilenced:                            Usted está silenciado y no puede lanzar un hechizo en este momento.
+SpellHandler.YouArePhaseshifted:                        ¡Estás desfasado y no puedes conjurar un hechizo!
+SpellHandler.IsNotVisibleForYou:                        ¡{0} es invisible para ti!
+SpellHandler.YouArePhaseshiftedCantBeAttacked:          {0} es Phaseshifted y no puede ser atacado!
+SpellHandler.YourTargetsInvunerableAtTheMomment:        Su objetivo es invulnerable en este momento y no puede ser atacado!
+SpellHandler.YourInvunerableAtTheMomment:               Su invulnerable en este momento y no puede usar ese hechizo!
+SpellHandler.YouMustHaveATarget:                        Usted debe tener un objetivo!
+SpellHandler.YouCantCastThisSpellWhileSitting:          ¡No puedes lanzar este hechizo mientras estás sentado!
+SpellHandler.YouMustBeStandingStillToCast:              Usted debe estar parado todavía para lanzar este hechizo!
+SpellHandler.YouAlreadyHaveThisItem:                    ¡Usted ya tiene este objeto!
+SpellHandler.ADamageReductionAbsorbsDamage:             Una reducción de daño absorbe {0} el daño de tu ataque!
+SpellHandler.TheDamageReductionAbsorbsDamage:           La reducción de daños absorbe {0} daños!
+SpellHandler.YouSteelTargetforValueEnduranceFromTarget: Robas {1} {0} la resistencia!
+SpellHandler.CasterSteelEnduranceFromTarget:            {1} te roban por {0} resistencia!
+SpellHandler.YourTargetAlreadyHasAnEffecOfThatType:     {0} ya tiene un efecto de ese tipo de efecto.
+
+SpellHandler.YouAreInCombatDandCantHiding:					 ¡Has estado en combate recientemente y no puedes ocultarlo todavía!
+SpellHandler.YouMustWaitToHide:								¡Debes esperar {0} más segundos para intentar ocultarte!
+SpellHandler.YouCantHideWhenDead:							¡No puedes esconderte cuando estás muerto!
+SpellHandler.YouMustEndYourCurrentActionBeforeHiding:		¡Debes finalizar tu acción actual antes de ocultarte!
+SpellHandler.YouAreTooCloseToAnEnemyToHide:					¡Estás demasiado cerca de un enemigo para esconderte!
+SpellHandler.YouCantHideWhileStunned:						¡No puedes ocultarte mientras estás aturdido!
+SpellHandler.YouCantHideWhileMesmerized:					 No se puede ocultar mientras hipnotizado!
+SpellHandler.YouCurrentlyHaveActivePulsingSpell:			 ¡Actualmente tienes un efecto de hechizo pulsante y activo y no puedes esconderte!
+SpellHandler.YouCancelYourEffect:							Usted cancela su efecto.
+SpellHandler.CasterBeginCastingSpellName:					 ¡Empiezas a lanzar un hechizo {0}!
+SpellHandler.SendCastMessage.YouCast:						¡Usted está lanzando un hechizo {0}!
+SpellHandler.YourSpellWasCancelledWileTheTargetHit:			Su hechizo se canceló mientras el objetivo es golpeado por daño.
+SpellHandler.YourTargetIsNoLongerInView:					Su objetivo ya no está en la vista.
+SpellHandler.YourTargetIsNoLongerInRange:					 Su objetivo ya no está en el rango.
+SpellHandler.NotEnoughManaYourSpellWasCancelled:			No tienes suficiente mana y tu hechizo ha sido cancelado.
+SpellHandler.YourSpellWasCancelled:                         Su hechizo se canceló.
+SpellHandler.YourTargetNotInView:							 ¡Su objetivo no está en la vista!
+SpellHandler.InvalidTarget:										Objetivo no válido.
+SpellHandler.YouCantAttackYourself:							¡No puedes atacarte a ti mismo!
+SpellHandler.YourSpellHasNoEffectOn:						Tu hechizo no tiene ningún efecto en el {0}!
+SpellHandler.OnlyWorksOnDeadRealmMembers:					¡Este hechizo sólo funciona en los miembros muertos de tu reino!
+SpellHandler.NotRightTypeOfInstrument:						 ¡No estás usando el tipo correcto de instrumento!
+SpellHandler.YouAreInterruptedAndMustWait:					Usted está interrumpido y debe esperar {0} segundos para lanzar un hechizo!
+SpellHandler.YouCantSeeYourTarget:							¡No puedes ver tu objetivo desde aquí!
+SpellHandler.YourPetNotInView:								Tu mascota no está a la vista.
+SpellHandler.YourTargetIsNotVisible:						¡Su objetivo no está visible!
+SpellHandler.TargetNotInViewSpellFails:						Su objetivo no está en la vista. El hechizo falla.
+SpellHandler.WorksOnlyOnPlayers:							Este hechizo sólo funciona en los jugadores.
+SpellHandler.YourTargetIsToFarAway:							¡Su objetivo está demasiado lejos!
+SpellHandler.YouCantCastWhileSitting:						¡No puedes lanzar mientras estás sentado!
+SpellHandler.ThePulsingSpell.Ends:                          El hechizo {0} pierde su efecto y termina.
+SpellHandler.TargetIsNotInFront:                            ¡Tu objetivo debe estar frente a ti para este hechizo!
+
+SpellHandler.YouNeedAGroundTarget:						 Tienes que establecer un objetivo de tierra para este hechizo.
+SpellHandler.SelectACloserGroundTarget:					Su área objetivo está fuera de rango. Seleccione un objetivo más cercano.
+SpellHandler.YourGroundTargetIsNotInView:				¡Su objetivo de tierra no está a la vista!
+SpellHandler.CancelEffect:								 Usted cancela su efecto.
+SpellHandler.CancelPulsingSpell:						Dejas de reproducir tu canción.
+SpellHandler.CasterMove:								¡Te mueves e interrumpes tu hechizo!
+GamePlayer.CastSpell.MustWaitBeforeCast:				¡Debes esperar {0} mores secondes para lanzar un hechizo!
+SpellHandler.DelveInfo.Sec: sec
+Caster.CheckBeginCast.OnTarget:							No puedes lanzar este hechizo en: {0}
+SpellHandler.CasterBeginPlaying:						 Comienza a jugar "{0}"! "
+SpellHandler.SelectATargetForThisSpell:					Debes seleccionar un objetivo para este hechizo "{0}"!
+SpellHandler.CasterBeginCasting:						¡Empiezas a lanzar un hechizo!
+SpellHandler.SendCastMessage.OtherCast:					{0} lanza un hechizo!
+SpellHandler.SendCastMessage.FullyHealed:				 Estás completamente curado.
+SpellHandler.SendCastMessage.OtherTargetFullyHealed:	 {0} está completamente curado!
+SpellHandler.YouCanThisOnlyOnSelfControllingCreatures:	 Debes lanzar este hechizo sobre una criatura que estás controlando.
+SpellHandler.YouHitTheForDamage:							Has golpeado {0} por {1}{2} daño!
+SpellHandler.YourPetHitTheForDamage:						Tu {0} golpea {1} por {2}{3} daño!
+SpellHandler.YourPetHitTheForCriticalDamage:                ¡Tu {0} golpea críticamente por un {1} daño adicional!
+SpellHandler.YouCriticallyHitForAdditionalDamage:			¡Golpeaste críticamente por un {0} daño adicional!
+SpellHandler.YouHaveExhaustedAllMana:						¡Has agotado todo tu poder y no puedes lanzar hechizos!
+SpellHandler.YouDontHaveEnoughMana:							¡No tienes suficiente poder para lanzar eso!
+SpellHandler.ThisSpellRequiresConcentrationPoints:			Este hechizo requiere {0} puntos de concentración para lanzar!
+SpellHandler.YouCanOnlyCastUpTo:							¡Solo puedes lanzar hasta 50 hechizos de concentración simultáneos!
+SpellHandler.YouAreDeatCantCast:							¡Estás muerto y no puedes lanzar!
+
+
+
+
+# AbstractServerRules
+AbstractServerRules.YouGainNoExperience:								¡Usted no obtiene experiencia de esta muerte!
+AbstractServerRules.YouGainNoExperience2:								¡No obtienes experiencia de esta muerte!
+AbstractServerRules.YouGainNoExperience3:								Este monstruo ha sido encantado recientemente.
+AbstractServerRules.killedRecentlyGainNoExperience:						{0} ha sido asesinado recientemente y no vale puntos!
+AbstractServerRules.killedRecentlyGainNoRealmPoints:					{0} ha sido asesinado recientemente y no vale la pena experimentar!
+AbstractServerRules.YouGainNoExperienceWhileResurection:				{0} era gris para ti y, por lo tanto, no merece puntos reales!
+AbstractServerRules.YouGainNoExperienceWhileResurection2:				{0} era gris para ti y, por lo tanto, ¡no vale la pena!
+AbstractServerRules.YouGainNoExperienceWhileResurection3:				{0} era gris para ti y, por lo tanto, ¡no vale la pena tener puntos de experiencia!
+AbstractServerRules.AddMoney:											Robas:
+AbstractServerRules.AddMoney2:											 dinero adicional con su capacidad.
+
+
+# ResurectSpellHandler
+ResurectSpellHandler.YouHaveBeenResurrectedBy:							Has sido resucitado por {0}!
+ResurectSpellHandler.YouHaveBeenResurrectedNoRealmPoints:				Resucitaste {0} pero no valía puntos de dominio sobre la muerte.
+ResurectSpellHandler.YouHaveBeenResurrectedNoRealmPoints2:				No obtienes puntos de reino para la resurrección de {0}.
+ResurectSpellHandler.ResurrectedSpellHasExpired:						Su hechizo de resurrección ha expirado.
+ResurectSpellHandler.NotEnoughPower:									¡No tienes suficiente poder para lanzar eso!
+ResurectSpellHandler.YourTargetAlreadyWasResurect:						Su objetivo ya está considerando una resurrección!
+ResurectSpellHandler.YouDeclineToBeResurrected:							Usted se niega a ser resucitado.
+ResurectSpellHandler.NoOneCurrentlyTrying:								Nadie está intentando resucitarte.
+
+
+# HotSpellHandler
+HotSpellHandler.YouFeelCalmAndHealthy:        Te sientes tranquilo y saludable.
+Perfecter.YouFeelCalmAndHealthy:              Te sientes tranquilo y saludable.
+
+# Campfire
+CampfireSpellHander.CampfireStart:                     Caliéntense en la hoguera.
+CampfireSpellHander.YouFeelCalmAndHealthy:             Te sientes tranquilo y saludable.
+
+
+
+# CCSpellHandler
+CCSpellHandler.TargetIsImmuneToThisEffect:              {0} es inmune a este efecto!
+CCSpellHandler.TargetIsMovingTooFast:                   ¡{0} se está moviendo demasiado rápido para que este hechizo tenga algún efecto!
+CCSpellHandler.StopPlayingSong:                         Dejas de tocar tu canción.
+CCSpellHandler.YourTargetIsAlreadyMezzed:               Su objetivo ya está mezzed!
+CCSpellHandler.YourTargetCantHaveThisEffectAgainYet:    {0} no puede tener ese efecto otra vez!
+CCSpellHandler.TargetRessistEffect:                     {0} resiste el efecto!
+CCSpellHandler.YouAreFarAwayFromTarget:                 Estás muy lejos del objetivo. Dejas de tocar tu canción.
+CCSpellHandler.YourItemEffectInterceptsTheMez:          ¡El efecto de su elemento intercepta el hechizo de fascinación y se desvanece!
+CCSpellHandler.EnemyItemEffectInterceptsTheMez:         Un Bracer Ceremonial intercepta tu mez!
+CCSpellHandler.YourItemEffectInterceptsTheStun:         Su efecto Ceremonial Bracer intercepta el hechizo de aturdimiento y se desvanece!
+CCSpellHandler.EnemyItemEffectInterceptsTheMezReturn:   ¡Un brazalete ceremonial interrumpe tu hipnosis y te devuelve!
+CCSpellHandler.YourItemEffectInterceptsTheStuReturn:        ¡Un Ceremonial interrumpe tu aturdimiento y te lo devuelve!
+
+# ArrowSpellHandler
+ArrowSpellHandler.YouCantShotEnduranceIsToLow:			No puedes disparar, tu resistencia es demasiado baja para disparar a {0}
+ArrowSpellHandler.YouMiss:							    Te pierdes {0}!
+ArrowSpellHandler.HasMiss:								{0} perdido!
+ArrowSpellHandler.HasMissAttackRently:					{0} ha sido atacado recientemente y no puedes participar.
+ArrowSpellHandler.YouConcentrateOnBlocking:				¡Te concentras en bloquear el golpe!
+ArrowSpellHandler.YouBlockArrow:						Bloquea la flecha de {0}!
+ArrowSpellHandler.BlockYourArrow:						{0} bloquea tu flecha!
+ArrowSpellHandler.YouPrepare:							Usted prepara un {0}
+ArrowSpellHandler.YouMustWieldingABowForThisAbility:	¡Debes estar usando un arco para usar esta habilidad!
+ArrowSpellHandler.YouMustBeStealthedForThisAbility:		Usted debe ser stealthed y wielding un arco para utilizar esta capacidad!
+ArrowSpellHandler.YourTargetIsNotVisible:				¡Su objetivo no es visible!
+ArrowSpellHandler.YourTargetIsNotInView:				¡Su objetivo no está en la vista!
+ArrowSpellHandler.YourTargetIsOutOfRange:				Su área objetivo está fuera de rango. Seleccione un objetivo más cercano.
+ArrowSpellHandler.YourMustWaitToUseSpell:				¡Debes esperar {0} segundos para usar este hechizo!
+ArrowSpellHandler.YouCantCastWhileSitting:			    ¡No puedes lanzar mientras estás sentado!
+ArrowSpellHandler.IsEmuneToThisEffect:					{0} es inmune a este efecto!
+ArrowSpellHandler.IsNotVisibleForYou:					{0} es invisible para ti!
+ArrowSpellHandler.YouAreDisarmed:						Estás desarmado y no puedes lanzar un hechizo!
+ArrowSpellHandler.YouArePhaseshifted:					¡Tienes un salto de fase y no puedes lanzar un hechizo!
+ArrowSpellHandler.CantConbatInSiegeweapon:				Usted no puede conbat en un siegeweapon, lanzamiento primero entonces!
+ArrowSpellHandler.YouAreDead:							¡Estás muerto y no puedes lanzar!
+ArrowSpellHandler.AShotPenetratedYourMagicBarrier:		¡Un disparo penetró tu barrera mágica!
+ArrowSpellHandler.YourStrikeWasAbsorbedByMagicBarrier:	 ¡Tu huelga fue absorbida por una barrera mágica!
+ArrowSpellHandler.TheBlowWasAbsorbedByMagicBarrier:		¡El golpe fue absorbido por una barrera mágica!
+ArrowSpellHandler.AttacksYouAndYourShotIsInterrupted:	 {0} te ataca y tu disparo se interrumpe!
+ArrowSpellHandler.YouHitTheForDamage:					Golpeaste {0} por {1} daño.
+ArrowSpellHandler.HitYouForDamage:						{0} te golpea por {1} daño.
+ArrowSpellHandler.YouArePhaseshiftedCantBeAffected:		{0} es Phaseshifted y no puede ser afectado por este hechizo!
+ArrowSpellHandler.YouCastAWrathOfChampionsSpell:		¡Has lanzado un hechizo Wrath of Champions!
+ArrowSpellHandler.CastAWrathOfChampionsSpell:			{0} lanza un hechizo!
+
+
+# HealSpellHandler
+HealSpellHandler.Execute.HealYourself:				Te curas por {0} puntos de vida.
+HealSpellHandler.Execute.YouHealCriticalFor:		Tus críticas de sanidad por una cantidad extra {0} de puntos de golpe!
+HealSpellHandler.Execute.YouHealTarget:				Cura {0} para {1} puntos de golpe!
+HealSpellHandler.Execute.YouAreHealedBy:			Estás curado {0} por {1} puntos de golpe.
+HealSpellHandler.Execute.TargetIsFullyHealed:		{0} está completamente curado.
+HealSpellHandler.Execute.HealYourself:					Te curas por {0} puntos de vida.
+HealSpellHandler.Execute.YourEfficientEndurancebuff:	Su aficionado a la Resistencia Eficiente le otorga {0} Resistencia de la Curación!
+HealSpellHandler.Execute.YourEfficientHealingbuff:		Su buff Efficient Healing le concede un {0} adicional en el Heal!
+HealSpellHandler.Execute.PlayerDoesNotWantAssistance:	{0} no quiere ayuda.
+HealSpellHandler.Execute.TargetIsDead:					{0} está muerto!
+HealSpellHandler.Execute.YourTargetIsDiseased:			{0} está enfermo!
+
+# EnduranceHealSpellHandler
+EnduranceHealSpellHandler.EnduranceIsFull:				Su resistencia está llena.
+EnduranceHealSpellHandler.TargetEnduranceIsFull:		{0} la resistencia está llena.
+EnduranceHealSpellHandler.YouRestoreEndurancePoints:	Restaura {0} puntos de resistencia.
+EnduranceHealSpellHandler.YouRestoreForEndurancePoints: Restaura {0} para {1} puntos de seguridad!
+EnduranceHealSpellHandler.YourEnduranceWasRestored:		Tu resistencia fue restaurada por {0} por {1} puntos.
+
+# VampiirPowerBolt
+VampiirPowerBolt.YouReceivePowerFrom:      ¡Recibes {0} energía de {1}!
+VampiirPowerBolt.YouReceiveNoPowerFrom:    ¡No recibiste ningún poder de {0}!
+VampiirPowerBolt.TakesPower:               {0} toma {1} "poder!
+VampiirPowerBolt.NoEffectOnKeepComponents: ¡Su hechizo no tiene ningún efecto en el componente keep!
+VampiirPowerBolt.CanNotCastInCombat:       ¡No puedes lanzar este hechizo en combate!
+
+
+# SpellCastingAbilityHandler
+SpellCastingAbilityHandler.SendCastMessage.WaitForStart:		Shadow Strike ahora está listo y comienza en 10 secounds!
+SpellCastingAbilityHandler.SendCastMessage.WaitFor:				Debe esperar antes de que pueda utilizar esta capacidad de nuevo.
+SpellCastingAbilityHandler.SendCastMessage.YouMustStealthed:	¡Debes ser robado para usar esta habilidad!
+SpellCastingAbilityHandler.SendCastMessage.YouNeedATarget:		¡Necesitas un objetivo para esta habilidad!
+SpellCastingAbilityHandler.SendCastMessage.YouNeedAGroup:		¡Debes estar en un grupo usar esta habilidad!
+SpellCastingAbilityHandler.SendCastMessage.YouCantUseInStalth: ¡No puedes usar esta habilidad mientras estás en línea!
+SpellCastingAbilityHandler.SendCastMessage.YouMustInCombat:		¡Debes estar en combate recientemente para usar esta habilidad!
+SpellCastingAbilityHandler.SendCastMessage.YouAreInCombat:		¡Has estado en combate recientemente y no puedes usar esta habilidad!
+SpellCastingAbilityHandler.SendCastMessage.WileSitting:			¡No puedes usar esta habilidad mientras estás sentado!
+SpellCastingAbilityHandler.SendCastMessage.WileStunned:			¡No puedes usar esta habilidad mientras estás aturdido!
+SpellCastingAbilityHandler.SendCastMessage.WileMessmerize:		¡No puedes usar esta habilidad mientras estás hipnotizado!
+SpellCastingAbilityHandler.SendCastMessage.WileDead:			¡No puedes usar esta habilidad mientras esta muerto!
+
+
+
+# PowerHealSpellHandler
+PowerHealSpellHandler.SendChatMessage.PowerFull:         La potencia está llena
+PowerHealSpellHandler.SendChatMessage.TargetPowerFull:  {0} La potencia está llena
+
+
+
+# CharmSpellHandler
+DoesNotCharmTypeOfCreatur:							 Este hechizo "{0}" no encanta este tipo de criatura!
+CharmSpellHandler.TargetIsNowUnderYourControl:		 {0} está ahora bajo tu control.
+CharmSpellHandler.TargetResistsTheCharm:			{0} resiste el encanto!
+CharmSpellHandler.TargetIsToStrongToCharm:			{0} es demasiado fuerte para encantar!
+CharmSpellHandler.YourTargetIsNotValid:				Su objetivo no es válido.
+CharmSpellHandler.YouAlreadyHaveACharmedCreature:	¡Ya tienes una criatura encantada, suelta primero!
+CharmSpellHandler.OnlyUsableInPvEZones:             Estas mascotas sólo se pueden utilizar en zonas PvE.
+
+
+
+# DelveInfo
+DelveInfo.CastingTime:				Tiempo de lanzamiento: {0}
+DelveInfo.ConcentrationCost:		Costo de concentración: {0}
+DelveInfo.Damage:					Daño: {0}
+DelveInfo.DamageType:				Tipo de Daño: {0}
+DelveInfo.Duración:					Duración:
+DelveInfo.Focus:					Este es un hechizo de enfoque. Cancela si hace alguna acción.
+DelveInfo.Frequency:				Frecuencia: {0}
+DelveInfo.HealthReturned:			Health devuelto: {0}% de daño infligido
+DelveInfo.InstrumentRequire:		Instrumento requiere: {0}
+DelveInfo.PowerCost:				Costo de energía: {0}
+DelveInfo.HealthCost:				Costo de salud: {0}
+DelveInfo.Radius:					Radio: {0}
+DelveInfo.Range:					Rango: {0}
+DelveInfo.RecastTime:				Tiempo de refundición:
+DelveInfo.Target:					Target: {0}
+DelveInfo.Value:					Valor: {0}
+DelveInfo.ValueNegative:			Valor: - {0}
+
+
+# AblativeArmor
+AblativeArmor.DelveInfo.Function:    Función: Melee Hitpoint Buffer
+AblativeArmor.DelveInfo.Absorption1: Absorción: {0}%
+AblativeArmor.DelveInfo.Absorption2: Absorción: 100%
+AblativeArmor.DelveInfo.Absorption3: Absorción: 25%
+AblativeArmor.DelveInfo.CastingTime: Instantánea
+
+# DamageSpeedDecrease
+DamageSpeedDecrease.DelveInfo.Decrease:   Disminución de velocidad: {0}%
+DamageSpeedDecrease.DelveInfo.Function:   Función: daño / disminución de la velocidad
+
+# ResistDebuff
+ResistDebuff.DelveInfo.Decrease: Resista a la disminución {0}: {1}
+ResistDebuff.DelveInfo.Function: Función: disminución de la resistencia
+
+#CharmSpellHandler
+CharmSpellHandler.DelveInfo.Function: Función: {0}
+
+# DamageAddAndShield
+DamageAddAndShield.EventHandlerDA.DamageToYou: {0} te {1} daño adicional a ti!
+DamageAddAndShield.EventHandlerDA.YouHitExtra: Tienes {0} para {1} daño extra!
+DamageAddAndShield.EventHandlerDA.YouHitFor: Tienes {0} para {1} daño!
+DamageAddAndShield.EventHandlerDA.YourHitFor: Su {0} golpe {1} por {2} daño!
+DamageAddAndShield.EventHandlerDS.DamageToYou: {0} te {1} daño adicional a ti!
+DamageAddAndShield.EventHandlerDS.YouHitFor: Has golpeado {0} por {1} daño!
+DamageAddAndShield.EventHandlerDS.YourHitFor: Su {0} hit {1} por {2} daño!
+
+# DirectDamageDebuffSpellHandler
+DirectDamageDebuffSpellHandler.DelveInfo.Decrease: Resistir a la disminución ({0}): {1}%
+DirectDamageDebuffSpellHandler.DelveInfo.Function: Función: dmg w / Resistir a la disminución
+
+# DoTSpellHandler
+DoTSpellHandler.SendDamageMessages.YouHitFor: Has golpeado {0} por {1} {2} daño!
+DoTSpellHandler.SendDamageMessages.YourCriticallyHits: Su {0} golpea críticamente {1} por un daño adicional de {2}!
+DoTSpellHandler.SendDamageMessages.YourHitsFor: Tus {0} golpes {1} por {2} {3} daños!
+
+# NearsightSpellHandler
+NearsightSpellHandler.DelveInfo.Function: Función: {0}
+
+# ProcSpellHandler
+ProcSpellHandler.DelveInfo.Function: Función: {0}
+
+Summon.CheckBeginCast.AlreadyHaveaPet: ¡Ya tienes una criatura encantada, suelta primero!
+
+# SummonCommanderPet
+SummonCommanderPet.CheckBeginCast.Text: ¡Ya tienes una criatura encantada, suelta primero!
+SummonCommanderPet.DelveInfo.Text1: Función: convocar
+SummonCommanderPet.DelveInfo.Text2: Invoca a una mascota para que sirva al lanzador.
+SummonCommanderPet.DelveInfo.Text3: Objetivo: {0}
+SummonCommanderPet.DelveInfo.Text4: Costo de energía: {0}%
+SummonCommanderPet.DelveInfo.Text5: Tiempo de lanzamiento: {0}
+
+#SummonMinionHandler
+SummonMinionHandler.CheckBeginCast.Text1: ¡Debes tener un monstruo líder controlado para convocar a un grupo!
+SummonMinionHandler.CheckBeginCast.Text2: Su general ya tiene tantos seguidores como él puede ordenar!
+SummonMinionHandler.DelveInfo.Text1: Objetivo: {0}
+SummonMinionHandler.DelveInfo.Text2: Costo de energía: {0}%
+SummonMinionHandler.DelveInfo.Text3: Tiempo de lanzamiento: {0}
+
+#PetPBAOE
+PetPBAOE.CheckBeginCast.NoPet: Debes lanzar este hechizo sobre una criatura que estás controlando.
+
+#SummonAnimistFnF
+SummonAnimistFnF.CheckBeginCast.NoGroundTarget: ¡No puedes convocar Torreta sin tierra-objetivo!
+SummonAnimistFnF.CheckBeginCast.TurretAreaCap: ¡No puedes invocar más torres en esta área!
+SummonAnimistFnF.CheckBeginCast.TurretPlayerCap: ¡Ya no puedes controlar las torres!
+
+#SummonAnimistPet
+SummonAnimistPet.CheckBeginCast.AlreadyHaveaPet: ¡Ya tienes una criatura encantada, suelta primero!
+SummonAnimistPet.CheckBeginCast.GroundTargetNull: Tienes que establecer un objetivo de tierra para este hechizo.
+SummonAnimistPet.CheckBeginCast.GroundTargetNotInView: Su objetivo de tierra no está a la vista.
+SummonAnimistPet.CheckBeginCast.GroundTargetNotInSpellRange: Tienes que seleccionar un objetivo de tierra más cercano.
+
+#TurretsRelease
+TurretsRelease.CheckBeginCast.NoSelectedTarget: Debes lanzar este hechizo sobre una criatura que estás controlando
+TurretsRelease.CheckBeginCast.TargetTooFarAway: Su objetivo está demasiado lejos
+
+#PetSpellHandler
+PetSpellHandler.CheckBeginCast.NoControlledBrainForCast: ¡Debes tener una mascota convocada para lanzar este hechizo!
+
+#SummonNecromancerPet
+SummonNecromancerPet.CheckBeginCast.ShadeEffectIsNotNull: ¡Ya estás a la sombra!
+SummonNecromancerPet.DelveInfo.Function: Función: invocación de sombra
+SummonNecromancerPet.DelveInfo.Description: Invoca a una mascota no muerta para que sirva al lanzador. El lanzador se transforma en una sombra, y actúa a través de la mascota.
+SummonNecromancerPet.DelveInfo.Target: Target: {0}
+SummonNecromancerPet.DelveInfo.Power: Costo de energía: {0}%
+SummonNecromancerPet.DelveInfo.CastingTime: Tiempo de lanzamiento: {0}
+
+
+
+#SavageEnduranceHeal
+SavageEnduranceHeal.CheckBeginCast.InsuffiscientHealth: Usted no tiene suficiente salud para lanzar eso!
+
+#AblativeArmor
+AblativeArmor.Target:   Tu ablativo absorbe {0} daño!
+AblativeArmor.Attacker: ¡Una barrera absorbe {0} el daño de tu ataque!
+
+#Amnesia
+Amnesia.MessageToTarget: ¡Tu mente se queda en blanco y te olvidas de lo que estabas haciendo!

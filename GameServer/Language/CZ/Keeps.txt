@@ -1,0 +1,12 @@
+﻿
+Keeps.FrontierTeleortertStone: You can't teleport again, try again in {0} seconds.
+
+RVRTaskInfo: Find the {1} on the {0} side of New Frontiers and capture them. Guard it until the task has ended.
+AlreadyCampOwner: Your Realm already own this Mine!
+CampCaptured: {0} from {1} has just captured {2}!
+YouHasCaputured: You have conquered the {0}!
+RoundOver: The current RvR task round is over, but a new one will start soon!
+RoundStarts: A new RvR-Task round has startet, take a look into your Task list.
+YouEnterCamp: You enter the Camp Area. Stay near the Camp (radius 2000) or you will lose!
+YouLeaveCamp: You move too far from the Camp Area and lose.
+

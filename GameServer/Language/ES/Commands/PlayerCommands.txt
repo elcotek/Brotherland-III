@@ -1,0 +1,8 @@
+# /FreeLevel
+PLCommands.FreeLevel.AboveMaximumLevel: Estás por encima del nivel máximo para obtener un nivel libre.
+PLCommands.FreeLevel.EligibleFreeLevel:	Usted es elegible para un nivel libre! Haga clic en su entrenador para recibirlo (o escriba / freelevel declinar para descartar su nivel libre).
+PLCommands.FreeLevel.FreeLevelIn:	Serás elegible para un nivel gratuito en: {0} días {1} horas {2} minutos.
+PLCommands.FreeLevel.FreeLevelIn2:	Usted será elegible para un nivel libre después de su siguiente nivel, y en: {0} días {1} horas {2} minutos.
+PLCommands.FreeLevel.FreeLevelSoon:	Usted será elegible para un nivel libre tan pronto como obtenga un nivel.
+PLCommands.FreeLevel.NoFreeLevel:	¡No tienes ningún FreeLevel!
+PLCommands.FreeLevel.Removed:		Su FreeLevel se ha eliminado.

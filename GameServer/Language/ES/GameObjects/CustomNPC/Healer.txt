@@ -1,0 +1,9 @@
+﻿Healer.GetExamineMessages.Text1:	Examina {0}. {1} es {2} y es un curador.
+Healer.HealerDialogResponse.Text1:	Estás demasiado lejos para hablar con {0}.
+Healer.HealerDialogResponse.Text2:	Rechazado
+Healer.HealerDialogResponse.Text3:	Usted da una donación de {1}.
+Healer.HealerDialogResponse.Text4:	Necesita {0} para restaurar {1} puntos de constitución.
+Healer.Interact.Text1:			    {0} cura tu enfermedad de resurrección.
+Healer.Interact.Text2:			    Le costará {0} tener su constitución restaurada. ¿Aceptas?
+Healer.Interact.Text3:			    Su constitución ya está totalmente restaurada!
+

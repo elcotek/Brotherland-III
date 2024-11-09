@@ -1,0 +1,2 @@
+VaultKeeper.YouExamine:		Es interessiert Euch {0}. {1} ist Euch {2} gesonnen und bewacht eure Schatztruhe.
+VaultKeeper.RightClick:		[mit einem Rechtsklick öffnet die Schatztruhe]

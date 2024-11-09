@@ -1,0 +1,31 @@
+﻿#Quests / Caledonia Egg Event
+NothingDroppedKeepTrying:                   Unfortunately you weren't lucky, nothing dropped, keep trying.
+CongratulationsYouFound:                    Congratulations! You found {0}/{1} of {2}
+YouFound:                                   You found {0}/{1} of {2} 
+
+CongratulationsTopPrize:   Congratulations {0}, you didn't found a top prize, but you still did better than a rivet!
+CongratulationsSecondBest: Congratulations {0}, you didn't found a main prize, but you got one of the second best prizes!
+CongratulationsMainPrizes: Congratulations {0}, you have found one of the main prizes, today is your day!
+TheContentOfTheEggGoesTo:  The content of the egg goes to {0}.
+
+GameNPC.EpicEncounterTag:					Epic Encounter
+GameNPC.DropLoot.AdditionalMoney:			You find an additional {0} thanks to your realm owning outposts!
+GameNPC.DropLoot.ItemAdditionalMoney:       You get an additional {0} thanks to your equipment!
+GameNPC.DropLoot.Drops:						{0} drops {1}.
+GameNPC.GetAggroLevelString.Aggressive1:	aggressive
+GameNPC.GetAggroLevelString.Aggressive2:	Aggressive
+GameNPC.GetAggroLevelString.Friendly1:		friendly
+GameNPC.GetAggroLevelString.Friendly2:		Friendly
+GameNPC.GetAggroLevelString.Hostile1:		hostile
+GameNPC.GetAggroLevelString.Hostile2:		Hostile
+GameNPC.GetAggroLevelString.Neutral1:		neutral
+GameNPC.GetAggroLevelString.Neutral2:		Neutral
+GameNPC.GetAggroLevelString.TowardsYou:		{0} towards you
+GameNPC.GetExamineMessages.YouExamine:		You examine {0}. {1} is {2}.
+GameNPC.Interact.AlreadyRiding:				You are already riding this {0}.
+GameNPC.Interact.DirtyLook:					{0} gives you a dirty look.
+GameNPC.Interact.IsFull:					This {0} is full.
+GameNPC.SayTo.Says:							{0} says, "{1}"
+GameNPC.SayTo.SpeaksTo:						{0} speaks to {1}
+GameNPC.IsLowOnHealth:                  {0} is low on health!
+GamePlayer.YouGainBP:		    	    You receive additional {0} bounty points!

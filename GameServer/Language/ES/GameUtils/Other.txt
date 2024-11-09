@@ -1,0 +1,13 @@
+﻿# CommanderPet
+GameObjects.CommanderPet.WR.Const.1HandedSword:		one handed sword
+GameObjects.CommanderPet.WR.Const.2HandedSword:		two handed sword
+GameObjects.CommanderPet.WR.Const.1HandedHammer:	one handed hammer
+GameObjects.CommanderPet.WR.Const.2HandedHammer:	two handed hammer
+GameObjects.CommanderPet.WR.Const.1HandedAxe:		one handed axe
+GameObjects.CommanderPet.WR.Const.2HandedAxe:		two handed axe
+
+# GAMEOBJECTS/ATLANTIS
+# /Researcher
+Researcher.GetExamineMessages.YouExamine:		Tu examinas {0}. {1} es {2}.
+Researcher.GetExamineMessages.She:			Ella
+Researcher.GetExamineMessages.He:			Él
